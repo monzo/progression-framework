@@ -35,7 +35,7 @@ export default class Frameworks extends React.Component<Props> {
                 progress as roles at Monzo evolve.
               </p>
               <p className="u-font-size-h3">
-                <a href="">
+                <a href="https://monzo.com/blog/2019/01/07/progression/">
                   Read more about how we use our progression frameworks in this
                   blog post.
                 </a>
