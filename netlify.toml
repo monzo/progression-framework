@@ -4,7 +4,7 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin"
-    Feature-Policy = "accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'self'; camera 'none'; encrypted-media 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'self'; picture-in-picture 'none'; speaker 'self'; usb 'none'; vibrate 'none'; vr 'none'"
+    Feature-Policy = "accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'self'; camera 'none'; encrypted-media 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'self'; picture-in-picture 'none'; speaker 'self'; usb 'none'; vr 'none'"
     Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.google-analytics.com 'unsafe-inline'; img-src 'self' data:; style-src 'self' fonts.googleapis.com cdnjs.cloudflare.com 'unsafe-inline'; font-src 'self' data:; frame-src 'self'; connect-src 'self'; object-src 'none'; manifest-src 'self'; worker-src 'none'"
 [[headers]]
   for = "/static/*"
