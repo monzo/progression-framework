@@ -35,14 +35,15 @@ const SidebarBuilder = ({
       .map(edge => {
         const content = edge.node.frontmatter
 
-        if (
-          emojiRegex.exec(content.sidebarTitle) &&
-          content.sidebarTitle !== '📄 Generic'
-        ) {
+        if (emojiRegex.exec(content.sidebarTitle)) {
           let sidebarEmoji = content.sidebarTitle.match(emojiRegex)[0]
           let sidebarTitle = content.sidebarTitle
             .replace(sidebarEmoji, ' ')
             .trim()
+
+          if (content.sidebarTitle === '📄 Generic') {
+            return <React.Fragment key={Math.random()} />
+          }
 
           return (
             <li key={edge.node.id}>
@@ -54,8 +55,6 @@ const SidebarBuilder = ({
               </strong>
             </li>
           )
-        } else {
-          return null
         }
       })
     return obj
