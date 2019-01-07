@@ -1,0 +1,38 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[lints]
+all=off
+sketchy-null=error
+sketchy-null-bool=off
+untyped-type-import=error
+
+[strict]
+
+[options]
+emoji=true
+include_warnings=true
+munge_underscores=true
+
+experimental.const_params=true
+
+esproposal.export_star_as=enable
+
+suppress_type=$FlowIssue
+suppress_type=$FlowFixMe
+suppress_type=$FixMe
+
+suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe\\($\\|[^(]\\|((>=<VERSION>)\\)
+suppress_comment=\\(.\\|\n\\)*\\$FlowBug
+suppress_comment=\\(.\\|\n\\)*\\$FlowIgnore
+
+module.ignore_non_literal_requires=true
+
+module.name_mapper.extension='yaml' -> '<PROJECT_ROOT>/stubs/objectKeyStub.js'
+module.name_mapper.extension='framework' -> '<PROJECT_ROOT>/stubs/objectKeyStub.js'
+module.name_mapper.extension='list' -> '<PROJECT_ROOT>/stubs/objectStub.js'
+module.name_mapper.extension='md' -> '<PROJECT_ROOT>/stubs/stringStub.js'
+module.name_mapper.extension='css' -> '<PROJECT_ROOT>/stubs/stub.js'

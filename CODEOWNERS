@@ -1,0 +1,18 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+
+# These are owners for a specific engineering file or folder
+site/*  @monzo/web-approvers
+.eslintignore  @monzo/web-approvers
+.eslintrc  @monzo/web-approvers
+.flowconfig  @monzo/web-approvers
+.gitignore  @monzo/web-approvers
+.prettierrc  @monzo/web-approvers
+CODEOWNERS  @monzo/web-approvers
+package.json  @monzo/web-approvers
+yarn.lock  @monzo/web-approvers
+*.js  @monzo/web-approvers
+*.json  @monzo/web-approvers
+
+# These owners will be the default owners for everything in the repo.
+*       @lucasjohnston

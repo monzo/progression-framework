@@ -1,0 +1,41 @@
+// Similar to our web-projects eslint config file at https://github.com/monzo/web-projects/eslintConfig.js
+
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": ["prettier", "flowtype", "flowtype-errors"],
+  "rules": {
+    "strict": 0,
+    "no-debugger": 1,
+    "no-console": "off",
+    "no-useless-escape": "off",
+    "prettier/prettier": 1,
+    "flowtype/define-flow-type": 1,
+    "flowtype-errors/show-errors": 2,
+    "flowtype-errors/show-warnings": 1,
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "MethodDefinition[kind=\"get\"]",
+        "message": "Please don’t use getters and setters"
+      },
+      {
+        "selector": "MethodDefinition[kind=\"set\"]",
+        "message": "Please don’t use getters and setters"
+      }
+    ],
+    "react/require-render-return": 0,
+    "react/prop-types": 0,
+    "jsx-a11y/href-no-hash": 0
+  },
+  "globals": {
+    "console": true
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  }
+}
