@@ -44,7 +44,7 @@ topics:
           - "Owns projects within exec's responsible area, leveraging stakeholders to deliver results."
       - level: 5
         criteria:
-          - "Key contributor to successfully achieving company goals reelvant to your executive (where without *your* input, it's unlikely those goals would have been achieved)"
+          - "Key contributor to successfully achieving company goals relevant to your executive (where without *your* input, it's unlikely those goals would have been achieved)"
           - "Owns projects that imact Monzo as a whole, leveraging stakeholders to deliver results."
   - name: "knowledge"
     title:
