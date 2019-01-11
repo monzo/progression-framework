@@ -189,7 +189,7 @@ Check out the original data framework [here](https://eng-progression.monzo.com/f
 - Distinguishes well between impactful ML problems vs just “predicting something”
 
 ### Influence
-- Provides valuable input to RFCs from their team
+- Provides valuable input to proposals from their team
 
 - Proactively improves modules, services, systems and codebases they encounter, 'this doesn't make sense, I'm going to do something about it'
 
