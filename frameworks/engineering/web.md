@@ -134,7 +134,7 @@ Check out the original web engineering framework [here](https://eng-progression.
 
 - Identifies obvious deficiencies in the development processes and supports activities to improve them
 
-- Assists more experiences engineers on the design of larger features
+- Assists more experienced engineers on the design of larger features
 
 - Modifies and improves code outside of the developer abstractions and reasons about the improvements effectively
 
