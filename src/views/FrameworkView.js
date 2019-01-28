@@ -5,7 +5,6 @@ import Layout from '../components/layout'
 import YamlRenderer from '../components/renderers/yamlRenderer'
 import MarkdownRenderer from '../components/renderers/markdownRenderer'
 import { Section } from '../components/styles'
-import '../css/monzo-framework-prog.min.css'
 import '../css/main.min.css'
 
 type Props = {

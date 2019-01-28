@@ -35,7 +35,8 @@
     "react-helmet": "^5.2.0",
     "react-lottie": "^1.2.3",
     "style-loader": "^0.23.1",
-    "styled-components": "^4.1.1"
+    "styled-components": "^4.1.1",
+    "prop-types": "latest"
   },
   "keywords": [
     "gatsby"

@@ -2,7 +2,7 @@
 path: "/frameworks/product"
 title: "🚀 Product Framework"
 sidebarTitle: "🚀 Product"
-sidebarGroup: null
+sidebarGroup:
 yaml: true
 levels: 5
 topics:

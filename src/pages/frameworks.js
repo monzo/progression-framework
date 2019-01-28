@@ -9,7 +9,6 @@ import {
 } from '../components/styles'
 import partyParrot from '../images/emoji/parrot.gif'
 import '../css/main.min.css'
-import '../css/monzo-framework-prog.min.css'
 
 type Props = {
   data: Object,

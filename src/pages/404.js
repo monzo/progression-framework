@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import LowFundsAnimation from '../components/animations/lowFunds'
 import '../css/main.min.css'
-import '../css/monzo-framework-prog.min.css'
 import { ErrorPageHeader, ErrorPageLink } from '../components/styles'
 
 type Props = {
