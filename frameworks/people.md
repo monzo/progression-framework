@@ -34,7 +34,7 @@ topics:
       - level: 5
         criteria:
           - "Communicates the long-term vision and mission for the company and their area."
-          - "Leads and champions implementing the most significant organisation change activities.
+          - "Leads and champions implementing the most significant organisation change activities."
           - "Leads people and Monzo strategic development to address risks and opportunities for the organisation."
           - "Uses insight about opportunities and risks to influence executive team decisions that affect the long-term reputation, health and growth of the organisation."
       - level: 6
