@@ -120,6 +120,7 @@ topics:
           - "Owns an area of day-to-day work and gives updates to the team and wider business when they need to." 
           - "Proactively suggests ways to improve current processes and works with the team to make it happen. Writes documentation for changes and produces quality how-tos."
       - level: 2
+        criteria:
           - "Helps keep track of actions and goals for the team." 
           - "Can onboard new members of the team and act as a mentor for processes and project work." 
           - "Works independently on projects but brings the right people in at the right time." 
