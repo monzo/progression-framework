@@ -149,7 +149,7 @@ topics:
           - "Is a leader of business culture and strategy."
           - "Owns their area’s structure."
           - "Has strong leadership and coaching abilities."
- - name: "conduct and culture"
+  - name: "conduct and culture"
     title:
     description:
     content:
