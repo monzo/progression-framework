@@ -45,6 +45,7 @@ topics:
     description:
     content:
       - level: 1
+        criteria:
           - "Completes tasks efficiently and to a high standard."
           - "Answers questions efficiently in the Monzo tone of voice."
           - "Prioritises work to keep a balance between important / not important / urgent / not urgent."
