@@ -1,1 +1,1 @@
-*{box-sizing:border-box;-webkit-overflow-scrolling:touch;-ms-overflow-style:-ms-autohiding-scrollbar}body{margin:0!important;font-family:'Segoe UI',Helvetica,sans-serif}#___gatsby,#___gatsby>*,.full-page,body,html{width:100vw;max-width:100vw;max-height:100vh;height:100vh;overflow:scroll}
+#___gatsby,#___gatsby>*,.full-page,body{height:100%!important;overflow-y:scroll;overflow-x:hidden}

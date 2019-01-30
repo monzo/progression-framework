@@ -1,11 +1,10 @@
 // @flow
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
+import Layout from '../components/redesignedLayout'
 import YamlRenderer from '../components/renderers/yamlRenderer'
 import MarkdownRenderer from '../components/renderers/markdownRenderer'
 import { Section } from '../components/styles'
-import '../css/main.min.css'
 
 type Props = {
   data: Object,

@@ -1,19 +1,21 @@
 // @flow
 import * as React from 'react'
 import { Helmet } from 'react-helmet'
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
 import SidebarBuilder from '../components/redesignedSidebarBuilder'
 import {
-  ButtonContainer,
   Contain,
   Content,
-  PaddedFaIcon,
   Sidebar,
-  SidebarButton,
   SidebarIcon,
   SidebarList,
+  SidebarReset,
+  SidebarScroll,
+  ScrollbarHeader,
+  FlexboxPush,
+  CloseIcon,
 } from './redesign'
 import favicon from '../images/favicon.png'
+import closeIcon from '../images/close_icon.svg'
 
 type Props = {
   data: Object,
@@ -30,16 +32,19 @@ const SidebarRenderer = ({
   data,
 }: Object) => (
   <Sidebar className={isSidebarVisible ? 'open' : null}>
-    <SidebarIcon src={favicon} alt="Monzo" />
-    <SidebarList main>
-      <SidebarBuilder data={data} />
-    </SidebarList>
-    <ButtonContainer>
-      <SidebarButton className="o-button-neutral" onClick={sidebarClickHandler}>
-        <PaddedFaIcon icon={faTimes} />
-        Close menu
-      </SidebarButton>
-    </ButtonContainer>
+    <SidebarReset>
+      <SidebarScroll>
+        <ScrollbarHeader>
+          <SidebarIcon src={favicon} alt="Monzo" />
+          <FlexboxPush>
+            <CloseIcon onClick={sidebarClickHandler} src={closeIcon} />
+          </FlexboxPush>
+        </ScrollbarHeader>
+        <SidebarList main>
+          <SidebarBuilder data={data} />
+        </SidebarList>
+      </SidebarScroll>
+    </SidebarReset>
   </Sidebar>
 )
 
@@ -88,7 +93,7 @@ class Layout extends React.Component<Props, State> {
           isSidebarVisible={isSidebarVisible}
         />
         <Content>
-          {/*{isSidebarVisible}*/}
+          {/*{isSidebarVisible then show toolbar}*/}
           {children}
         </Content>
       </Contain>

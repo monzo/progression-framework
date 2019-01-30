@@ -1,16 +1,5 @@
-* {
-    box-sizing: border-box;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-body {
-    margin: 0 !important;
-    font-family: 'Segoe UI', 'Helvetica', sans-serif;
-}
-html, body, #___gatsby, #___gatsby > *, .full-page {
-    width: 100vw;
-    max-width: 100vw;
-    max-height: 100vh;
-    height: 100vh;
-    overflow: scroll;
+body, #___gatsby, #___gatsby > *, .full-page {
+    height: 100% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }

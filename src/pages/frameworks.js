@@ -1,14 +1,13 @@
 // @flow
 import * as React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
+import Layout from '../components/redesignedLayout'
 import {
   CenteredContainer,
   CustomEmoji,
   InlineSecondHeader,
 } from '../components/styles'
 import partyParrot from '../images/emoji/parrot.gif'
-import '../css/main.min.css'
 
 type Props = {
   data: Object,

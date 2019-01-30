@@ -4,10 +4,24 @@ import styled, { css } from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PartialNavLink from './redesignedPartialNavLink'
 
+export const SidebarReset = styled.div`
+  position: static;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: auto;
+`
+
+export const SidebarScroll = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+`
+
 export const Contain = styled.div`
   position: relative;
-  overflow-x: hidden;
-  overflow-y: scroll;
   height: 100%;
   width: 100%;
   display: flex;
@@ -16,7 +30,6 @@ export const Contain = styled.div`
 `
 
 export const Content = styled.div`
-  overflow-y: scroll;
   margin-top: 0;
   display: flex;
   flex-direction: column;
@@ -114,6 +127,7 @@ export const EmojiListItem = styled.span`
 `
 
 export const Flexbox = styled.div`
+  cursor: pointer;
   display: flex;
 `
 
@@ -130,8 +144,10 @@ export const Sidebar = styled.div`
   color: black;
   overflow-x: hidden;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
   width: 19%;
-  min-width: 250px;
+  min-width: 360px;
   h4 {
     padding-top: 0;
     font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
@@ -145,7 +161,10 @@ export const Sidebar = styled.div`
     transform: translateX(-100vw);
 
     &.open {
-      width: 100vw !important;
+      width: 100% !important;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
       min-width: 250px;
       transform: none;
     }
@@ -157,22 +176,16 @@ export const SidebarList = styled.ul`
   margin-left: 2rem;
   padding-left: 0;
   list-style-type: none;
-  //overflow: hidden !important;
-
-  @media all and (max-width: 736px) {
-    margin-left: 15px;
-    margin-top: 15px;
-  }
 
   ${props =>
     props.main &&
     css`
       width: 70%;
-      margin-left: 4rem;
+      margin-left: 3.5rem;
       margin-top: 2em;
       @media all and (max-width: 736px) {
         width: 80%;
-        margin-left: 2rem;
+        margin-left: 10%;
       }
     `}
 `
@@ -209,24 +222,40 @@ export const SidebarPaddingSection = styled.div`
     `}
 `
 
-export const SidebarIcon = styled.img`
-  display: block;
-  width: auto;
-  height: auto;
-  max-height: 63px;
-  max-width: 54.6px;
-  min-width: 39px;
-
+export const ScrollbarHeader = styled.div`
+  display: flex;
+  width: 80%;
   margin-top: 3em;
-  margin-left: 4rem;
+  margin-left: 3.5rem;
   margin-bottom: 15px;
 
   @media all and (max-width: 736px) {
-    margin-left: 2rem;
+    margin-left: 10%;
+    margin-bottom: 10px;
+  }
+`
+
+export const SidebarIcon = styled.img`
+  width: auto;
+  height: auto;
+  max-height: 54.6px;
+  max-width: 63px;
+  min-width: 39px;
+
+  @media all and (max-width: 736px) {
     max-height: 39px;
     max-width: 45px;
     min-width: 39px;
-    margin-bottom: 10px;
+  }
+`
+
+export const CloseIcon = styled.img`
+  display: none;
+
+  @media all and (max-width: 736px) {
+    display: inherit;
+    height: 23px;
+    margin-top: 8px;
   }
 `
 
@@ -250,7 +279,7 @@ export const PaddedFaIcon = styled(FontAwesomeIcon)`
 
 export const ButtonContainer = styled.div`
   margin-top: auto;
-  padding-top: 30px;
+  padding-top: 3em;
   margin-bottom: 20px;
 `
 
