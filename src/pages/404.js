@@ -1,9 +1,10 @@
 // @flow
 import * as React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
+import Layout from '../components/redesignedLayout'
 import LowFundsAnimation from '../components/animations/lowFunds'
-import { ErrorPageHeader, ErrorPageLink } from '../components/styles'
+import { ErrorPageHeader } from '../components/styles'
+import { ErrorPageLink } from '../components/redesign'
 
 type Props = {
   data: Object,
@@ -12,24 +13,24 @@ type Props = {
 export default class Frameworks extends React.Component<Props> {
   render() {
     return (
-      <div className="full-page u-bg-color-navy">
+      <div className="full-page">
         <Layout data={this.props.data}>
-          <div className="strip strip--navy strip--middle cover cover-md--640">
+          <div className="strip strip--middle cover cover-md--640">
             <div className="container">
               <div className="grid-row grid-row--middle grid-row--center">
                 <div className="grid-col-12 grid-col-6-md">
-                  <ErrorPageHeader className="u-font-maison-mono u-font-light u-color-gray-blue">
+                  <ErrorPageHeader className="u-font-maison-mono u-font-light">
                     404
                   </ErrorPageHeader>
-                  <h2>
+                  <h2 className="u-color-grey">
                     Sorry, we can&rsquo;t find the page you&rsquo;re
                     looking&nbsp;for
                   </h2>
                   <ErrorPageLink
-                    href="/"
+                    to="/frameworks/"
                     className="o-button-text u-margin-top-large-md"
                   >
-                    Visit the home page&nbsp;&rsaquo;
+                    Go back home&nbsp;&rsaquo;
                   </ErrorPageLink>
                 </div>
                 <div className="grid-col-12 grid-col-4-md">
@@ -38,7 +39,7 @@ export default class Frameworks extends React.Component<Props> {
               </div>
             </div>
           </div>
-          <div className="strip strip--navy">
+          <div className="strip">
             <div className="container">
               <div className="grid-row grid-row--center">
                 <div className="grid-col-12 grid-col-6-md u-align-center-md">

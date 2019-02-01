@@ -2,7 +2,23 @@
 import * as React from 'react'
 import * as R from 'ramda'
 import { contains, match } from '../../utils/arrayUtils'
-import ButtonBar from '../buttonBar'
+import Masonry from 'react-masonry-css'
+import LevelsGroup from '../levelsGroup'
+import {
+  Card,
+  CardList,
+  CardSubtitle,
+  CardTitle,
+  CardTitleGroup,
+  CenteredElement,
+  FrameworkCard,
+  PrimaryView,
+  Subtitle,
+  Title,
+  FrameworkTitleGroup,
+  FrameworkHeader,
+} from '../redesign'
+import toTitleCase from '../../utils/toTitleCase'
 
 type Props = {
   pageData: Object,
@@ -13,6 +29,12 @@ type State = {
   level: ?number,
   isGeneric: boolean,
   inheritsGeneric: boolean,
+}
+
+const masonryBreakpoints = {
+  default: 3,
+  [700]: 2,
+  [500]: 1,
 }
 
 export default class YamlRenderer extends React.Component<Props, State> {
@@ -39,68 +61,56 @@ export default class YamlRenderer extends React.Component<Props, State> {
 
   renderDescriptionAndTitle() {
     const { pageData } = this.props
-    const { isGeneric, inheritsGeneric } = this.state
+    const { level } = this.state
 
     return (
       <React.Fragment>
-        <div className="grid-row">
-          <div className="grid-col-12 o-box u-bg-color-white">
-            <h1>{pageData.title}</h1>
-          </div>
-        </div>
-        {isGeneric ? (
-          <div className="grid-row">
-            <div className="grid-col-12 o-box u-bg-color-grey">
-              <p>
-                This is our &quot;generic progression framework&quot;, which
-                exists so that levels are comparable across different roles in
-                the company.
-                <br />
-                No roles are directly tied to this framework, and it should be
-                applicable for all employees.
-              </p>
-            </div>
-          </div>
-        ) : null}
-        {inheritsGeneric ? (
-          <div className="grid-row">
-            <div className="grid-col-12 o-box u-bg-color-grey">
-              <p>
-                This framework is based on our &quot;generic progression
-                framework&quot;, which means that some skills and behaviours are
-                shared with it.
-                <br /> This is to ensure that levels are comparable across
-                different progression frameworks.
-              </p>
-            </div>
-          </div>
-        ) : null}
+        <FrameworkHeader>
+          <FrameworkTitleGroup>
+            <Subtitle small>
+              {pageData.sidebarGroup != null
+                ? toTitleCase(pageData.sidebarGroup)
+                : null}
+            </Subtitle>
+            <Title small>{pageData.title}</Title>
+          </FrameworkTitleGroup>
+          <LevelsGroup
+            onClickHandler={this.handleClick}
+            levels={pageData.levels}
+            activeLevel={level}
+          />
+        </FrameworkHeader>
       </React.Fragment>
     )
   }
 
-  renderButtonBar() {
-    const { pageData } = this.props
+  static renderEmptyState() {
     return (
-      <div className="grid-row">
-        <div className="grid-col-12 o-box u-bg-color-grey-lightest">
-          <ButtonBar
-            onClickHandler={this.handleClick}
-            levels={pageData.levels}
-          />
-        </div>
-      </div>
+      <CenteredElement>
+        <Card>
+          <Subtitle>To view a framework, please select a level above.</Subtitle>
+        </Card>
+      </CenteredElement>
     )
   }
 
   renderFramework() {
     const { pageData } = this.props
+    let content = pageData.topics.map(topic => this.createTopic(topic))
 
-    return pageData.topics.map(topic => this.renderTopic(topic))
+    return (
+      <Masonry
+        breakpointCols={masonryBreakpoints}
+        columnClassName="framework-columns"
+        className="framework-view"
+      >
+        {content}
+      </Masonry>
+    )
   }
 
-  renderTopic = (topic: Object) => {
-    const { pageData, genericData } = this.props
+  createTopic = (topic: Object) => {
+    const { genericData } = this.props
     const { level, isGeneric } = this.state
 
     const genericTopic = genericData.topics.filter(
@@ -111,7 +121,7 @@ export default class YamlRenderer extends React.Component<Props, State> {
         ? genericTopic.map(obj => obj.title)[0]
         : topic.title
     const description =
-      genericTopic != null && R.isEmpty(genericTopic)
+      genericTopic != null && !R.isEmpty(genericTopic)
         ? genericTopic.map(obj => obj.description)[0]
         : topic.description
     const frameworkCriteria = topic.content
@@ -139,40 +149,23 @@ export default class YamlRenderer extends React.Component<Props, State> {
       (frameworkCriteria != null && !R.isEmpty(frameworkCriteria))
     ) {
       return (
-        <div className="grid-row" key={topic.name}>
-          <div className="grid-col-12 o-box u-bg-color-grey-lightest">
-            <h2>{title}</h2>
-            <h4>{description}</h4>
-            {frameworkCriteria != null && !R.isEmpty(frameworkCriteria) ? (
-              <div>
-                <div
-                  className="grid-col-12 o-box"
-                  style={{ border: '3px solid #14233c', borderStyle: 'dashed' }}
-                >
-                  <h5>{pageData.title} criteria</h5>
-                  <ul>{frameworkCriteria}</ul>
-                </div>
-              </div>
-            ) : null}
+        <FrameworkCard key={topic.name}>
+          <CardTitleGroup>
+            <CardTitle>{title}</CardTitle>
+            <CardSubtitle>{description}</CardSubtitle>
+          </CardTitleGroup>
+          <CardList>
+            {frameworkCriteria != null && !R.isEmpty(frameworkCriteria)
+              ? frameworkCriteria
+              : null}
+
             {!isGeneric &&
             !R.isEmpty(genericCriteria) &&
-            genericCriteria != null ? (
-              <div>
-                <div
-                  className="grid-col-12 o-box"
-                  style={{
-                    color: '#888888',
-                    border: '3px solid #888888',
-                    borderStyle: 'dashed',
-                  }}
-                >
-                  <h5>{genericData.title} criteria</h5>
-                  <ul>{genericCriteria}</ul>
-                </div>
-              </div>
-            ) : null}
-          </div>
-        </div>
+            genericCriteria != null
+              ? genericCriteria
+              : null}
+          </CardList>
+        </FrameworkCard>
       )
     }
   }
@@ -181,11 +174,12 @@ export default class YamlRenderer extends React.Component<Props, State> {
     const { level } = this.state
 
     return (
-      <React.Fragment>
+      <PrimaryView>
         {this.renderDescriptionAndTitle()}
-        {this.renderButtonBar()}
-        {level != null ? this.renderFramework() : null}
-      </React.Fragment>
+        {level != null
+          ? this.renderFramework()
+          : YamlRenderer.renderEmptyState()}
+      </PrimaryView>
     )
   }
 }

@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 import SidebarBuilder from '../components/redesignedSidebarBuilder'
 import {
   Contain,
+  Wrapper,
   Content,
   Sidebar,
   SidebarIcon,
@@ -13,9 +14,15 @@ import {
   ScrollbarHeader,
   FlexboxPush,
   CloseIcon,
+  Toolbar,
+  ToolbarIcon,
+  ToolbarPushWrapper,
+  MenuIcon,
 } from './redesign'
 import favicon from '../images/favicon.png'
+import menuIcon from '../images/menu_icon.svg'
 import closeIcon from '../images/close_icon.svg'
+import { Location } from '@reach/router'
 
 type Props = {
   data: Object,
@@ -26,26 +33,47 @@ type State = {
   isSidebarVisible: boolean,
 }
 
+const ToolbarRenderer = ({ sidebarClickHandler, isSidebarVisible }: Object) => (
+  <React.Fragment>
+    {isSidebarVisible ? null : (
+      <Toolbar className={isSidebarVisible ? 'visible' : null}>
+        <MenuIcon onClick={sidebarClickHandler} src={menuIcon} />
+        <ToolbarPushWrapper>
+          <ToolbarIcon src={favicon} alt="Monzo" />
+        </ToolbarPushWrapper>
+      </Toolbar>
+    )}
+  </React.Fragment>
+)
+
 const SidebarRenderer = ({
   sidebarClickHandler,
   isSidebarVisible,
   data,
 }: Object) => (
-  <Sidebar className={isSidebarVisible ? 'open' : null}>
-    <SidebarReset>
-      <SidebarScroll>
-        <ScrollbarHeader>
-          <SidebarIcon src={favicon} alt="Monzo" />
-          <FlexboxPush>
-            <CloseIcon onClick={sidebarClickHandler} src={closeIcon} />
-          </FlexboxPush>
-        </ScrollbarHeader>
-        <SidebarList main>
-          <SidebarBuilder data={data} />
-        </SidebarList>
-      </SidebarScroll>
-    </SidebarReset>
-  </Sidebar>
+  <React.Fragment>
+    {isSidebarVisible ? (
+      <Location>
+        {({ location }) => (
+          <Sidebar>
+            <SidebarReset>
+              <SidebarScroll>
+                <ScrollbarHeader>
+                  <SidebarIcon src={favicon} alt="Monzo" />
+                  <FlexboxPush>
+                    <CloseIcon onClick={sidebarClickHandler} src={closeIcon} />
+                  </FlexboxPush>
+                </ScrollbarHeader>
+                <SidebarList main>
+                  <SidebarBuilder data={data} location={location} />
+                </SidebarList>
+              </SidebarScroll>
+            </SidebarReset>
+          </Sidebar>
+        )}
+      </Location>
+    ) : null}
+  </React.Fragment>
 )
 
 class Layout extends React.Component<Props, State> {
@@ -67,7 +95,7 @@ class Layout extends React.Component<Props, State> {
 
   updateSidebarOnResize = () => {
     this.setState({
-      isSidebarVisible: window.innerWidth < 736,
+      isSidebarVisible: window.innerWidth > 736,
     })
   }
 
@@ -92,10 +120,13 @@ class Layout extends React.Component<Props, State> {
           sidebarClickHandler={this.sidebarClickHandler}
           isSidebarVisible={isSidebarVisible}
         />
-        <Content>
-          {/*{isSidebarVisible then show toolbar}*/}
-          {children}
-        </Content>
+        <Wrapper>
+          <ToolbarRenderer
+            sidebarClickHandler={this.sidebarClickHandler}
+            isSidebarVisible={isSidebarVisible}
+          />
+          <Content>{children}</Content>
+        </Wrapper>
       </Contain>
     )
   }

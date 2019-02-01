@@ -1,5 +1,13 @@
 // @flow
 import * as React from 'react'
+import {
+  Card,
+  MarkdownContent,
+  PrimaryView,
+  Subtitle,
+  Title,
+} from '../redesign'
+import toTitleCase from '../../utils/toTitleCase'
 
 type Props = {
   data: Object,
@@ -10,18 +18,15 @@ export default class MarkdownRenderer extends React.Component<Props> {
   render() {
     const { data, html } = this.props
     return (
-      <React.Fragment>
-        <div className="grid-row">
-          <div className="grid-col-12 o-box u-bg-color-white">
-            <h1>{data.title}</h1>
-          </div>
-        </div>
-        <div className="grid-row">
-          <div className="grid-col-12 o-box u-bg-color-grey-lightest">
-            <div dangerouslySetInnerHTML={{ __html: html }} />
-          </div>
-        </div>
-      </React.Fragment>
+      <PrimaryView>
+        <Subtitle small>
+          {data.sidebarGroup != null ? toTitleCase(data.sidebarGroup) : null}
+        </Subtitle>
+        <Title small>{data.title}</Title>
+        <Card>
+          <MarkdownContent dangerouslySetInnerHTML={{ __html: html }} />
+        </Card>
+      </PrimaryView>
     )
   }
 }

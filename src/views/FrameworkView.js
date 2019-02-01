@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import Layout from '../components/redesignedLayout'
 import YamlRenderer from '../components/renderers/yamlRenderer'
 import MarkdownRenderer from '../components/renderers/markdownRenderer'
-import { Section } from '../components/styles'
 
 type Props = {
   data: Object,
@@ -22,22 +21,14 @@ class View extends React.Component<Props> {
           allMarkdownRemark: allMarkdownRemark,
         }}
       >
-        <Section className="strip--white full-page">
-          <div className="container">
-            <div className="grid-row">
-              <div className="grid-col-12">
-                {pageFrontmatter.yaml === true ? (
-                  <YamlRenderer
-                    pageData={pageFrontmatter}
-                    genericData={genericFrontmatter}
-                  />
-                ) : (
-                  <MarkdownRenderer data={pageFrontmatter} html={html} />
-                )}
-              </div>
-            </div>
-          </div>
-        </Section>
+        {pageFrontmatter.yaml === true ? (
+          <YamlRenderer
+            pageData={pageFrontmatter}
+            genericData={genericFrontmatter}
+          />
+        ) : (
+          <MarkdownRenderer data={pageFrontmatter} html={html} />
+        )}
       </Layout>
     )
   }

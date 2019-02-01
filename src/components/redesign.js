@@ -4,6 +4,178 @@ import styled, { css } from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PartialNavLink from './redesignedPartialNavLink'
 
+export const PrimaryView = styled.div`
+  height: 100%;
+  position: relative;
+  padding: 3em 5em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+
+  @media all and (max-width: 736px) {
+    padding: 5% 1em 2em 1em;
+  }
+`
+
+export const DescriptionView = styled(PrimaryView)`
+  padding-top: 10%;
+
+  @media all and (max-width: 736px) {
+    padding-top: 5%;
+  }
+`
+
+export const MarkdownContent = styled.div`
+  * {
+    font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif !important;
+  }
+  h2 {
+    margin-top: 0.2em;
+  }
+`
+
+export const Card = styled.div`
+  position: relative;
+  background: #fefefe;
+  border-radius: 8px;
+  box-shadow: 0 0 2em 0.1em rgba(0, 0, 0, 0.1);
+  padding: 1.3em;
+`
+
+export const FrameworkWrapper = styled.div`
+  column-count: 3;
+  column-gap: 2em;
+  width: 100%;
+  margin: 2em auto;
+
+  @media all and (max-width: 736px) {
+    display: block;
+  }
+
+  //display: grid;
+  //grid-template-columns: 1fr 1fr 1fr;
+  //grid-gap: 10px 2em;
+`
+
+export const FrameworkCard = styled(Card)`
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 1em;
+`
+
+export const FrameworksRow = styled.div`
+  margin-top: 0;
+  width: 10%;
+
+  @media all and (max-width: 736px) {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+`
+
+export const Subtitle = styled.h3`
+  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  font-weight: 600;
+  color: #707b8c;
+
+  ${props =>
+    props.small &&
+    css`
+      font-size: 1.6em;
+
+      @media all and (max-width: 736px) {
+        font-size: 1.4em;
+      }
+    `}
+`
+
+export const CardList = styled.ul`
+  padding-left: 0.5em;
+  width: 95%;
+`
+
+export const CardTitle = styled.p`
+  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  font-weight: 600;
+  color: #14233c;
+  margin-top: 0;
+  font-size: 1.4rem;
+`
+
+export const CardSubtitle = styled.h4`
+  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  font-weight: 600;
+  color: #707b8c;
+  margin-top: 0;
+`
+
+export const LevelsSubtitle = styled(Subtitle)`
+  float: right;
+
+  @media all and (max-width: 736px) {
+    float: left;
+    padding-right: 1em;
+  }
+`
+
+export const FrameworkHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+
+  @media all and (max-width: 736px) {
+    display: block;
+  }
+`
+
+export const FrameworkTitleGroup = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`
+
+export const CardTitleGroup = styled.div`
+  margin-top: 0.2em;
+`
+
+export const Title = styled.h1`
+  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  font-weight: 600;
+  color: #14233c;
+  margin-top: 0;
+
+  ${props =>
+    props.small &&
+    css`
+      font-size: 2em;
+
+      @media all and (max-width: 736px) {
+        font-size: 1.6em;
+      }
+    `}
+`
+
+export const Toolbar = styled.div`
+  display: none;
+  width: 0;
+  visibility: hidden;
+
+  @media all and (max-width: 736px) {
+    padding: 1.5rem 1.2rem 1.5rem;
+    display: flex;
+    visibility: inherit;
+    height: 4.5em;
+    width: 100%;
+    background: #f7f7f7;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+`
+
 export const SidebarReset = styled.div`
   position: static;
   width: 100%;
@@ -29,45 +201,60 @@ export const Contain = styled.div`
   margin-top: 0 !important;
 `
 
-export const Content = styled.div`
+export const DescriptionIllustration = styled.img`
+  height: 60vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  @media all and (max-width: 736px) {
+    display: none;
+  }
+`
+
+export const Description = styled.div`
+  position: relative;
+  color: #34495e;
+  width: 65%;
+  z-index: 1;
+
+  @media all and (max-width: 736px) {
+    margin-bottom: 3em;
+    width: 95%;
+  }
+`
+
+export const DescriptionText = styled.p`
+  margin-top: 24px;
+  line-height: 1.3em;
+  font-weight: 500;
+  font-size: 1.5em;
+
+  @media all and (max-width: 736px) {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+`
+
+export const Wrapper = styled.div`
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
   margin-top: 0;
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: 100% !important;
 `
 
-export const Main = styled(Content)`
+export const Content = styled(Wrapper)`
   padding-top: 0 !important;
   background-color: #ffffff;
+  height: auto;
 
   @media all and (max-width: 736px) {
     .container {
       padding-left: 20px;
     }
-  }
-`
-
-export const Toolbar = styled.div`
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  height: 100px;
-  padding-left: 20px;
-  background-color: #14233c;
-  color: white;
-  text-align: center;
-
-  * {
-    margin-top: 0;
-  }
-  img {
-    max-height: 40px;
-  }
-
-  @media all and (max-width: 736px) {
-    padding-left: 0;
   }
 `
 
@@ -85,43 +272,6 @@ export const PaddedLink = styled.a`
   padding-right: 15px;
 `
 
-export const ToolbarLogo = styled.div`
-  display: inline-flex;
-  margin-right: 20px;
-  width: 130px;
-
-  img {
-    padding: 10px;
-    max-height: 56px;
-  }
-
-  .toolbar-fa {
-    visibility: visible;
-    opacity: 1;
-    color: #f7f7f7;
-    padding-right: 15px;
-    max-width: 45px;
-    padding-top: 8px;
-  }
-  .toolbar-fa:hover {
-    opacity: 0.7;
-  }
-
-  @media all and (max-width: 736px) {
-    margin-right: 20px;
-
-    .toolbar-fa {
-      visibility: hidden;
-    }
-  }
-`
-
-export const ToolbarText = styled.img`
-  @media all and (max-width: 736px) {
-    display: none;
-  }
-`
-
 export const EmojiListItem = styled.span`
   padding-right: 10px;
 `
@@ -134,6 +284,12 @@ export const Flexbox = styled.div`
 export const FlexboxPush = styled.div`
   margin: 0 0 0 auto;
   cursor: pointer;
+`
+
+export const ToolbarPushWrapper = styled(FlexboxPush)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 
 export const Sidebar = styled.div`
@@ -156,22 +312,17 @@ export const Sidebar = styled.div`
   }
 
   @media all and (max-width: 736px) {
-    width: 0 !important;
-    min-width: 0;
-    transform: translateX(-100vw);
-
-    &.open {
-      width: 100% !important;
-      height: 100%;
-      align-items: center;
-      justify-content: center;
-      min-width: 250px;
-      transform: none;
-    }
+    width: 100% !important;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    min-width: 250px;
+    transform: none;
   }
 `
 
 export const SidebarList = styled.ul`
+  flex: 1 0 auto;
   margin-top: 0.5em;
   margin-left: 2rem;
   padding-left: 0;
@@ -183,6 +334,7 @@ export const SidebarList = styled.ul`
       width: 70%;
       margin-left: 3.5rem;
       margin-top: 2em;
+      margin-bottom: 3em;
       @media all and (max-width: 736px) {
         width: 80%;
         margin-left: 10%;
@@ -232,6 +384,26 @@ export const ScrollbarHeader = styled.div`
   @media all and (max-width: 736px) {
     margin-left: 10%;
     margin-bottom: 10px;
+  }
+`
+
+export const ToolbarIcon = styled.img`
+  width: auto;
+  height: auto;
+
+  @media all and (max-width: 736px) {
+    max-height: 26.25px;
+    max-width: 30px;
+  }
+`
+
+export const MenuIcon = styled.img`
+  width: auto;
+  height: auto;
+
+  @media all and (max-width: 736px) {
+    display: inherit;
+    margin-top: 0;
   }
 `
 
@@ -322,15 +494,17 @@ export const DefaultStyledLink = styled(Link)`
   width: 100%;
   height: 100%;
   opacity: 1;
-  &:hover {
-    opacity: 0.7;
-    color: #145d8e;
-  }
-
   background: inherit;
   padding: 0.5em 0 0.25em 0.5em;
   margin: 0.5em 0 -0.5em -0.5em;
 
+  &:hover {
+    opacity: 0.7;
+    color: #145d8e;
+  }
+  &:focus {
+    outline: none;
+  }
   &.active {
     border-radius: 10px;
     background: #eeefee;
@@ -347,15 +521,17 @@ export const StyledLink = styled(PartialNavLink)`
   width: 100%;
   height: 100%;
   opacity: 1;
-  &:hover {
-    opacity: 0.7;
-    color: #145d8e;
-  }
-
   background: inherit;
   padding: 0.5em 0 0.25em 0.5em;
   margin: 0.5em 0 -0.5em -0.5em;
 
+  &:hover {
+    opacity: 0.7;
+    color: #145d8e;
+  }
+  &:focus {
+    outline: none;
+  }
   &.active {
     border-radius: 10px;
     background: #eeefee;
@@ -367,29 +543,62 @@ export const ListElement = styled.li`
   margin-top: 4px;
 `
 
-export const BtnBarContainer = styled.div`
+export const LevelsContainer = styled.div`
+  width: 15%;
+  margin-top: 0;
   align-items: center;
 
   @media all and (max-width: 768px) {
+    display: flex;
+    width: 100%;
+    margin-top: 1em;
     text-align: center;
+    align-items: center;
   }
 `
 
 export const BtnBarHeader = styled.h3`
+  color: #707b8c;
+  text-align: right;
+  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+
   @media all and (max-width: 768px) {
     padding-right: 0 !important;
     margin-left: 10px;
   }
 `
 
-export const BtnBarButtonContainer = styled.div`
-  margin-left: 10px !important;
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: space-around !important;
-  flex-flow: row wrap !important;
-  align-items: stretch !important;
-  width: 60%;
+export const LevelsTextWrapper = styled.div`
+  display: inline-flex;
+  margin-left: 0;
+  margin-top: 0;
+  width: 100%;
+  justify-content: space-between;
+
+  @media all and (max-width: 768px) {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+`
+
+export const LevelsText = styled.h2`
+  cursor: pointer;
+  margin-top: 0;
+  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  opacity: 0.25;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  ${props =>
+    props.active &&
+    css`
+      opacity: 1;
+    `}
 `
 
 export const BtnBarButton = styled.button`
@@ -434,6 +643,6 @@ export const ErrorPageHeader = styled.h1`
   opacity: 0.4;
 `
 
-export const ErrorPageLink = styled.a`
+export const ErrorPageLink = styled(Link)`
   border: 1px solid;
 `

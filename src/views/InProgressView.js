@@ -2,7 +2,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
-import { CenteredElement } from '../components/styles'
+import { CenteredElement } from '../components/redesign'
 
 const InProgressView = () => (
   <React.Fragment>
@@ -30,7 +30,7 @@ const InProgressView = () => (
       </div>
       <div className="grid-row">
         <div className="grid-col-12 grid-col-8-md">
-          <Link to="/frameworks" className="btn btn--primary">
+          <Link to="/frameworks/" className="btn btn--primary">
             Enter anyway
           </Link>
         </div>

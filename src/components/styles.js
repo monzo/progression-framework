@@ -241,6 +241,11 @@ export const CenteredContainer = styled.div`
 export const Section = styled.section`
   padding-top: 50px;
   padding-bottom: 50px;
+
+  @media all and (max-width: 736px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 `
 
 export const StyledLink = styled(SidebarLink)`
@@ -325,7 +330,6 @@ export const InlineSecondHeader = styled.h2`
 
 export const ErrorPageHeader = styled.h1`
   font-size: 10rem;
-  opacity: 0.4;
 `
 
 export const ErrorPageLink = styled.a`
