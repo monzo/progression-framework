@@ -1,7 +1,10 @@
 // @flow
 import * as React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/redesignedLayout'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import illustration from '../images/intro_illustration.svg'
+import Layout from '../components/layout'
 import {
   Subtitle,
   Title,
@@ -9,10 +12,7 @@ import {
   Description,
   DescriptionText,
   DescriptionIllustration,
-} from '../components/redesign'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import illustration from '../images/intro_illustration.svg'
+} from '../components/styles'
 
 type Props = {
   data: Object,

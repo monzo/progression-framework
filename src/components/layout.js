@@ -1,27 +1,27 @@
 // @flow
 import * as React from 'react'
-import { Link } from 'gatsby'
+import { Location } from '@reach/router'
 import { Helmet } from 'react-helmet'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
-import SidebarBuilder from '../components/sidebarBuilder'
 import favicon from '../images/favicon.png'
-import text from '../images/logo/white-text.png'
+import menuIcon from '../images/menu_icon.svg'
+import closeIcon from '../images/close_icon.svg'
+import SidebarBuilder from './sidebarBuilder'
 import {
   Contain,
+  Wrapper,
   Content,
-  Main,
-  Toolbar,
-  Align,
-  ToolbarLogo,
-  ToolbarText,
-  ButtonContainer,
   Sidebar,
-  SidebarButton,
-  PaddedFaIcon,
-  MobileNavBtn,
-  PaddedLink,
+  SidebarIcon,
+  SidebarList,
+  SidebarReset,
+  SidebarScroll,
+  ScrollbarHeader,
+  FlexboxPush,
+  CloseIcon,
+  Toolbar,
+  ToolbarIcon,
+  ToolbarPushWrapper,
+  MenuIcon,
 } from './styles'
 
 type Props = {
@@ -34,24 +34,16 @@ type State = {
 }
 
 const ToolbarRenderer = ({ sidebarClickHandler, isSidebarVisible }: Object) => (
-  <Toolbar>
-    <Align>
-      <MobileNavBtn onClick={sidebarClickHandler}>
-        <FontAwesomeIcon icon={isSidebarVisible ? faTimes : faBars} />
-      </MobileNavBtn>
-      <Link to="/frameworks">
-        <ToolbarText src={text} alt="Progression at Monzo" />
-      </Link>
-    </Align>
-    <ToolbarLogo>
-      <PaddedLink href="https://www.github.com/monzo/progression-framework">
-        <FontAwesomeIcon size="3x" icon={faGithub} className="toolbar-fa" />
-      </PaddedLink>
-      <a href="https://www.monzo.com">
-        <img src={favicon} alt="Favicon" />
-      </a>
-    </ToolbarLogo>
-  </Toolbar>
+  <React.Fragment>
+    {isSidebarVisible ? null : (
+      <Toolbar className={isSidebarVisible ? 'visible' : null}>
+        <MenuIcon onClick={sidebarClickHandler} src={menuIcon} />
+        <ToolbarPushWrapper>
+          <ToolbarIcon src={favicon} alt="Monzo" />
+        </ToolbarPushWrapper>
+      </Toolbar>
+    )}
+  </React.Fragment>
 )
 
 const SidebarRenderer = ({
@@ -59,22 +51,53 @@ const SidebarRenderer = ({
   isSidebarVisible,
   data,
 }: Object) => (
-  <Sidebar className={isSidebarVisible ? 'open' : null}>
-    <h2>Frameworks</h2>
-    <ul>
-      <SidebarBuilder data={data} toggleSidebar={sidebarClickHandler} />
-    </ul>
-    <ButtonContainer>
-      <SidebarButton className="o-button-neutral" onClick={sidebarClickHandler}>
-        <PaddedFaIcon icon={faTimes} />
-        Close menu
-      </SidebarButton>
-    </ButtonContainer>
-  </Sidebar>
+  <React.Fragment>
+    {isSidebarVisible ? (
+      <Location>
+        {({ location }) => (
+          <Sidebar>
+            <SidebarReset>
+              <SidebarScroll>
+                <ScrollbarHeader>
+                  <SidebarIcon src={favicon} alt="Monzo" />
+                  <FlexboxPush>
+                    <CloseIcon onClick={sidebarClickHandler} src={closeIcon} />
+                  </FlexboxPush>
+                </ScrollbarHeader>
+                <SidebarList main>
+                  <SidebarBuilder data={data} location={location} />
+                </SidebarList>
+              </SidebarScroll>
+            </SidebarReset>
+          </Sidebar>
+        )}
+      </Location>
+    ) : null}
+  </React.Fragment>
 )
 
 class Layout extends React.Component<Props, State> {
-  state = { isSidebarVisible: false }
+  constructor(props: Props) {
+    super(props)
+    this.state = {
+      isSidebarVisible: false,
+    }
+  }
+
+  componentDidMount() {
+    this.updateSidebarOnResize()
+    window.addEventListener('resize', this.updateSidebarOnResize)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateSidebarOnResize)
+  }
+
+  updateSidebarOnResize = () => {
+    this.setState({
+      isSidebarVisible: window.innerWidth > 736,
+    })
+  }
 
   sidebarClickHandler = (event: SyntheticUIEvent<>) => {
     event != null ? event.preventDefault() : null
@@ -85,27 +108,26 @@ class Layout extends React.Component<Props, State> {
 
   render() {
     let { children, data } = this.props
+    let { isSidebarVisible } = this.state
 
     return (
-      <React.Fragment>
+      <Contain>
         <Helmet>
           <title>Progression at Monzo</title>
         </Helmet>
-        <Contain>
-          <SidebarRenderer
-            data={data}
+        <SidebarRenderer
+          data={data}
+          sidebarClickHandler={this.sidebarClickHandler}
+          isSidebarVisible={isSidebarVisible}
+        />
+        <Wrapper>
+          <ToolbarRenderer
             sidebarClickHandler={this.sidebarClickHandler}
-            isSidebarVisible={this.state.isSidebarVisible}
+            isSidebarVisible={isSidebarVisible}
           />
-          <Content>
-            <ToolbarRenderer
-              sidebarClickHandler={this.sidebarClickHandler}
-              isSidebarVisible={this.state.isSidebarVisible}
-            />
-            <Main>{children}</Main>
-          </Content>
-        </Contain>
-      </React.Fragment>
+          <Content>{children}</Content>
+        </Wrapper>
+      </Contain>
     )
   }
 }

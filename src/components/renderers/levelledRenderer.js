@@ -1,8 +1,9 @@
 // @flow
 import * as React from 'react'
 import * as R from 'ramda'
-import { contains, match } from '../../utils/arrayUtils'
 import Masonry from 'react-masonry-css'
+import { contains, match } from '../../utils/arrayUtils'
+import toTitleCase from '../../utils/toTitleCase'
 import LevelsGroup from '../levelsGroup'
 import {
   Card,
@@ -17,8 +18,7 @@ import {
   Title,
   FrameworkTitleGroup,
   FrameworkHeader,
-} from '../redesign'
-import toTitleCase from '../../utils/toTitleCase'
+} from '../styles'
 
 type Props = {
   pageData: Object,
@@ -37,7 +37,7 @@ const masonryBreakpoints = {
   [500]: 1,
 }
 
-export default class YamlRenderer extends React.Component<Props, State> {
+export default class LevelledRenderer extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props)
     const genericDataTitles = props.genericData.topics.map(obj => obj.name)
@@ -84,7 +84,7 @@ export default class YamlRenderer extends React.Component<Props, State> {
     )
   }
 
-  static renderEmptyState() {
+  renderEmptyState() {
     return (
       <CenteredElement>
         <Card>
@@ -176,9 +176,7 @@ export default class YamlRenderer extends React.Component<Props, State> {
     return (
       <PrimaryView>
         {this.renderDescriptionAndTitle()}
-        {level != null
-          ? this.renderFramework()
-          : YamlRenderer.renderEmptyState()}
+        {level != null ? this.renderFramework() : this.renderEmptyState()}
       </PrimaryView>
     )
   }

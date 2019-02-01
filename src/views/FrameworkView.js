@@ -1,9 +1,9 @@
 // @flow
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/redesignedLayout'
-import YamlRenderer from '../components/renderers/yamlRenderer'
-import MarkdownRenderer from '../components/renderers/markdownRenderer'
+import Layout from '../components/layout'
+import LevelledRenderer from '../components/renderers/levelledRenderer'
+import TextRenderer from '../components/renderers/textRenderer'
 
 type Props = {
   data: Object,
@@ -22,12 +22,12 @@ class View extends React.Component<Props> {
         }}
       >
         {pageFrontmatter.yaml === true ? (
-          <YamlRenderer
+          <LevelledRenderer
             pageData={pageFrontmatter}
             genericData={genericFrontmatter}
           />
         ) : (
-          <MarkdownRenderer data={pageFrontmatter} html={html} />
+          <TextRenderer data={pageFrontmatter} html={html} />
         )}
       </Layout>
     )

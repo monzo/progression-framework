@@ -5,7 +5,7 @@ import {
   LevelsContainer,
   LevelsText,
   LevelsSubtitle,
-} from './redesign'
+} from './styles'
 
 type Props = {
   onClickHandler: number => (SyntheticUIEvent<>) => mixed,
