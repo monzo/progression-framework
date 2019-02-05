@@ -3,6 +3,13 @@ import { Link } from 'gatsby'
 import styled, { css } from 'styled-components'
 import PartialNavLink from './partialNavLink'
 
+// Variables
+export const BREAKPOINT_MOBILE = 736
+export const MIDNIGHT_SKY = '#14233c'
+export const LAGOON_BLUE = '#145d8e'
+export const GREY_BLUE = '#707b8c'
+
+// Styles
 export const PrimaryView = styled.div`
   height: 100%;
   position: relative;
@@ -11,7 +18,7 @@ export const PrimaryView = styled.div`
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     padding: 5% 1em 2em 1em;
   }
 `
@@ -19,7 +26,7 @@ export const PrimaryView = styled.div`
 export const DescriptionView = styled(PrimaryView)`
   padding-top: 10%;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     padding-top: 5%;
   }
 `
@@ -55,14 +62,14 @@ export const Subtitle = styled.h3`
   font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 600;
-  color: #707b8c;
+  color: ${GREY_BLUE};
 
   ${props =>
     props.small &&
     css`
       font-size: 1.6em;
 
-      @media all and (max-width: 736px) {
+      @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
         font-size: 1.4em;
       }
     `}
@@ -78,7 +85,7 @@ export const CardTitle = styled.p`
   font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 600;
-  color: #14233c;
+  color: ${MIDNIGHT_SKY};
   margin-top: 0;
   font-size: 1.4rem;
 `
@@ -87,14 +94,14 @@ export const CardSubtitle = styled.h4`
   font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 600;
-  color: #707b8c;
+  color: ${GREY_BLUE};
   margin-top: 0;
 `
 
 export const LevelsSubtitle = styled(Subtitle)`
   float: right;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     float: left;
     padding-right: 1em;
   }
@@ -105,7 +112,7 @@ export const FrameworkHeader = styled.div`
   justify-content: space-between;
   padding-bottom: 1em;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: block;
   }
 `
@@ -124,7 +131,7 @@ export const Title = styled.h1`
   font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 600;
-  color: #14233c;
+  color: ${MIDNIGHT_SKY};
   margin-top: 0;
 
   ${props =>
@@ -132,7 +139,7 @@ export const Title = styled.h1`
     css`
       font-size: 2em;
 
-      @media all and (max-width: 736px) {
+      @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
         font-size: 1.6em;
       }
     `}
@@ -143,7 +150,7 @@ export const Toolbar = styled.div`
   width: 0;
   visibility: hidden;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     padding: 1.5rem 1.2rem 1.5rem;
     display: flex;
     visibility: inherit;
@@ -159,15 +166,11 @@ export const SidebarReset = styled.div`
   width: 100%;
   height: 100%;
   display: block;
-  //overflow: auto;
 `
 
 export const SidebarScroll = styled.div`
   position: relative;
   width: 100%;
-  //height: 100%;
-  //overflow-y: scroll;
-  //-webkit-overflow-scrolling: touch;
 `
 
 export const Contain = styled.div`
@@ -185,7 +188,7 @@ export const DescriptionIllustration = styled.img`
   bottom: 0;
   right: 0;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: none;
   }
 `
@@ -196,7 +199,7 @@ export const Description = styled.div`
   width: 65%;
   z-index: 1;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     margin-bottom: 3em;
     width: 95%;
   }
@@ -208,7 +211,7 @@ export const DescriptionText = styled.p`
   font-weight: 500;
   font-size: 1.5em;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     font-size: 1.2em;
     font-weight: 500;
   }
@@ -226,10 +229,10 @@ export const Wrapper = styled.div`
 
 export const Content = styled(Wrapper)`
   padding-top: 0 !important;
-  background-color: #ffffff;
+  background-color: white;
   height: auto;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     .container {
       padding-left: 20px;
     }
@@ -275,7 +278,7 @@ export const Sidebar = styled.div`
     font-size: 1.3em;
   }
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     width: 100% !important;
     height: 100%;
     align-items: center;
@@ -299,7 +302,7 @@ export const SidebarList = styled.ul`
       margin-left: 3.5rem;
       margin-top: 2em;
       margin-bottom: 3em;
-      @media all and (max-width: 736px) {
+      @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
         width: 80%;
         margin-left: 10%;
       }
@@ -345,7 +348,7 @@ export const ScrollbarHeader = styled.div`
   margin-left: 3.5rem;
   margin-bottom: 15px;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     margin-left: 10%;
     margin-bottom: 10px;
   }
@@ -355,7 +358,7 @@ export const ToolbarIcon = styled.img`
   width: auto;
   height: auto;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     max-height: 26.25px;
     max-width: 30px;
   }
@@ -365,7 +368,7 @@ export const MenuIcon = styled.img`
   width: auto;
   height: auto;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: inherit;
     margin-top: 0;
   }
@@ -378,7 +381,7 @@ export const SidebarIcon = styled.img`
   max-width: 63px;
   min-width: 39px;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     max-height: 39px;
     max-width: 45px;
     min-width: 39px;
@@ -388,7 +391,7 @@ export const SidebarIcon = styled.img`
 export const CloseIcon = styled.img`
   display: none;
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: inherit;
     height: 23px;
     margin-top: 8px;
@@ -403,7 +406,7 @@ export const CenteredElement = styled.div`
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
-  @media all and (max-width: 736px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     width: 70% !important;
   }
 `
@@ -418,7 +421,7 @@ export const DefaultStyledLink = styled(Link)`
     'Arial', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
-  color: #14233c !important;
+  color: ${MIDNIGHT_SKY} !important;
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -428,7 +431,7 @@ export const DefaultStyledLink = styled(Link)`
 
   &:hover {
     opacity: 0.7;
-    color: #145d8e;
+    color: ${LAGOON_BLUE};
   }
   &:focus {
     outline: none;
@@ -445,7 +448,7 @@ export const StyledLink = styled(PartialNavLink)`
     'Arial', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
-  color: #14233c !important;
+  color: ${MIDNIGHT_SKY} !important;
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -455,7 +458,7 @@ export const StyledLink = styled(PartialNavLink)`
 
   &:hover {
     opacity: 0.7;
-    color: #145d8e;
+    color: ${LAGOON_BLUE};
   }
   &:focus {
     outline: none;

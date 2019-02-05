@@ -22,6 +22,7 @@ import {
   ToolbarIcon,
   ToolbarPushWrapper,
   MenuIcon,
+  BREAKPOINT_MOBILE,
 } from './styles'
 
 type Props = {
@@ -33,56 +34,45 @@ type State = {
   isSidebarVisible: boolean,
 }
 
-const ToolbarRenderer = ({ sidebarClickHandler, isSidebarVisible }: Object) => (
-  <React.Fragment>
-    {isSidebarVisible ? null : (
-      <Toolbar className={isSidebarVisible ? 'visible' : null}>
-        <MenuIcon onClick={sidebarClickHandler} src={menuIcon} />
-        <ToolbarPushWrapper>
-          <ToolbarIcon src={favicon} alt="Monzo" />
-        </ToolbarPushWrapper>
-      </Toolbar>
-    )}
-  </React.Fragment>
-)
+const ToolbarRenderer = ({ sidebarClickHandler, isSidebarVisible }: Object) =>
+  isSidebarVisible ? null : (
+    <Toolbar className={isSidebarVisible ? 'visible' : null}>
+      <MenuIcon onClick={sidebarClickHandler} src={menuIcon} />
+      <ToolbarPushWrapper>
+        <ToolbarIcon src={favicon} alt="Monzo" />
+      </ToolbarPushWrapper>
+    </Toolbar>
+  )
 
 const SidebarRenderer = ({
   sidebarClickHandler,
   isSidebarVisible,
   data,
-}: Object) => (
-  <React.Fragment>
-    {isSidebarVisible ? (
-      <Location>
-        {({ location }) => (
-          <Sidebar>
-            <SidebarReset>
-              <SidebarScroll>
-                <ScrollbarHeader>
-                  <SidebarIcon src={favicon} alt="Monzo" />
-                  <FlexboxPush>
-                    <CloseIcon onClick={sidebarClickHandler} src={closeIcon} />
-                  </FlexboxPush>
-                </ScrollbarHeader>
-                <SidebarList main>
-                  <SidebarBuilder data={data} location={location} />
-                </SidebarList>
-              </SidebarScroll>
-            </SidebarReset>
-          </Sidebar>
-        )}
-      </Location>
-    ) : null}
-  </React.Fragment>
-)
+}: Object) =>
+  isSidebarVisible ? (
+    <Location>
+      {({ location }) => (
+        <Sidebar>
+          <SidebarReset>
+            <SidebarScroll>
+              <ScrollbarHeader>
+                <SidebarIcon src={favicon} alt="Monzo" />
+                <FlexboxPush>
+                  <CloseIcon onClick={sidebarClickHandler} src={closeIcon} />
+                </FlexboxPush>
+              </ScrollbarHeader>
+              <SidebarList main>
+                <SidebarBuilder data={data} location={location} />
+              </SidebarList>
+            </SidebarScroll>
+          </SidebarReset>
+        </Sidebar>
+      )}
+    </Location>
+  ) : null
 
 class Layout extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props)
-    this.state = {
-      isSidebarVisible: false,
-    }
-  }
+  state = { isSidebarVisible: false }
 
   componentDidMount() {
     this.updateSidebarOnResize()
@@ -95,7 +85,7 @@ class Layout extends React.Component<Props, State> {
 
   updateSidebarOnResize = () => {
     this.setState({
-      isSidebarVisible: window.innerWidth > 736,
+      isSidebarVisible: window.innerWidth > BREAKPOINT_MOBILE,
     })
   }
 
