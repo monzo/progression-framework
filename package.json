@@ -18,6 +18,7 @@
     "flow": "^0.2.3",
     "gatsby": "^2.0.19",
     "gatsby-plugin-flow": "^1.0.2",
+    "gatsby-plugin-google-analytics": "^2.0.13",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-nprogress": "^2.0.7",
     "gatsby-plugin-react-helmet": "^3.0.5",

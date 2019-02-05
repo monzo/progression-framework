@@ -37,5 +37,15 @@ module.exports = {
         icon: 'src/images/favicon.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        name: "progression.monzo.com",
+        trackingId: "UA-63104269-1",
+        head: false,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+      }
+    }
   ],
 }
