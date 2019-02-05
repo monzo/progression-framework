@@ -1,8 +1,17 @@
-// WARN: This is a lightly edited gatsby config file, shouldn't really be edited!
+// @flow
 import React from 'react'
-import PropTypes from 'prop-types'
 
-export default class HTML extends React.Component {
+type Props = {
+  htmlAttributes: Object,
+  headComponents: Array<*>,
+  bodyAttributes: Object,
+  preBodyComponents: Array<*>,
+  body: string,
+  postBodyComponents: Array<*>,
+}
+
+// WARN: This is a lightly edited gatsby config file, shouldn't be edited unless it *really* has to.
+export default class HTML extends React.Component<Props> {
   render() {
     return (
       <html {...this.props.htmlAttributes}>
@@ -31,13 +40,4 @@ export default class HTML extends React.Component {
       </html>
     )
   }
-}
-
-HTML.propTypes = {
-  htmlAttributes: PropTypes.object,
-  headComponents: PropTypes.array,
-  bodyAttributes: PropTypes.object,
-  preBodyComponents: PropTypes.array,
-  body: PropTypes.string,
-  postBodyComponents: PropTypes.array,
 }
