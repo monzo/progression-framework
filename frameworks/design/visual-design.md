@@ -1,5 +1,5 @@
 ---
-path: "/frameworks/design/visual-design"
+path: "/design/visual-design"
 title: "🎯 Visual Design Framework"
 sidebarTitle: "🎯 Visual Design"
 sidebarGroup: "design"

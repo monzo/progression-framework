@@ -1,5 +1,5 @@
 ---
-path: "/frameworks/executive-support"
+path: "/executive-support"
 title: "👭 Executive Support Framework"
 sidebarTitle: "👭 Executive Support"
 sidebarGroup:

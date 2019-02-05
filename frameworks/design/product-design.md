@@ -1,5 +1,5 @@
 ---
-path: "/frameworks/design/product-design"
+path: "/design/product-design"
 title: "🎯 Product Design Framework"
 sidebarTitle: "🎯 Product Design"
 sidebarGroup: "design"

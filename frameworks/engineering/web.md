@@ -1,5 +1,5 @@
 ---
-path: "/frameworks/engineering/web"
+path: "/engineering/web"
 title: "🌐 Web Engineering Framework"
 sidebarTitle: "🌐 Web"
 sidebarGroup: "engineering"

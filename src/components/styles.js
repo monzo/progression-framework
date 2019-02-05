@@ -8,7 +8,7 @@ export const PrimaryView = styled.div`
   position: relative;
   padding: 3em 5em;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 
   @media all and (max-width: 736px) {
@@ -155,15 +155,15 @@ export const SidebarReset = styled.div`
   width: 100%;
   height: 100%;
   display: block;
-  overflow: auto;
+  //overflow: auto;
 `
 
 export const SidebarScroll = styled.div`
   position: relative;
   width: 100%;
-  height: 100%;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+  //height: 100%;
+  //overflow-y: scroll;
+  //-webkit-overflow-scrolling: touch;
 `
 
 export const Contain = styled.div`
@@ -259,7 +259,7 @@ export const Sidebar = styled.div`
   background-color: #f7f7f7;
   color: black;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   height: 100%;
   width: 19%;

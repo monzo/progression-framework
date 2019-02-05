@@ -1,5 +1,5 @@
 ---
-path: "/frameworks/operations/ops-individual-contributor"
+path: "/operations/ops-individual-contributor"
 title: "🙋‍♀️️️ Ops Individual Contributor Framework"
 sidebarTitle: "🙋‍♀️ Individual Contributor"
 sidebarGroup: "operations"

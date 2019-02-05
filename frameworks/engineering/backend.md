@@ -1,5 +1,5 @@
 ---
-path: "/frameworks/engineering/backend"
+path: "/engineering/backend"
 title: "🛠️ Backend Engineering Framework"
 sidebarTitle: "🛠️ Backend"
 sidebarGroup: "engineering"

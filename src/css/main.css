@@ -1,11 +1,9 @@
-body, #___gatsby, #___gatsby > * {
-    height: 100% !important;
-    overflow-y: scroll;
-    overflow-x: hidden;
+html {
+    overflow-y: auto;
 }
-.full-page {
-    height: 100% !important;
-    overflow: hidden;
+body, #___gatsby, #___gatsby > * {
+    height: 100%;
+    overflow-x: hidden;
 }
 .framework-columns {
     padding-left: 30px; /* gutter size */

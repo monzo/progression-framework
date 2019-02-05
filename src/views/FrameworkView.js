@@ -74,9 +74,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    genericData: markdownRemark(
-      frontmatter: { path: { eq: "/frameworks/generic" } }
-    ) {
+    genericData: markdownRemark(frontmatter: { path: { eq: "/generic" } }) {
       html
       frontmatter {
         path

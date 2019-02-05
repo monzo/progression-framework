@@ -1,5 +1,5 @@
 ---
-path: "/frameworks/engineering/mobile"
+path: "/engineering/mobile"
 title: "👩‍💻 Mobile Engineering Framework"
 sidebarTitle: "👩‍💻 Mobile"
 sidebarGroup: "engineering"

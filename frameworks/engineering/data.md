@@ -1,5 +1,5 @@
 ---
-path: "/frameworks/engineering/data"
+path: "/engineering/data"
 title: "📊 Data Engineering Framework"
 sidebarTitle: "📊 Data"
 sidebarGroup: "engineering"
