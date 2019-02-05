@@ -13,7 +13,6 @@ import {
   DescriptionText,
   DescriptionIllustration,
 } from '../components/styles'
-import '../css/main.min.css'
 
 type Props = {
   data: Object,

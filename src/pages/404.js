@@ -8,7 +8,6 @@ import {
   ErrorPageHeader,
   ErrorPageDescription,
 } from '../components/styles'
-import '../css/main.min.css'
 
 type Props = {
   data: Object,

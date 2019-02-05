@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import LevelledRenderer from '../components/renderers/levelledRenderer'
 import TextRenderer from '../components/renderers/textRenderer'
-import '../css/main.min.css'
 
 type Props = {
   data: Object,

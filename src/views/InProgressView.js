@@ -3,7 +3,6 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import { CenteredElement, InProgressText } from '../components/styles'
-import '../css/main.min.css'
 
 const InProgressView = () => (
   <React.Fragment>
