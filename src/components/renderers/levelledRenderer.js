@@ -7,7 +7,7 @@ import toTitleCase from '../../utils/toTitleCase'
 import LevelsGroup from '../levelsGroup'
 import {
   Card,
-  CardList,
+  CardContentList,
   CardSubtitle,
   CardTitle,
   CardTitleGroup,
@@ -154,7 +154,7 @@ export default class LevelledRenderer extends React.Component<Props, State> {
             <CardTitle>{title}</CardTitle>
             <CardSubtitle>{description}</CardSubtitle>
           </CardTitleGroup>
-          <CardList>
+          <CardContentList>
             {frameworkCriteria != null && !R.isEmpty(frameworkCriteria)
               ? frameworkCriteria
               : null}
@@ -164,7 +164,7 @@ export default class LevelledRenderer extends React.Component<Props, State> {
             genericCriteria != null
               ? genericCriteria
               : null}
-          </CardList>
+          </CardContentList>
         </FrameworkCard>
       )
     }

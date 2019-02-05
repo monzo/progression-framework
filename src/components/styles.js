@@ -32,6 +32,9 @@ export const MarkdownContent = styled.div`
   h2 {
     margin-top: 0.2em;
   }
+  ul {
+    padding-left: 1em;
+  }
 `
 
 export const Card = styled.div`
@@ -65,8 +68,9 @@ export const Subtitle = styled.h3`
     `}
 `
 
-export const CardList = styled.ul`
-  padding-left: 0.5em;
+export const CardContentList = styled.ul`
+  margin-top: 1em;
+  padding-left: 1em;
   width: 95%;
 `
 
