@@ -31,6 +31,17 @@ export const DescriptionView = styled(PrimaryView)`
   }
 `
 
+export const ExamplesText = styled.p`
+  color: ${LAGOON_BLUE};
+  font-weight: 600;
+  opacity: 1;
+
+  &:hover {
+    opacity: 0.7;
+    color: ${LAGOON_BLUE};
+  }
+`
+
 export const MarkdownContent = styled.div`
   * {
     font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',

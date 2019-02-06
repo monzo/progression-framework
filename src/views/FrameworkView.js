@@ -70,6 +70,10 @@ export const pageQuery = graphql`
           content {
             level
             criteria
+            exampleCriteria {
+              criteria
+              examples
+            }
           }
         }
       }
