@@ -35,6 +35,7 @@ export const ExamplesText = styled.p`
   color: ${LAGOON_BLUE};
   font-weight: 600;
   opacity: 1;
+  cursor: pointer;
 
   &:hover {
     opacity: 0.7;
