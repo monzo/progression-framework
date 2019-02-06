@@ -42,6 +42,10 @@ export const MarkdownContent = styled.div`
   ul {
     padding-left: 1em;
   }
+  & h2:nth-child(1) {
+    margin-top: 0;
+    padding-top: 0;
+  }
 `
 
 export const Card = styled.div`

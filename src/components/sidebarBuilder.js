@@ -154,6 +154,7 @@ class SidebarBuilder extends React.Component<SidebarProps, SidebarState> {
         </SidebarPaddingSection>
         <SidebarPaddingSection borderedTop>
           {frameworkElement.map(element =>
+            Object.keys(element)[0] == null ||
             Object.keys(element)[0] === 'null' ? (
               <React.Fragment key={Math.random()}>
                 {Object.keys(element).map(key => element[key])[0]}
@@ -162,6 +163,7 @@ class SidebarBuilder extends React.Component<SidebarProps, SidebarState> {
           )}
         </SidebarPaddingSection>
         {frameworkElement.map(element =>
+          Object.keys(element)[0] != null &&
           Object.keys(element)[0] !== 'null' ? (
             <SidebarPaddingSection top key={Object.keys(element)[0]}>
               <SidebarSection

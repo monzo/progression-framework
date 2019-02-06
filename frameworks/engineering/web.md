@@ -4,7 +4,7 @@ title: "🌐 Web Engineering Framework"
 sidebarTitle: "🌐 Web"
 sidebarGroup: "engineering"
 yaml: false
-levels: null
+levels:
 ---
 Check out the original web engineering framework [here](https://eng-progression.monzo.com/framework/web/).
 
