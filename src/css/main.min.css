@@ -1,1 +1,1 @@
-*{box-sizing:border-box}body{margin:0!important;font-family:'Segoe UI',Helvetica,sans-serif}#___gatsby,#___gatsby>*,.full-page,body,html{width:100vw;height:100vh;overflow:auto!important}
+html{overflow-y:auto}#___gatsby,#___gatsby>*,body{height:100%;overflow-x:hidden}.framework-columns{padding-left:30px;margin-top:0;background-clip:padding-box}.framework-view{display:-webkit-box;display:-ms-flexbox;display:flex;margin-left:-30px;width:auto}

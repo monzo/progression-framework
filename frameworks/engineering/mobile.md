@@ -1,10 +1,10 @@
 ---
-path: "/frameworks/engineering/mobile"
+path: "/engineering/mobile"
 title: "👩‍💻 Mobile Engineering Framework"
 sidebarTitle: "👩‍💻 Mobile"
 sidebarGroup: "engineering"
 yaml: false
-levels: null
+levels:
 ---
 Check out the original mobile engineering progression site [here](https://eng-progression.monzo.com/framework/mobile/)
 

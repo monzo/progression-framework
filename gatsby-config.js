@@ -3,6 +3,7 @@ module.exports = {
     title: 'Monzo Progression',
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     'gatsby-plugin-flow',
     'gatsby-plugin-eslint',
     {
@@ -15,7 +16,6 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-transformer-yaml`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-styled-components`,
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -36,6 +36,6 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/images/favicon.png',
       },
-    },
+    }
   ],
 }

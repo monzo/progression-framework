@@ -5,7 +5,7 @@
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin"
     Feature-Policy = "accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'self'; camera 'none'; encrypted-media 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'self'; picture-in-picture 'none'; speaker 'self'; usb 'none'; vr 'none'"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.google-analytics.com 'unsafe-inline'; img-src 'self' data:; style-src 'self' fonts.googleapis.com cdnjs.cloudflare.com 'unsafe-inline'; font-src 'self' data:; frame-src 'self'; connect-src 'self'; object-src 'none'; manifest-src 'self'; worker-src 'none'"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.google-analytics.com 'unsafe-inline'; img-src 'self' data: https://googleads.g.doubleclick.net https://stats.g.doubleclick.net https://www.google-analytics.com https://www.googletagmanager.com https://www.gstatic.com/; style-src 'self' monzo.com fonts.googleapis.com cdnjs.cloudflare.com 'unsafe-inline'; font-src 'self' data: monzo.com; frame-src 'self'; connect-src 'self'; object-src 'none'; manifest-src 'self'; worker-src 'none'"
 [[headers]]
   for = "/static/*"
   [headers.values]

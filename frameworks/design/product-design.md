@@ -1,13 +1,11 @@
 ---
-path: "/frameworks/design/product-design"
+path: "/design/product-design"
 title: "🎯 Product Design Framework"
 sidebarTitle: "🎯 Product Design"
 sidebarGroup: "design"
 yaml: false
-levels: null
+levels:
 ---
-[](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/59e226ed-0ee8-42aa-8bb2-d1cd1ff58f86/Bands.png?AWSAccessKeyId=ASIAT73L2G45M6A6S57O&Expires=1544197750&Signature=d6yCJbkeZTo6Sou86znpcGM0geg%3D&x-amz-security-token=FQoGZXIvYXdzEAUaDJmp2saUzo6%2FvKH9xSK3A9QBg%2BpkcvD5EbY0tu7cio1ILPLAzNl8di3qYubpoXGvN4tZvoYnfuK4mj7gF29ZjwKL2svrDb0pqzr6zEWFVSuBEjv6IRcl9onrqbopSzP9djn4m%2Byqt%2BoqlPy9XLLhmr%2F1YF1JaSoFZNf4aw63EUKdxXluxT57uzCWCAprJZEXzfUeLHIVbu%2Ftw%2FB9z99m0z%2B%2BzaWEtTTYdR4AdHocKEx5jwaWT%2F4fdPt6jDr6yxSLpE3ZaLYNjPFSNHifJ7jgL1%2FqBHCA8vYzQReziHB400ScVIcIOJAlMMeuJU5PWIY%2BJqakR4LEvC2NchSwIkc8XcEdl3oZ%2Bmz%2FB%2Fh70g4RDMp0zg%2BAL1c%2Fog9VTMTSxLvs2m%2Bxffw9Bu9lvU%2F2qwoQYuZhh%2F3lDeNkHWOt6Q4UKlpPyXo3gW5s9MblkqPf41S2FWQwOR7lL%2FwpasBeAG39uOr1tagvKPESXcZ2ZyL5IAsPXD2XUN0F7xsLL7btQrFklVQMnUNrvZ%2BNNRcimZH98D0EhxIuSGsBjx0sLCxzFhQVNnUjT%2F2ukYcOQba%2BKFf4DMbpHrQYZIxc%2FgnwcXtWKEwD6EeIXIUowoSk4AU%3D)
-
 ## Level 1
 
 

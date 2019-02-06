@@ -2,10 +2,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import YamlRenderer from '../components/renderers/yamlRenderer'
-import MarkdownRenderer from '../components/renderers/markdownRenderer'
-import { Section } from '../components/styles'
-import '../css/monzo-framework-prog.min.css'
+import LevelledRenderer from '../components/renderers/levelledRenderer'
+import TextRenderer from '../components/renderers/textRenderer'
 import '../css/main.min.css'
 
 type Props = {
@@ -24,22 +22,14 @@ class View extends React.Component<Props> {
           allMarkdownRemark: allMarkdownRemark,
         }}
       >
-        <Section className="strip--white full-page">
-          <div className="container">
-            <div className="grid-row">
-              <div className="grid-col-12">
-                {pageFrontmatter.yaml === true ? (
-                  <YamlRenderer
-                    pageData={pageFrontmatter}
-                    genericData={genericFrontmatter}
-                  />
-                ) : (
-                  <MarkdownRenderer data={pageFrontmatter} html={html} />
-                )}
-              </div>
-            </div>
-          </div>
-        </Section>
+        {pageFrontmatter.yaml === true ? (
+          <LevelledRenderer
+            pageData={pageFrontmatter}
+            genericData={genericFrontmatter}
+          />
+        ) : (
+          <TextRenderer data={pageFrontmatter} html={html} />
+        )}
       </Layout>
     )
   }
@@ -84,9 +74,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    genericData: markdownRemark(
-      frontmatter: { path: { eq: "/frameworks/generic" } }
-    ) {
+    genericData: markdownRemark(frontmatter: { path: { eq: "/generic" } }) {
       html
       frontmatter {
         path

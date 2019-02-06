@@ -1,5 +1,5 @@
 ---
-path: "/frameworks/operations/ops-individual-contributor"
+path: "/operations/ops-individual-contributor"
 title: "🙋‍♀️️️ Ops Individual Contributor Framework"
 sidebarTitle: "🙋‍♀️ Individual Contributor"
 sidebarGroup: "operations"
@@ -8,7 +8,7 @@ levels: 5
 topics:
   - name: "communication and teamwork"
     title: "💬 Communication and Teamwork"
-    description: "Description goes here"
+    description:
     content:
       - level: 1
         criteria:

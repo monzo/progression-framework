@@ -1,10 +1,10 @@
 ---
-path: "/frameworks/engineering/data"
+path: "/engineering/data"
 title: "📊 Data Engineering Framework"
 sidebarTitle: "📊 Data"
 sidebarGroup: "engineering"
 yaml: false
-levels: null
+levels:
 ---
 Check out the original data framework [here](https://eng-progression.monzo.com/framework/data/).
 

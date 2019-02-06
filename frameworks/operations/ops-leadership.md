@@ -1,10 +1,10 @@
 ---
-path: "/frameworks/operations/ops-leadership"
+path: "/operations/ops-leadership"
 title: "🎯 Ops Leadership Framework"
 sidebarTitle: "🎯 Leadership"
 sidebarGroup: "operations"
 yaml: false
-levels: null
+levels:
 ---
 ## Level 3
 ### Knowledge
