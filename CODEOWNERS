@@ -1,18 +1,40 @@
 # Lines starting with '#' are comments.
 # Each line is a file pattern followed by one or more owners.
 
-# These are owners for a specific engineering file or folder
-site/*  @monzo/web-approvers
-.eslintignore  @monzo/web-approvers
-.eslintrc  @monzo/web-approvers
-.flowconfig  @monzo/web-approvers
-.gitignore  @monzo/web-approvers
-.prettierrc  @monzo/web-approvers
-CODEOWNERS  @monzo/web-approvers
-package.json  @monzo/web-approvers
-yarn.lock  @monzo/web-approvers
-*.js  @monzo/web-approvers
-*.json  @monzo/web-approvers
-
 # These owners will be the default owners for everything in the repo.
 *       @lucasjohnston
+
+# These owners will be the default owners for everything in the frameworks folder.
+frameworks/*        @emmanorthcott
+
+# These are owners for a specific engineering file extension
+*.js        @monzo/web-approvers
+*.css       @monzo/web-approvers
+*.json      @monzo/web-approvers
+
+# These are owners for a specific framework area
+frameworks/operations/*         @bobbi-monzo
+frameworks/design/*             @hugocornejo
+frameworks/engineering/*        @andysmart @wpillar @robinjmurphy
+
+# These are owners for a specific framework file
+frameworks/product.md               @ljkp
+frameworks/generic.md               @emmanorthcott
+frameworks/executive-support.md     @jonashuckestein
+
+# These are owners for a specific engineering file or folder
+src/*                   @monzo/web-approvers
+stubs/*                 @monzo/web-approvers
+.eslintignore           @monzo/web-approvers
+.eslintrc               @monzo/web-approvers
+.flowconfig             @monzo/web-approvers
+.gitignore              @monzo/web-approvers
+.prettierrc             @monzo/web-approvers
+CODEOWNERS              @lucas @emmanorthcott
+README.md               @monzo/web-approvers
+gatsby-config.js        @monzo/web-approvers
+gatsby-browser.js       @monzo/web-approvers
+gatsby-node.js          @monzo/web-approvers
+netlify.toml            @monzo/web-approvers
+package.json            @monzo/web-approvers
+yarn.lock               @monzo/web-approvers
