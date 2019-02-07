@@ -7,8 +7,8 @@ yaml: true
 levels: 6
 topics:
   - name: "mastery"
-    title:
-    description:
+    title: "🛠️ Mastery"
+    description: "Breadth and depth of knowledge in their field"
     content:
       - level: 1
         criteria:
@@ -132,9 +132,9 @@ topics:
         criteria:
           - "Accountable for delivery of large, mission critical engineering projects"
           - "Originates or finishes large, horizontal engineering efforts"
-  - name: "Influence"
-    title:
-    description:
+  - name: "influence"
+    title: "😎 Influence"
+    description: "Influence over the others and on their environment"
     content:
       - level: 1
         criteria:
@@ -167,7 +167,7 @@ topics:
         criteria:
           - "Attracts other very senior hires"
           - "Engineers around them get better and have a bigger impact, faster"
-  - name: "Communication & Feedback "
+  - name: "communication"
     title:
     description:
     content:
@@ -207,9 +207,9 @@ topics:
       - level: 6
         criteria:
           - "Transparent about feedback they have received and what they are going to do differently"
-  - name: "Leadership"
-    title:
-    description:
+  - name: "leadership"
+    title: "Leadership"
+    description: "Ability to lead multiple people efficiently"
     content:
       - level: 3          
         criteria:
