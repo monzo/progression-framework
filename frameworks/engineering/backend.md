@@ -208,7 +208,7 @@ topics:
         criteria:
           - "Transparent about feedback they have received and what they are going to do differently"
   - name: "leadership"
-    title: ":👩‍💼 Leadership"
+    title: "👩‍💼 Leadership"
     description: "Ability to lead multiple people efficiently"
     content:
       - level: 3          
