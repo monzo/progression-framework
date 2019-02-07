@@ -19,7 +19,6 @@ import {
   FrameworkTitleGroup,
   FrameworkHeader,
   ExamplesText,
-  // BREAKPOINT_MOBILE,
   BREAKPOINT_TABLET,
   BREAKPOINT_DESKTOP,
 } from '../styles'
@@ -47,7 +46,6 @@ const masonryBreakpoints = {
   default: 3,
   [BREAKPOINT_DESKTOP]: 2,
   [BREAKPOINT_TABLET]: 1,
-  // [BREAKPOINT_MOBILE]: 1,
 }
 
 class ExampleCriteriaComponent extends React.Component<
