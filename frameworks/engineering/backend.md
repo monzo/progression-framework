@@ -154,7 +154,7 @@ topics:
           - "Maintains documentation on things they know the most, makes it easy for future engineers to interact with systems/code"
           - "Clears blockers for junior team members, provides context/guidance, or knows how to escalate"
           - "Asks why. Does not take truths for granted unless they understand exactly where they are coming from (especially wrt regulation, compliance, etc)"
-          - "Drives changes to engineering practices with well-reasoned arguments and a "strong opinion, weakly held" mentality"
+          - "Drives changes to engineering practices with well-reasoned arguments and a 'strong opinion, weakly held' mentality"
           - "Shapes the direction of systems designs with less experienced engineers"
           - "Breaks down delivery and knowledge silos in their squad"
       - level: 5
@@ -186,7 +186,7 @@ topics:
         exampleCriteria:
           - criteria: "Writes PR descriptions that provide context and provide rationale for significant decisions"
             examples:
-              - “I decided to X instead of Y here, I also considered Z but for these reasons I went with X”
+              - "I decided to X instead of Y here, I also considered Z but for these reasons I went with X"
       - level: 3
         criteria:
           - "Transparent about mistakes they've made, early"
@@ -195,7 +195,7 @@ topics:
           - "Considers the opinions of others before defending their own"
       - level: 4
         criteria:
-          - "Proactively gives feedback "upwards" and to people they interact with who are not in their team"
+          - "Proactively gives feedback 'upwards' and to people they interact with who are not in their team"
           - "Transparent in making design and technical decisions"
           - "Helps people in non-technical roles understand technical constraints / trade-offs"
           - "Shares technical context and direction for less experienced engineers"
@@ -217,7 +217,7 @@ topics:
         exampleCriteria:
           - criteria: "Finds learning opportunities for others when reviewing their code and follows it up"
             examples: 
-              - “I think this code could be improved by doing X, let’s pair on it and I’ll talk through why X is good for this”
+              - "I think this code could be improved by doing X, let’s pair on it and I’ll talk through why X is good for this"
       - level: 4
         criteria:
           - "Contributes to maintaining the Monzo culture in their team, helping new joiners"
@@ -230,8 +230,8 @@ topics:
           - "Helps facilitate team/squad rituals"
         exampleCriteria:
           - criteria: "Makes improvements to modules/libraries/services and goes out of their way to help others learn from it"
-            - examples: 
-              - “I’ve used RxJava for the first time here, I’m going to do a talk about why I’ve done this, here’s some great blog posts on it”
+          - examples:
+            - "I’ve used RxJava for the first time here, I’m going to do a talk about why I’ve done this, here’s some great blog posts on it"
       - level: 5
         criteria: 
           - "Instils Monzo engineering principles across a whole squad of engineers"
