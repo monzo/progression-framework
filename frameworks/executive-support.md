@@ -51,8 +51,15 @@ topics:
     description:
     content:
       - level: 1
-        criteria:
-          - "Learning how to use all Monzo's internal tools (gsuite, slack, lattice, peakon, confluence, notion, JIRA)"
+        exampleCriteria:
+          - criteria: "Learning how to use all Monzo's internal tools"
+            examples:
+              - "GSuite"
+              - "Slack"
+              - "Lattice"
+              - "Peakon"
+              - "Notion"
+              - "JIRA"
       - level: 2
         criteria:
           - "Working knowledge of all Monzo tools"

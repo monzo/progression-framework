@@ -18,6 +18,7 @@ import {
   Title,
   FrameworkTitleGroup,
   FrameworkHeader,
+  ExamplesText,
 } from '../styles'
 
 type Props = {
@@ -31,10 +32,54 @@ type State = {
   inheritsGeneric: boolean,
 }
 
+type CriteriaProps = {
+  content: Object,
+}
+
+type CriteriaState = {
+  isHidden: boolean,
+}
+
 const masonryBreakpoints = {
   default: 3,
   [700]: 2,
   [500]: 1,
+}
+
+class ExampleCriteriaComponent extends React.Component<
+  CriteriaProps,
+  CriteriaState,
+> {
+  state = { isHidden: true }
+
+  toggleView = (event: SyntheticUIEvent<>) => {
+    event != null ? event.preventDefault() : null
+    this.setState({
+      isHidden: !this.state.isHidden,
+    })
+  }
+
+  generateExamples = (content: Object) => {
+    let criteria = content.examples.map((val, i) => (
+      <li key={i + '-' + Math.random()}>{val}</li>
+    ))
+
+    return <ul>{criteria}</ul>
+  }
+
+  render() {
+    const { content } = this.props
+    const { isHidden } = this.state
+
+    return (
+      <li>
+        <ExamplesText onClick={this.toggleView}>
+          {content.criteria}
+        </ExamplesText>
+        {!isHidden ? this.generateExamples(content) : null}
+      </li>
+    )
+  }
 }
 
 export default class LevelledRenderer extends React.Component<Props, State> {
@@ -112,10 +157,10 @@ export default class LevelledRenderer extends React.Component<Props, State> {
   createTopic = (topic: Object) => {
     const { genericData } = this.props
     const { level, isGeneric } = this.state
-
     const genericTopic = genericData.topics.filter(
       obj => obj.name === topic.name,
     )
+
     const title =
       genericTopic != null && !R.isEmpty(genericTopic)
         ? genericTopic.map(obj => obj.title)[0]
@@ -124,13 +169,30 @@ export default class LevelledRenderer extends React.Component<Props, State> {
       genericTopic != null && !R.isEmpty(genericTopic)
         ? genericTopic.map(obj => obj.description)[0]
         : topic.description
+
     const frameworkCriteria = topic.content
       .filter(objContent => objContent.level === level)
       .map(objContent =>
-        objContent.criteria.map((val, i) => (
-          <li key={i + '-' + Math.random()}>{val}</li>
-        )),
+        objContent.criteria != null
+          ? objContent.criteria.map((val, i) => (
+              <li key={i + '-' + Math.random()}>{val}</li>
+            ))
+          : null,
       )
+
+    const exampleCriteria = topic.content
+      .filter(objContent => objContent.level === level)
+      .map(objContent =>
+        objContent.exampleCriteria != null
+          ? objContent.exampleCriteria.map((val, i) => (
+              <ExampleCriteriaComponent
+                content={val}
+                key={i + '-' + Math.random()}
+              />
+            ))
+          : null,
+      )
+
     const genericCriteria =
       genericTopic != null && !R.isEmpty(genericTopic)
         ? genericTopic.map(obj =>
@@ -146,6 +208,7 @@ export default class LevelledRenderer extends React.Component<Props, State> {
 
     if (
       (genericCriteria != null && !R.isEmpty(genericCriteria)) ||
+      (exampleCriteria != null && !R.isEmpty(exampleCriteria)) ||
       (frameworkCriteria != null && !R.isEmpty(frameworkCriteria))
     ) {
       return (
@@ -157,6 +220,10 @@ export default class LevelledRenderer extends React.Component<Props, State> {
           <CardContentList>
             {frameworkCriteria != null && !R.isEmpty(frameworkCriteria)
               ? frameworkCriteria
+              : null}
+
+            {exampleCriteria != null && !R.isEmpty(exampleCriteria)
+              ? exampleCriteria
               : null}
 
             {!isGeneric &&
