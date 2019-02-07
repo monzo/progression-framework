@@ -4,7 +4,15 @@ import styled, { css } from 'styled-components'
 import PartialNavLink from './partialNavLink'
 
 // Variables
+// export const BREAKPOINT_
+
+export const PORTRAIT = 'max-aspect-ratio: 13/9'
+export const LANDSCAPE = 'min-aspect-ratio: 13/9'
+
 export const BREAKPOINT_MOBILE = 736
+// export const BREAKPOINT_TABLET = 836
+export const BREAKPOINT_TABLET = 1024
+export const BREAKPOINT_DESKTOP = 1300
 export const MIDNIGHT_SKY = '#14233c'
 export const LAGOON_BLUE = '#145d8e'
 export const GREY_BLUE = '#707b8c'
@@ -18,6 +26,10 @@ export const PrimaryView = styled.div`
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 
+  @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
+    padding: 2em 2.5em;
+  }
+
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     padding: 5% 1em 2em 1em;
   }
@@ -26,6 +38,10 @@ export const PrimaryView = styled.div`
 export const DescriptionView = styled(PrimaryView)`
   padding-top: 10%;
 
+  @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
+    padding-top: 4em;
+    padding-left: 3em;
+  }
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     padding-top: 5%;
   }
@@ -79,6 +95,10 @@ export const Subtitle = styled.h3`
     'Arial', sans-serif;
   font-weight: 600;
   color: ${GREY_BLUE};
+
+  @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
+    font-size: 1.8em;
+  }
 
   ${props =>
     props.small &&
@@ -139,6 +159,11 @@ export const FrameworkTitleGroup = styled.div`
   justify-content: center;
 `
 
+export const DescriptionTitleGroup = styled.div`
+  position: relative;
+  z-index: 1;
+`
+
 export const CardTitleGroup = styled.div`
   margin-top: 0.2em;
 `
@@ -149,6 +174,10 @@ export const Title = styled.h1`
   font-weight: 600;
   color: ${MIDNIGHT_SKY};
   margin-top: 0;
+
+  @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
+    font-size: 2.25em;
+  }
 
   ${props =>
     props.small &&
@@ -198,15 +227,55 @@ export const Contain = styled.div`
   margin-top: 0 !important;
 `
 
-export const DescriptionIllustration = styled.img`
-  height: 60vh;
-  position: absolute;
+export const DescriptionContainer = styled.div`
+  position: sticky;
+  margin-top: 0;
   bottom: 0;
   right: 0;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: none;
   }
+  @media (${PORTRAIT}) {
+    @media all and (max-width: ${BREAKPOINT_DESKTOP}px) {
+      display: none;
+    }
+  }
+`
+
+export const DescriptionIllustration = styled.img`
+  height: 60vh;
+  position: absolute;
+  bottom: -3em;
+  right: -5em;
+
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
+    display: none;
+  }
+  @media (${PORTRAIT}) {
+    @media all and (max-width: ${BREAKPOINT_DESKTOP}px) {
+      display: none;
+    }
+  }
+
+  @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
+    height: 50vh;
+  }
+
+  ${props =>
+    props.titleGroupHeight &&
+    props.descriptionHeight &&
+    css`
+      @media all and (min-width: ${BREAKPOINT_TABLET}px) {
+        bottom: calc(
+          1px -
+            (
+              100vh - 9em - ${props.titleGroupHeight}px - 25px -
+                ${props.descriptionHeight}px
+            ) - 1px
+        );
+      }
+    `}
 `
 
 export const Description = styled.div`
@@ -215,6 +284,9 @@ export const Description = styled.div`
   width: 65%;
   z-index: 1;
 
+  @media all and (max-width: ${BREAKPOINT_DESKTOP}px) {
+    width: 100%;
+  }
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     margin-bottom: 3em;
     width: 95%;
@@ -234,13 +306,15 @@ export const DescriptionText = styled.p`
 `
 
 export const Wrapper = styled.div`
-  padding: env(safe-area-inset-top) env(safe-area-inset-right)
-    env(safe-area-inset-bottom) env(safe-area-inset-left);
   margin-top: 0;
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100% !important;
+  
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
 `
 
 export const Content = styled(Wrapper)`
@@ -286,7 +360,7 @@ export const Sidebar = styled.div`
   -webkit-overflow-scrolling: touch;
   height: 100%;
   width: 19%;
-  min-width: 360px;
+  min-width: 320px;
   h4 {
     padding-top: 0;
     font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
@@ -424,6 +498,10 @@ export const CenteredElement = styled.div`
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     width: 70% !important;
+
+    @media (${LANDSCAPE}) {
+      margin-top: 4em;
+    }
   }
 `
 
@@ -491,11 +569,15 @@ export const ListElement = styled.li`
 `
 
 export const LevelsContainer = styled.div`
-  width: 15%;
+  width: 13em;
   margin-top: 0;
   align-items: center;
 
-  @media all and (max-width: 768px) {
+  @media all and (max-width: ${BREAKPOINT_DESKTOP}px) {
+    width: 11.5em;
+  }
+
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: flex;
     width: 100%;
     margin-top: 1em;
@@ -511,7 +593,7 @@ export const LevelsTextWrapper = styled.div`
   width: 100%;
   justify-content: space-between;
 
-  @media all and (max-width: 768px) {
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     width: 40%;
     display: flex;
     justify-content: space-between;

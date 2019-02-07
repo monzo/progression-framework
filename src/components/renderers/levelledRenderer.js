@@ -19,6 +19,9 @@ import {
   FrameworkTitleGroup,
   FrameworkHeader,
   ExamplesText,
+  // BREAKPOINT_MOBILE,
+  BREAKPOINT_TABLET,
+  BREAKPOINT_DESKTOP,
 } from '../styles'
 
 type Props = {
@@ -42,8 +45,9 @@ type CriteriaState = {
 
 const masonryBreakpoints = {
   default: 3,
-  [700]: 2,
-  [500]: 1,
+  [BREAKPOINT_DESKTOP]: 2,
+  [BREAKPOINT_TABLET]: 1,
+  // [BREAKPOINT_MOBILE]: 1,
 }
 
 class ExampleCriteriaComponent extends React.Component<

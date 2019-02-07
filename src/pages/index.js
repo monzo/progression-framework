@@ -12,6 +12,8 @@ import {
   Description,
   DescriptionText,
   DescriptionIllustration,
+  DescriptionTitleGroup,
+  DescriptionContainer,
 } from '../components/styles'
 import '../css/main.min.css'
 
@@ -19,33 +21,68 @@ type Props = {
   data: Object,
 }
 
-export default class Index extends React.Component<Props> {
+type State = {
+  titleGroupHeight: string,
+  descriptionHeight: string,
+}
+
+export default class Index extends React.Component<Props, State> {
+  titleGroup: ?Object
+  description: ?Object
+  state = {
+    titleGroupHeight: '0',
+    descriptionHeight: '0',
+  }
+
+  componentDidMount() {
+    if (this.titleGroup != null && this.description != null) {
+      const titleGroupHeight = this.titleGroup.clientHeight
+      const descriptionHeight = this.description.clientHeight
+      this.setState({ titleGroupHeight, descriptionHeight })
+    }
+  }
+
   render() {
     return (
       <Layout data={this.props.data}>
         <DescriptionView>
-          <Subtitle>Welcome To</Subtitle>
-          <Title>Progression at Monzo 🎉</Title>
-          <Description>
+          <DescriptionTitleGroup
+            ref={titleGroup => {
+              this.titleGroup = titleGroup
+            }}
+          >
+            <Subtitle>Welcome To</Subtitle>
+            <Title>Progression at Monzo 🎉</Title>
+          </DescriptionTitleGroup>
+          <Description
+            ref={description => {
+              this.description = description
+            }}
+          >
             <DescriptionText>
-              Hey there! 👋
-              <br />
-              You’ve found yourself on the Progression at Monzo site.
+              This is where we keep the progression frameworks we use at Monzo.
             </DescriptionText>
             <DescriptionText>
-              This site has been created to show the Progression Frameworks that
-              we use internally at Monzo to the rest of world 🌐
+              Progression frameworks are tools that help us evaluate and pay our
+              staff consistently, and help people understand how to progress in
+              their work.
             </DescriptionText>
             <DescriptionText>
-              We’ll be adding more frameworks to this site as they are built and
-              as roles at Monzo evolve, so expect things to change around here!
+              We&apos;ve put them here for everyone at Monzo (and anyone in the
+              world!) to use.
             </DescriptionText>
             <DescriptionText>
-              This site, along with all of our frameworks, are open source. This
-              means that anyone can contribute to the development of this site
-              or Monzo’s Progression Frameworks, and can use both as inspiration
-              for their own projects!
-              <br />
+              We&apos;ll be adding more frameworks as we build them, and
+              updating existing ones as we grow, so expect things to change
+              around here!
+            </DescriptionText>
+            <DescriptionText>
+              This site, along with all our progression frameworks, are open
+              source. That means you can contribute to the development of this
+              site or our progression frameworks, and use both as inspiration
+              for your own projects!
+            </DescriptionText>
+            <DescriptionText>
               To get involved, go to{' '}
               <a href="https://github.com/monzo/progression-framework">
                 <FontAwesomeIcon icon={faGithub} />{' '}
@@ -53,17 +90,23 @@ export default class Index extends React.Component<Props> {
               </a>
             </DescriptionText>
             <DescriptionText>
-              We’ve also written a blog post all about Progression at Monzo and
-              what it means for us{' '}
+              You can find out more about progression at Monzo and what it means
+              for us in this{' '}
               <a href="https://monzo.com/blog/2019/01/07/progression">
-                - and you can check it out here.
+                blog post.
               </a>
             </DescriptionText>
             <DescriptionText>
               Take a look around and let us know what you think! 🚀
             </DescriptionText>
           </Description>
-          <DescriptionIllustration src={illustration} />
+          <DescriptionContainer>
+            <DescriptionIllustration
+              src={illustration}
+              titleGroupHeight={this.state.titleGroupHeight}
+              descriptionHeight={this.state.descriptionHeight}
+            />
+          </DescriptionContainer>
         </DescriptionView>
       </Layout>
     )
