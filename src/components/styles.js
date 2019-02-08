@@ -483,14 +483,21 @@ export const DescriptionTitleGroup = styled.div`
 `
 
 export const DescriptionContainer = styled.div`
-  position: sticky;
-  margin-top: 0;
+  position: fixed;
   bottom: 0;
   right: 0;
+
+  // @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
+  //   position: sticky;
+  //   margin-top: 0;
+  //   bottom: 0;
+  //   right: 0;
+  // }
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: none;
   }
+
   @media (${PORTRAIT}) {
     @media all and (max-width: ${BREAKPOINT_DESKTOP}px) {
       display: none;
@@ -500,9 +507,13 @@ export const DescriptionContainer = styled.div`
 
 export const DescriptionIllustration = styled.img`
   height: 60vh;
-  position: absolute;
-  bottom: -3em;
-  right: -5em;
+
+  // @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
+  //   position: absolute;
+  //   height: 50vh;
+  //   bottom: -3em;
+  //   right: -5em;
+  // }
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: none;
@@ -512,16 +523,14 @@ export const DescriptionIllustration = styled.img`
       display: none;
     }
   }
-
-  @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
-    height: 50vh;
-  }
-
-  ${props =>
+`
+/*
+*   ${props =>
     props.titleGroupHeight &&
     props.descriptionHeight &&
     css`
-      @media all and (min-width: ${BREAKPOINT_TABLET}px) {
+      @media all and (min-width: ${BREAKPOINT_MOBILE}px) {
+        // may need commenting out, was tablet
         bottom: calc(
           1px -
             (
@@ -531,7 +540,7 @@ export const DescriptionIllustration = styled.img`
         );
       }
     `}
-`
+    */
 
 export const Description = styled.div`
   position: relative;
