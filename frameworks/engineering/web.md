@@ -14,7 +14,7 @@ Check out the original web engineering framework [here](https://eng-progression.
 
 - Learns to write correct JavaScript following guidance and training materials
 
-- Uses git to manage the development workflow effectivly
+- Uses git to manage the development workflow effectively
 
 	> **Example**
 	>
