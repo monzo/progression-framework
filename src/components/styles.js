@@ -487,13 +487,6 @@ export const DescriptionContainer = styled.div`
   bottom: 0;
   right: 0;
 
-  // @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
-  //   position: sticky;
-  //   margin-top: 0;
-  //   bottom: 0;
-  //   right: 0;
-  // }
-
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: none;
   }
@@ -508,13 +501,6 @@ export const DescriptionContainer = styled.div`
 export const DescriptionIllustration = styled.img`
   height: 60vh;
 
-  // @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
-  //   position: absolute;
-  //   height: 50vh;
-  //   bottom: -3em;
-  //   right: -5em;
-  // }
-
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: none;
   }
@@ -524,23 +510,6 @@ export const DescriptionIllustration = styled.img`
     }
   }
 `
-/*
-*   ${props =>
-    props.titleGroupHeight &&
-    props.descriptionHeight &&
-    css`
-      @media all and (min-width: ${BREAKPOINT_MOBILE}px) {
-        // may need commenting out, was tablet
-        bottom: calc(
-          1px -
-            (
-              100vh - 9em - ${props.titleGroupHeight}px - 25px -
-                ${props.descriptionHeight}px
-            ) - 1px
-        );
-      }
-    `}
-    */
 
 export const Description = styled.div`
   position: relative;
