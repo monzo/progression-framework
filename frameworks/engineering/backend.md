@@ -143,6 +143,8 @@ Check out the original backend engineering framework [here](https://eng-progress
 
 - Considers the opinions of others before defending their own
 
+- Gets to a common understanding of the problem domain with their audience before discussing solutions
+
 ### Leadership
 - Onboards / mentors new engineers
 
