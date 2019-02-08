@@ -45,7 +45,7 @@ topics:
             examples: 
               - "lib.money, lib.api, lib.identity-verification, etc.
       - level: 3
-        exampleCriteria: 
+        exampleCriteria:
           - criteria: "Writes effective JavaScript by applying fundamental functional and reactive principles and techniques where appropriate and guides others in so doing"
             examples: 
               - "Uses uses event streams, immutable data structures, pure functions, functional composition, memoization, etc."
