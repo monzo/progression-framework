@@ -143,6 +143,10 @@ Check out the original backend engineering framework [here](https://eng-progress
 
 - Considers the opinions of others before defending their own
 
+- Speaks and writes at the level of abstraction of their audience
+
+ 	- Determines how familiar their audience is with the problem at hand, and avoids or explains jargon they may not be familiar with. Considers their audience's use of time in written communication: a message is written once but may be read several times.
+
 ### Leadership
 - Onboards / mentors new engineers
 
