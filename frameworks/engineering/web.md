@@ -1,7 +1,7 @@
 ---
 path: "/engineering/web"
 title: "🌐 Web Engineering Framework"
-sidebarTitle: "🌐  Web"
+sidebarTitle: "🌐 Web"
 sidebarGroup: "engineering"
 yaml: true
 levels: 6
@@ -43,7 +43,7 @@ topics:
               - "Follows React Development Conventions & Best Practices; uses component state and lifecycle methods correctly"
           - criteria: "Uses shared libraries to reuse existing functionality"
             examples: 
-              - "lib.money, lib.api, lib.identity-verification, etc.
+              - "lib.money, lib.api, lib.identity-verification, etc."
       - level: 3
         exampleCriteria:
           - criteria: "Writes effective JavaScript by applying fundamental functional and reactive principles and techniques where appropriate and guides others in so doing"
@@ -135,7 +135,7 @@ topics:
           - "Solves the 'hard problem' in a project e.g. Mastercard crypto and sees it through to resolution"
           - "Solves larger ambiguous problems"
           - "Leads incident resolutions"
-          - "Makes judgements about when to diverge from the immediate goal to achieve something else
+          - "Makes judgements about when to diverge from the immediate goal to achieve something else"
           - "Leading large scale technical infrastructure projects (level 5 would originate or complete, probably)"
           - "Leads writing large scope proposals"
           - "Breaks down large long-lasting projects into sensible discrete chunks that compound to achieve a large goal"
