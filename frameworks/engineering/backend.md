@@ -24,7 +24,7 @@ topics:
         exampleCriteria:
           - criteria: "Provides helpful and actionable feedback in code reviews in an empathetic manner"
             examples:
-              - "Take a look at the [levelling up your code reviews](https://mondough.atlassian.net/wiki/spaces/ON/pages/470679626/Knowledge+Share+Videos) talk for some ideas"
+              - "Take a look at the levelling up your code reviews talk for some ideas"
           - criteria: "Writes PR descriptions that provide context and provide rationale for significant decisions"
             examples:
               - "I decided to X instead of Y here, I also considered Z but for these reasons I went with X"
@@ -188,7 +188,7 @@ topics:
               - "Internal/external API proxies"
           - criteria: "Writes correct Go code following accepted best practices"
             examples:
-              - "Follows our [Coding Conventions & Best Practices](https://mondough.atlassian.net/wiki/spaces/TECH/pages/80675031/Coding+Conventions+and+Best+Practices), uses language-level primitives correctly"
+              - "Follows our Coding Conventions & Best Practices, uses language-level primitives correctly"
       - level: 3
         criteria:
           - "Uses appropriate design patterns"
@@ -203,7 +203,7 @@ topics:
         exampleCriteria:
           - criteria: "Writes idiomatic Go code"
             examples:
-              - "Follows the guidelines in [Effective Go](https://golang.org/doc/effective_go.html), avoids using patterns that are idiomatic in other languages"
+              - "Follows the guidelines in Effective Go (https://golang.org/doc/effective_go.html), avoids using patterns that are idiomatic in other languages"
           - criteria: "Mitigates race conditions and partial failure states in distributed systems"
             examples:
               - "Uses locking where appropriate, writes code that is “self-healing” when dealing with distributed failure (e.g. data needs to be written in two or more services)"
@@ -247,7 +247,7 @@ topics:
         exampleCriteria:
           - criteria: "Produces clear technical designs for large complex projects"
             examples:
-              - "[Outbound](https://paper.dropbox.com/doc/RFC-Accepted-Outbound-Mastercard-Clearing-lZTk0Na2189T3M8Jn6bjw) and [Inbound](https://paper.dropbox.com/doc/RFC-Proposal-Reliableer-Mastercard-Inbound-Clearing-OfLZqmP1FWZiKHYBTfvUP) MasterCard clearing proposals"
+              - "Outbound and Inbound MasterCard clearing proposals"
       - level: 6
         criteria:
           - "Makes major contributions to technologies and libraries that we depend on"

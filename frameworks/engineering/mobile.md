@@ -24,7 +24,7 @@ topics:
         exampleCriteria:
           - criteria: "Provides helpful and actionable feedback in code reviews in an empathetic manner"
             examples:
-              - "Take a look at the [levelling up your code reviews](https://mondough.atlassian.net/wiki/spaces/ON/pages/470679626/Knowledge+Share+Videos) talk for some ideas"
+              - "Take a look at the levelling up your code reviews talk for some ideas"
           - criteria: "Writes PR descriptions that provide context and provide rationale for significant decisions"
             examples:
               - "I decided to X instead of Y here, I also considered Z but for these reasons I went with X"

@@ -24,7 +24,7 @@ topics:
         exampleCriteria:
           - criteria: "Provides helpful and actionable feedback in code reviews in an empathetic manner"
             examples:
-              - "Take a look at the [levelling up your code reviews](https://mondough.atlassian.net/wiki/spaces/ON/pages/470679626/Knowledge+Share+Videos) talk for some ideas"
+              - "Take a look at the levelling up your code reviews talk for some ideas"
           - criteria: "Writes PR descriptions that provide context and provide rationale for significant decisions"
             examples:
               - "I decided to X instead of Y here, I also considered Z but for these reasons I went with X"
@@ -168,20 +168,20 @@ topics:
     content:
       - level: 1
         criteria:
-          - "‼️ Comfortable with using git and contributing to our code base"
-          - "‼️ Can extend existing data models and design simple new ones"
-          - "‼️ Creates new Looker views and dashboards; extracts basic insights quickly from existing Looker explores"
-          - "‼️ Strong SQL skills"
+          - "Comfortable with using git and contributing to our code base"
+          - "Can extend existing data models and design simple new ones"
+          - "Creates new Looker views and dashboards; extracts basic insights quickly from existing Looker explores"
+          - "Strong SQL skills"
           - "Implements basic prediction models quickly"
           - "Basic Python or R skills"
           - "Delivers assigned tasks that meet expected criteria"
           - "Tries to unblock themselves first before seeking help"
           - "Works for the team, focuses on tasks that contribute to team goals"
         exampleCriteria:
-          - criteria: "‼️ Demonstrates a good understanding of the business team they are partnering with"
+          - criteria: "Demonstrates a good understanding of the business team they are partnering with"
             examples:
               - "Knows how the team is organised, who is who, what are the goals, current priorities, biggest challenges etc."
-          - criteria: "‼️ Translates business questions into analysable hypothesis and answers those"
+          - criteria: "Translates business questions into analysable hypothesis and answers those"
             examples:
               - "Question from business 'Why do salaried users cost us twice as much on customer support?' → cost are allocated by number of intercom queries → salaried users must be generating more queries → Is of queries proportional to engagement? → Are all salaried users are over-proportionally struggling with particular problems (e.g. missing bank statements) → etc."
           - criteria: "Picks the right visualisation types for the data at hand"
@@ -192,40 +192,40 @@ topics:
               - "Able to find a formula to calculate confidence intervals for different measurement scenarios, knows how to interpret those etc."
       - level: 2
         criteria:
-          - "‼️ Reasons well about about underlying principles of data modeling"
+          - "Reasons well about about underlying principles of data modeling"
         exampleCriteria:
-          - criteria: "‼️ Attention to details"
+          - criteria: "Attention to details"
             examples:
               - "whenever they deliver a piece of work or send a weekly KPIs report they don’t just blindly copy & paste; they sanity check whether things make sense and try to spot mistakes"
-          - criteria: "‼️ Manages their own time effectively, prioritises their workload well, on time for meetings, aware when blocking others and unblocks"
+          - criteria: "Manages their own time effectively, prioritises their workload well, on time for meetings, aware when blocking others and unblocks"
             examples:
               - "able to focus on assigned tasks despite distractions from people, emails, slacks etc. Able to create a 'focus environment' for themselves"
               - "exhibits self-awareness around personal productivity (able to spot and debug personal productivity issues or to seek help/advice)"
-          - criteria: "‼️ Brings things to completion"
+          - criteria: "Brings things to completion"
             examples:
               - "analysts/data scientists often exhibit a behaviour where they run many analyses in parallel for a prolonged time without closing tasks off. Closing a task off could mean writing down key takeaway and sharing the findings with the relevant audience."
               - "brings a model into a production experiment instead of continuing to tweak offline results"
       - level: 3
         criteria:
-          - "‼️ Consistently applies data modeling best practices and suggests ways to improve current practices in non trivial cases"
-          - "‼️ Able determine what really matters for a particular analysis and understands what a 80/20 solution would look like and can prioritise accordingly"
+          - "Consistently applies data modeling best practices and suggests ways to improve current practices in non trivial cases"
+          - "Able determine what really matters for a particular analysis and understands what a 80/20 solution would look like and can prioritise accordingly"
         exampleCriteria:
-          - criteria: "‼️ Able to pick the best tool and method to effectively help the business to answer a question/make a decision"
+          - criteria: "Able to pick the best tool and method to effectively help the business to answer a question/make a decision"
             examples:
               - "Looker, SQL, python or spreadsheets + a basic chart, blackbox ML model or a structured scenario model etc) → Understands the problem at hand and proposes alternative suitable solutions rather trying to fit the problem to the favourite tool."
-          - criteria: "‼️ Concise, clear and effective communication"
+          - criteria: "Concise, clear and effective communication"
             examples:
               - "tailored to audience, clear and concise message (i.e no unnecessary details)"
               - "can be through emails, slack or presentations"
       - level: 4
         criteria:
-          - "‼️ Actively drives improvements of how the team works"
-          - "‼️ Values teams success over individual success and company’s success over teams success"
+          - "Actively drives improvements of how the team works"
+          - "Values teams success over individual success and company’s success over teams success"
           - "Onboards / mentors new team members"
           - "Gets buy-in on technical decision-making and proposed designs"
           - "Sought out for code reviews"
         exampleCriteria:
-          - criteria: "‼️ Distinguishes clearly between urgent and important tasks and is able to focus on getting the important tasks done."
+          - criteria: "Distinguishes clearly between urgent and important tasks and is able to focus on getting the important tasks done."
             examples:
               - "effectively manages expectations of other people"
               - "communicates priorities to their team and other relevant stakeholders"
@@ -234,14 +234,14 @@ topics:
               - "Accountability is about delivering on a commitment. It’s responsibility to an outcome, not just a set of tasks."
           - criteria: "Communicates complex ideas effectively"
             examples:
-              - "has the ability to chose the appropriate level of abstraction and make complexity easy to understand, [tips](https://www.fastcompany.com/3045853/how-to-talk-about-complex-topics-without-dumbing-them-down)"
+              - "has the ability to chose the appropriate level of abstraction and make complexity easy to understand tips (see https://www.fastcompany.com/3045853/how-to-talk-about-complex-topics-without-dumbing-them-down)"
       - level: 5
         criteria:
-          - "‼️ Solves larger ambiguous/not well defined problems"
-          - "‼️ Contributes to maintaining Monzo’s culture in the wider company"
-          - "‼️ Proactively thinks about how we can get better at our purpose: quicker and better decisions based on data" 
+          - "Solves larger ambiguous/not well defined problems"
+          - "Contributes to maintaining Monzo’s culture in the wider company"
+          - "Proactively thinks about how we can get better at our purpose: quicker and better decisions based on data" 
         exampleCriteria:
-          - criteria: "‼️ Builds out a strong internal network"
+          - criteria: "Builds out a strong internal network"
             examples:
               - "i.e. well connected through-out the company, also to teams with no direct common projects at the moment"
           - criteria: "Has good organisational awareness"
@@ -274,15 +274,15 @@ topics:
           - "Thrown at fires and resolves / contributes heavily to resolving them"
           - "Replicates cutting edge approaches from research papers where required"
           - "Thinks about the future situations code will be used in, planning and acting accordingly"
-          - "‼️ Makes pragmatic choices about taking on tech debt"
+          - "Makes pragmatic choices about taking on tech debt"
         exampleCriteria:
           - criteria: "Debugs complex Deep Neural Net code/issues"
             examples:
               - "knows what to look at when the loss is not decreasing etc."
-          - criteria: "‼️ Validates ideas aggressively & iteratively"
+          - criteria: "Validates ideas aggressively & iteratively"
             examples:
               - "tackles the biggest unknowns first; validates ideas with 10% effort"
-          - criteria: "‼️ Measures, understands and is transparent about the impact of their ML work."
+          - criteria: "Measures, understands and is transparent about the impact of their ML work."
             examples:
               - "we should serve as role models for the rest of the company in this regard in particular"
       - level: 5
@@ -309,10 +309,10 @@ topics:
               - "especially with regards to regulation, compliance, etc."
       - level: 4
         exampleCriteria:
-          - criteria: "‼️ Valued and trusted business partner for the teams they support"
+          - criteria: "Valued and trusted business partner for the teams they support"
             examples:
               - "Can be mostly proxied by the type of questions their business partners are asking. 'Can you help me to solve this (hard) problem?' vs 'Can you please pull this number?'"
-          - criteria: "‼️ Proactively identifies relevant/impactful areas for analyses which would deepen the understanding of the business or enable decisions"
+          - criteria: "Proactively identifies relevant/impactful areas for analyses which would deepen the understanding of the business or enable decisions"
             examples:
               - "during the planning process you contribute proactively to help your team to define the right priorities with relevant insights"
       - level: 5
