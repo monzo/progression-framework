@@ -224,14 +224,14 @@ export default class LevelledRenderer extends React.Component<Props, State> {
               ? frameworkCriteria
               : null}
 
-            {exampleCriteria != null && !R.isEmpty(exampleCriteria)
-              ? exampleCriteria
-              : null}
-
             {!isGeneric &&
             !R.isEmpty(genericCriteria) &&
             genericCriteria != null
               ? genericCriteria
+              : null}
+
+            {exampleCriteria != null && !R.isEmpty(exampleCriteria)
+              ? exampleCriteria
               : null}
           </CardContentList>
         </FrameworkCard>

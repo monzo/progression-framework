@@ -260,10 +260,10 @@ export const LevelsContainer = styled.div`
 
 export const LevelsTextWrapper = styled.div`
   display: inline-flex;
+  justify-content: flex-end;
   margin-left: 0;
   margin-top: 0;
   width: 100%;
-  justify-content: space-between;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     width: 40%;
@@ -274,6 +274,7 @@ export const LevelsTextWrapper = styled.div`
 
 export const LevelsText = styled.h2`
   cursor: pointer;
+  margin-left: 20px;
   margin-top: 0;
   font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
