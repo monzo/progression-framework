@@ -7,7 +7,7 @@ yaml: true
 levels: 2
 topics:
   - name: "knowledgeandimpact"
-    title: "🤯 Knowledge & Impact"
+    title: "🧠 Knowledge & Impact"
     description: "Breadth and depth of knowledge, and the ambiguity and impact of their work"
     content:
       - level: 1
