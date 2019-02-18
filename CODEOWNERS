@@ -19,6 +19,7 @@ frameworks/engineering/*        @andysmart @wpillar @robinjmurphy
 
 # These are owners for a specific framework file
 frameworks/product.md               @ljkp
+frameworks/people.md                @raramonzo
 frameworks/generic.md               @emmanorthcott
 frameworks/executive-support.md     @jonashuckestein
 
