@@ -21,6 +21,7 @@ frameworks/engineering/*        @andysmart @wpillar @robinjmurphy
 frameworks/product.md               @ljkp
 frameworks/generic.md               @emmanorthcott
 frameworks/executive-support.md     @jonashuckestein
+frameworks/customer-operations.md   @bethmonzo
 
 # These are owners for a specific engineering file or folder
 src/*                   @monzo/web-approvers
