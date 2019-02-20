@@ -170,23 +170,24 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Learns to write correct Go code, following guidance and training materials"
+          - "Learns to write correct code, following guidance and training materials"
           - "Fixes simple bugs"
       - level: 2
         criteria:
           - "Designs simple database tables"
           - "Implements asynchronous messaging between services"
-          - "Deploys services to staging and production"
+          - "Deploys to staging and production"
           - "Handles simple error cases in RPC handlers and message consumers"
           - "Fixes bugs involving a number of services and can investigate production issues"
-          - "Uses appropriate algorithms and data structures to solve problems"
+          - "Uses appropriate algorithms, data structures and tools to solve problems"
           - "Writes automated unit and acceptance tests"
         exampleCriteria:
-          - criteria: "Implements simple RPC handlers"
+          - criteria: "Implements simple RPC handlers / scripts"
             examples:
               - "Basic CRUD handlers"
               - "Internal/external API proxies"
-          - criteria: "Writes correct Go code following accepted best practices"
+              - "Statefulset update script"
+          - criteria: "Writes correct code following accepted best practices"
             examples:
               - "Follows our Coding Conventions & Best Practices, uses language-level primitives correctly"
       - level: 3
@@ -201,22 +202,23 @@ topics:
           - "Debugs production issues"
           - "Considers metrics when building a new system"
         exampleCriteria:
-          - criteria: "Writes idiomatic Go code"
+          - criteria: "Writes idiomatic code"
             examples:
               - "Follows the guidelines in Effective Go (https://golang.org/doc/effective_go.html), avoids using patterns that are idiomatic in other languages"
           - criteria: "Mitigates race conditions and partial failure states in distributed systems"
             examples:
               - "Uses locking where appropriate, writes code that is “self-healing” when dealing with distributed failure (e.g. data needs to be written in two or more services)"
-          - criteria: "Implements complex RPC handlers"
+          - criteria: "Implements complex RPC handlers/scripts"
             examples:
               - "Implements complex business logic, orchestrates multi-stage processes, deals with idempotency or distributed data sources"
+              - "Implements complex scripts to make cluster-wide changes to production (e.g. rolling out a change to the service mesh)"
       - level: 4
         criteria:
           - "Writes code that serves as a definitive example for new engineers"
           - "Leads the refactoring (de-cruftification) of complex systems"
           - "Debugs complex production issues at speed"
           - "Identifies and fixes security vulnerabilities"
-          - "Identifies and fixes performance bottlenecks in individual services"
+          - "Identifies and fixes performance bottlenecks in individual systems/services"
           - "Explains all aspects of the platform to new engineers"
           - "Includes actionable dashboarding as part of a new system"
         exampleCriteria:
@@ -226,6 +228,7 @@ topics:
               - "Credit decisioning"
               - "CASS scheduling"
               - "Google Pay"
+              - "Cassandra Library"
           - criteria: "Makes contributions to library code or core services"
             examples:
               - "Bug fixes, small improvements; things that don’t result in a major change in the public API"
