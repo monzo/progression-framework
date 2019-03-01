@@ -2,40 +2,40 @@
 # Each line is a file pattern followed by one or more owners.
 
 # These owners will be the default owners for everything in the repo.
-*       @lucasjohnston
+*       @org-scaling
 
 # These owners will be the default owners for everything in the frameworks folder.
-frameworks/*        @emmanorthcott
+frameworks/*        @org-scaling
 
 # These are owners for a specific engineering file extension
-*.js        @monzo/web-approvers
-*.css       @monzo/web-approvers
-*.json      @monzo/web-approvers
+*.js        @monzo/web-approvers @org-scaling
+*.css       @monzo/web-approvers @org-scaling
+*.json      @monzo/web-approvers @org-scaling
 
 # These are owners for a specific framework area
-frameworks/operations/*         @bobbi-monzo
-frameworks/design/*             @hugocornejo
-frameworks/engineering/*        @andysmart @wpillar @robinjmurphy
+frameworks/operations/*         @bobbi-monzo @org-scaling
+frameworks/design/*             @hugocornejo @org-scaling
+frameworks/engineering/*        @andysmart @wpillar @robinjmurphy @org-scaling
 
 # These are owners for a specific framework file
-frameworks/product.md               @ljkp
-frameworks/people.md                @raramonzo
-frameworks/generic.md               @emmanorthcott
-frameworks/executive-support.md     @jonashuckestein
+frameworks/product.md               @ljkp @org-scaling
+frameworks/people.md                @raramonzo @org-scaling
+frameworks/generic.md               @emmanorthcott @org-scaling
+frameworks/executive-support.md     @jonashuckestein @org-scaling
 
 # These are owners for a specific engineering file or folder
-src/*                   @monzo/web-approvers
-stubs/*                 @monzo/web-approvers
-.eslintignore           @monzo/web-approvers
-.eslintrc               @monzo/web-approvers
-.flowconfig             @monzo/web-approvers
-.gitignore              @monzo/web-approvers
-.prettierrc             @monzo/web-approvers
-CODEOWNERS              @lucas @emmanorthcott
-README.md               @monzo/web-approvers
-gatsby-config.js        @monzo/web-approvers
-gatsby-browser.js       @monzo/web-approvers
-gatsby-node.js          @monzo/web-approvers
-netlify.toml            @monzo/web-approvers
-package.json            @monzo/web-approvers
-yarn.lock               @monzo/web-approvers
+src/*                   @monzo/web-approvers @org-scaling
+stubs/*                 @monzo/web-approvers @org-scaling
+.eslintignore           @monzo/web-approvers @org-scaling
+.eslintrc               @monzo/web-approvers @org-scaling
+.flowconfig             @monzo/web-approvers @org-scaling
+.gitignore              @monzo/web-approvers @org-scaling
+.prettierrc             @monzo/web-approvers @org-scaling
+CODEOWNERS              @org-scaling
+README.md               @monzo/web-approvers @org-scaling
+gatsby-config.js        @monzo/web-approvers @org-scaling
+gatsby-browser.js       @monzo/web-approvers @org-scaling
+gatsby-node.js          @monzo/web-approvers @org-scaling
+netlify.toml            @monzo/web-approvers @org-scaling
+package.json            @monzo/web-approvers @org-scaling
+yarn.lock               @monzo/web-approvers @org-scaling
