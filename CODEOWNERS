@@ -2,40 +2,40 @@
 # Each line is a file pattern followed by one or more owners.
 
 # These owners will be the default owners for everything in the repo.
-*       @monzo/@org-scaling
+*       @monzo/org-scaling
 
 # These owners will be the default owners for everything in the frameworks folder.
-frameworks/*        @monzo/@org-scaling
+frameworks/*        @monzo/org-scaling
 
 # These are owners for a specific engineering file extension
-*.js        @monzo/web-approvers @monzo/@org-scaling
-*.css       @monzo/web-approvers @monzo/@org-scaling
-*.json      @monzo/web-approvers @monzo/@org-scaling
+*.js        @monzo/web-approvers @monzo/org-scaling
+*.css       @monzo/web-approvers @monzo/org-scaling
+*.json      @monzo/web-approvers @monzo/org-scaling
 
 # These are owners for a specific framework area
-frameworks/operations/*         @bobbi-monzo @monzo/@org-scaling
-frameworks/design/*             @hugocornejo @monzo/@org-scaling
-frameworks/engineering/*        @andysmart @wpillar @robinjmurphy @monzo/@org-scaling
+frameworks/operations/*         @bobbi-monzo @monzo/org-scaling
+frameworks/design/*             @hugocornejo @monzo/org-scaling
+frameworks/engineering/*        @andysmart @wpillar @robinjmurphy @monzo/org-scaling
 
 # These are owners for a specific framework file
-frameworks/product.md               @ljkp @monzo/@org-scaling
-frameworks/people.md                @raramonzo @monzo/@org-scaling
-frameworks/generic.md               @emmanorthcott @monzo/@org-scaling
-frameworks/executive-support.md     @jonashuckestein @monzo/@org-scaling
+frameworks/product.md               @ljkp @monzo/org-scaling
+frameworks/people.md                @raramonzo @monzo/org-scaling
+frameworks/generic.md               @emmanorthcott @monzo/org-scaling
+frameworks/executive-support.md     @jonashuckestein @monzo/org-scaling
 
 # These are owners for a specific engineering file or folder
-src/*                   @monzo/web-approvers @monzo/@org-scaling
-stubs/*                 @monzo/web-approvers @monzo/@org-scaling
-.eslintignore           @monzo/web-approvers @monzo/@org-scaling
-.eslintrc               @monzo/web-approvers @monzo/@org-scaling
-.flowconfig             @monzo/web-approvers @monzo/@org-scaling
-.gitignore              @monzo/web-approvers @monzo/@org-scaling
-.prettierrc             @monzo/web-approvers @monzo/@org-scaling
-CODEOWNERS              @monzo/@org-scaling
-README.md               @monzo/web-approvers @monzo/@org-scaling
-gatsby-config.js        @monzo/web-approvers @monzo/@org-scaling
-gatsby-browser.js       @monzo/web-approvers @monzo/@org-scaling
-gatsby-node.js          @monzo/web-approvers @monzo/@org-scaling
-netlify.toml            @monzo/web-approvers @monzo/@org-scaling
-package.json            @monzo/web-approvers @monzo/@org-scaling
-yarn.lock               @monzo/web-approvers @monzo/@org-scaling
+src/*                   @monzo/web-approvers @monzo/org-scaling
+stubs/*                 @monzo/web-approvers @monzo/org-scaling
+.eslintignore           @monzo/web-approvers @monzo/org-scaling
+.eslintrc               @monzo/web-approvers @monzo/org-scaling
+.flowconfig             @monzo/web-approvers @monzo/org-scaling
+.gitignore              @monzo/web-approvers @monzo/org-scaling
+.prettierrc             @monzo/web-approvers @monzo/org-scaling
+CODEOWNERS              @monzo/org-scaling
+README.md               @monzo/web-approvers @monzo/org-scaling
+gatsby-config.js        @monzo/web-approvers @monzo/org-scaling
+gatsby-browser.js       @monzo/web-approvers @monzo/org-scaling
+gatsby-node.js          @monzo/web-approvers @monzo/org-scaling
+netlify.toml            @monzo/web-approvers @monzo/org-scaling
+package.json            @monzo/web-approvers @monzo/org-scaling
+yarn.lock               @monzo/web-approvers @monzo/org-scaling
