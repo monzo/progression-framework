@@ -5,6 +5,7 @@ sidebarTitle: "🚀 Product"
 sidebarGroup:
 yaml: true
 levels: 5
+homepage: false
 topics:
   - name: "problem solving"
     title: "🧠 Problem solving"

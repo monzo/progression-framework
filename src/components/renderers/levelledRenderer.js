@@ -3,8 +3,7 @@ import * as React from 'react'
 import * as R from 'ramda'
 import Masonry from 'react-masonry-css'
 import { contains, match } from '../../utils/arrayUtils'
-import toTitleCase from '../../utils/toTitleCase'
-import LevelsGroup from '../levelsGroup'
+import Header from '../header'
 import {
   Card,
   CardContentList,
@@ -15,17 +14,16 @@ import {
   FrameworkCard,
   PrimaryView,
   Subtitle,
-  Title,
-  FrameworkTitleGroup,
-  FrameworkHeader,
   ExamplesText,
   BREAKPOINT_TABLET,
   BREAKPOINT_DESKTOP,
+  MarkdownContent,
 } from '../styles'
 
 type Props = {
   pageData: Object,
   genericData: Object,
+  html: Object,
 }
 
 type State = {
@@ -99,7 +97,7 @@ export default class LevelledRenderer extends React.Component<Props, State> {
     }
   }
 
-  handleClick = (val: number) => (event: SyntheticUIEvent<>) => {
+  handleClick = (val: ?number) => (event: SyntheticUIEvent<>) => {
     event.preventDefault()
     this.setState({
       level: val,
@@ -111,34 +109,35 @@ export default class LevelledRenderer extends React.Component<Props, State> {
     const { level } = this.state
 
     return (
-      <React.Fragment>
-        <FrameworkHeader>
-          <FrameworkTitleGroup>
-            <Subtitle small>
-              {pageData.sidebarGroup != null
-                ? toTitleCase(pageData.sidebarGroup)
-                : null}
-            </Subtitle>
-            <Title small>{pageData.title}</Title>
-          </FrameworkTitleGroup>
-          <LevelsGroup
-            onClickHandler={this.handleClick}
-            levels={pageData.levels}
-            activeLevel={level}
-          />
-        </FrameworkHeader>
-      </React.Fragment>
+      <Header
+        onClickHandler={this.handleClick}
+        pageData={pageData}
+        activeLevel={level}
+      />
     )
   }
 
   renderEmptyState() {
-    return (
-      <CenteredElement>
+    const { pageData, html } = this.props
+
+    if (pageData.homepage === true) {
+      return (
         <Card>
-          <Subtitle>To view a framework, please select a level above.</Subtitle>
+          <MarkdownContent dangerouslySetInnerHTML={{ __html: html }} />
         </Card>
-      </CenteredElement>
-    )
+      )
+    } else {
+      console.log(pageData.homepage)
+      return (
+        <CenteredElement>
+          <Card>
+            <Subtitle>
+              To view a framework, please select a level above.
+            </Subtitle>
+          </Card>
+        </CenteredElement>
+      )
+    }
   }
 
   renderFramework() {

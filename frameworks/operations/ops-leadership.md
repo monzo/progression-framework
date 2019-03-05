@@ -5,6 +5,7 @@ sidebarTitle: "🎯 Leadership"
 sidebarGroup: "operations"
 yaml: false
 levels:
+homepage:
 ---
 ## Level 3
 ### Knowledge

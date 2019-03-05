@@ -5,6 +5,7 @@ sidebarTitle: "🎯 User Research"
 sidebarGroup: "design"
 yaml: false
 levels:
+homepage:
 ---
 ## Level 1
 

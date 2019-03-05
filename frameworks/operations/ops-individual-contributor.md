@@ -5,6 +5,7 @@ sidebarTitle: "🙋‍♀️ Individual Contributor"
 sidebarGroup: "operations"
 yaml: true
 levels: 5
+homepage: false
 topics:
   - name: "communication and teamwork"
     title: "💬 Communication and Teamwork"

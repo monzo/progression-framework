@@ -5,6 +5,7 @@ sidebarTitle: "🙂 People"
 sidebarGroup: null
 yaml: true
 levels: 6
+homepage: false
 topics:
   - name: "communication"
     title:
