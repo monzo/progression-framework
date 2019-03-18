@@ -3,6 +3,8 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { config } from "@fortawesome/fontawesome-svg-core"
+import "@fortawesome/fontawesome-svg-core/styles.css"
 import illustration from '../images/intro_illustration.svg'
 import Layout from '../components/layout'
 import {
@@ -16,6 +18,8 @@ import {
   DescriptionContainer,
 } from '../components/styles'
 import '../css/main.min.css'
+
+config.autoAddCss = false
 
 type Props = {
   data: Object,
