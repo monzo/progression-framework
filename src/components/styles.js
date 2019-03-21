@@ -327,6 +327,7 @@ export const ToolbarIcon = styled.img`
 export const MenuIcon = styled.img`
   width: auto;
   height: auto;
+  cursor: pointer;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: inherit;
@@ -356,12 +357,16 @@ export const Sidebar = styled.div`
   }
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
-    width: 100% !important;
+    display: none;
+    width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
     min-width: 250px;
     transform: none;
+    &.visible {
+      display: flex;
+    }
   }
 `
 

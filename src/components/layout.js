@@ -48,28 +48,27 @@ const SidebarRenderer = ({
   sidebarClickHandler,
   isSidebarVisible,
   data,
-}: Object) =>
-  isSidebarVisible ? (
-    <Location>
-      {({ location }) => (
-        <Sidebar>
-          <SidebarReset>
-            <SidebarScroll>
-              <ScrollbarHeader>
-                <SidebarIcon src={favicon} alt="Monzo" />
-                <FlexboxPush>
-                  <CloseIcon onClick={sidebarClickHandler} src={closeIcon} />
-                </FlexboxPush>
-              </ScrollbarHeader>
-              <SidebarList main>
-                <SidebarBuilder data={data} location={location} />
-              </SidebarList>
-            </SidebarScroll>
-          </SidebarReset>
-        </Sidebar>
-      )}
-    </Location>
-  ) : null
+}: Object) => (
+  <Location>
+    {({ location }) => (
+      <Sidebar className={isSidebarVisible ? 'visible' : null}>
+        <SidebarReset>
+          <SidebarScroll>
+            <ScrollbarHeader>
+              <SidebarIcon src={favicon} alt="Monzo" />
+              <FlexboxPush>
+                <CloseIcon onClick={sidebarClickHandler} src={closeIcon} />
+              </FlexboxPush>
+            </ScrollbarHeader>
+            <SidebarList main>
+              <SidebarBuilder data={data} location={location} />
+            </SidebarList>
+          </SidebarScroll>
+        </SidebarReset>
+      </Sidebar>
+    )}
+  </Location>
+)
 
 class Layout extends React.Component<Props, State> {
   state = { isSidebarVisible: false }
