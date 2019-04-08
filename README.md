@@ -62,14 +62,16 @@ The following YAML data can be found in every file:
 path:         ~~ a path goes here, eg "/frameworks/operations/ops-leadership" ~~
 title:        ~~ the page title goes here, eg "🎯 Ops Leadership Framework" ~~
 sidebarTitle: ~~ this is the title in the sidebar "🎯 Leadership" ~~
-sidebarGroup: ~~ this is the subheading/group. eg "operations", or null (for nothing) ~~
+sidebarGroup: ~~ this is the subheading/group. eg "operations" or nothing ~~
 yaml:         ~~ indicates if the framework is mainly yaml (true) or markdown (false) ~~
-levels:       ~~ the amount of levels you want to be shown if the file is yaml, eg 6 or null (for nothing) ~~
+levels:       ~~ the amount of levels you want to be shown if the file is yaml, eg 6 or nothing ~~
+homepage:     ~~ card-based frameworks only! whether you want a homepage to be shown, eg true, false, or nothing if irrelevant ~~
 ```
 
 If the framework is in YAML format, underneath the compulsory data, you will find something like this:
 
 ``` yaml
+homepage: true
 topics:
   - name: "communication and teamwork"
     title: "💬 Communication and Teamwork"
@@ -97,6 +99,8 @@ topics:
              examples:
                - "The example goes here"
                - "Another example may go here"
+---
+### 🏠 Welcome to the Backend engineering home page
 ```
 
 If a topic's name matches the name of a topic in the generic framework, the generic framework criteria will be loaded as well as your framework criteria, and the title + description will be loaded from the generic framework.

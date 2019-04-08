@@ -5,6 +5,7 @@ sidebarTitle: "🌐 Web"
 sidebarGroup: "engineering"
 yaml: true
 levels: 6
+homepage: false
 topics:
   - name: "communication"
     title:

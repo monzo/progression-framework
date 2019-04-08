@@ -5,6 +5,7 @@ sidebarTitle: "👭 Executive Support"
 sidebarGroup:
 yaml: true
 levels: 5
+homepage: false
 topics:
   - name: "communication"
     title:

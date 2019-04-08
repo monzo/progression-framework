@@ -5,6 +5,7 @@ sidebarTitle: "🛠️ Backend"
 sidebarGroup: "engineering"
 yaml: true
 levels: 6
+homepage: true
 topics:
   - name: "communication"
     title:

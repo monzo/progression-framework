@@ -566,6 +566,11 @@ export const FrameworkTitleGroup = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
 `
 
 export const FrameworkCard = styled(Card)`

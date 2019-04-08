@@ -5,6 +5,7 @@ sidebarTitle: "🎯 Product Design"
 sidebarGroup: "design"
 yaml: false
 levels:
+homepage:
 ---
 ## Level 1
 
