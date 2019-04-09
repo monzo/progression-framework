@@ -85,15 +85,27 @@ class ExampleCriteriaComponent extends React.Component<
 export default class LevelledRenderer extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props)
-    const genericDataTitles = props.genericData.topics.map(obj => obj.name)
-    const pageDataTitles = props.pageData.topics.map(obj => obj.name)
+    const genericDataTitles = props.genericData.topics.map(obj => obj.title)
+    const pageDataTitles = props.pageData.topics.map(obj => obj.title)
+    const genericDataNames = props.genericData.topics.map(obj => obj.name)
+    const pageDataNames = props.pageData.topics.map(obj => obj.name)
+
+    // isGeneric checks to see if the variable names and the "Title" is present on both the generic
+    // and page date we receive. This should only flag the generic framework, unless someone redeclares the
+    // framework titles and variable names in a new framework (which should not get past review)
+    const matchingNames = match(genericDataNames, pageDataNames)
+    const matchingTitles = match(genericDataTitles, pageDataTitles)
+    const isGeneric = matchingNames && matchingTitles
+
+    // inheritsGeneric checks to see if some of the page data and generic framework variable
+    // names are shared which is how our inheritance works), but the titles do not exactly match
+    const containingNames = contains(genericDataNames, pageDataNames)
+    const inheritsGeneric = containingNames && !matchingTitles
 
     this.state = {
       level: null,
-      isGeneric: match(genericDataTitles, pageDataTitles),
-      inheritsGeneric:
-        contains(genericDataTitles, pageDataTitles) &&
-        !match(genericDataTitles, pageDataTitles),
+      isGeneric,
+      inheritsGeneric,
     }
   }
 
@@ -127,7 +139,6 @@ export default class LevelledRenderer extends React.Component<Props, State> {
         </Card>
       )
     } else {
-      console.log(pageData.homepage)
       return (
         <CenteredElement>
           <Card>
@@ -206,6 +217,18 @@ export default class LevelledRenderer extends React.Component<Props, State> {
               ),
           )
         : null
+
+    // console.log(level)
+    // console.log(genericCriteria)
+    // console.log(genericCriteria != null && !R.isEmpty(genericCriteria))
+
+    console.log(isGeneric) // the issue
+    // // console.log(!R.isEmpty(genericCriteria))
+    // // console.log(genericCriteria != null)
+
+    // console.log(
+    // !isGeneric && !R.isEmpty(genericCriteria) && genericCriteria != null,
+    // )
 
     if (
       (genericCriteria != null && !R.isEmpty(genericCriteria)) ||
