@@ -213,18 +213,6 @@ export default class LevelledRenderer extends React.Component<Props, State> {
           )
         : null
 
-    // console.log(level)
-    // console.log(genericCriteria)
-    // console.log(genericCriteria != null && !R.isEmpty(genericCriteria))
-
-    console.log(isGeneric) // the issue
-    // // console.log(!R.isEmpty(genericCriteria))
-    // // console.log(genericCriteria != null)
-
-    // console.log(
-    // !isGeneric && !R.isEmpty(genericCriteria) && genericCriteria != null,
-    // )
-
     if (
       (genericCriteria != null && !R.isEmpty(genericCriteria)) ||
       (exampleCriteria != null && !R.isEmpty(exampleCriteria)) ||
