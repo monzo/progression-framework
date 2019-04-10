@@ -8,8 +8,8 @@ levels: 7
 homepage: true
 topics:
   - name: "knowledge"
-    title:
-    description:
+    title: "🧠 Domain Knowledge and Skills"
+    description: "Mastery and knowledge in their subject matter"
     content:
       - level: 1
         criteria:
@@ -43,9 +43,9 @@ topics:
       - level: 7
         criteria:
           - "Builds their deep domain knowledge effectively and impactfully into the wider business context, with a deep understanding of the company goals, challenges and opportunities."
-  - name: "impact"
-    title:
-    description:
+  - name: "ownership"
+    title: "🗣️ Ownership and Influence"
+    description: "Independence and impact over others and their work"
     content:
       - level: 1
         criteria:
@@ -84,8 +84,8 @@ topics:
           - "Is the accountable executive for their area."
           - "Sought out for guidance on any topic across the company."
   - name: "communication"
-    title:
-    description:
+    title: "🕴️ Communication and Leadership"
+    description: "Their leadership and communication skills with others"
     content:
       - level: 1
         criteria:
