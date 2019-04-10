@@ -1,5 +1,6 @@
 // @flow
 import * as React from 'react'
+import styled from 'styled-components'
 import {
   LevelsTextWrapper,
   LevelsContainer,
@@ -35,6 +36,20 @@ const renderLevels = ({ onClickHandler, pageData, activeLevel }: Props) => {
         </LevelsText>,
       )
     }
+  }
+
+  if (4 > pageData.levels) {
+    const newWidth = 20 * pageData.levels
+    const newMargin = 100 - newWidth
+
+    const SpreadDiv = styled.div`
+      display: inline-flex;
+      width: ${newWidth}%;
+      margin-left: ${newMargin}%;
+      justify-content: space-between;
+    `
+
+    return <SpreadDiv>{toRender}</SpreadDiv>
   }
 
   return toRender
