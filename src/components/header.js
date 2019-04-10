@@ -38,7 +38,7 @@ const renderLevels = ({ onClickHandler, pageData, activeLevel }: Props) => {
     }
   }
 
-  if (4 > pageData.levels) {
+  if (5 > pageData.levels) {
     const newWidth = 20 * pageData.levels
     const newMargin = 100 - newWidth
 
