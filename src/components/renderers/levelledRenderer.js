@@ -7,7 +7,6 @@ import Header from '../header'
 import {
   Card,
   CardContentList,
-  CardSubtitle,
   CardTitle,
   CardTitleGroup,
   CenteredElement,
@@ -116,7 +115,7 @@ export default class LevelledRenderer extends React.Component<Props, State> {
     })
   }
 
-  renderDescriptionAndTitle() {
+  renderPageHeader() {
     const { pageData } = this.props
     const { level } = this.state
 
@@ -177,10 +176,6 @@ export default class LevelledRenderer extends React.Component<Props, State> {
       genericTopic != null && !R.isEmpty(genericTopic)
         ? genericTopic.map(obj => obj.title)[0]
         : topic.title
-    const description =
-      genericTopic != null && !R.isEmpty(genericTopic)
-        ? genericTopic.map(obj => obj.description)[0]
-        : topic.description
 
     const frameworkCriteria = topic.content
       .filter(objContent => objContent.level === level)
@@ -227,7 +222,6 @@ export default class LevelledRenderer extends React.Component<Props, State> {
         <FrameworkCard key={topic.name}>
           <CardTitleGroup>
             <CardTitle>{title}</CardTitle>
-            <CardSubtitle>{description}</CardSubtitle>
           </CardTitleGroup>
           <CardContentList>
             {frameworkCriteria != null && !R.isEmpty(frameworkCriteria)
@@ -254,7 +248,7 @@ export default class LevelledRenderer extends React.Component<Props, State> {
 
     return (
       <PrimaryView>
-        {this.renderDescriptionAndTitle()}
+        {this.renderPageHeader()}
         {level != null ? this.renderFramework() : this.renderEmptyState()}
       </PrimaryView>
     )

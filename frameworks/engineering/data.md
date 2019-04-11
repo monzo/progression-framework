@@ -9,7 +9,6 @@ homepage: true
 topics:
   - name: "communication"
     title:
-    description:
     content:
       - level: 1
         criteria:
@@ -51,7 +50,6 @@ topics:
           - "Transparent about feedback they have received and what they are going to do differently"
   - name: "impact"
     title:
-    description:
     content:
       - level: 1
         criteria:
@@ -93,7 +91,6 @@ topics:
           - "Originates or finishes large, horizontal engineering efforts"
   - name: "leadership"
     title: "👩‍💼 Leadership"
-    description: "Ability to lead multiple people efficiently"
     content:
       - level: 3
         criteria:
@@ -132,7 +129,6 @@ topics:
           - "Delegates to make better use of their time"
   - name: "influence"
     title: "✨ Influence"
-    description: "Influence on others and the Monzo environment"
     content:
       - level: 1
         criteria:
@@ -165,7 +161,6 @@ topics:
           - "Engineers around them get better and have a bigger impact, faster" 
   - name: "mastery"
     title: "🛠️ Mastery"
-    description: "Your Monzo knowledge and technical capability"
     content:
       - level: 1
         criteria:
@@ -257,7 +252,6 @@ topics:
           - "Delegates to make better use of their time"
   - name: "mastery-science"
     title: "🧪 Mastery - Data Science"
-    description: "Your knowledge of Data Science at Monzo"
     content:
       - level: 2
         criteria:
@@ -301,7 +295,6 @@ topics:
           - "Measurable impact on company level goals"
   - name: "mastery-analytics"
     title: "📈 Mastery - Data Analytics"
-    description: "Your knowledge of Data Analytics at Monzo"
     content:
       - level: 3
         exampleCriteria:

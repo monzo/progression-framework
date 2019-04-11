@@ -9,7 +9,6 @@ homepage: false
 topics:
   - name: "problem solving"
     title: "🧠 Problem solving"
-    description:
     content:
       - level: 1
         criteria:
@@ -41,7 +40,6 @@ topics:
           - "Acknowledged as primary expert on product in their group or field. Expert on a number of frameworks, approaches and able to help PMs understand when and why to adopt certain techniques, their advantages and limitations."
   - name: "user-centricity"
     title: "🙍 User-centricity"
-    description:
     content:
       - level: 1
         criteria:
@@ -65,7 +63,6 @@ topics:
           - "Ensures the overall product experience is of extraordinary quality and really meets user’s needs."
   - name: "data skills"
     title: "👨‍💻 Data Skills"
-    description:
     content:
       - level: 1
         criteria:
@@ -90,7 +87,6 @@ topics:
           - "Deeply understands a range of research and analysis methods, identifies which are best for a given situation and can coach on their use."
   - name: "domain knowledge"
     title: "💭 Domain Knowledge"
-    description:
     content:
       - level: 1
         criteria:
@@ -114,7 +110,6 @@ topics:
           - "Deep market knowledge within several key areas related to their group and wider business."
   - name: "execution"
     title: "🛠️ Execution"
-    description:
     content:
       - level: 1
         criteria:
@@ -138,7 +133,6 @@ topics:
           - "Coaches PMs in their area on effective and balanced prioritisation."
   - name: "works through others"
     title: "🤝 Works Through Others"
-    description:
     content:
       - level: 1
         criteria:
@@ -169,7 +163,6 @@ topics:
           - "Minimises dependencies between groups and removes systemic blockers to speed and quality. Incentivises breaking down problems, idea generation and shipping the smallest thing to learn what’s needed quickly."
   - name: "feedback"
     title: "👪 Feedback"
-    description:
     content:
       - level: 1
         criteria:

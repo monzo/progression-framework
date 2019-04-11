@@ -9,7 +9,6 @@ homepage: false
 topics:
   - name: "communication"
     title:
-    description:
     content:
       - level: 2
         criteria:
@@ -28,7 +27,6 @@ topics:
           - "Gives external talks on role of EAs at Monzo, and how this creates value and contributes to Monzo's overall success."
   - name: "impact"
     title:
-    description:
     content:
       - level: 2
         criteria:
@@ -49,7 +47,6 @@ topics:
           - "Owns projects that impact Monzo as a whole, leveraging stakeholders to deliver results."
   - name: "knowledge"
     title:
-    description:
     content:
       - level: 1
         exampleCriteria:
@@ -83,7 +80,6 @@ topics:
           - "Strong understanding of all executives responsibilities at Monzo, with ability to adapt to support any executive to high standard at short notice."
   - name: "teamwork"
     title:
-    description:
     content:
       - level: 3
         criteria:
