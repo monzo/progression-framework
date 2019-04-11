@@ -18,44 +18,16 @@ type Props = {
   data: Object,
 }
 
-type State = {
-  titleGroupHeight: string,
-  descriptionHeight: string,
-}
-
-export default class Index extends React.Component<Props, State> {
-  titleGroup: ?Object
-  description: ?Object
-  state = {
-    titleGroupHeight: '0',
-    descriptionHeight: '0',
-  }
-
-  componentDidMount() {
-    if (this.titleGroup != null && this.description != null) {
-      const titleGroupHeight = this.titleGroup.clientHeight
-      const descriptionHeight = this.description.clientHeight
-      this.setState({ titleGroupHeight, descriptionHeight })
-    }
-  }
-
+export default class Index extends React.Component<Props> {
   render() {
     return (
       <Layout data={this.props.data}>
         <DescriptionView>
-          <DescriptionTitleGroup
-            ref={titleGroup => {
-              this.titleGroup = titleGroup
-            }}
-          >
+          <DescriptionTitleGroup>
             <Subtitle>Welcome To</Subtitle>
             <Title>Progression at Monzo 🎉</Title>
           </DescriptionTitleGroup>
-          <Description
-            ref={description => {
-              this.description = description
-            }}
-          >
+          <Description>
             <DescriptionText>
               This is where we keep the progression frameworks we use at Monzo.
             </DescriptionText>
