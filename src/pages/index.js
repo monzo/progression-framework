@@ -3,7 +3,6 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import illustration from '../images/intro_illustration.svg'
 import Layout from '../components/layout'
 import {
   Subtitle,
@@ -11,9 +10,7 @@ import {
   DescriptionView,
   Description,
   DescriptionText,
-  DescriptionIllustration,
   DescriptionTitleGroup,
-  DescriptionContainer,
 } from '../components/styles'
 import '../css/main.min.css'
 
@@ -100,13 +97,6 @@ export default class Index extends React.Component<Props, State> {
               Take a look around and let us know what you think! 🚀
             </DescriptionText>
           </Description>
-          <DescriptionContainer>
-            <DescriptionIllustration
-              src={illustration}
-              titleGroupHeight={this.state.titleGroupHeight}
-              descriptionHeight={this.state.descriptionHeight}
-            />
-          </DescriptionContainer>
         </DescriptionView>
       </Layout>
     )

@@ -482,35 +482,6 @@ export const DescriptionTitleGroup = styled.div`
   z-index: 1;
 `
 
-export const DescriptionContainer = styled.div`
-  position: fixed;
-  bottom: 0;
-  right: 0;
-
-  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
-    display: none;
-  }
-
-  @media (${PORTRAIT}) {
-    @media all and (max-width: ${BREAKPOINT_DESKTOP}px) {
-      display: none;
-    }
-  }
-`
-
-export const DescriptionIllustration = styled.img`
-  height: 60vh;
-
-  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
-    display: none;
-  }
-  @media (${PORTRAIT}) {
-    @media all and (max-width: ${BREAKPOINT_DESKTOP}px) {
-      display: none;
-    }
-  }
-`
-
 export const Description = styled.div`
   position: relative;
   color: #34495e;
