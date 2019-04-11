@@ -5,11 +5,10 @@ sidebarTitle: "🎉 Marketing"
 sidebarGroup:
 yaml: true
 levels: 7
-homepage: true
+homepage: false
 topics:
-  - name: "knowledge"
+  - name: "domain-knowledge"
     title: "🧠 Domain Knowledge and Skills"
-    description: "Mastery and knowledge in their subject matter"
     content:
       - level: 1
         criteria:
@@ -43,9 +42,8 @@ topics:
       - level: 7
         criteria:
           - "Builds their deep domain knowledge effectively and impactfully into the wider business context, with a deep understanding of the company goals, challenges and opportunities."
-  - name: "ownership"
+  - name: "ownership-influence"
     title: "🗣️ Ownership and Influence"
-    description: "Independence and impact over others and their work"
     content:
       - level: 1
         criteria:
@@ -83,9 +81,8 @@ topics:
         criteria:
           - "Is the accountable executive for their area."
           - "Sought out for guidance on any topic across the company."
-  - name: "communication"
+  - name: "communication-leadership"
     title: "🕴️ Communication and Leadership"
-    description: "Their leadership and communication skills with others"
     content:
       - level: 1
         criteria:
@@ -123,31 +120,3 @@ topics:
           - "Inspires outside of their team on company goals and mission."
           - "Coaches and develops senior execs in their team."
 ---
-### About Marketing's progression framework
-We use progression frameworks across Monzo to help individuals understand how they might progress at the company through building a shared language. This means that your manager and you should be able to have thoughtful, useful discussions about where you sit on the framework and how you might progress.
-
-This is not a box ticking exercise. Promotions up a level take into account the information below, as well as feedback from your peers and your manager. You'll probably find it unhealthy and unhelpful to focus solely on this framework — instead, try to use it as a tool to help you contextualise and think about what you want to do with your career.
-
-A risk of this framework is that you look at it and think "ok, how do I get to the last stage as quickly as possible?". I'd encourage you to instead think about the journey — for most people it takes years and years (decades in many cases) to peak in their careers… so enjoy the ride!
-
-At Monzo speed, a huge part of the challenge is keeping up. The company is scaling incredibly fast and often, people struggle to scale at that speed. That means that keeping up is a huge achievement in itself!
-
-We are scaling very fast and that means our tools and systems will break every 6 months. This document is no exception. There will be cases where you feel this document is outdated or parts of your job are not well covered. Please let your manager know if that's the case and we'll update and iterate.
-
-
-### How it works
-
-Above, you'll see 7 levels. We use three key columns to describe behaviours at each level:
-
-- Domain knowledge and skills
-- Ownership and influence
-- Communication and leadership
-
-To move up a level, you'd be expected to be acing all of these areas for your current level and starting to hit some of the points in the level above.
-
-Some squads may then have specific examples to fit alongside these levels — so you can better understand what a writer at level 2 might be expected to do, for example. If you don't have these, talk to your manager or Tristan.
-
-
-### Questions
-
-Please don't be shy or cautious about talking to your manager or Tristan about salaries and levels. There's no judgement and no stupid questions. The more we can all talk about this, the better.
