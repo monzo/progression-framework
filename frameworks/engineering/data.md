@@ -250,7 +250,7 @@ topics:
         criteria:
           - "Delivers projects that require cross functional collaboration"
           - "Delegates to make better use of their time"
-  - name: "mastery"
+  - name: "mastery-science"
     title: "🧪 Mastery - Data Science"
     content:
       - level: 2
@@ -293,7 +293,7 @@ topics:
           - "Deep domain knowledge, can go lower than almost anyone else"
           - "Makes targeted improvements in stability, performance and scalability across our platform"
           - "Measurable impact on company level goals"
-  - name: "mastery"
+  - name: "mastery-analytics"
     title: "📈 Mastery - Data Analytics"
     content:
       - level: 3

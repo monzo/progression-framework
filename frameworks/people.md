@@ -2,7 +2,7 @@
 path: "/frameworks/people"
 title: "🙂 People"
 sidebarTitle: "🙂 People"
-sidebarGroup: null
+sidebarGroup:
 yaml: true
 levels: 6
 homepage: false
