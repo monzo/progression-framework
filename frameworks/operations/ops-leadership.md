@@ -9,7 +9,6 @@ homepage: false
 topics:
   - name: "communication"
     title:
-    description:
     content:
       - level: 2
         criteria:
@@ -48,7 +47,6 @@ topics:
           - "Builds lifelong relationships."
   - name: "conduct"
     title:
-    description:
     content:
       - level: 2
         criteria:
@@ -93,7 +91,6 @@ topics:
           - "Proves you can succeed in a high-intensity position in Monzo while still maintaining balance and pursuing passions outside of Monzo."
   - name: "teamwork"
     title:
-    description:
     content:
       - level: 2
         criteria:
@@ -148,7 +145,6 @@ topics:
           - "Leads by example on personal development using self-awareness, humility, foresight and EQ to scale own leadership skills ahead of Monzo need."
   - name: "impact"
     title:
-    description:
     content:
       - level: 2
         criteria:
@@ -197,7 +193,6 @@ topics:
           - "Coaches managers on balancing customer focus with need for positive business results."
   - name: "knowledge"
     title:
-    description:
     content:
       - level: 2
         criteria:
