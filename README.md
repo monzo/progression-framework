@@ -75,7 +75,6 @@ homepage: true
 topics:
   - name: "communication and teamwork"
     title: "💬 Communication and Teamwork"
-    description: "Description goes here"
     content:
       - level: 1
         criteria:
@@ -87,7 +86,6 @@ topics:
           - "Gives clear concise updates in cross-team meetings on material which is relevant for the teams"
   - name: "conduct"
     title:
-    description:
     content:
       - level: 1
         criteria:

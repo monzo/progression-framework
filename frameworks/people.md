@@ -9,7 +9,6 @@ homepage: false
 topics:
   - name: "communication"
     title:
-    description:
     content:
       - level: 1
         criteria:
@@ -43,7 +42,6 @@ topics:
           - "An effective and inspiring communicator internally and externally."
   - name: "impact"
     title:
-    description:
     content:
       - level: 1
         criteria:
@@ -78,7 +76,6 @@ topics:
          - "Is the accountable exec for high-impact projects."
   - name: "knowledge"
     title:
-    description:
     content:
       - level: 1
         criteria:
@@ -112,7 +109,6 @@ topics:
           - "Understands the wider business context."
   - name: "teamwork"
     title:
-    description:
     content:
       - level: 1
         criteria:
@@ -154,7 +150,6 @@ topics:
           - "Has strong leadership and coaching abilities."
   - name: "conduct"
     title:
-    description:
     content:
       - level: 1
         criteria:
@@ -191,3 +186,4 @@ topics:
         criteria: 
           - "Creates a strong risk culture throughout the organisation. Owns policies and can prove we're complying with them. Spots ways to manage risk and implements them company wide."
           - "Contributes to thought leadership on effective and creative ways to run an excellent org from a People perspective."
+---

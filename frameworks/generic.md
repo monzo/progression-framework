@@ -9,7 +9,6 @@ homepage: false
 topics:
   - name: "knowledge"
     title: "🧠 Knowledge"
-    description: "Breadth and depth of knowledge"
     content:
       - level: 1
         criteria:
@@ -38,7 +37,6 @@ topics:
           - "Understands the wider business context"
   - name: "impact"
     title: "💥 Impact"
-    description: "Ambiguity and impact of their work"
     content:
       - level: 1
         criteria:
@@ -63,7 +61,6 @@ topics:
           - "Is the accountable exec for high-impact projects"
   - name: "communication"
     title: "💬 Communication"
-    description: "Ability to communicate"
     content:
       - level: 1
         criteria:
@@ -88,7 +85,6 @@ topics:
           - "An effective and inspiring communicator internally and externally"
   - name: "teamwork"
     title: "🤝 Teamwork"
-    description: "Teamwork skills and level of autonomy"
     content:
       - level: 1
         criteria:
@@ -126,7 +122,6 @@ topics:
           - "Strong leadership and coaching abilities"
   - name: "conduct"
     title: "👩‍💻 Conduct"
-    description: "Level of risk & compliance knowledge and ownership"
     content:
       - level: 1
         criteria:
