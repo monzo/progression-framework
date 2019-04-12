@@ -1,7 +1,7 @@
 ---
 path: "/customer-operations"
-title: "💬️ Customer Operations Framework"
-sidebarTitle: "💬️ Customer Operations"
+title: "💬 Customer Operations Framework"
+sidebarTitle: "💬 Customer Operations"
 sidebarGroup:
 yaml: true
 levels: 2
