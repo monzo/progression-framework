@@ -87,8 +87,8 @@ topics:
               - "Motivated to help peer group understand and achieve company goals, and uses appropriate forums to raise concerns"
       - level: 2
         criteria:
-          - "Frequently shares knowledge gained internally or externally (previous role/reading)"
           - "All criteria from level one"
+          - "Frequently shares knowledge gained internally or externally (previous role/reading)"
   - name: "culture-conduct"
     title: "🕴️ Conduct & Culture"
     content:
