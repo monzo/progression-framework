@@ -27,10 +27,10 @@ yarn
 
 If you're developing locally, you can start up the site locally with hot loading ⚡
 ``` sh
-gastby develop
+gatsby develop
 ```
 
 Finally, you can build everything into a set of static files 🛠️
 ``` sh
-gastby build
+gatsby build
 ```
