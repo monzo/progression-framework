@@ -19,6 +19,21 @@ type Props = {
   activeLevel: ?number,
 }
 
+/*
+ * The level picker is a flexbox which spreads the the levels evenly over the div.
+ * This means 1 will always be in the leftmost position and the max level at the opposite.
+ * When there are only two or three levels this poses and issue, because the levels look
+ * really spaced and like there's a UI bug. To combat this, we give each of them the spacing
+ * as if there were 5 levels (i.e. each level takes up 20% space), and add a marginLeft to
+ * push things along (i.e 100% - {the new width}%)
+ */
+const Spread = styled.div`
+  display: inline-flex;
+  width: ${props => 20 * props.levels}%;
+  margin-left: ${props => 100 - 20 * props.levels}%;
+  justify-content: space-between;
+`
+
 const renderLevels = ({ onClickHandler, pageData, activeLevel }: Props) => {
   const toRender = []
 
@@ -38,28 +53,9 @@ const renderLevels = ({ onClickHandler, pageData, activeLevel }: Props) => {
     }
   }
 
-  /*
-   * The level picker is a flexbox which spreads the the levels evenly over the div.
-   * This means 1 will always be in the leftmost position and the max level at the opposite.
-   * When there are only two or three levels this poses and issue, because the levels look
-   * really spaced and like there's a UI bug. To combat this, we give each of them the spacing
-   * as if there were 5 levels (i.e. each level takes up 20% space), and add a marginLeft to
-   * push things along (i.e 100% - {the new width}%)
-   */
   if (5 > pageData.levels) {
-    const newWidth = 20 * pageData.levels
-    const newMargin = 100 - newWidth
-
-    const SpreadDiv = styled.div`
-      display: inline-flex;
-      width: ${newWidth}%;
-      margin-left: ${newMargin}%;
-      justify-content: space-between;
-    `
-
-    return <SpreadDiv>{toRender}</SpreadDiv>
+    return <Spread levels={pageData.levels}>{toRender}</Spread>
   }
-
   return toRender
 }
 
