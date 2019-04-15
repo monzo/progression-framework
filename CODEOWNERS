@@ -23,6 +23,7 @@ frameworks/people.md                @raramonzo @monzo/org-scaling-team
 frameworks/generic.md               @emmanorthcott @monzo/org-scaling-team
 frameworks/executive-support.md     @jonashuckestein @monzo/org-scaling-team
 frameworks/marketing.md             @trstnthms @monzo/org-scaling-team
+frameworks/customer-operations.md   @jacqbridge
 
 # These are owners for a specific engineering file or folder
 src/*                   @monzo/web-approvers @monzo/org-scaling-team
