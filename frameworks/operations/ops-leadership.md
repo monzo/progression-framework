@@ -36,7 +36,7 @@ topics:
           - "Drives success both within their team and within the organisation across several teams."
       - level: 6
         criteria:
-          - "Confidently delivers high-impact, clear, inspiring communications to Monzo and beyond using story-telling, frameworks & case-studies to simplify complex messages with crystal clear clarity including spontaneously (e.g. large format Q&A)"
+          - "Confidently delivers high-impact, clear, inspiring communications to Monzo and beyond using story-telling, frameworks & case-studies to simplify complex messages with crystal clear clarity including spontaneously (e.g. large format Q&A)."
           - "Works tirelessly to keep different moving parts aligned."
           - "Connects up silo’d/duplicate work."
           - "Builds culture of knowledge sharing and documenting."
@@ -54,16 +54,16 @@ topics:
           - "Is able to emanate Monzo’s culture in their approach to work."
       - level: 3
         criteria:
-          - "Creates a strong risk culture with the people around them through behaviour and approach. "
+          - "Creates a strong risk culture with the people around them through behaviour and approach."
           - "Ensures reportees are trained up on risk & compliance as relevant to their role."
-          - "Promptly and effectively deals with unforeseen risks as they arise"
+          - "Promptly and effectively deals with unforeseen risks as they arise."
           - "Is able to emanate Monzo’s culture in their approach to work."
       - level: 4
         criteria:
           - "Creates a strong risk culture in their team through behaviour and approach."
           - "Educates the team on the importance of making the right trade-offs and how to do this effectively."
-          - "Leverages teams to source sophisticated and creative analysis and recommends remediating action"
-          - "Responds to complex issues devising smart strategies for the mitigation of risk"
+          - "Leverages teams to source sophisticated and creative analysis and recommends remediating action."
+          - "Responds to complex issues devising smart strategies for the mitigation of risk."
           - "Is able to emanate Monzo’s culture in their approach to work."
           - "Demonstrates their ability to be transparent."
           - "Encourages people around them to represent Monzo’s culture."
@@ -71,9 +71,9 @@ topics:
         criteria:
           - "Creates a strong risk culture across teams they work with through behaviour and approach."
           - "Helps to guide their team to make trade-offs between speed and risk, with help from C Suite."
-          - "Participates in risk management and mitigation at the highest industry level"
+          - "Participates in risk management and mitigation at the highest industry level."
           - "Leads by example and proves their area is managing risk and compliance within appetite."
-          - "Gets involved in and identifies opportunities for team to participate in advisory, strategic, industry bodies to learn and share best practice in their area of business"
+          - "Gets involved in and identifies opportunities for team to participate in advisory, strategic, industry bodies to learn and share best practice in their area of business."
           - "Consistently shows Monzo’s culture in their working style and approach."
           - "Is always transparent and open in their leadership."
           - "Challenges people around them to represent Monzo culture, while remaining approachable."
@@ -82,7 +82,7 @@ topics:
         criteria:
           - "Creates a strong risk culture throughout the organisation through behaviour and approach."
           - "Helps guide leaders to make the right trade-offs between speed and risk without breaching risk appetites."
-          - "Holds accountability for significant policies and can evidence compliance including SM/CR responsibilities"
+          - "Holds accountability for significant policies and can evidence compliance including SM/CR responsibilities."
           - "Exemplifies Monzo’s culture in working style and approach even in ways that are not their natural tendency to help shape the Monzonaut experience."
           - "Pushed transparency to new extremes."
           - "Shows vulnerability and is approachable as a leader."
@@ -166,7 +166,7 @@ topics:
           - "Empowers team to identify and own goals, challenging them to aim even higher."
           - "Sets high expectations of outcomes."
           - "Builds teams which can run reasonably autonomously with high-level guidance and intervention."
-          - "Starting to course-correct"
+          - "Starting to course-correct."
           - "Coaches leaders to prioritise."
           - "Identifies anything which could impinge on Monzo’s ability to deliver world-class customer service."
       - level: 5

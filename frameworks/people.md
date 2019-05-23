@@ -13,7 +13,7 @@ topics:
       - level: 1
         criteria:
           - "Contributes ideas to influence policy, process and decisions."
-          - "Pro-actively communicates what they're working on with their team and stakeholders"
+          - "Pro-actively communicates what they're working on with their team and stakeholders."
           - "Proactively gives feedback to people they work with; both affirmative and developmental."
           - "Uses information, resources and support from others outside their own immediate team to get results."
       - level: 2
@@ -60,7 +60,7 @@ topics:
           - "Delegates well, so they can take on bigger more complex projects, and to help other people develop."
       - level: 4
         criteria:
-          - "Tactical advisor to executive - opinions and advice often sought"
+          - "Tactical advisor to executive - opinions and advice often sought."
           - "Can take a long-term vision and define building blocks to get there."
           - "Can prioritise projects and other people's time to meet company demands while not losing sight of BAU work; making sure the team is working on the things that have the biggest impact."
           - "Develops action plans to mitigate the risk of implementing new people policies and plans."
@@ -101,7 +101,7 @@ topics:
       - level: 5
         criteria:
           - "Wide breadth of knowledge."
-          - "Can easily context switch within their area and pick up new concepts; People Operations, Hiring, Reward and Recognition, L&D"
+          - "Can easily context switch within their area and pick up new concepts; People Operations, Hiring, Reward and Recognition, L&D."
           - "Strong generalist People skill set including experience in creating inspiring cultures, developing talent and quickly scaling up businesses."
       - level: 6
         criteria:
