@@ -13,14 +13,14 @@ topics:
       - level: 1
         criteria:
           - "Clearly articulates what they’re working on and why."
-          - "Gives clear concise updates in team meeting and stand ups on material which is relevant for the team"
+          - "Gives clear concise updates in team meeting and stand ups on material which is relevant for the team."
       - level: 2
         criteria:
           - "Proactively communicates with stakeholders and tailors communication to audience. Keeps stakeholders like COps, legal, marketing, finance updated on progress and ensures they have what they need."
-          - "Gives clear concise updates in cross-team meetings on material which is relevant for the teams"
-          - "Effectively structures speaking and writing to make sure the right information is given to the right people in a simple way"
+          - "Gives clear concise updates in cross-team meetings on material which is relevant for the teams."
+          - "Effectively structures speaking and writing to make sure the right information is given to the right people in a simple way."
           - "Understands the objectives of and participates actively in team ceremonies. Prepared and organised to make the most of squad time."
-          - "Thinks and acts in the interests of the team over themselves. Unblocks others where they can and proactivley offers feedback on work"
+          - "Thinks and acts in the interests of the team over themselves. Unblocks others where they can and proactivley offers feedback on work."
       - level: 3
         criteria:
           - "Point person for their area of expertise; does whatever is needed to unblock or support the squad and their delivery. Escalates and delegates appropriately."
@@ -36,7 +36,7 @@ topics:
       - level: 5
         criteria:
           - "Articulates and unites Monzo behind a clear and compelling vision in their domain expertise."
-          - "Takes problems and leads others to create solutions through structuring thoughts, asking the right questions and giving context"
+          - "Takes problems and leads others to create solutions through structuring thoughts, asking the right questions and giving context."
           - "Confident, clear communicator at All Hands etc. Simplifies messages for teams."
   - name: "conduct"
     title:
@@ -44,12 +44,12 @@ topics:
       - level: 1
         criteria:
           - "Follows policies and procedures applicable to role. Completes training."
-          - "Accepts feedback graciously and acts on it. Gives feedback when requested"
-          - "Builds relationships within monzo and contributes to building a supportive, knowledgable and engaged peer group"
+          - "Accepts feedback graciously and acts on it. Gives feedback when requested."
+          - "Builds relationships within monzo and contributes to building a supportive, knowledgable and engaged peer group."
       - level: 2
         criteria:
-          - "Communicates and escalates risks related to own projects and business area"
-          - "Works with speed as a habit"
+          - "Communicates and escalates risks related to own projects and business area."
+          - "Works with speed as a habit."
           - "Seeks out and gives constructive, actionable feedback where valuable."
       - level: 3
         criteria:
@@ -69,15 +69,15 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Completes small to medium sized tasks given to them with instruction"
+          - "Completes small to medium sized tasks given to them with instruction."
       - level: 2
         criteria:
-          - "Manages medium-sized processes or projects with some instruction"
+          - "Manages medium-sized processes or projects with some instruction."
           - "Owns small tasks with minimum support. Drives forward small projects."
-          - "Accurately prioritises defined tasks based on effort, impact, user needs and business goals"
+          - "Accurately prioritises defined tasks based on effort, impact, user needs and business goals."
           - "Takes the initiative to do things or to fix things. Doesn't shy away from picking up new things which need to be done."
-          - "Builds processes which scale and strikes the right balance between 'good enough for now' and 'effective use of resources'"
-          - "Acts in terms of areas they are responsible for managing, rather than tasks they are responsbile for doing"
+          - "Builds processes which scale and strikes the right balance between 'good enough for now' and 'effective use of resources'."
+          - "Acts in terms of areas they are responsible for managing, rather than tasks they are responsbile for doing."
       - level: 3
         criteria:
           - "Owns problems, generates solutions and leads implementation." 
@@ -112,8 +112,8 @@ topics:
       - level: 2
         criteria:
           - "Go to person within the team on their area. Team defaults to their opinion where there is uncertainty."
-          - "Knows which areas they know the best and proactively advises on these areas in team discussions and planning"
-          - "Works to increase their and their team's knowledge in these areas"
+          - "Knows which areas they know the best and proactively advises on these areas in team discussions and planning."
+          - "Works to increase their and their team's knowledge in these areas."
       - level: 3
         criteria:
           - "Go to expert within company, e.g. invited to give opinion at C Suite meetings." 
