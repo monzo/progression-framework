@@ -172,6 +172,7 @@ topics:
           - "Builds simple screens or flows"
           - "Asks questions and actions feedback from PRs and other engineers"
           - "Fixes simple bugs or issues"
+          - "Builds simple screens in collobration with a designer"
       - level: 2
         criteria:
           - "Uses appropriate algorithms and data structures to solve problems"
@@ -195,6 +196,7 @@ topics:
             examples:
               - "Can reason whether to use asynchronous or synchronous operations"
               - "Understands impact on app performance to use either"
+          - "Builds multi screen flows in collobration with a designer, handling empty, error, and loading states gracefully"
       - level: 3
         criteria:
           - "Uses tools to diagnose and improve performance issues"
@@ -207,6 +209,7 @@ topics:
               - "Owning migration from major language versions"
               - "Handling complex changes to third party dependencies"
               - "Writing migrations from one data schema to another"
+          - "Proactively improves empty, error and loading states in screens & flows they encounter, works closely with designers to identify problem areas and suggest improvements"
       - level: 4
         criteria:
           - "Writes code that serves as a definitive example for new engineers"
@@ -227,6 +230,7 @@ topics:
             examples:
               - "Coordinates with backend developers around API specifications and requirements."
               - "Able to digest into discrete tasks and work with peers to solve problem in an efficient manner to avoid blockers."
+          - "Builds non trivial complex flows that serve as an example of a high quality product"
       - level: 5
         criteria:
           - "Anticipates large or significant platform changes, work with team to define possible solutions. Starts or finishes these projects."
@@ -242,6 +246,7 @@ topics:
             examples:
               - "Able to handle situations where domain knowledge does not exist in the company and can lead the effort to resolve them."
               - "For example, resolving issues with our compiler and mapping out code paths for 'hard to reproduce' issues"
+           - "Instills and maintains a culture of high quality in their discipline"
 ---
 ### About our engineering progression frameworks
 The engineering progression framework is a tool that helps engineers and managers:
