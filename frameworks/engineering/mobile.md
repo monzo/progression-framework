@@ -172,7 +172,7 @@ topics:
           - "Builds simple screens or flows"
           - "Asks questions and actions feedback from PRs and other engineers"
           - "Fixes simple bugs or issues"
-          - "Produces well-polished interfaces in collaboration with a designer"
+          - "Handles empty, error & loading states in simple screens or flows"
       - level: 2
         criteria:
           - "Uses appropriate algorithms and data structures to solve problems"
@@ -187,7 +187,7 @@ topics:
           - "Appropriately uses common functional reactive programming concepts"
           - "Designs database models"
           - "Appropriately handles errors or failure conditions in their code"
-          - "Produces well-polished multi screen interfaces in collaboration with a designer, handling empty, error, and loading states gracefully"
+          - "Handles empty, error, and loading states gracefully in multi screen flows"
         exampleCriteria:
           - criteria: "Integrates with new APIs"
             examples:
@@ -215,7 +215,7 @@ topics:
           - "Writes code that serves as a definitive example for new engineers"
           - "Identifies and fixes security vulnerabilities"
           - "Sought out for reviewing complex changes or commenting on larger scale proposals"
-          - "Builds non trivial complex flows that serve as an example of a high quality product"
+          - "Builds non trivial complex flows that serve as an example of high quality interaction design"
         exampleCriteria:
           - criteria: "Owns and coordinates large scale architectural changes to the entire codebase"
             examples:
