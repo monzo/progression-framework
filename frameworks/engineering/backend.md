@@ -210,7 +210,7 @@ topics:
             examples:
               - "Appropriately ties down internal access to resources they're working with (e.g. RPC blacklisting, BigQuery permissions)"
               - "\"There's a risk here of X, Y but given Z, I think this is OK\""
-              - "Loops in Security when their squad is unsure about something"
+              - "Loops in Security when their squad is unsure about something by posting in #security-requests"
       - level: 4
         criteria:
           - "Writes code that serves as a definitive example for new engineers"
