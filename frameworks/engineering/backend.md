@@ -206,6 +206,11 @@ topics:
           - criteria: "Implements complex RPC handlers"
             examples:
               - "Implements complex business logic, orchestrates multi-stage processes, deals with idempotency or distributed data sources"
+          - criteria: "Proactively considers security implications of their work"    
+            examples:
+              - "Appropriately ties down internal access to resources they're working with (e.g. RPC blacklisting, BigQuery permissions)"
+              - "\"There's a risk here of X, Y but given Z, I think this is OK\""
+              - "Loops in Security when their squad is unsure about something"
       - level: 4
         criteria:
           - "Writes code that serves as a definitive example for new engineers"
