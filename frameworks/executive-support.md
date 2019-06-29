@@ -72,8 +72,8 @@ topics:
           - "Understand executive's key responsibilities and challenges"
       - level: 4
         criteria:
-          - "Strong knowledge of your exec's responsibble areas"
-          - "Build knowledge of indivudal's in the teams your exec is responsible for, their responsibilities and how they operate"
+          - "Strong knowledge of your exec's responsible areas"
+          - "Build knowledge of individual's in the teams your exec is responsible for, their responsibilities and how they operate"
           - "Able to proactively manage diaries to make sure execs time is optimised"
       - level: 5
         criteria:
