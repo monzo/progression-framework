@@ -20,7 +20,16 @@ topics:
           - "Seeks out feedback"
       - level: 2
         criteria:
-          - "Contributes to retro discussions"
+          - "Proactively communicates to their team what they are working on, why, how it's going and what help they need"
+          - "Accepts feedback graciously"
+          - "Gives feedback to peers when asked"
+          - "Provides helpful and actionable feedback in code reviews in an empathetic manner"
+          - "Writes PR descriptions that provide context and provide rationale for significant decisions"
+          - "Can deliver their work to their team and others"
+          - "Proactively gives feedback to those they work with"
+          - "Brave enough to ask questions, and appear ignorant."
+          - "Has appropriate conversations with other disciplines and stakeholders during a ticket lifecycle"
+
       - level: 3
         criteria:
           - "Transparent about mistakes they've made, early"
@@ -47,6 +56,8 @@ topics:
       - level: 1
         criteria:
           - "Delivers assigned tasks, working with a more senior team member, and able to take PR feedback to improve their work"
+          - "Independently works on small, low-impact, well-defined task"
+          - "Looks to optimise existing work (eg Processes, procedures, products, etc)"
       - level: 2
         criteria:
           - "Delivers assigned tasks that meet expected criteria"
@@ -55,6 +66,9 @@ topics:
           - "Manages their own time effectively, prioritises their workload well, on time for meetings, aware when blocking others and unblocks"
           - "Helps the team, does what needs doing"
           - "Breaks down small/medium problems into iterative steps"
+          - "Delivers small, well-defined tasks/projects"
+          - "Delegated low-impact problems to solve"
+          - "Understand side effect of changes"
       - level: 3
         criteria:
           - "Delivers large well-defined tasks and solves small scope not-well-defined problems"
@@ -125,7 +139,7 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Improves documentation that is incorrect"
+          - "Contributes to retro discussions"
       - level: 2
         criteria:
           - "Proactively raises issues they spot in retrospectives"
@@ -159,25 +173,20 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Learns to write correct Go code, following guidance and training materials"
+          - "Learns to write correct C# code, following guidance and training materials"
           - "Fixes simple bugs"
+          - "Develops code test first."
       - level: 2
         criteria:
           - "Designs simple database tables"
-          - "Implements asynchronous messaging between services"
-          - "Deploys services to staging and production"
-          - "Handles simple error cases in RPC handlers and message consumers"
-          - "Fixes bugs involving a number of services and can investigate production issues"
-          - "Uses appropriate algorithms and data structures to solve problems"
-          - "Writes automated unit and acceptance tests"
-        exampleCriteria:
-          - criteria: "Implements simple RPC handlers"
-            examples:
-              - "Basic CRUD handlers"
-              - "Internal/external API proxies"
-          - criteria: "Writes correct Go code following accepted best practices"
-            examples:
-              - "Follows our Coding Conventions & Best Practices, uses language-level primitives correctly"
+          - "Works for the team, focuses on tasks that contribute to team goals"
+          - "Tries to unblock themselves first before seeking help"
+          - "Manages their own time effectively, prioritises their workload well, on time for meetings, aware when blocking others and unblocks"
+          - "Helps the team, does what needs doing"
+          - "Breaks down small/medium problems into iterative steps"
+          - "Delivers small, well-defined tasks/projects"
+          - "Delegated low-impact problems to solve"
+          - "Understand side effect of changes"
       - level: 3
         criteria:
           - "Uses appropriate design patterns"
