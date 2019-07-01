@@ -4,7 +4,7 @@ title: "Quality Analyst Framework"
 sidebarTitle: "🕵🏽‍♂️ Quality"
 sidebarGroup: "engineering"
 yaml: true
-levels: 3
+levels: 4
 homepage: true
 topics:
   - name: "communication"
@@ -28,6 +28,11 @@ topics:
           - "Proactively gives timely actionable feedback to peers"
           - "Proactively seeks feedback from the people around them"
           - "Considers the opinions of others before defending their own"
+      - level: 4
+        criteria:
+          - "Helps other people develop themselves and regularly gives insightful, useful feedback to those around them"
+          - "Talks to non-technical stakeholders on appropriate level of abstraction"
+          - "Transparent about feedback they have received and what they are going to do differently"
   - name: "impact"
     title:
     content:
