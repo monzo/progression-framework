@@ -29,13 +29,14 @@ topics:
           - "Proactively gives feedback to those they work with"
           - "Brave enough to ask questions, and appear ignorant."
           - "Has appropriate conversations with other disciplines and stakeholders during a ticket lifecycle"
-
       - level: 3
         criteria:
           - "Transparent about mistakes they've made, early"
           - "Proactively gives timely actionable feedback to peers"
           - "Proactively seeks feedback from the people around them"
           - "Considers the opinions of others before defending their own"
+          - "Clearly communicates throughout implementation of solutions"
+          - "Can successfully get buy-in for their proposals"
       - level: 4
         criteria:
           - "Proactively gives feedback 'upwards' and to people they interact with who are not in their team"
@@ -72,8 +73,11 @@ topics:
       - level: 3
         criteria:
           - "Delivers large well-defined tasks and solves small scope not-well-defined problems"
-          - "Contributes to writing proposals (Co-authors with more experienced Engineer)"
           - "Breaks down large problems into smaller iterative steps across multiple PRs"
+          - "Identifies problems to solve"
+          - "Owns the implementation of the solution"
+          - "Picks appropriate tools and technologies for new problems"
+          - "Makes pragmatic choices about taking on tech debt"
       - level: 4
         criteria:
           - "Solves ambiguous problems"
@@ -102,10 +106,7 @@ topics:
       - level: 3
         criteria:
           - "Onboards / mentors new engineers"
-        exampleCriteria:
-          - criteria: "Finds learning opportunities for others when reviewing their code and follows it up"
-            examples:
-              - "I think this code could be improved by doing X, let's pair on it and I'll talk through why X is good for this"
+          - "Finds learning opportunities for others when reviewing their code and follows it up"
       - level: 4
         criteria:
           - "Contributes to maintaining the Monzo culture in their team, helping new joiners"
@@ -143,9 +144,10 @@ topics:
       - level: 2
         criteria:
           - "Proactively raises issues they spot in retrospectives"
+          - "Collaborate with others on elaborating work"
       - level: 3
         criteria:
-          - "Provides valuable input to proposals from their team"
+          - "Provides valuable input to projects, helping define work, and minimum viable product"
           - "Proactively improves modules, services, systems and codebases they encounter, 'this doesn't make sense, I'm going to do something about it'"
           - "Contributes to scaling engineering hiring (e.g. leads calls, does onsite interviews)"
           - "Builds simple tools or iterates existing tools for the benefit of all engineers"
@@ -194,10 +196,11 @@ topics:
           - "Implements complex asynchronous messaging flows"
           - "Co-ordinates complex deployments and database migrations"
           - "Implements distributed systems consisting of multiple interacting services"
-          - "Produces technical designs that include a consideration of scalability"
-          - "Handles complex error cases in RPC handlers and message consumers"
-          - "Debugs production issues"
+          - "Considers scalability when producing new solutions"
+          - "Solves production issues"
           - "Considers metrics when building a new system"
+          - "Writes idiomatic C# code"
+          - "Implements complex api behaviours"
         exampleCriteria:
           - criteria: "Writes idiomatic Go code"
             examples:
