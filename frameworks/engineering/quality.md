@@ -28,7 +28,6 @@ topics:
           - "Proactively gives timely actionable feedback to peers"
           - "Proactively seeks feedback from the people around them"
           - "Considers the opinions of others before defending their own"
-
   - name: "impact"
     title:
     content:
@@ -57,6 +56,7 @@ topics:
       - level: 3
         criteria:
           - "Onboards / mentors new engineers"
+          - "Finds learning opportunities for others when reviewing their work and follows it up"
   - name: "influence"
     title: "✨ Influence"
     content:
@@ -105,3 +105,26 @@ topics:
         - "Debugs complex defects, able to capture root cause (not just symptoms)"
         - "Identifies areas of testing within the business that can be improved and suggests improvements"
 ---
+
+### How does it work?
+The framework covers all the things we’re looking for from engineers at Bright. We’re interested in these five elements:
+- Mastery - Your Bright knowledge and technical capability
+- Impact - The size, scope and value of what you deliver
+- Influence - How you change the world around you for the better
+- Comms & Feedback - How you interact with others
+- Leadership - How people around you become better and more impactful
+
+We sort them into four levels, and we try to give specific examples of behaviours we expect for each. Each of those levels has a fairly wide salary range associated with it, and within each level you can progress in sub-levels, labelled A–E. So even if you’re at level 3 for a couple of years, you’ll still be able to see that you’re moving forward. Basically, the more behaviours you show from your level, the more you’ll progress.
+
+Your manager will work with you on this. None of it will happen mysteriously behind closed doors. You’ll agree what level of progression you’re going for and what you need to improve on with your manager. It should be clear how you’re doing relative to that at all times.
+
+### Things to keep in mind
+- There are many different ways to progress and be valuable to Bright as you grow, including deep technical knowledge and ability, technical leadership and people management. All are equally valuable paths in Bright's engineering team.
+- The framework represents a career’s worth of progression, people shouldn’t expect to fly up it in 18 months!
+- Engineering progression isn’t an exact science and there will always be some ambiguity.
+- This isn’t a checklist – it’s possible to progress up a level without showing all the behaviours in that level.
+- If you still have any questions, please ask your manager.
+
+### Give us your feedback!
+This is only the first version of our framework and we really want your feedback.
+We're particularly keen to add as many examples to the behaviours as possible, to further clarify them.
