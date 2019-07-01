@@ -16,18 +16,11 @@ topics:
           - "Points out syntactical improvements in code reviews"
           - "Writes PR descriptions that provide basic context for the change"
           - "Seeks guidance from other engineers, rather than answers"
+          - "Actively communicates what they are working on"
+          - "Seeks out feedback"
       - level: 2
         criteria:
-          - "Proactively communicates to their team what they are working on, why, how it's going and what help they need"
-          - "Accepts feedback graciously"
-          - "Gives feedback to peers when asked"
-        exampleCriteria:
-          - criteria: "Provides helpful and actionable feedback in code reviews in an empathetic manner"
-            examples:
-              - "Take a look at the levelling up your code reviews talk for some ideas"
-          - criteria: "Writes PR descriptions that provide context and provide rationale for significant decisions"
-            examples:
-              - "I decided to X instead of Y here, I also considered Z but for these reasons I went with X"
+          - "Contributes to retro discussions"
       - level: 3
         criteria:
           - "Transparent about mistakes they've made, early"
