@@ -4,7 +4,7 @@ title: "🚀 Product Framework"
 sidebarTitle: "🚀 Product"
 sidebarGroup:
 yaml: true
-levels: 5
+levels: 4
 homepage: false
 topics:
   - name: "problem solving"
@@ -33,11 +33,6 @@ topics:
         criteria:
           - "Successfully leads initiatives with high levels of uncertainty, from discovery to successful adoption or retirement."
           - "Brings structure, clarity and new insights to ambiguous or complex problems. Can often find ways to make it possible to ‘do both’ by reframing problem or approach."
-      - level: 5
-        criteria:
-          - "Creates a clear, compelling and ambitious product vision and strategy for the group, drawing from a deep understanding of quantitative and quantitive insight, business objectives and potential."
-          - "Creates coherence across their product area and the entire product, aligning and amplifying effort of their squads."
-          - "Acknowledged as primary expert on product in their group or field. Expert on a number of frameworks, approaches and able to help PMs understand when and why to adopt certain techniques, their advantages and limitations."
   - name: "user-centricity"
     title: "🙍 User-centricity"
     content:
@@ -58,9 +53,6 @@ topics:
         criteria:
           - "Is a champion for user experience and starting with user needs - helps senior stakeholders and team members to understand the value of this approach."
           - "Can balance trade offs (or think creatively to increase the pie) between user need and business need."
-      - level: 5
-        criteria:
-          - "Ensures the overall product experience is of extraordinary quality and really meets user’s needs."
   - name: "data skills"
     title: "👨‍💻 Data Skills"
     content:
@@ -81,10 +73,6 @@ topics:
         criteria:
           - "Makes data-driven decisions based on a multitude of complex, interdependent factors."
           - "Can design and evaluate experiments, based on solid hypotheses. Proactively alters course when confidence of hitting goals is low."
-      - level: 5
-        criteria:
-          - "Connects squad and group numbers to success metrics of business, recognises and addresses gaps between the impact of individual KPIs and business goals."
-          - "Deeply understands a range of research and analysis methods, identifies which are best for a given situation and can coach on their use."
   - name: "domain knowledge"
     title: "💭 Domain Knowledge"
     content:
@@ -104,10 +92,6 @@ topics:
         criteria:
           - "Conversant with overall Monzo architecture, and highly knowledgeable about specific elements and services that are relevant to their area of responsibility."
           - "Develops and maintains an in-depth market knowledge in at least one area and is able to challenge experts. Identifies market opportunities or product gaps."
-      - level: 5
-        criteria:
-          - "Well-informed about relevant technology advances, and how newer approaches/interfaces could be used to solve specific user problems."
-          - "Deep market knowledge within several key areas related to their group and wider business."
   - name: "execution"
     title: "🛠️ Execution"
     content:
@@ -127,10 +111,6 @@ topics:
       - level: 4
         criteria:
           - "Creates frameworks that aid decision making and prioritisation."
-      - level: 5
-        criteria:
-          - "Makes successful trade offs in areas of extreme risk, complexity and uncertainty."
-          - "Coaches PMs in their area on effective and balanced prioritisation."
   - name: "works through others"
     title: "🤝 Works Through Others"
     content:
@@ -153,14 +133,6 @@ topics:
         criteria:
           - "Understands how the needs of the team vary across product and team lifecycle and adapts accordingly."
           - "Open to being challenged, encourages constructive conflict and maximises the talent of others. Makes the squad “missionaries, not mercenaries”."
-      - level: 5
-        criteria:
-          - "Creates understanding in squads of how their work links to other teams’ work, business goals and the market."
-          - "Ensures strong product and team health, and an environment of psychological safety."
-          - "Can resolve disputes or head off team performance issues through mediation, negotiation and coaching."
-          - "Identifies and mentors high potential Product Managers and APM candidates."
-          - "Ensures we have the teams, practices and infrastructure in place to successfully execute strategy."
-          - "Minimises dependencies between groups and removes systemic blockers to speed and quality. Incentivises breaking down problems, idea generation and shipping the smallest thing to learn what’s needed quickly."
   - name: "feedback"
     title: "👪 Feedback"
     content:
@@ -182,7 +154,4 @@ topics:
         criteria:
           - "Ensures the team has strong relationships with stakeholders, fully recognises their constraints and concerns and creates mutual recognition and trust."
           - "Able to simply explain complex concepts and deliver difficult messages clearly."
-      - level: 5
-        criteria:
-          - "Articulates and unites a team behind a clear and compelling product vision, mission and strategy, along multiple time horizons."
 ---
