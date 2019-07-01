@@ -45,13 +45,6 @@ topics:
           - "Shares technical context and direction for less experienced engineers"
           - "Gives direct and constructive feedback to other engineers"
           - "Communicates their area’s role within the larger mission of the company"
-      - level: 5
-        criteria:
-          - "Helps other people develop themselves and regularly gives insightful, useful feedback to those around them"
-          - "Talks to non-technical stakeholders on appropriate level of abstraction"
-      - level: 6
-        criteria:
-          - "Transparent about feedback they have received and what they are going to do differently"
   - name: "impact"
     title:
     content:
@@ -87,20 +80,6 @@ topics:
           - "Breaks down projects into smaller iterative steps that each deliver value"
           - "Can take a long-term vision and define building blocks to get there"
           - "Makes judgements about when to diverge from the immediate goal to achieve something else"
-      - level: 5
-        criteria:
-          - "Solves the 'hard problem' in a project e.g. Mastercard crypto and sees it through to resolution"
-          - "Solves larger ambiguous problems"
-          - "Leads incident resolutions"
-          - "Makes judgements about when to diverge from the immediate goal to achieve something else"
-          - "Leading large scale technical infrastructure projects (level 5 would originate or complete, probably)"
-          - "Leads writing large scope proposals"
-          - "Breaks down large long-lasting projects into sensible discrete chunks that compound to achieve a large goal"
-          - "Helps prioritise and balance short-term and long-term investments, focusing on high impact, high value work"
-      - level: 6
-        criteria:
-          - "Accountable for delivery of large, mission critical engineering projects"
-          - "Originates or finishes large, horizontal engineering efforts"
   - name: "leadership"
     title: "👩‍💼 Leadership"
     content:
