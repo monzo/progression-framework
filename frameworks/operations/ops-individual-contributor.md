@@ -25,17 +25,17 @@ topics:
         criteria:
           - "Point person for their area of expertise; does whatever is needed to unblock or support the squad and their delivery. Escalates and delegates appropriately."
           - "Communicates effectively to a wide range of stakeholders, e.g. sharing update with ExCo/all hands or community."
-          - "Communicates in a professional and Monzo-style way to company (presenting or online) on issues regarding their team." 
+          - "Communicates in a professional and Bright-style way to company (presenting or online) on issues regarding their team." 
       - level: 4
         criteria:
           - "Gathers influence and support for their work, confidently debating and defending their decisions and approach."
           - "Ensures the team has strong relationships with stakeholders, fully recognises their constraints and concerns and creates mutual recognition and trust."
           - "Explains complex concepts simply and delivers difficult messages clearly."
-          - "Seamlessly partners with other experts to drive Monzo business goals forward. Drives success both within their team and within the organisation across several teams."
+          - "Seamlessly partners with other experts to drive Bright business goals forward. Drives success both within their team and within the organisation across several teams."
           - "Builds culture of knowledge sharing and documenting of information and processes."
       - level: 5
         criteria:
-          - "Articulates and unites Monzo behind a clear and compelling vision in their domain expertise."
+          - "Articulates and unites Bright behind a clear and compelling vision in their domain expertise."
           - "Takes problems and leads others to create solutions through structuring thoughts, asking the right questions and giving context"
           - "Confident, clear communicator at All Hands etc. Simplifies messages for teams."
   - name: "conduct"
@@ -45,7 +45,7 @@ topics:
         criteria:
           - "Follows policies and procedures applicable to role. Completes training."
           - "Accepts feedback graciously and acts on it. Gives feedback when requested"
-          - "Builds relationships within monzo and contributes to building a supportive, knowledgable and engaged peer group"
+          - "Builds relationships within Bright and contributes to building a supportive, knowledgable and engaged peer group"
       - level: 2
         criteria:
           - "Communicates and escalates risks related to own projects and business area"
@@ -94,7 +94,7 @@ topics:
           - "Prioritises multiple ambiguous large projects based on effort, impact, user needs and business goals. Encourages others to prioritise effectively and gives them the tools and guidance to do so."
           - "Identifies high-impact or complex problems the company will face down the line, in their domain."
           - "Prioritises most impactful problems to work on with awareness of future risks."
-          - "Identifies anything which could impinge on Monzo’s ability to deliver world-class customer service." 
+          - "Identifies anything which could impinge on Bright’s ability to deliver world-class customer service." 
           - "Can design practices, processes, and procedures which allow managing from a distance."
       - level: 5
         criteria:
@@ -127,6 +127,6 @@ topics:
           - "Constantly teaching and looking for new ways to share knowledge and skills with others."
       - level: 5
         criteria:
-          - "Contantly innovating, learning and teaching and looking for new ways to do things which haven't been done before. Shares these new ways of doing things internally and externally. Is a recognised industry expert outside of Monzo."
+          - "Contantly innovating, learning and teaching and looking for new ways to do things which haven't been done before. Shares these new ways of doing things internally and externally. Is a recognised industry expert outside of Bright."
           - "Comfortable creating optimal technical proposals within their area of expertise."
 ---

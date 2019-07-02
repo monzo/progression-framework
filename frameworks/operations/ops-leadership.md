@@ -12,13 +12,13 @@ topics:
     content:
       - level: 2
         criteria:
-          - "Communicates in a professional and Monzo style way to squad and peers."
+          - "Communicates in a professional and Bright style way to squad and peers."
           - "Communicates trade-offs between COps preferences and achieving goals or ensuring optimal customer experience."
           - "Shares ideas/best practice with similar teams."
           - "Strong relationships and understanding of decision making remits across different Ops and company teams."
       - level: 3
         criteria:
-          - "Communicates in a professional and Monzo style way to company (presenting or online) on issues regarding their team."
+          - "Communicates in a professional and Bright style way to company (presenting or online) on issues regarding their team."
           - "Shares ideas/best practice with similar teams."
           - "Helps to build relationships outside of their team."
       - level: 4
@@ -26,22 +26,22 @@ topics:
           - "Communicates their area’s role within the larger mission of the company."
           - "Effectively communicates company vision, short and long term goals to team."
           - "Communicates to those high up to advocate for team."
-          - "Empowers and unblocks team to grow their network at Monzo and beyond."
+          - "Empowers and unblocks team to grow their network at Bright and beyond."
           - "Suggests new partnerships and facilitates relationship building with other groups and group leads."
       - level: 5
         criteria:
-          - "Communicates beyond Monzo regarding their area in settings that they can prepare for with the help of others."
+          - "Communicates beyond Bright regarding their area in settings that they can prepare for with the help of others."
           - "Confident, clear communicator at All Hands etc. Simplifies messages for teams."
-          - "Seamlessly partners with other teams and leads to drive Monzo business goals forward."
+          - "Seamlessly partners with other teams and leads to drive Bright business goals forward."
           - "Drives success both within their team and within the organisation across several teams."
       - level: 6
         criteria:
-          - "Confidently delivers high-impact, clear, inspiring communications to Monzo and beyond using story-telling, frameworks & case-studies to simplify complex messages with crystal clear clarity including spontaneously (e.g. large format Q&A)"
+          - "Confidently delivers high-impact, clear, inspiring communications to Bright and beyond using story-telling, frameworks & case-studies to simplify complex messages with crystal clear clarity including spontaneously (e.g. large format Q&A)"
           - "Works tirelessly to keep different moving parts aligned."
           - "Connects up silo’d/duplicate work."
           - "Builds culture of knowledge sharing and documenting."
           - "Champions what teams are doing to wider company to clear their path."
-          - "Never seen to put own team / area ahead of other Monzo teams."
+          - "Never seen to put own team / area ahead of other Bright teams."
           - "Can manoeuvre through complex political situations effectively and quietly."
           - "Policy of “no surprises” by proactively communicating major changes to senior leaders and your team so people are not caught off-guard."
           - "Builds lifelong relationships."
@@ -51,22 +51,22 @@ topics:
       - level: 2
         criteria:
           - "Develops a strong understanding and culture of risk and applies relevant procedures appropriately within COps and Ops."
-          - "Is able to emanate Monzo’s culture in their approach to work."
+          - "Is able to emanate Bright's culture in their approach to work."
       - level: 3
         criteria:
           - "Creates a strong risk culture with the people around them through behaviour and approach. "
           - "Ensures reportees are trained up on risk & compliance as relevant to their role."
           - "Promptly and effectively deals with unforeseen risks as they arise"
-          - "Is able to emanate Monzo’s culture in their approach to work."
+          - "Is able to emanate Bright’s culture in their approach to work."
       - level: 4
         criteria:
           - "Creates a strong risk culture in their team through behaviour and approach."
           - "Educates the team on the importance of making the right trade-offs and how to do this effectively."
           - "Leverages teams to source sophisticated and creative analysis and recommends remediating action"
           - "Responds to complex issues devising smart strategies for the mitigation of risk"
-          - "Is able to emanate Monzo’s culture in their approach to work."
+          - "Is able to emanate Bright’s culture in their approach to work."
           - "Demonstrates their ability to be transparent."
-          - "Encourages people around them to represent Monzo’s culture."
+          - "Encourages people around them to represent Bright’s culture."
       - level: 5
         criteria:
           - "Creates a strong risk culture across teams they work with through behaviour and approach."
@@ -74,21 +74,21 @@ topics:
           - "Participates in risk management and mitigation at the highest industry level"
           - "Leads by example and proves their area is managing risk and compliance within appetite."
           - "Gets involved in and identifies opportunities for team to participate in advisory, strategic, industry bodies to learn and share best practice in their area of business"
-          - "Consistently shows Monzo’s culture in their working style and approach."
+          - "Consistently shows Bright’s culture in their working style and approach."
           - "Is always transparent and open in their leadership."
-          - "Challenges people around them to represent Monzo culture, while remaining approachable."
+          - "Challenges people around them to represent Bright culture, while remaining approachable."
           - "Foresees culture issues as company grows and puts plans in place to mitigate them."
       - level: 6
         criteria:
           - "Creates a strong risk culture throughout the organisation through behaviour and approach."
           - "Helps guide leaders to make the right trade-offs between speed and risk without breaching risk appetites."
           - "Holds accountability for significant policies and can evidence compliance including SM/CR responsibilities"
-          - "Exemplifies Monzo’s culture in working style and approach even in ways that are not their natural tendency to help shape the Monzonaut experience."
+          - "Exemplifies Bright’s culture in working style and approach even in ways that are not their natural tendency to help shape the Bright experience."
           - "Pushed transparency to new extremes."
           - "Shows vulnerability and is approachable as a leader."
-          - "Has the courage to challenge others who aren’t representing Monzo culture as well as they could (right up to founder-level)."
-          - "Carves out time to strengthen Monzo community and culture outside of core area."
-          - "Proves you can succeed in a high-intensity position in Monzo while still maintaining balance and pursuing passions outside of Monzo."
+          - "Has the courage to challenge others who aren’t representing Bright culture as well as they could (right up to founder-level)."
+          - "Carves out time to strengthen Bright community and culture outside of core area."
+          - "Proves you can succeed in a high-intensity position in Bright while still maintaining balance and pursuing passions outside of Bright."
   - name: "teamwork"
     title:
     content:
@@ -133,16 +133,16 @@ topics:
           - "Devotes majority of time to building capability and motivating teams."
           - "Creates high-performance environment where teams nail the problems they face again and again even in challenging circumstances."
           - "Foster ability for teams to enjoy the journey and work sustainably."
-          - "Coaches teams to move fast even by Monzo standards, understanding the principles of rapid iteration, decoupling dependencies and violent execution."
+          - "Coaches teams to move fast even by Bright standards, understanding the principles of rapid iteration, decoupling dependencies and violent execution."
           - "Coaches team leads to avoids pitfalls of “5 dysfunctions of a team”."
           - "Sees the holistic picture of skills required a year from now and nurtures talent internally."
-          - "Makes strategic hires, cultivating relationships over many months to get people over to Monzo who didn’t realise they needed a new job."
+          - "Makes strategic hires, cultivating relationships over many months to get people over to Bright who didn’t realise they needed a new job."
           - "Creates a culture where people thrive on feedback."
           - "Coaches leaders to set good development goals and give strong 360’ feedback."
           - "Gives feedback in the moment to anyone who might benefit from it but as a gift not an order."
           - "Accepts constructive feedback graciously."
           - "Shows rapid progress on improving even the most ingrained bad habits."
-          - "Leads by example on personal development using self-awareness, humility, foresight and EQ to scale own leadership skills ahead of Monzo need."
+          - "Leads by example on personal development using self-awareness, humility, foresight and EQ to scale own leadership skills ahead of Bright need."
   - name: "impact"
     title:
     content:
@@ -168,7 +168,7 @@ topics:
           - "Builds teams which can run reasonably autonomously with high-level guidance and intervention."
           - "Starting to course-correct"
           - "Coaches leaders to prioritise."
-          - "Identifies anything which could impinge on Monzo’s ability to deliver world-class customer service."
+          - "Identifies anything which could impinge on Bright's ability to deliver world-class customer service."
       - level: 5
         criteria:
           - "Anticipates near-term problems and delegates ownership appropriately."
@@ -183,12 +183,12 @@ topics:
           - "Analyses where team can add the most value by combining customer focus with positive business results."
       - level: 6
         criteria:
-          - "Anticipates and obliterates problems in Monzo and in the wider Monzo sphere, behaving like a company-owner long before they occur. Coaches leaders to do the same."
+          - "Anticipates and obliterates problems in Bright and in the wider Bright sphere, behaving like a company-owner long before they occur. Coaches leaders to do the same."
           - "Is known to teach determination, ingenuity and resourcefulness to get results with limited staff or resources."
           - "Thinking multiple years ahead."
           - "Outlines inspiring world-changing vision and sense of purpose to help set frighteningly ambitious barely attainable goals and empower and challenge teams to surprise themselves by hitting them."
           - "Challenge leaders to ruthlessly prioritise based on company goals and only focus on the things that matter."
-          - "Ensuring that Monzo maintains a customer-centric ethos."
+          - "Ensuring that Bright maintains a customer-centric ethos."
           - "Balances the initiatives set by the wider business with the impact on customer outcomes."
           - "Coaches managers on balancing customer focus with need for positive business results."
   - name: "knowledge"
@@ -220,8 +220,8 @@ topics:
           - "Provides scaling predictions and plans to C Suite."
       - level: 6
         criteria:
-          - "World-class thought-leader & innovator across Monzo, the banking industry and leading tech companies."
+          - "World-class thought-leader & innovator across Bright, the banking industry and leading tech companies."
           - "Empower teams to tackle growth in terms of scaling levers and ensure teams have redundancy and scalability built-in."
           - "Responsible for assessing and approving/rejecting their team’s scaling predictions."
-          - "Accountable for Monzo’s resulting investment/risk in supporting that scaling."
+          - "Accountable for Bright's resulting investment/risk in supporting that scaling."
 ---
