@@ -82,7 +82,7 @@ topics:
           - "You know who the experts are and delegate accordingly"
       - level: 5
         criteria:
-          - "Constantly innovating, learning, teaching and looking for new ways to do things which haven't been done before. Shares these new ways of doing things internally and externally. Is a recognised industry expert outside of Monzo."
+          - "Constantly innovating, learning, teaching and looking for new ways to do things which haven't been done before. Shares these new ways of doing things internally and externally. Is a recognised industry expert outside of Bright."
           - "Comfortable creating optimal technical proposals within their area of expertise."
           - "Wide breadth of knowledge"
           - "Can easily context switch within their area and pick up new concepts"
@@ -93,7 +93,7 @@ topics:
         criteria:
           - "Follows policies and procedures applicable to their role. Completes training."
           - "Accepts feedback graciously and acts on it. Gives feedback when requested"
-          - "Builds relationships within monzo and contributes to building a supportive, knowledgeable and engaged peer group"
+          - "Builds relationships within Bright and contributes to building a supportive, knowledgeable and engaged peer group"
           - "Follows policies and procedures applicable to role"
           - "Completes training"
           - "Identifies and considers the risks related to their own work"
@@ -165,7 +165,7 @@ topics:
       - level: 1
         criteria:
           - "Improves documentation that is incorrect"
-          - "Brings new ideas to the table to improve technical aspects of Monzonaut’s day to day life"
+          - "Brings new ideas to the table to improve technical aspects of Bright’s day to day life"
       - level: 2
         criteria:
           - "Proactively raises issues they spot in retrospectives"
@@ -186,8 +186,8 @@ topics:
           - "Breaks down delivery and knowledge silos in their squad"
       - level: 5
         criteria:
-          - "Represents Monzo at conferences/events"
-          - "Given as a reason for other engineers to join Monzo"
+          - "Represents Bright at conferences/events"
+          - "Given as a reason for other engineers to join Bright"
           - "Proactively shares knowledge internally"
           - "Acts as the 'sole proprietor', in the CEO mindset, their ego/agenda is not a factor in their thinking or decision making"
   - name: "leadership"
@@ -200,20 +200,20 @@ topics:
           - "Runs retrospectives on large projects and team achievements"
       - level: 4
         criteria:
-          - "Contributes to maintaining the Monzo culture in their team, helping new joiners"
+          - "Contributes to maintaining the Bright culture in their team, helping new joiners"
           - "Gets buy-in on technical decision-making and proposed designs"
           - "Proactively involves other relevant engineers"
-          - "Instills Monzo engineering principles into the team, even for operational tasks"
+          - "Instills Bright engineering principles into the team, even for operational tasks"
           - "Helps the growth of other team members around them through coaching and mentoring"
           - "Helps their squad work together more effectively"
           - "Helps facilitate team/squad rituals"
       - level: 5
         criteria:
-          - "Instills Monzo engineering principles across a whole squad of engineers"
+          - "Instills Bright engineering principles across a whole squad of engineers"
           - "Works with relevant Engineering Managers to help other engineers perform and grow"
           - "Fosters effective collaboration in multi-disciplinary squads (backend, mobile, data, design, web)"
           - "Delegates technical decisions with low risk and high reversibility"
           - "Owns technical decisions with high risk and low reversibility"
-          - "Contributes to maintaining the Monzo culture in the wider company"
+          - "Contributes to maintaining the Bright culture in the wider company"
           - "Bootstraps new teams"
 ---
