@@ -172,7 +172,6 @@ topics:
           - "Builds simple screens or flows"
           - "Asks questions and actions feedback from PRs and other engineers"
           - "Fixes simple bugs or issues"
-          - "Handles empty, error & loading states in simple screens or flows"
       - level: 2
         criteria:
           - "Uses appropriate algorithms and data structures to solve problems"
@@ -187,7 +186,7 @@ topics:
           - "Appropriately uses common functional reactive programming concepts"
           - "Designs database models"
           - "Appropriately handles errors or failure conditions in their code"
-          - "Handles empty, error, and loading states gracefully in multi screen flows"
+          - "Works with designers to handle empty, error, and loading states in multi screen flows"
         exampleCriteria:
           - criteria: "Integrates with new APIs"
             examples:
@@ -215,7 +214,7 @@ topics:
           - "Writes code that serves as a definitive example for new engineers"
           - "Identifies and fixes security vulnerabilities"
           - "Sought out for reviewing complex changes or commenting on larger scale proposals"
-          - "Builds non trivial complex flows that serve as an example of high quality interaction design"
+          - "Builds flows that serve as an example of high quality interaction design"
         exampleCriteria:
           - criteria: "Owns and coordinates large scale architectural changes to the entire codebase"
             examples:
@@ -235,7 +234,7 @@ topics:
         criteria:
           - "Anticipates large or significant platform changes, work with team to define possible solutions. Starts or finishes these projects."
           - "Takes high level requirements and turns them into discrete technical concerns"
-          - "Instills and maintains a culture of high quality in their discipline"
+          - "Instills and maintains a culture of high quality interaction design in their discipline"
         exampleCriteria:
           - criteria: "Coordinates group efforts across horizontal"
             examples:
