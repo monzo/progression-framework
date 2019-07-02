@@ -186,6 +186,7 @@ topics:
           - "Appropriately uses common functional reactive programming concepts"
           - "Designs database models"
           - "Appropriately handles errors or failure conditions in their code"
+          - "Works with designers to handle empty, error, and loading states in multi screen flows"
         exampleCriteria:
           - criteria: "Integrates with new APIs"
             examples:
@@ -201,6 +202,7 @@ topics:
           - "Builds non-trivial, coordinated app flows with multiple services and data sources"
           - "Builds complex UI layouts in code or via IDE"
           - "Contributes to group standards, impactful in improving our processes"
+          - "Proactively improves empty, error and loading states in screens & flows they encounter, works closely with designers to identify problem areas and suggest improvements"
         exampleCriteria:
           - criteria: "Adds migrations to handle changes between old and new app versions"
             examples:
@@ -212,6 +214,7 @@ topics:
           - "Writes code that serves as a definitive example for new engineers"
           - "Identifies and fixes security vulnerabilities"
           - "Sought out for reviewing complex changes or commenting on larger scale proposals"
+          - "Builds flows that serve as an example of high quality interaction design"
         exampleCriteria:
           - criteria: "Owns and coordinates large scale architectural changes to the entire codebase"
             examples:
@@ -231,6 +234,7 @@ topics:
         criteria:
           - "Anticipates large or significant platform changes, work with team to define possible solutions. Starts or finishes these projects."
           - "Takes high level requirements and turns them into discrete technical concerns"
+          - "Instills and maintains a culture of high quality interaction design in their discipline"
         exampleCriteria:
           - criteria: "Coordinates group efforts across horizontal"
             examples:
