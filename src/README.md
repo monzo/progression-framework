@@ -4,10 +4,10 @@
   </a>
 </p>
 <h1 align="center">
-    Progression at Monzo
+    Progression at Bright
 </h1>
 
-This is a static site that displays the progression frameworks that Monzo use internally for our staff 🙌
+This is a static site that displays the progression frameworks that Bright use internally for our staff 🙌
 
 It's built in Gatsby, and deployed using Netlify.
 
@@ -22,15 +22,17 @@ Next, navigate to the `progression-framework` directory and use yarn to get ever
 
 ``` sh
 cd progression-framework
-yarn
+npm install
 ```
 
 If you're developing locally, you can start up the site locally with hot loading ⚡
 ``` sh
-gatsby develop
+npm start
 ```
+Which runs (gatsby develop)
 
 Finally, you can build everything into a set of static files 🛠️
 ``` sh
 gatsby build
 ```
+Note. reason why Im not using ` Yarn `to instal the node_modules is there is a strange issue when downloading and running the `Sharp` package 🤷🏽‍♂️ 
