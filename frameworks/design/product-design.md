@@ -35,7 +35,7 @@ You're totally proficient in multiple aspects of digital product design and user
 
 ### Ownership
 
-You're involved in and own big (and not necessarily well defined) tasks and projects that will have a big impact. You're able to offer product direction into complex problems creating the perfect and easy to use product that Monzo is known for.
+You're involved in and own big (and not necessarily well defined) tasks and projects that will have a big impact. You're able to offer product direction into complex problems creating the perfect and easy to use product that Bright is known for.
 
 ### Collaboration
 

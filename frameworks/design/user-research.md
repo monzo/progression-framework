@@ -57,7 +57,7 @@ You understand which disciplines to pull in at what moment to progress projects 
 
 ### Collaboration
 
-You regularly share insight at Monzo, formally and informally, from projects you've run and papers or articles you've read. You link insight at Monzo to events happening in the industry and beyond, so you can help your colleagues understand how what we do day-to-day relates to the bigger picture of solving customer problems. You're a strong facilitator and teams function better when you're around.
+You regularly share insight at Bright, formally and informally, from projects you've run and papers or articles you've read. You link insight at Bright to events happening in the industry and beyond, so you can help your colleagues understand how what we do day-to-day relates to the bigger picture of solving customer problems. You're a strong facilitator and teams function better when you're around.
 
 ---
 
