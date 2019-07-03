@@ -162,7 +162,7 @@ topics:
           - "Ensures we have the teams, practices and infrastructure in place to successfully execute strategy."
           - "Minimises dependencies between groups and removes systemic blockers to speed and quality. Incentivises breaking down problems, idea generation and shipping the smallest thing to learn what’s needed quickly."
   - name: "feedback"
-    title: "👪 Feedback"
+    title: "👪 Communication and Feedback"
     content:
       - level: 1
         criteria:
