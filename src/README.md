@@ -27,13 +27,13 @@ npm install
 
 If you're developing locally, you can start up the site locally with hot loading ⚡
 ``` sh
-npm start
+npm run start
 ```
 Which runs (`gatsby develop`)
 
 Finally, you can build everything into a set of static files 🛠️
 ``` sh
-npm build
+npm run build
 ```
 Which runs (`gatsby build`)
 Reason why I'm not using ` Yarn `to instal the node_modules is there is a strange issue when downloading and running the `Sharp` package using our network. 🤷🏽‍♂️ 
