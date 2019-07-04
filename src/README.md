@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-    Progression at Bright
+    Running the project on your Machine 👨‍💻
 </h1>
 
 This is a static site that displays the progression frameworks that Bright use internally for our staff 🙌
