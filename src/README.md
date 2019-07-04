@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.brighthr.com">
-    <img alt="Bright favicon" src="./src/images/favicon.png" width="60" />
+    <img alt="Bright favicon" src="./images/favicon.png" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -36,4 +36,4 @@ Finally, you can build everything into a set of static files 🛠️
 npm build
 ```
 Which runs (`gatsby build`)
-Note. reason why Im not using ` Yarn `to instal the node_modules is there is a strange issue when downloading and running the `Sharp` package 🤷🏽‍♂️ 
+Reason why I'm not using ` Yarn `to instal the node_modules is there is a strange issue when downloading and running the `Sharp` package using our network. 🤷🏽‍♂️ 

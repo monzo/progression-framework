@@ -4,12 +4,10 @@
   </a>
 </p>
 <h1 align="center">
-    Progression at Bright
+    Progression at Bright 🎉
 </h1>
 
-🎉 Welcome to the Progression at Monzo repository
-
-This is where all of Monzo's progression frameworks live, as well as the site that powers `progression.monzo.com` 💪
+Welcome to the Progression at Bright repository 💪
 
 **Get stuck? There's a glossary at the bottom of this readme!**
 
@@ -22,8 +20,7 @@ GitHub is an online service that we use to store our code, designs, and more. Gi
 We mainly use GitHub in Engineering, as it allows engineers to review each others code, making sure we have a tidy codebase and (hopefully!) stopping some bugs from crawling through the cracks 🐛
 
 We're using GitHub to store our progression frameworks for a few reasons:
-- It's public (or open source), meaning we can share this with the community and allow them to contribute!
-- Monzonauts can "own" or manage a framework (or frameworks), meaning they get to control any changes or additions in that area
+- Leads at Bright can "own" or manage a framework (or frameworks), meaning they get to control any changes or additions in that area
 - It means we can build a super fast site 🚀
 
 ## ❔ How does this work?
@@ -91,7 +88,7 @@ topics:
         criteria:
           - "Follows policies and procedures applicable to role. Completes training."
           - "Accepts feedback graciously and acts on it. Gives feedback when requested"
-          - "Builds relationships within monzo and contributes to building a supportive, knowledgable and engaged peer group"
+          - "Builds relationships within Bright and contributes to building a supportive, knowledgable and engaged peer group"
         exampleCriteria:
           -  criteria: "A criteria with an example point goes here"
              examples:
@@ -110,7 +107,7 @@ You can also add examples, by putting them in the `exampleCriteria` object, defi
 
 ---
 
-If you need any help and are a Monzonaut, ping @lucas a message or put a message in #org-scaling. Otherwise, feel free to raise an issue here in GitHub.
+If you need any help and are a Bright, ping @lucas a message or put a message in #org-scaling. Otherwise, feel free to raise an issue here in GitHub.
 
 ## ✏️ How do I edit a framework?
 
@@ -125,7 +122,7 @@ This will automatically save your changes and open a pull request, allowing the 
 
 **Repository (Repo)**: A folder in GitHub where files live
 
-*If you've seen the word 'repo', we're probably talking about the Progression Framework folder in GitHub that you're on right now (https://github.com/monzo/progression-framework)*
+*If you've seen the word 'repo', we're probably talking about the Progression Framework folder in GitHub that you're on right now (https://github.com/brighthr/progression-framework)*
 
 **Pull Request (PR)**: A request to change a file, or multiple files on GitHub
 
@@ -137,4 +134,4 @@ This will automatically save your changes and open a pull request, allowing the 
 
 
 ### 🤓 Looking for technical documentation?
-Take a look at the readme in the `src/` directory (https://github.com/monzo/progression-framework/blob/master/src/README.md)
+Take a look at the readme in the `src/` directory (https://github.com/brighthr/progression-framework/tree/master/src)
