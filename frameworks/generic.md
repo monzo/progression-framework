@@ -7,151 +7,171 @@ yaml: true
 levels: 6
 homepage: false
 topics:
-  - name: "knowledge"
-    title: "🧠 Knowledge"
+  - name: "priorize-simplifique"
+    title: "💥 Priorize e Simplifiquee"
     content:
       - level: 1
         criteria:
-          - "Learning just as much as adding value"
-          - "Has enough knowledge to make informed decisions"
-          - "Doesn’t necessarily know what they don’t know"
+          - Trabalha de forma independente em tarefas pequenas, de menor complexidade e bem definidas
+          - Procura otimizar o trabalho existente (por exemplo, processos, procedimentos, produtos, etc.)
+          - Trabalha de acordo com a urgência e priorização estabelecida
       - level: 2
         criteria:
-          - "Identifies areas/subjects they don’t know and proactively seeks out knowledge"
-          - "Increased domain knowledge"
-          - "Aware of their weaknesses"
+          - Realiza com qualidade tarefas e projetos que estão sob sua responsabilidade
+          - Consegue determinar o impacto relativo e a urgência de tarefas individuais
       - level: 3
         criteria:
-          - "Additional expertise or breadth of knowledge"
+          - Identifica novos problemas a serem resolvidos, dentro e fora de sua área
+          - Implementa soluções para problemas identificados
+          - Ajuda os outros a identificar e priorizar tarefas
       - level: 4
         criteria:
-          - "Has depth of knowledge in a particular area and breadth of knowledge across their domain"
-          - "You know who the experts are and delegate accordingly"
+          - Tem uma visão de longo prazo e define blocos de construção para chegar no objetivo
+          - Determina e discute sobre projetos ou tarefas focar primeiro
+          - Melhora a gestão da carga de horário de trabalho apoiando os outros no estabelecimento de prioridades
       - level: 5
         criteria:
-          - "Wide breadth of knowledge"
-          - "Can easily context switch within their area and pick up new concepts"
+          - Compreende a visão geral e integra os objetivos da empresa em sua área
+          - Garante que os projetos relevantes da empresa obtenham os recursos adequados
+          - Gerencia vários projetos paralelos e estabelece prioridades de acordo com as necessidades do negócio
       - level: 6
         criteria:
-          - "Has a high-level understanding of all the areas they own"
-          - "Understands the wider business context"
-  - name: "impact"
-    title: "💥 Impact"
+          - É o executivo responsável por projetos de alto impacto
+          - Prioriza e equilibra os projetos considerando se é de curto, médio e longo prazo
+          - Expressa opinião sobre as prioridades e colabora com os outros líderes sênior para determinar a importância das questões levantadas na organização.
+  - name: "ideias"
+    title: "🧠 Ideias valem mais do que cargos"
     content:
       - level: 1
         criteria:
-          - "Independently works on small, low-impact, well-defined task"
-          - "Looks to optimise existing work (eg Processes, procedures, products, etc)"
+          - Demonstra vontade de aprender continuamente
+          - Apoia a criatividade em outros ao ouvir as ideias
+          - Compartilha a própria perspectiva
       - level: 2
         criteria:
-          - "Delivers small, well-defined tasks/projects"
-          - "Delegated low-impact problems to solve"
+          - Demonstra curiosidade e sugere mudanças em potencial
+          - Contribui com a geração de ideias
+          - Identifica oportunidades de melhorias dentro da própria função
       - level: 3
         criteria:
-          - "Identifies problems to solve"
-          - "Owns the implementation of the solution"
+          - Vê problemas antigos e estado atual em novas maneiras para gerar soluções eficazes
+          - Faz perguntas para estimular o pensamento inovador nos outros
+          - Busca oportunidades e soluções criativas que ajudarão a melhorar o desempenho da equipe
       - level: 4
         criteria:
-          - "Can take a long-term vision and define building blocks to get there"
+          - Gera novas ideias, métodos, produtos ou soluções continuamente e age sobre novas ideias avaliando e testando os riscos
+          - Incentiva os outros a compartilhar, construir e desafia abertamente as novas ideias uns dos outros
       - level: 5
         criteria:
-          - "Understands the big picture and integrates company goals into their area"
+          - Analisa diversas ideias em potencial e avalia cada uma de acordo com as metas do negócio
+          - Aceita falha como uma parte necessária da inovação
+          - Treina os outros para ter perspectivas diferentes, agindo como advogado para novas ideias
+          - Busca novas possibilidades e oportunidades para “manter-se um passo à frente”
       - level: 6
         criteria:
-          - "Is the accountable exec for high-impact projects"
-  - name: "communication"
-    title: "💬 Communication"
+          - Assume riscos e visiona o que pode não existir hoje e colabora com os outros para gerar estratégias e dar vida a novas visões
+          - Incentiva os outros a experimentar e aprender com o erro
+          - Busca oportunidades e áreas de negócio onde soluções criativas ajudarão a melhorar a produtividade
+  - name: "historias"
+    title: "💬 Um milhão de Histórias"
     content:
       - level: 1
         criteria:
-          - "Actively communicates what they are working on"
-          - "Seeks out feedback"
+          - Comunica ativamente o que eles estão trabalhando
+          - Realiza as tarefas necessárias de modo consistente e confiável para atender as expectativas do cliente
+          - Procura feedback
       - level: 2
         criteria:
-          - "Can deliver their work to their team and others"
-          - "Proactively gives feedback to those they work with"
+          - Pode entregar seu trabalho para sua equipe e outros
+          - Fornece feedback proativamente àqueles com quem trabalha
+          - Faz as perguntas certas e ouve diretamente os clientes para obter um entendimento de suas necessidades
       - level: 3
         criteria:
-          - "Clearly communicates throughout implementation of solutions"
-          - "Can successfully get buy-in for their proposals"
+          - Comunica-se claramente ao longo da implementação de soluções
+          - mostra-se interessado no cliente ao tentar entender suas preocupações e questões
+          - Desenvolve relacionamentos positivos com os clientes internos e externos
       - level: 4
         criteria:
-          - "Communicates their area’s role within the larger mission of the company"
+          - Comunica o papel da sua área dentro da missão maior da empresa
+          - Toma medidas adicionais para prever as necessidades dos clientes e age imediatamente para solucionar problemas
+          - Descobre as necessidades ocultas dos clientes e incentiva os outros a considerar o ponto de vista do cliente na tomada de decisão
       - level: 5
         criteria:
-          - "Communicates the long-term vision & mission for the company and their area"
+          - Comunica a visão e missão de longo prazo para a empresa e sua área
+          - Transforma as necessidades dos clientes em ofertas de serviços relevantes
+          - Está sempre atento aos feedbacks de satisfação dos clientes e incorpora esses feedbacks em planos de ação
       - level: 6
         criteria:
-          - "An effective and inspiring communicator internally and externally"
-  - name: "teamwork"
-    title: "🤝 Teamwork"
+          - Um comunicador eficaz e inspirador, interna e externamente
+          - Busca compreender os principais atores de negócios dos clientes atuais e potenciais, e projeta as soluções de acordo
+          - Cria e apoia programas de suporte que melhoram a reputação da empresa
+  - name: "seu-problema-meu-problema"
+    title: "🤝 Seu problema, meu problema"
     content:
       - level: 1
         criteria:
-          - "Works closely or in pairs with more senior members of the team when facing tasks for the first time"
-          - "Needs support and guidance from managers, mentors and leads"
-          - "Needs approval to ship projects of a certain impact"
-          - "They may need support on how to navigate the professional environment"
+          - Realiza tarefas e responsabilidades específica, fornecendo informações aos outros
+          - Trabalha de modo colaborativo com os membros da equipe para realizar bem o próprio trabalho
+          - Mostra-se disponível a ajudar e colaborar com o trabalho do outro membro da equipe para o bem do coletivo
       - level: 2
         criteria:
-          - "Starts to delegate tasks to peers"
-          - "Collaborates within their team"
-          - "Independently works and learns"
-          - "Do not need to be checked in on daily"
+          - Colabora dentro de sua equipe. Reconhece os papéis dos membros da equipe e como o próprio papel contribui para as metas em comum
+          - Compartilha informações com outros de modo oportuno, oferece suporte aos outros sempre que possível
       - level: 3
         criteria:
-          - "Collaborates across the organisation"
-          - "Strong cultural understanding"
-          - "Empowers those around them"
-          - "Takes ownership of their own development"
+          - Colabora com membros de outras equipes, estabelecendo e aumentando os relacionamento de trabalho
+          - Busca e incentiva ideias diferentes e diversas dos outros
+          - Capacita os que estão ao seu redor
       - level: 4
         criteria:
-          - "Leads through influence"
-          - "Natural teacher, they’re able to formally and informally teach those around them"
-          - "You unblock people within your area"
-          - "You’re recognised for your impact on team culture and people want to work with you"
+          - Ensina formal e informalmente aqueles que os rodeiam
+          - Comunica-se dentro e entre equipes para remover barreiras
+          - É reconhecido pelo seu impacto na cultura de equipe e as pessoas querem trabalhar com você
       - level: 5
         criteria:
-          - "You coach others to find the best solution"
-          - "You inspire your team and can attract top talent to the organisation"
-          - "You unblock people outside of your area"
+          - Treina os outros para encontrar a melhor solução
+          - Inspira sua equipe e pode atrair os melhores talentos para a organização
+          - Gera cooperação entre equipes
+          - Motiva os membros da equipe e promove os valores da companhia
       - level: 6
         criteria:
-          - "Leader of business culture and strategy"
-          - "You own your area’s structure"
-          - "Strong leadership and coaching abilities"
-  - name: "conduct"
-    title: "👩‍💻 Conduct"
+          - Líder da cultura e estratégia de negócios
+          - Liderança forte e habilidades de coaching
+          - Estabelece uma rede ativa de compartilhamento de informações
+          - Busca e constrói relacionamentos pela organização
+  - name: "resultado"
+    title: "👩‍💻 Foco em Resultado"
     content:
       - level: 1
         criteria:
-          - "Follows policies and procedures applicable to role"
-          - "Completes training"
-          - "Identifies risks related to own areas"
+          - Trabalha com tarefas pré-determinadas e é focado em suas entregas
+          - Conclui as medidas necessárias para atingir as metas de trabalho
+          - Mantém contato frequente com o gestor imediato para demonstrar o progresso do resultado
       - level: 2
         criteria:
-          - "Applies and follows governance principles as they apply to role"
-          - "Communicates and escalates risks related to own projects and business area"
-          - "Ensures colleagues actively analyse and address risks in their area"
+          - Estabelece metas individuais que expandem as próprias capacidades
+          - Demonstra o senso de urgência adequado para atingir as metas
+          - É persistente, permanecendo focado para entrega dos resultados
+          - Busca auxílio para escolher ações corretivas a fim de garantir os próprios resultados
       - level: 3
         criteria:
-          - "Expert risk and compliance knowledge as relevant to role"
-          - "Takes ownership for training others in risk & compliance as relevant to their role"
-          - "Promptly and effectively deals with unforeseen risks as they arise"
+          - Inicia e apoia ações para o alcance das metas
+          - Mantém o compromisso apesar dos obstáculos e se esforça para terminar o que começou
+          - Rastreia resultados chave e processos para avaliar o sucesso da equipe e toma medidas corretivas se necessário
       - level: 4
         criteria:
-          - "Uses knowledge of internal and external environment to develop strategy and internal policy"
-          - "Applies sophisticated and creative analysis and recommends remediating action"
-          - "Responds to complex issues devising smart strategies for the mitigation of risk"
+          - Busca progressivamente metas e responsabilidades de curto e longo prazo mais desafiadoras
+          - Demonstra energia e resposta positiva ao resolver problemas desafiadores, vendo tarefas complicadas como incentivadoras ou inovadoras
+          - Garante que as metas sejam atingidas ao rastrear continuamente os resultados
       - level: 5
         criteria:
-          - "Participates in risk management and mitigation at the highest industry level"
-          - "Leads by example and proves their area is managing risk and compliance within appetite"
-          - "Gets involved in and identifies opportunities for colleagues to participate in advisory, strategic, industry bodies to learn and share best practice in their area of business"
+          - Colabora com outros líderes para estabelecer metas
+          - Reconhece e recompensa a conquista de resultados diante de desafios e contratempos
+          - Reforça os comportamentos que levaram a superar as expectativas
       - level: 6
         criteria:
-          - "Creates a strong risk culture throughout the organisation"
-          - "Owns policies and can evidence their compliance"
-          - "Contributes to thought leadership on effective and creative risk management throughout the industry"
-          - "Proactively identifies holistic measures to robust risk management and implements them company-wide"
+          - Cria uma visão atraente e estabelece metas de curto, médio e longo prazo
+          - Promove uma cultura voltada a feedback onde os colaboradores falem abertamente sobre seu progresso e sigam na direção do alcance das metas
+          - Monitora e comunica regularmente as conquistas reconhecendo os colaboradores
+          - Avalia os resultados chave e redireciona os esforços, se necessário, para alcançar os resultados
 ---
