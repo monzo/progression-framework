@@ -24,8 +24,8 @@ export default class Index extends React.Component<Props> {
       <Layout data={this.props.data}>
         <DescriptionView>
           <DescriptionTitleGroup>
-            <Subtitle>Welcome To</Subtitle>
-            <Title>Progression at Monzo 🎉</Title>
+            <Subtitle>Boas-vindas a</Subtitle>
+            <Title>Progressão do GetNinjas 🎉</Title>
           </DescriptionTitleGroup>
           <Description>
             <DescriptionText>
