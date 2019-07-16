@@ -28,8 +28,8 @@ steps:
     displayName: ‘Copy Progression Framework Artifact’
     inputs:
       Contents: |
-      public/**/*
-      Terraform/**/*
+        public/**/*
+        Terraform/**/*
       targetFolder: $(Build.ArtifactStagingDirectory)
 
   -task: PublishBuildArtifacts@1
