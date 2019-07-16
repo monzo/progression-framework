@@ -9,7 +9,8 @@ steps:
   - task: Npm@1
     displayName: "Install Gatsby-cli"
     inputs:
-      command: install gatsby-cli
+      command: custom
+      customCommand: install --global gatsby-cli
   
   - task: Npm@1
     displayName: "Instaling Node Modules"
