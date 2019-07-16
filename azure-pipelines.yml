@@ -7,9 +7,9 @@ steps:
       versionSpec: "10.x"
 
   - task: Npm@1
-    displayName: "Install Gastby-cli"
+    displayName: "Install Gatsby-cli"
     inputs:
-      command: install -g gatsby-cli
+      command: install gatsby-cli
   
   - task: Npm@1
     displayName: "Instaling Node Modules"
