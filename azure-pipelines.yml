@@ -5,6 +5,7 @@ steps:
   - task: NodeTool@0
     inputs:
       versionSpec: "10.x"
+
   - task: Npm@1
     displayName: "Install Gastby-cli"
     inputs:
@@ -28,7 +29,7 @@ steps:
     inputs:
       Contents: |
         public/**/*
-        Terraform/**/*
+        terraform/**/*
       targetFolder: $(Build.ArtifactStagingDirectory)
 
-  -task: PublishBuildArtifacts@1
+  - task: PublishBuildArtifacts@1
