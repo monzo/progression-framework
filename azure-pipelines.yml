@@ -1,0 +1,35 @@
+
+pool:
+  vmImage: "Ubuntu 16.04"
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: "10.x"
+  - task: Npm@1
+    displayName: "Install Gastby-cli"
+    inputs:
+      command: install -g gatsby-cli
+  
+  - task: Npm@1
+    displayName: "Instaling Node Modules"
+    inputs:
+      command: install
+
+  - task: Npm@1
+    displayName: "Create production distribution"
+### condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'master'))
+    inputs:
+      command: custom
+      customCommand: run build
+      workingDir: $(System.DefaultWorkingDirectory)
+  
+  - task: CopyFiles@2
+    displayName: ‘Copy Progression Framework Artifact’
+    inputs:
+      Contents: |
+      public/**/*
+      Terraform/**/*
+      targetFolder: $(Build.ArtifactStagingDirectory)
+
+  -task: PublishBuildArtifacts@1
