@@ -20,34 +20,9 @@ resource "azurerm_storage_account" "progressionframework" {
     account_kind = "StorageV2"
 }
 
-resource "azurerm_app_service_plan" "progressionframework" {
-    name = "progression-framework-plan"
-    resource_group_name = "${azurerm_storage_account.progressionframework.name}"
-    location = "${azurerm_resource_group.rg-progression-framework.location}"
-
-    sku {
-        tier = "Dynamic"
-        size = "Y1"
-    }
-}
-
-resource "azurerm_application_insights" "progressionframework" {
-    name = "progression-framework-insights"
-    resource_group_name = "${azurerm_resource_group.rg-progression-framework.name}"
-    location = "UK South"
-    application_type = "Node.JS"
-}
-
-resource "azurerm_function_app" "progression-framework-fn" {
-    name = "progression-framework-fn"
-    location = "${azurerm_resource_group.rg-progression-framework.location}"
-    resource_group_name ="${azurerm_resource_group.rg-progression-framework.name}"
-    app_service_plan_id = "${azurerm_app_service_plan.progressionframework.id}"
-    storage_connection_string = "${azurerm_storage_account.progressionframework.primary_connection_string}"
-
-    app_settings = {
-        "APPINSIGHTS_INSTRUMENTATIONKEY" = "${azurerm_application_insights.progressionframework.instrumentation_key}"
-    }
-
-    depends_on = [azurerm_storage_account.progressionframework, azurerm_application_insights.progressionframework]
+resource "null_resource" "progression-framework-static" {
+  provisioner "local-exec" {
+    command = "az storage blob service-properties update --account-name ${azurerm_storage_account.rg-progressionframework.name} --static-website  --index-document index.html --404-document 404.html"
+  }
+  depends_on = ["azurerm_storage_account.progressionframework"]
 }
