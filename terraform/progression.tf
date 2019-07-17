@@ -2,6 +2,11 @@ provider "azurerm" {
     version = "=1.28.0"
 }
 
+variable "webname" {
+    type = "string"
+    default = "progression-framework"
+}
+
 resource "azurerm_resource_group" "rg-progression-framework" {
     name     = "RG-Progression-Framework"
     location = "North Europe"
@@ -28,4 +33,34 @@ resource "null_resource" "progression-framework-static" {
     command = "az storage blob service-properties update --account-name ${azurerm_storage_account.progressionframework.name} --static-website  --index-document index.html --404-document 404.html"
     }
   depends_on = ["null_resource.azure-login"]
+}
+
+module "static-url" {
+  source  = "matti/resource/shell"
+  command = "printf $(az storage account show -n ${azurerm_storage_account.progressionframework.name} -g ${azurerm_resource_group.rg-progression-framework.name} --query \"primaryEndpoints.web\" --output tsv | cut -d \"/\" -f 3)"
+}
+
+resource "azurerm_cdn_profile" "progressionframework-cdn-profile" {
+  name                = "${var.webname}-cdn-profile"
+  location            = "${azurerm_resource_group.rg-progression-framework.location}"
+  resource_group_name = "${azurerm_resource_group.rg-progression-framework.name}"
+  sku                 = "Standard_Microsoft"
+}
+
+resource "azurerm_cdn_endpoint" "progressionframework-cdn-endpoint" {
+  name                = "${var.webname}-cdn-endpoint"
+  profile_name        = "${azurerm_cdn_profile.progressionframework-cdn-profile.name}"
+  location            = "${azurerm_resource_group.rg-progression-framework.location}"
+  resource_group_name = "${azurerm_resource_group.rg-progression-framework.name}"
+  is_http_allowed     = "false"
+  optimization_type   = "GeneralWebDelivery"
+  origin_host_header  = "${module.static-url.stdout}"
+  querystring_caching_behaviour = "IgnoreQueryString"
+  
+  origin {
+    name      = "assets"
+    host_name = "${module.static-url.stdout}"
+    https_port = "443"
+  }
+  depends_on = ["module.static-url"]
 }
