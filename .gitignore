@@ -1,6 +1,7 @@
 # Terraform
 .plan
 .terraform
+.variables.tf
 
 # Logs
 logs
