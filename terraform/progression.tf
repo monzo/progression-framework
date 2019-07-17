@@ -48,14 +48,12 @@ resource "azurerm_cdn_endpoint" "progressionframework-cdn-endpoint" {
   profile_name        = "${azurerm_cdn_profile.progressionframework-cdn-profile.name}"
   location            = "${azurerm_resource_group.rg-progression-framework.location}"
   resource_group_name = "${azurerm_resource_group.rg-progression-framework.name}"
-  is_http_allowed     = "false"
   optimization_type   = "GeneralWebDelivery"
-  origin_host_header  = replace("${azurerm_storage_account.progressionframework.primary_web_endpoint}","https://","")
   querystring_caching_behaviour = "IgnoreQueryString"
   
   origin {
-    name      = "assets"
-    host_name = replace("${azurerm_storage_account.progressionframework.primary_web_endpoint}","https://","")
+    name      = "${var.webname}-${azurerm_storage_account.progressionframework.name}"
+    host_name = replace(replace("${azurerm_storage_account.progressionframework.primary_web_endpoint}","https://",""),"/"."")
     https_port = "443"
   }
   depends_on = ["azurerm_cdn_profile.progressionframework-cdn-profile"]
