@@ -23,7 +23,7 @@ resource "azurerm_storage_account" "progressionframework" {
 
 resource "null_resource" "azure-login-service-principle" {
   provisioner "local-exec" {
-    command = "az login --service-principal -u ${var.client_id} =p ${var.client_secret} --tenant ${var.tenant_id}"
+    command = "az login --service-principal -u ${var.client_id} -p ${var.client_secret} --tenant ${var.tenant_id}"
   }
   depends_on = ["azurerm_storage_account.progressionframework"]
 }
