@@ -53,7 +53,7 @@ resource "azurerm_cdn_endpoint" "progressionframework-cdn-endpoint" {
   
   origin {
     name      = "${var.webname}-${azurerm_storage_account.progressionframework.name}"
-    host_name = replace(replace("${azurerm_storage_account.progressionframework.primary_web_endpoint}","https://",""),"/"."")
+    host_name = replace(replace("${azurerm_storage_account.progressionframework.primary_web_endpoint}","https://",""),"/","")
     https_port = "443"
   }
   depends_on = ["azurerm_cdn_profile.progressionframework-cdn-profile"]
