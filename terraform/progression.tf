@@ -35,17 +35,12 @@ resource "null_resource" "progression-framework-static" {
   depends_on = ["null_resource.azure-login"]
 }
 
-module "static-url" {
-  source  = "matti/resource/shell"
-  command = "printf $(az storage account show -n ${azurerm_storage_account.progressionframework.name} -g ${azurerm_resource_group.rg-progression-framework.name} --query \"primaryEndpoints.web\" --output tsv | cut -d \"/\" -f 3)" 
-}
-
 resource "azurerm_cdn_profile" "progressionframework-cdn-profile" {
   name                = "${var.webname}-cdn-profile"
   location            = "${azurerm_resource_group.rg-progression-framework.location}"
   resource_group_name = "${azurerm_resource_group.rg-progression-framework.name}"
   sku                 = "Standard_Microsoft"
-  depends_on = ["module.static-url"]
+  depends_on = ["null_resource.progression-framework-static"]
 }
 
 resource "azurerm_cdn_endpoint" "progressionframework-cdn-endpoint" {
@@ -55,13 +50,13 @@ resource "azurerm_cdn_endpoint" "progressionframework-cdn-endpoint" {
   resource_group_name = "${azurerm_resource_group.rg-progression-framework.name}"
   is_http_allowed     = "false"
   optimization_type   = "GeneralWebDelivery"
-  origin_host_header  = "${module.static-url.stdout}"
+  origin_host_header  = "${azurerm_storage_account.progressionframework.primary_web_endpoint}"
   querystring_caching_behaviour = "IgnoreQueryString"
   
   origin {
     name      = "assets"
-    host_name = "${module.static-url.stdout}"
+    host_name = "${azurerm_storage_account.progressionframework.primary_web_endpoint}"
     https_port = "443"
   }
-  depends_on = ["module.static-url"]
+  depends_on = ["azurerm_cdn_profile.progressionframework-cdn-profile"]
 }
