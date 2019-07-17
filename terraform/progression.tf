@@ -1,3 +1,7 @@
+provider "azurerm" {
+    version = "=1.28.0"
+}
+
 data "terraform_remote_state" "terraform-state" {
   backend = "azurerm"
   config = {
@@ -5,10 +9,6 @@ data "terraform_remote_state" "terraform-state" {
     container_name       = "rg-progression-framework"
     key                  = "progression-framework.terraform.tfstate"
   }
-}
-
-provider "azurerm" {
-    version = "=1.28.0"
 }
 
 variable "webname" {
