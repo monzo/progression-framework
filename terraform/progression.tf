@@ -20,12 +20,17 @@ resource "azurerm_storage_account" "progressionframework" {
     account_kind = "StorageV2"
 }
 
-resource "null_resource" "progression-framework-static" {
+
+resource "null_resource" "azure-login-service-principle" {
   provisioner "local-exec" {
-    command = [      
-      "az login --service-principal",
-      "az storage blob service-properties update --account-name ${azurerm_storage_account.progressionframework.name} --static-website  --index-document index.html --404-document 404.html"
-    ]
+    command = "az login --service-principal"
   }
   depends_on = ["azurerm_storage_account.progressionframework"]
+}
+
+resource "null_resource" "progression-framework-static" {
+  provisioner "local-exec" {
+    command = "az storage blob service-properties update --account-name ${azurerm_storage_account.progressionframework.name} --static-website  --index-document index.html --404-document 404.html"
+  }
+  depends_on = ["null_resource.azure-login-service-principle"]
 }
