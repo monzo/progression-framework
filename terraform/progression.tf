@@ -19,5 +19,6 @@ resource "azurerm_storage_account" "progressionframework" {
 resource "null_resource" "progression-framework-static" {
   provisioner "local-exec" {
     command = "az login --service-principal -u %ARM_CLIENT_ID% -p %ARM_CLIENT_SECRET% --tenant %ARM_TENANT_ID%"
-  depends_on = ["azurerm_storage_account.progressionframework"]
+    depends_on = ["azurerm_storage_account.progressionframework"]
+  }
 }
