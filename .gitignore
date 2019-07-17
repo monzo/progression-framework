@@ -1,8 +1,8 @@
 # Terraform
-.plan
+*.plan
 .terraform
-.variables.tf
-.tfstate
+*.variables.tf
+*.tfstate
 
 # Logs
 logs
