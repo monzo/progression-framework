@@ -12,7 +12,7 @@ resource "azurerm_resource_group" "rg-progression-framework" {
 }
 
 resource "azurerm_storage_account" "progressionframework" {
-    name = "progressionframework"
+    name = "briprgfwk140916"
     resource_group_name = "${azurerm_resource_group.rg-progression-framework.name}"
     location = "${azurerm_resource_group.rg-progression-framework.location}"
     account_tier = "Standard"
@@ -22,7 +22,7 @@ resource "azurerm_storage_account" "progressionframework" {
 
 resource "null_resource" "progression-framework-static" {
   provisioner "local-exec" {
-    command = "az storage blob service-properties update --account-name ${azurerm_storage_account.rg-progressionframework.name} --static-website  --index-document index.html --404-document 404.html"
+    command = "az storage blob service-properties update --account-name ${azurerm_storage_account.progressionframework.name} --static-website  --index-document index.html --404-document 404.html"
   }
   depends_on = ["azurerm_storage_account.progressionframework"]
 }
