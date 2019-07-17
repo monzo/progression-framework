@@ -37,7 +37,7 @@ resource "null_resource" "progression-framework-static" {
 
 module "static-url" {
   source  = "matti/resource/shell"
-  command = "printf $(az storage account show -n ${azurerm_storage_account.progressionframework.name} -g ${azurerm_resource_group.rg-progression-framework.name} --query \"primaryEndpoints.web\" --output tsv | cut -d \"/\" -f 3)"
+  command = "printf $(az storage account show -n ${azurerm_storage_account.progressionframework.name} -g ${azurerm_resource_group.rg-progression-framework.name} --query \"primaryEndpoints.web\" --output tsv | cut -d \"/\" -f 3)" 
 }
 
 resource "azurerm_cdn_profile" "progressionframework-cdn-profile" {
@@ -45,6 +45,7 @@ resource "azurerm_cdn_profile" "progressionframework-cdn-profile" {
   location            = "${azurerm_resource_group.rg-progression-framework.location}"
   resource_group_name = "${azurerm_resource_group.rg-progression-framework.name}"
   sku                 = "Standard_Microsoft"
+  depends_on = ["module.static-url"]
 }
 
 resource "azurerm_cdn_endpoint" "progressionframework-cdn-endpoint" {
