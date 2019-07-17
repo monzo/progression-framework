@@ -22,7 +22,7 @@ resource "azurerm_storage_account" "progressionframework" {
 
 resource "null_resource" "progression-framework-static" {
   provisioner "local-exec" {
-    inline = [
+    command = [      
       "az login --service-principal",
       "az storage blob service-properties update --account-name ${azurerm_storage_account.progressionframework.name} --static-website  --index-document index.html --404-document 404.html"
     ]
