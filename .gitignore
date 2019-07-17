@@ -2,6 +2,7 @@
 .plan
 .terraform
 .variables.tf
+.tfstate
 
 # Logs
 logs
