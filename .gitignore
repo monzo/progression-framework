@@ -3,6 +3,7 @@
 .terraform
 *.variables.tf
 *.tfstate
+*.tfstate.backup
 
 # Logs
 logs
