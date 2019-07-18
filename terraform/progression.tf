@@ -58,7 +58,7 @@ resource "azurerm_cdn_endpoint" "progressionframework-cdn-endpoint" {
   location            = "${azurerm_resource_group.rg-progression-framework.location}"
   resource_group_name = "${azurerm_resource_group.rg-progression-framework.name}"
   optimization_type   = "GeneralWebDelivery"
-  querystring_caching_behaviour = "IgnoreQueryString"
+  querystring_caching_behaviour = "UseQueryString"
   
   origin {
     name      = "${var.webname}-${azurerm_storage_account.progressionframework.name}"
