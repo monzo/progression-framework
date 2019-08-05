@@ -604,7 +604,7 @@ topics:
         - "Realiza apresentações relativas ao time / produto com storyline claro e que engajem o público"
         - "Seu time demonstra claramente que está motivado/inspirado para chegar à visão e objetivos"
   - name: "Leadership Skills"
-    title: "🗣️ Leadership Skills"
+    title: "🎯 Leadership Skills"
     content:
     - level: 1
       criteria:
