@@ -1,7 +1,7 @@
 ---
 path: "/generic"
-title: "📄 Generic Framework"
-sidebarTitle: "📄 Generic"
+title: "📄 Estrutura Genérica"
+sidebarTitle: "📄 Estrutura Genérica"
 sidebarGroup:
 yaml: true
 levels: 6

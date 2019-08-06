@@ -1,10 +1,10 @@
 ---
 path: "/engineering/platform-engineer"
-title: "🛠️Platform Engineer Engineering Framework"
-sidebarTitle: "🛠️Platform Engineer"
+title: "🛠️ Platform Engineer Engineering Framework"
+sidebarTitle: "🛠️ Platform Engineer"
 sidebarGroup: "engineering"
 yaml: true
-levels: 7
+levels: 5
 homepage: true
 topics:
   - name: "testes"
@@ -257,37 +257,39 @@ topics:
           - "Lidera grandes movimentações de arquitetura na empresa"
           - "É uma referência de mercado quando se trata de arquitetura, sendo influente e reconhecido pelas comunidades de desenvolvimento (Brasil ou estrangeiras)"
 ---
-### About our engineering progression frameworks
-The engineering progression framework is a tool that helps engineers and managers:
-- make development and career plans
-- talk about what we’re looking for from engineers in a consistent way
-- set a fair level of compensation.
 
-The framework is a compass, not a GPS.
+### Sobre nosso framework de progressão de engenharia
+O framework de progressão de engenharia no GetNinjas é uma ferrementa que ajuda pessoas engenheiras e de gestão a:
+- fazer desenvolvimento e plano de carreira;
+- conversar sobre o que nós buscamos das pessoas de engenharia num caminho consistente;
+- ter um nível justo de compensação financeira.
 
-It's meant to be helpful. It's not meant to be a rating system for humans, free from edge cases.
+O framework é um um compasso, não um GPS.
 
-### How does it work?
-The framework covers all the things we’re looking for from engineers at Monzo. We’re interested in these five elements:
-- Mastery - Your Monzo knowledge and technical capability
-- Impact - The size, scope and value of what you deliver
-- Influence - How you change the world around you for the better
-- Comms & Feedback - How you interact with others
-- Leadership - How people around you become better and more impactful
+Isso significa ser um auxiliar. Não significa que é um sistema de avaliação pra humanos, livres de casos específicos ou diferentes do comum.
 
-We sort them into six levels, and we try to give specific examples of behaviours we expect for each. Each of those levels has a fairly wide salary range associated with it, and within each level you can progress in sub-levels, labelled A–E. So even if you’re at level 3 for a couple of years, you’ll still be able to see that you’re moving forward. Basically, the more behaviours you show from your level, the more you’ll progress.
 
-Your manager will work with you on this. None of it will happen mysteriously behind closed doors. You’ll agree what level of progression you’re going for and what you need to improve on with your manager. It should be clear how you’re doing relative to that at all times.
+### Como funciona?
+O framework cobre todas as coisas que nós buscamos em pessoas de engenharia no GetNinjas. Colocamos nosso interesse em esse número de competências técnicas:
 
-### Things to keep in mind
-- There are many different ways to progress and be valuable to Monzo as you grow, including deep technical knowledge and ability, technical leadership and people management. All are equally valuable paths in Monzo's engineering team.
-- The framework represents a career’s worth of progression, people shouldn’t expect to fly up it in 18 months!
+- Troubleshooting;
+- Testes e Ferramentas de Teste;
+- Programação e Linguagens;
+- Infraestrutura (AWS/Cloud);
+- Evolução dos Sistemas;
+- Arquitetura;
+
+Nós organizamos em 5 níveis, e tentamos dar exemplos específicos de comportamentos que nós esperamos pra cada um dos níveis. Cada um desses níveis tem uma faixa salarial justa associada.
+
+A pessoa que é líder irá trabalhar nisso com você. Nada disso irá acontecer misteriosamente por trás dos panos. Você i'ra concordar em qual nível de progressão você está indo e o que precisa pra melhorar junto com quem é líder seu(sua). Deve ser claro como você está fazendo algo relativo com o nível, todas as vezes que falarem sobre.
+
+
+### Coisas pra ter em mente
+- Há muitas formas de progredir e ser avaliado no GetNinjas enquanto você vai crescendo, incluindo conhecimento técnico profundo e habilidade, liderança técnica e gestão de pessoas. Todos são avaliados de forma igual no nosso time;
+- O framework representa o valor de progressão de um carreira, as pessoas não deveriam experar um super vôo em 18 meses!
+ - Progressão de engenharia não é uma ciência exata e sempre será um pouco ambígua
+
 - Engineering progression isn’t an exact science and there will always be some ambiguity.
-- This isn’t a checklist – it’s possible to progress up a level without showing all the behaviours in that level.
-- There will be levels on top (eg ‘Inventor of Android’ or ‘Author of Go’), but we won’t add them until we need them.
-- You can find some more information in these links. If that doesn't answer most of your questions, please ask your manager.
-
-### Give us your feedback!
-This is only the first version of our framework and we really want your feedback.
-
-We're particularly keen to add as many examples to the behaviours as possible, to further clarify them.
+- Isso não é uma checklist - é possível progredir pra um nível sem mostrar todos os comportamentos daquele nível;
+- Existem mais níveis altos (6 e 7 pra cada competência), mas nós não adicionaremos agora, isso até que nós precisemos deles.
+- Esse framework não está escrito em pedra. Se você tiver sugestões de melhorias ou dúvidas, por favor não deixe de pontuar com a liderança.
