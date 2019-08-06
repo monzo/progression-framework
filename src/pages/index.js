@@ -25,48 +25,45 @@ export default class Index extends React.Component<Props> {
         <DescriptionView>
           <DescriptionTitleGroup>
             <Subtitle>Boas-vindas a</Subtitle>
-            <Title>Progressão do GetNinjas 🎉</Title>
+            <Title>Progressão no GetNinjas 🎉</Title>
           </DescriptionTitleGroup>
           <Description>
             <DescriptionText>
-              This is where we keep the progression frameworks we use at Monzo.
+              Aqui é onde mantemos nossos frameworks de progressão usados no
+              GetNinjas.
             </DescriptionText>
             <DescriptionText>
-              Progression frameworks are tools that help us evaluate and pay our
-              staff consistently, and help people understand how to progress in
-              their work.
+              Frameworks de Progressão são ferramentas que nos ajudam a avaliar
+              e pagar nossos(as) funcionários(as) consistentemente, e ajudar
+              pessoas a entender como progredir em seu trabalho.
             </DescriptionText>
             <DescriptionText>
-              We&apos;ve put them here for everyone at Monzo (and anyone in the
-              world!) to use.
+              Nós adicionarmos mais frameworks assim que formos construindo-os,
+              e atualizando os existentes assim que eles forem cresecendo, então
+              as coisas podem ir mudando por aqui (não deixaremos de envolver
+              todas as pessoas nessas decisões de mudanças =D).
             </DescriptionText>
             <DescriptionText>
-              We&apos;ll be adding more frameworks as we build them, and
-              updating existing ones as we grow, so expect things to change
-              around here!
+              Esse site, assim como todos os frameworks de progressão, são open
+              source. Isso significa que você pode contribuir com o
+              desenvolvimento desse site ou nossos frameworks de progressão, e
+              usar ambos como inspiração para seus próprios projetos! Nós
+              estamos seguindo um template utilizado pela Monzo (agradecemos a
+              vocês pelo trabalho incrível desse template/projeto).
             </DescriptionText>
             <DescriptionText>
-              This site, along with all our progression frameworks, are open
-              source. That means you can contribute to the development of this
-              site or our progression frameworks, and use both as inspiration
-              for your own projects!
-            </DescriptionText>
-            <DescriptionText>
-              To get involved, go to{' '}
-              <a href="https://github.com/monzo/progression-framework">
+              Pra ficar a par, vá para{' '}
+              <a href="https://github.com/getninjas/progression-framework">
                 <FontAwesomeIcon icon={faGithub} />{' '}
-                @monzo/progression-framework.
+                @getninjas/progression-framework.
               </a>
             </DescriptionText>
             <DescriptionText>
-              You can find out more about progression at Monzo and what it means
-              for us in this{' '}
+              Você pode encontrar mais informações sobre progressão na Monzo e o
+              que isso significa pra eles nesse{' '}
               <a href="https://monzo.com/blog/2019/01/07/progression">
                 blog post.
               </a>
-            </DescriptionText>
-            <DescriptionText>
-              Take a look around and let us know what you think! 🚀
             </DescriptionText>
           </Description>
         </DescriptionView>

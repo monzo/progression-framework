@@ -1,11 +1,11 @@
 ---
 path: "/generic"
-title: "📄 Generic Framework"
-sidebarTitle: "📄 Generic"
+title: "📄 Progressão Genérica GetNinjas"
+sidebarTitle: "📄 Progressão Genérica GetNinjas"
 sidebarGroup:
 yaml: true
 levels: 6
-homepage: false
+homepage: true
 topics:
   - name: "priorize-simplifique"
     title: "💥 Priorize e Simplifiquee"
