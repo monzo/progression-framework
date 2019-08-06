@@ -1,7 +1,7 @@
 ---
 path: "/generic"
-title: "📄 Estrutura Genérica"
-sidebarTitle: "📄 Estrutura Genérica"
+title: "📄 Progressão Genérica GetNinjas"
+sidebarTitle: "📄 Progressão Genérica GetNinjas"
 sidebarGroup:
 yaml: true
 levels: 6
