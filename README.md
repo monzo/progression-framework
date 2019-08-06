@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.monzo.com">
-    <img alt="GetNinjas favicon" src="https://user-images.githubusercontent.com/6955526/62547358-76f72380-b83b-11e9-8e44-c0c8d7425535.png" width="60" />
+    <img alt="GetNinjas favicon" src="https://user-images.githubusercontent.com/6955526/62547358-76f72380-b83b-11e9-8e44-c0c8d7425535.png" width="300" />
   </a>
 </p>
 <h1 align="center">
