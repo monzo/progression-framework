@@ -1,15 +1,15 @@
 <p align="center">
   <a href="https://www.monzo.com">
-    <img alt="Monzo favicon" src="https://d33wubrfki0l68.cloudfront.net/673084cc885831461ab2cdd1151ad577cda6a49a/92a4d/static/images/favicon.png" width="60" />
+    <img alt="GetNinjas favicon" src="https://user-images.githubusercontent.com/6955526/62547358-76f72380-b83b-11e9-8e44-c0c8d7425535.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-    Progression at Monzo
+    Progression at GetNinjas
 </h1>
 
-🎉 Welcome to the Progression at Monzo repository
+🎉 Welcome to the Progression at GetNinjas repository
 
-This is where all of Monzo's progression frameworks live, as well as the site that powers `progression.monzo.com` 💪
+This is where all of GetNinjas' progression frameworks live, as well as the site that powers `progressao.getninjas.com.br` 💪
 
 **Get stuck? There's a glossary at the bottom of this readme!**
 
@@ -23,7 +23,7 @@ We mainly use GitHub in Engineering, as it allows engineers to review each other
 
 We're using GitHub to store our progression frameworks for a few reasons:
 - It's public (or open source), meaning we can share this with the community and allow them to contribute!
-- Monzonauts can "own" or manage a framework (or frameworks), meaning they get to control any changes or additions in that area
+- Ninjas can "own" or manage a framework (or frameworks), meaning they get to control any changes or additions in that area
 - It means we can build a super fast site 🚀
 
 ## ❔ How does this work?
@@ -109,8 +109,6 @@ For each topic, you must define its contents. This is made up of an object (star
 You can also add examples, by putting them in the `exampleCriteria` object, defining the actual criteria point, and any examples it links to.
 
 ---
-
-If you need any help and are a Monzonaut, ping @lucas a message or put a message in #org-scaling. Otherwise, feel free to raise an issue here in GitHub.
 
 ## ✏️ How do I edit a framework?
 
