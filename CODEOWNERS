@@ -15,7 +15,7 @@ frameworks/*        @monzo/org-scaling-team
 # These are owners for a specific framework area
 frameworks/operations/*         @bobbi-monzo @monzo/org-scaling-team
 frameworks/design/*             @hugocornejo @monzo/org-scaling-team
-frameworks/engineering/*        @andysmart @wpillar @robinjmurphy @monzo/org-scaling-team
+frameworks/engineering/*        @eduardojmatos
 
 # These are owners for a specific framework file
 frameworks/product.md               @ljkp @monzo/org-scaling-team
