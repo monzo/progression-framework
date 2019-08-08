@@ -658,10 +658,10 @@ The framework is a compass, not a GPS.
 It's meant to be helpful. It's not meant to be a rating system for humans, free from edge cases.
 
 ### How does it work?
-The framework covers all the things we’re looking for from Product Managers. We’re interested in these five elements:
-- Knowledge
-- Process Skills
-- Individual Skills
+The framework covers all the things we’re looking for from Product Managers. This work is based on Marty Cagan's [excellent article on assessment of PMs](https://svpg.com/coaching-tools-the-assessment/). We're structuring the assessment in three major components:
+- Product
+- Process
+- People
 
 We sort them into six levels, and we try to give specific examples of behaviours we expect for each. Each of those levels has a fairly wide salary range associated with it. Basically, the more behaviours you show from your level, the more you’ll progress.
 
@@ -679,3 +679,13 @@ Your manager will work with you on this. None of it will happen mysteriously beh
 This is only the first version of our framework and we really want your feedback.
 
 We're particularly keen to add as many examples to the behaviours as possible, to further clarify them.
+
+## Papel de um Product Manager no GetNinjas
+
+- Coordenar a definição de visão, escopo e OKRs com o squad e stakeholders. É o responsável final pelos resultados (entrega de valor e impacto nas métricas) do time
+- Garantir que o time tem clareza e visibilidade das oportunidades que estamos atacando e do valor das histórias entregues
+- Estar próximo aos usuários para entender as dores e levantar oportunidades
+- Liderar o processo de Product Discovery com o objetivo de maximizar o aprendizado
+- Definir e priorizar o backlog de histórias/iniciativas
+- Balancear objetivos de negócio, usuário e tecnologia na priorização
+- Informar outras áreas e stakeholders sobre os resultados e aprendizados alcançados

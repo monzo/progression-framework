@@ -103,7 +103,7 @@ class Layout extends React.Component<Props, State> {
     return (
       <Contain>
         <Helmet>
-          <title>Progression at Monzo</title>
+          <title>Progressão no GetNinjas</title>
         </Helmet>
         <SidebarRenderer
           data={data}
