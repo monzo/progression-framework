@@ -8,7 +8,7 @@ levels: 5
 homepage: true
 topics:
   - name: "testes"
-    title: "Testes e Ferramentas de Teste"
+    title: "🚦 Testes e Ferramentas de Teste"
     content:
       - level: 1
         criteria:
@@ -38,7 +38,7 @@ topics:
           - "Faz análises de coverage de código, traz novas ferramentas de testes e ensina os times como usá-las"
           - "Domina o processo de testes automatizados sejam eles num CI ou localmente. Propõe novas estruturas de testes diferentes das que usamos"
   - name: "programacao"
-    title: "Programação e Linguagens"
+    title: "💻 Programação e Linguagens"
     content:
       - level: 1
         criteria:
@@ -71,7 +71,7 @@ topics:
           - "Consegue explicar e justificar o uso de novos paradigmas pra qualquer pessoa do time, mostrando as vantagens e desvantagens do uso de tais paradigmas para resolução de problemas nossos"
           - "É a referência do time nas discussões sobre diferentes linguagens de programação e as boas práticas de cada uma"
   - name: "troubleshooting"
-    title: "Troubleshooting"
+    title: "🐛 Troubleshooting"
     content:
       - level: 1
         criteria:
@@ -99,7 +99,7 @@ topics:
           - "Resolve bugs muito específicos, intrínsecos das linguagens e ferramentas que trabalha"
           - "Consegue criar ou trazer novas técnicas de descoberta de erros, através de métricas ou de ferramentas específicas"
   - name: "infraestrutura"
-    title: "Infraestrutura"
+    title: "⚙️  Infraestrutura"
     content:
       - level: 1
         criteria:
@@ -137,7 +137,7 @@ topics:
           - "Usa containers nas aplicações que trabalha e sugere novas formas de usa-los em problemas de infra-estrutura nossos"
           - "Implementa os fatores contidos na metodologia 12-Factor App"
   - name: "evolucao"
-    title: "Evolução dos Sistemas"
+    title: "🔄 Evolução dos Sistemas"
     content:
       - level: 1
         criteria:
@@ -165,7 +165,7 @@ topics:
           - "Sabe quando é melhor extrair pra um serviço ou apenas isolar partes da aplicação"
           - "Faz melhorias cruciais em sistemas legados, promovendo a saúde constante dos mesmos"
   - name: "arquitetura"
-    title: "Arquitetura"
+    title: "🏗  Arquitetura"
     content:
       - level: 1
         criteria:

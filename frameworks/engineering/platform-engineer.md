@@ -8,7 +8,7 @@ levels: 5
 homepage: true
 topics:
   - name: "testes"
-    title: "Testes e Ferramentas de Teste"
+    title: "🚦 Testes e Ferramentas de Teste"
     content:
       - level: 1
         criteria:
@@ -48,7 +48,7 @@ topics:
           - "Cria novas tecnologias de coverage ou utiliza um combinado delas pra resolver problemas de testes"
           - "Lidera quaisquer discussões sobre teste e é referência quando alguém precisa de ajuda em problemas de alto nível de testes"
   - name: "programacao"
-    title: "Programação e Linguagens"
+    title: "💻 Programação e Linguagens"
     content:
       - level: 1
         criteria:
@@ -94,7 +94,7 @@ topics:
           - "Referência interna e externa quando o assunto é padrões e qualidade de código"
           - "Participa ativamente no desenvolvimento de alguma linguagem open-source"
   - name: "troubleshooting"
-    title: "Troubleshooting"
+    title: "🐛 Troubleshooting"
     content:
       - level: 1
         criteria:
@@ -132,7 +132,7 @@ topics:
           - "Toma a frente nos bugs, tenta resolve-los e prioriza-los dentro do processo de trabalho do time"
           - "Sugere novas métricas para o time e tenta promover uma cultura de acompanhamento"
   - name: "infraestrutura"
-    title: "Infraestrutura"
+    title: "⚙️  Infraestrutura"
     content:
       - level: 1
         criteria:
@@ -181,7 +181,7 @@ topics:
           - "Idealiza novas formas de mantermos nossa infraestrutura sólida, replicável e sustentável, sendo um exemplo externo no assunto"
           - "Referência externa quando o assunto é containers"
   - name: "evolucao"
-    title: "Evolução dos Sistemas"
+    title: "🔄 Evolução dos Sistemas"
     content:
       - level: 1
         criteria:
@@ -219,7 +219,7 @@ topics:
           - "Domina a arquitetura e cria novos padrões de extração de domínios de uma aplicação"
           - "É a referência para a empresa, e externa, no que diz respeito a próximos passos de uma aplicação, mesmo sendo antiga"
   - name: "arquitetura"
-    title: "Arquitetura"
+    title: "🏗  Arquitetura"
     content:
       - level: 1
         criteria:
