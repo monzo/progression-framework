@@ -142,6 +142,10 @@ topics:
           - "Proactively improves modules, services, systems and codebases they encounter, 'this doesn't make sense, I'm going to do something about it'"
           - "Contributes to scaling engineering hiring (e.g. leads calls, does onsite interviews)"
           - "Builds simple tools or iterates existing tools for the benefit of all engineers"
+          - "Helps Product Managers and Designers to understand and consider non-functional requirements in the product development process"
+          - "Promotes accessibility good practice and helps other engineers to deepen their accessibility knowledge, including demonstrating how to use screen readers"
+          - "Promotes security good practice and helps other engineers to deepen their security knowledge"
+          - "Promotes performance good practice and helps other engineers to deepen their performance knowledge"
       - level: 4
         criteria:
           - "Positively influences engineers in the wider org"
@@ -151,6 +155,8 @@ topics:
           - "Drives changes to engineering practices with well-reasoned arguments and a 'strong opinion, weakly held' mentality"
           - "Shapes the direction of systems designs with less experienced engineers"
           - "Breaks down delivery and knowledge silos in their squad"
+          - "Keeps up to date with industry developments and feeds specific technical and non-functional recommendations back into the business"
+          - "Proactively identifies opportunities to improve company culture around coding standards and non-functional requirements"
       - level: 5
         criteria:
           - "Represents Monzo at conferences/events"
@@ -166,7 +172,7 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Learns to write correct HTML and CSS following guidance and training materials"
+          - "Learns to write semantic HTML and CSS following guidance and training materials"
           - "Learns to write correct JavaScript following guidance and training materials"
           - "Uses Chrome, React, and Redux DevTools effectively to increase productivity during development and debugging"
           - "Implements simple components"
@@ -178,7 +184,7 @@ topics:
               - "Checkout, Push, Pull, Branch, Diff, Merge, Stash, Rebase, etc."
       - level: 2
         criteria:
-          - "Writes correct HTML and CSS following accepted best practices"
+          - "Writes semantic HTML and CSS following accepted best practices"
           - "Uses appropriate algorithms and data structures to solve problems"
           - "Writes Flow types to statically type-check the code at compile-time"
           - "Writes automated unit and end-to-end tests following accepted best practices"
@@ -187,8 +193,14 @@ topics:
           - "Solves well-defined tasks within our current developer abstractions"
           - "Integrates with backend APIs and handles successful and failed responses properly"
           - "Works with users to improve new and existing simple features iteratively"
-          - "Applies fundamental UX principles to common problems such as forms design"
+          - "Uses a keyboard and screen-reader to manually test their application for accessibility issues"
+          - "Runs automated auditing tools such as Lighthouse before submitting a PR for review"
+          - "Demonstrates awareness of a range of security considerations, and mitigates against them"
+          - "Has multiple examples of where performance was considered as part of a solution"
         exampleCriteria:
+          - criteria: "Applies fundamental UX and accessibility principles to common problems such as form design"
+            examples:
+              - "Referencing (and improving) existing Design Systems where possible"
           - criteria: "Writes correct JavaScript code following accepted best practices"
             examples:
               - "Follows our JavaScript Coding Conventions & Best Practices; uses language-level primitives correctly"
@@ -222,6 +234,9 @@ topics:
           - criteria: "Writes effective JavaScript by applying fundamental functional and reactive principles and techniques where appropriate and guides others in so doing"
             examples:
               - "Uses uses event streams, immutable data structures, pure functions, functional composition, memoization, etc."
+          - criteria: "Considers metrics when developing, and uses appropriate services to check quality levels"
+            examples:
+              - "A range, from services such as Lighthouse, WebPageTest, WAVE etc" 
       - level: 4
         criteria:
           - "Writes code that serves as a definitive example for new engineers"
