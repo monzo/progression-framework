@@ -204,7 +204,7 @@ topics:
         criteria:
           - "Uses appropriate design patterns to solve problems"
           - "Identifies obvious deficiencies in the development processes and supports activities to improve them"
-          - "Assists more experiences engineers on the design of larger features"
+          - "Assists more experienced engineers on the design of larger features"
           - "Modifies and improves code outside of the developer abstractions and reasons about the improvements effectively"
           - "Fixes bugs in asynchronous code"
           - "Debugs production issues"
