@@ -650,7 +650,7 @@ topics:
 ### About our product progression frameworks
 The product progression framework is a tool that helps Product Managers and leaders:
 - make development and career plans
-- talk about what we’re looking for Product Managers in a consistent way
+- talk about what we’re looking for from Product Managers in a consistent way
 - set a fair level of compensation.
 
 The framework is a compass, not a GPS.
