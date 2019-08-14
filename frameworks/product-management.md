@@ -679,7 +679,7 @@ Your manager will work with you on this. None of it will happen mysteriously beh
 This is only the first version of our framework and we really want your feedback.
 
 We're particularly keen to add as many examples to the behaviours as possible, to further clarify them.
----
+
 ### Papel de um Product Manager no GetNinjas
 
 - Coordenar a definição de visão, escopo e OKRs com o squad e stakeholders. É o responsável final pelos resultados (entrega de valor e impacto nas métricas) do time
