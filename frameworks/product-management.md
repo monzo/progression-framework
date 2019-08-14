@@ -51,7 +51,7 @@ topics:
       criteria:
         - "Tem um conhecimento básico das oportunidades e desafios do mercado em que atua"
         - "Entende de forma simplificada os diferentes cenários do seu produto nos diferentes países"
-        - "Conhece alguns os modelos de monetização"
+        - "Conhece alguns modelos de monetização, mas sem grande profundidade"
     - level: 2
       criteria:
         - "Conhece as oportunidades e desafios do mercado em que atua"
@@ -75,7 +75,7 @@ topics:
         - "Domina o conhecimento da receita, margens e custos associados ao mercado em que seu produto está inserido"
     - level: 5
       criteria:
-        - "Tem excelente entendimento das oportunidades latentes do mercado em que atua e também seus desafios"
+        - "Tem excelente entendimento das oportunidades do mercado em que atua e também seus desafios"
         - "Conhece profundamente seus competidores e detalhes de seus pontos fortes / fracos"
         - "É expert sobre o cenário de seu produto nos mercados internacionais, para tomar melhores decisões de acordo com o seu contexto"
         - "Conhece diferentes modelos de monetização aplicáveis ao seu negócio, entendendo seus trade-offs"
@@ -648,9 +648,9 @@ topics:
         - "Remove impedimentos gerais do time, como de: budget, contratações, ferramentas, etc..."
 ---
 ### About our product progression frameworks
-The product progression framework is a tool that helps engineers and managers:
+The product progression framework is a tool that helps Product Managers and leaders:
 - make development and career plans
-- talk about what we’re looking for from engineers in a consistent way
+- talk about what we’re looking for Product Managers in a consistent way
 - set a fair level of compensation.
 
 The framework is a compass, not a GPS.
