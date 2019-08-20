@@ -119,7 +119,7 @@ topics:
         - "Tem um excelente entendimento e dissemina nossa visão de produto dentro e fora do seu time"
         - "Conhece profundamente nosso modelo de negócios atual, possíveis alternativas e seus trade-offs"
         - "Domina as jornadas/fluxos do produto, tendo \"sentido na pele\" a experiência dos clientes e profissionais"
-        - "Sabe as principais métricas do produto e funis de conversão, entendendo as alavancas que podem influenciar métricas do negócio e como elas se conectam
+        - "Sabe as principais métricas do produto e funis de conversão, entendendo as alavancas que podem influenciar métricas do negócio e como elas se conectam"
         - "Conhece profundamente os pontos fortes e fracos do produto, utilizando-os para tomar decisões"
         - "Entende a interação que diferentes fluxos do produto podem ter com outras áreas da empresa"
     - level: 5
@@ -127,7 +127,7 @@ topics:
         - "Tem um excelente entendimento e dissemina nossa visão de produto dentro e fora do seu time"
         - "Conhece profundamente nosso modelo de negócios atual, possíveis alternativas e seus trade-offs"
         - "É um expert em todas as jornadas/fluxos do produto, tendo \"sentido na pele\" a experiência dos clientes e profissionais"
-        - "Sabe de cabeça as principais métricas do produto e funis de conversão, entendendo as alavancas que podem influenciar métricas do negócio e como elas se conectam
+        - "Sabe de cabeça as principais métricas do produto e funis de conversão, entendendo as alavancas que podem influenciar métricas do negócio e como elas se conectam"
         - "Conhece profundamente os pontos fortes e fracos do produto, utilizando-os para tomar decisões"
         - "Entende a interação que diferentes fluxos do produto podem ter com outras áreas da empresa"
     - level: 6
