@@ -668,12 +668,11 @@ We sort them into six levels, and we try to give specific examples of behaviours
 Your manager will work with you on this. None of it will happen mysteriously behind closed doors. You’ll agree what level of progression you’re going for and what you need to improve on with your manager. It should be clear how you’re doing relative to that at all times.
 
 ### Things to keep in mind
-- There are many different ways to progress and be valuable to Monzo as you grow, including deep technical knowledge and ability, technical leadership and people management. All are equally valuable paths in Monzo's engineering team.
+- There are many different ways to progress and be valuable to GetNinjas as you grow, including deep technical knowledge and ability and people management. All are equally valuable paths in GetNinjas' product team.
 - The framework represents a career’s worth of progression, people shouldn’t expect to fly up it in 18 months!
-- Engineering progression isn’t an exact science and there will always be some ambiguity.
+- Product Management progression isn’t an exact science and there will always be some ambiguity.
 - This isn’t a checklist – it’s possible to progress up a level without showing all the behaviours in that level.
-- There will be levels on top (eg ‘Inventor of Android’ or ‘Author of Go’), but we won’t add them until we need them.
-- You can find some more information in these links. If that doesn't answer most of your questions, please ask your manager.
+- There will be levels on top (eg ‘Inventor of the iPhone’), but we won’t add them until we need them.
 
 ### Give us your feedback!
 This is only the first version of our framework and we really want your feedback.
