@@ -282,8 +282,8 @@ topics:
         - "Estimula o time a iterar constantemente nos experimentos, coletando aprendizados/evidências que podem ser úteis para próximas soluções"
         - "Planeja MVPs junto aos times considerando os trade-offs entre escopo, qualidade e prazo com os Devs, PMs e BIs"
 ---
-### About our product progression frameworks
-The product progression framework is a tool that helps Product Designers and leaders:
+### About our design progression frameworks
+The design progression framework is a tool that helps Designers and leaders:
 - make development and career plans
 - talk about what we’re looking for from Product Designers in a consistent way
 - set a fair level of compensation.

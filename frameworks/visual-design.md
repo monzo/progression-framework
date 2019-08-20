@@ -194,8 +194,8 @@ topics:
         - "É um profundo conhecedor e praticante de iniciativas de branding (ex: Brandvoice da empresa), ajudando ativamente o time e as demais áreas a manterem-se alinhadas"
         - "Compreende completamente o impacto das soluções, mitigando erros e explorando oportunidades"
 ---
-### About our product progression frameworks
-The product progression framework is a tool that helps Designers and leaders:
+### About our design progression frameworks
+The design progression framework is a tool that helps Designers and leaders:
 - make development and career plans
 - talk about what we’re looking for from Designers in a consistent way
 - set a fair level of compensation.
