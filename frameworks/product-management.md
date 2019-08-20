@@ -111,7 +111,7 @@ topics:
         - "Tem pleno endimento e dissemina nossa visão de produto dentro e fora do seu time"
         - "Conhece bem o nosso modelo de negócios atual, possíveis alternativas e seus trade-offs"
         - "Entende as jornadas/fluxos do produto, tendo \"sentido na pele\" algumas das experiências dos clientes e profissionais"
-        - "Sabe as principais métricas do produto e funis de conversão, entendendo as alavancas que podem influenciar métricas do negócio e como elas se conectam
+        - "Sabe as principais métricas do produto e funis de conversão, entendendo as alavancas que podem influenciar métricas do negócio e como elas se conectam"
         - "Conhece os pontos fortes e fracos do produto, utilizando-os para tomar decisões"
         - "Entende a interação que diferentes fluxos do produto podem ter com outras áreas da empresa"
     - level: 4
