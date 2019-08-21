@@ -1,8 +1,8 @@
 ---
-path: "/visual-design"
+path: "/design/visual-design"
 title: "🌟 Visual Design"
 sidebarTitle: "🌟 Visual Design"
-sidebarGroup:
+sidebarGroup: "design"
 yaml: true
 levels: 6
 homepage: true

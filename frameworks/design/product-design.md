@@ -1,8 +1,8 @@
 ---
-path: "/product-design"
+path: "/design/product-design"
 title: "🎨 Product Design"
 sidebarTitle: "🎨 Product Design"
-sidebarGroup:
+sidebarGroup: "design"
 yaml: true
 levels: 6
 homepage: true
