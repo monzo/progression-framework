@@ -1,4 +1,4 @@
-path: "/user-research"
+path: "/product-management"
 title: " 🔎 User Research"
 sidebarTitle: " 🔎 User Research"
 sidebarGroup:
