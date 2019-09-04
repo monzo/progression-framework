@@ -23,6 +23,8 @@ topics:
           - "Proactively communicates to their team what they are working on, why, how it's going and what help they need"
           - "Accepts feedback graciously"
           - "Gives feedback to peers when asked"
+          - "Can deliver their work to their team and others"
+          - "Proactively gives feedback to those they work with"
         exampleCriteria:
           - criteria: "Provides helpful and actionable feedback in code reviews in an empathetic manner"
             examples:
@@ -30,8 +32,6 @@ topics:
           - criteria: "Writes PR descriptions that provide context and provide rationale for significant decisions"
             examples:
               - "I decided to X instead of Y here, I also considered Z but for these reasons I went with X"
-          - "Can deliver their work to their team and others"
-          - "Proactively gives feedback to those they work with"
       - level: 3
         criteria:
           - "Transparent about mistakes they've made, early"
@@ -137,11 +137,11 @@ topics:
           - "Writes basic SQL queries to deliver new features and debug issues"
           - "Applies clean code principles to deliver readable and maintainable software"
           - "Works with users to improve new and existing simple features iteratively"
+          - "Writes correct PHP code following accepted best practices"
         exampleCriteria:
           - criteria: "Applies fundamental UX principles to common problems such as forms design"
             examples:
               - "Referencing (and improving) existing Design Systems where possible"
-          - "Writes correct PHP code following accepted best practices"
       - level: 3
         criteria:
           - "Uses appropriate design patterns to solve problems"
