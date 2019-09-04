@@ -141,7 +141,7 @@ topics:
           - criteria: "Applies fundamental UX principles to common problems such as forms design"
             examples:
               - "Referencing (and improving) existing Design Systems where possible"
-        - "Writes correct PHP code following accepted best practices"
+          - "Writes correct PHP code following accepted best practices"
       - level: 3
         criteria:
           - "Uses appropriate design patterns to solve problems"
