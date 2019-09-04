@@ -49,7 +49,7 @@ topics:
       - level: 3
         criteria:
           - "Identifies problems to solve"
-          - "Owns the implementation of the solution"
+          - "Takes ownership of the implementation of the solution"
       - level: 4
         criteria:
           - "Can take a long-term vision and define building blocks to get there"
@@ -58,7 +58,7 @@ topics:
           - "Understands the big picture and integrates company goals into their area"
       - level: 6
         criteria:
-          - "Is the accountable exec for high-impact projects"
+          - "Is the accountable manager for high-impact projects"
   - name: "communication"
     title: "💬 Communication"
     content:
