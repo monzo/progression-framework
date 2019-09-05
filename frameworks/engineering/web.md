@@ -138,6 +138,7 @@ topics:
           - "Applies clean code principles to deliver readable and maintainable software"
           - "Works with users to improve new and existing simple features iteratively"
           - "Writes correct PHP code following accepted best practices"
+          - "Can explain at a high level what each department does at Assetz and what business processes they support"
         exampleCriteria:
           - criteria: "Applies fundamental UX principles to common problems such as forms design"
             examples:
@@ -153,6 +154,8 @@ topics:
           - "Debugs escalated production issues"
           - "Collaborates with colleagues to create prototypes and POCs, and evaluates them"
           - "Differentiates between user needs and desires and prioritises accordingly"
+          - "Champions some technologies/components, and produces technical documentation to facilitate the learning of colleagues"
+          - "Understands the full lifecycle-of-a-loan process"
         exampleCriteria:
           - criteria: "Implements non-trivial components"
             examples:
