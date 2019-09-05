@@ -202,7 +202,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100% !important;
-  
+
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     padding: env(safe-area-inset-top) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
@@ -319,8 +319,7 @@ export const ToolbarIcon = styled.img`
   height: auto;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
-    max-height: 26.25px;
-    max-width: 30px;
+    max-height: 40px;
   }
 `
 
@@ -401,7 +400,7 @@ export const SidebarPaddingSection = styled.div`
     css`
       padding-bottom: 3rem;
     `}
-    
+
   ${props =>
     props.borderedTop &&
     css`
@@ -419,7 +418,7 @@ export const SidebarPaddingSection = styled.div`
     css`
       margin-top: 3rem;
     `}
-      
+
   ${props =>
     props.border &&
     css`
@@ -442,8 +441,7 @@ export const SidebarScroll = styled.div`
 export const SidebarIcon = styled.img`
   width: auto;
   height: auto;
-  max-height: 54.6px;
-  max-width: 63px;
+  max-height: 72px;
   min-width: 39px;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {

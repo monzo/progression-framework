@@ -1,6 +1,6 @@
-<p align="center">
-  <a href="https://www.assetscapital.com">
-    <img alt="Assetz favicon" src="./src/images/favicon.png" width="60" />
+<p style="background-color:#ffffff;" align="center">
+  <a href="https://www.assetzcapital.co.uk">
+    <img alt="Assetz favicon" src="../src/images/favicon.png" width="320" />
   </a>
 </p>
 <h1 align="center">
