@@ -14,23 +14,26 @@ It's built in Gatsby, and deployed using Netlify.
 ## 🚀 Quick start
 
 You'll need the Gatsby CLI on your machine, so if you don't have it, install it!
-``` sh
+
+```sh
 npm install --global gatsby-cli
 ```
 
 Next, navigate to the `progression-framework` directory and use yarn to get everything installed
 
-``` sh
+```sh
 cd progression-framework
 npm install
 ```
 
 If you're developing locally, you can start up the site locally with hot loading ⚡
-``` sh
+
+```sh
 gatsby develop
 ```
 
 Finally, you can build everything into a set of static files 🛠️
-``` sh
+
+```sh
 gatsby build
 ```
