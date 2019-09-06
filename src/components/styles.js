@@ -20,7 +20,7 @@ export const PURPLE = '#33276B'
 
 export const ErrorPageHeader = styled.h1`
   font-weight: 300;
-  font-family: 'MaisonNeueMono', Consolas, monaco, monospace;
+  font-family: 'SFMono-Regular', Consolas, monaco, monospace;
   font-size: 10rem;
   opacity: 0.4;
 `
@@ -43,11 +43,16 @@ export const Card = styled.div`
 `
 
 export const Title = styled.h1`
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 600;
-  color: ${MIDNIGHT_SKY};
+  color: ${PURPLE};
   margin-top: 0;
+
+  // &::selection{
+  //   background-color: #BDDEFF;
+  //   color: ${PURPLE};
+  // }
 
   @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
     font-size: 2.25em;
@@ -65,7 +70,7 @@ export const Title = styled.h1`
 `
 
 export const Subtitle = styled.h3`
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 600;
   color: ${GREY_BLUE};
@@ -87,7 +92,7 @@ export const Subtitle = styled.h3`
 
 export const DefaultStyledLink = styled(Link)`
   cursor: pointer;
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
@@ -114,7 +119,7 @@ export const DefaultStyledLink = styled(Link)`
 
 export const StyledLink = styled(PartialNavLink)`
   cursor: pointer;
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
@@ -278,7 +283,7 @@ export const LevelsTextWrapper = styled.div`
 export const LevelsText = styled.h2`
   cursor: pointer;
   margin-top: 0;
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   opacity: 0.25;
 
@@ -352,7 +357,7 @@ export const Sidebar = styled.div`
   min-width: 320px;
   h4 {
     padding-top: 0;
-    font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
       'Arial', sans-serif;
     font-size: 1.3em;
   }
@@ -558,10 +563,10 @@ export const CardContentList = styled.ul`
 `
 
 export const CardTitle = styled.p`
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 600;
-  color: ${MIDNIGHT_SKY};
+  color: ${PURPLE};
   margin-top: 0;
   font-size: 1.4rem;
 `
@@ -574,7 +579,7 @@ export const CardTitleGroup = styled.div`
 
 export const MarkdownContent = styled.div`
   * {
-    font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
       'Arial', sans-serif !important;
   }
   h2 {
