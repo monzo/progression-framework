@@ -12,6 +12,8 @@ export const BREAKPOINT_DESKTOP = 1300
 export const MIDNIGHT_SKY = '#14233c'
 export const LAGOON_BLUE = '#145d8e'
 export const GREY_BLUE = '#707b8c'
+export const WHITE = '#ffffff'
+export const PURPLE = '#33276B'
 
 // Styles
 // Error page
@@ -89,7 +91,7 @@ export const DefaultStyledLink = styled(Link)`
     'Arial', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
-  color: ${MIDNIGHT_SKY} !important;
+  color: ${WHITE} !important;
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -98,15 +100,15 @@ export const DefaultStyledLink = styled(Link)`
   margin: 0.5em 0 -0.5em -0.5em;
 
   &:hover {
-    opacity: 0.7;
     color: ${LAGOON_BLUE};
   }
   &:focus {
     outline: none;
   }
   &.active {
-    border-radius: 10px;
-    background: #eeefee;
+    border-radius: 5px;
+    background: ${WHITE};
+    color: ${PURPLE} !important;
   }
 `
 
@@ -116,7 +118,7 @@ export const StyledLink = styled(PartialNavLink)`
     'Arial', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
-  color: ${MIDNIGHT_SKY} !important;
+  color: ${WHITE} !important;
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -125,15 +127,16 @@ export const StyledLink = styled(PartialNavLink)`
   margin: 0.5em 0 -0.5em -0.5em;
 
   &:hover {
-    opacity: 0.7;
-    color: ${LAGOON_BLUE};
+    opacity: 0.8;
   }
   &:focus {
     outline: none;
   }
   &.active {
-    border-radius: 10px;
-    background: #eeefee;
+    background: ${WHITE};
+    border-radius: 5px;
+    color: ${PURPLE} !important;
+    opacity: 1 !important;
   }
 `
 
@@ -303,7 +306,7 @@ export const Toolbar = styled.div`
     visibility: inherit;
     height: 4.5em;
     width: 100%;
-    background: #f7f7f7;
+    background: ${PURPLE};
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
   }
 `
@@ -339,8 +342,8 @@ export const Sidebar = styled.div`
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  background-color: #f7f7f7;
-  color: black;
+  background-color: ${PURPLE};
+  color: ${WHITE};
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -441,7 +444,7 @@ export const SidebarScroll = styled.div`
 export const SidebarIcon = styled.img`
   width: auto;
   height: auto;
-  max-height: 72px;
+  max-height: 96px;
   min-width: 39px;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {

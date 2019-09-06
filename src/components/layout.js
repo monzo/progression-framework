@@ -2,7 +2,7 @@
 import * as React from 'react'
 import { Location } from '@reach/router'
 import { Helmet } from 'react-helmet'
-import favicon from '../images/favicon.png'
+import favicon from '../images/logo-secondary.png'
 import menuIcon from '../images/menu_icon.svg'
 import closeIcon from '../images/close_icon.svg'
 import SidebarBuilder from './sidebarBuilder'
@@ -39,7 +39,7 @@ const ToolbarRenderer = ({ sidebarClickHandler, isSidebarVisible }: Object) =>
     <Toolbar className={isSidebarVisible ? 'visible' : null}>
       <MenuIcon onClick={sidebarClickHandler} src={menuIcon} />
       <ToolbarPushWrapper>
-        <ToolbarIcon src={favicon} alt="Monzo" />
+        <ToolbarIcon src={favicon} alt="Assetz" />
       </ToolbarPushWrapper>
     </Toolbar>
   )
@@ -56,7 +56,7 @@ const SidebarRenderer = ({
           <SidebarReset>
             <SidebarScroll>
               <ScrollbarHeader>
-                <SidebarIcon src={favicon} alt="Monzo" />
+                <SidebarIcon src={favicon} alt="Assetz" />
                 <FlexboxPush>
                   <CloseIcon onClick={sidebarClickHandler} src={closeIcon} />
                 </FlexboxPush>
