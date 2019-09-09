@@ -1,6 +1,6 @@
 <p style="background-color:#ffffff;" align="center">
   <a href="https://www.assetzcapital.co.uk">
-    <img alt="Assetz favicon" src="./src/images/favicon.png" width="320" />
+    <img alt="Assetz favicon" src="./src/images/logo-primary.png" width="320" />
   </a>
 </p>
 <h1 align="center">
@@ -43,7 +43,6 @@ progression-framework/
 All the other files are configuration, which you should totally ignore 👌
 
 **The `frameworks` folder is what you want to pay attention to!**
-
 
 This is where all of our progression frameworks live. Head inside, and you'll see folders associated to headlines (like design and engineering).
 

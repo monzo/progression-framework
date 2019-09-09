@@ -12,13 +12,15 @@ export const BREAKPOINT_DESKTOP = 1300
 export const MIDNIGHT_SKY = '#14233c'
 export const LAGOON_BLUE = '#145d8e'
 export const GREY_BLUE = '#707b8c'
+export const WHITE = '#ffffff'
+export const PURPLE = '#33276B'
 
 // Styles
 // Error page
 
 export const ErrorPageHeader = styled.h1`
   font-weight: 300;
-  font-family: 'MaisonNeueMono', Consolas, monaco, monospace;
+  font-family: 'SFMono-Regular', Consolas, monaco, monospace;
   font-size: 10rem;
   opacity: 0.4;
 `
@@ -41,11 +43,16 @@ export const Card = styled.div`
 `
 
 export const Title = styled.h1`
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 600;
-  color: ${MIDNIGHT_SKY};
+  color: ${PURPLE};
   margin-top: 0;
+
+  // &::selection{
+  //   background-color: #BDDEFF;
+  //   color: ${PURPLE};
+  // }
 
   @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
     font-size: 2.25em;
@@ -63,7 +70,7 @@ export const Title = styled.h1`
 `
 
 export const Subtitle = styled.h3`
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 600;
   color: ${GREY_BLUE};
@@ -85,11 +92,11 @@ export const Subtitle = styled.h3`
 
 export const DefaultStyledLink = styled(Link)`
   cursor: pointer;
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
-  color: ${MIDNIGHT_SKY} !important;
+  color: ${WHITE} !important;
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -98,25 +105,25 @@ export const DefaultStyledLink = styled(Link)`
   margin: 0.5em 0 -0.5em -0.5em;
 
   &:hover {
-    opacity: 0.7;
     color: ${LAGOON_BLUE};
   }
   &:focus {
     outline: none;
   }
   &.active {
-    border-radius: 10px;
-    background: #eeefee;
+    border-radius: 5px;
+    background: ${WHITE};
+    color: ${PURPLE} !important;
   }
 `
 
 export const StyledLink = styled(PartialNavLink)`
   cursor: pointer;
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
-  color: ${MIDNIGHT_SKY} !important;
+  color: ${WHITE} !important;
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -125,15 +132,16 @@ export const StyledLink = styled(PartialNavLink)`
   margin: 0.5em 0 -0.5em -0.5em;
 
   &:hover {
-    opacity: 0.7;
-    color: ${LAGOON_BLUE};
+    opacity: 0.8;
   }
   &:focus {
     outline: none;
   }
   &.active {
-    border-radius: 10px;
-    background: #eeefee;
+    background: ${WHITE};
+    border-radius: 5px;
+    color: ${PURPLE} !important;
+    opacity: 1 !important;
   }
 `
 
@@ -275,7 +283,7 @@ export const LevelsTextWrapper = styled.div`
 export const LevelsText = styled.h2`
   cursor: pointer;
   margin-top: 0;
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   opacity: 0.25;
 
@@ -303,7 +311,7 @@ export const Toolbar = styled.div`
     visibility: inherit;
     height: 4.5em;
     width: 100%;
-    background: #f7f7f7;
+    background: ${PURPLE};
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
   }
 `
@@ -339,8 +347,8 @@ export const Sidebar = styled.div`
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  background-color: #f7f7f7;
-  color: black;
+  background-color: ${PURPLE};
+  color: ${WHITE};
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -349,7 +357,7 @@ export const Sidebar = styled.div`
   min-width: 320px;
   h4 {
     padding-top: 0;
-    font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
       'Arial', sans-serif;
     font-size: 1.3em;
   }
@@ -441,7 +449,7 @@ export const SidebarScroll = styled.div`
 export const SidebarIcon = styled.img`
   width: auto;
   height: auto;
-  max-height: 72px;
+  max-height: 96px;
   min-width: 39px;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
@@ -555,10 +563,10 @@ export const CardContentList = styled.ul`
 `
 
 export const CardTitle = styled.p`
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 600;
-  color: ${MIDNIGHT_SKY};
+  color: ${PURPLE};
   margin-top: 0;
   font-size: 1.4rem;
 `
@@ -571,7 +579,7 @@ export const CardTitleGroup = styled.div`
 
 export const MarkdownContent = styled.div`
   * {
-    font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
       'Arial', sans-serif !important;
   }
   h2 {
