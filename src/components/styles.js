@@ -453,8 +453,7 @@ export const SidebarIcon = styled.img`
   min-width: 39px;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
-    max-height: 39px;
-    max-width: 45px;
+    max-height: 40px;
     min-width: 39px;
   }
 `
