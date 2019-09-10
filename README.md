@@ -18,8 +18,8 @@ This is where all of Assetz's progression frameworks live, as well as the site t
 | Build  | Status |
 | --- | --- |
 | Build  | [![TeamCity latest build status](http://teamcity.assetz.capital/app/rest/builds/buildType(id:ProgressionFramework_Build)/statusIcon)](http://teamcity.assetz.capital/viewType.html?buildTypeId=ProgressionFramework_Build&guest=1)  |
-| Deploy staging  | [![TeamCity latest build status](http://teamcity.assetz.capital/app/rest/builds/buildType(id:ProgressionFramework_Build)/statusIcon)](http://teamcity.assetz.capital/viewType.html?buildTypeId=ProgressionFramework_Build&guest=1)  |
-| Deploy live  | [![TeamCity latest build status](http://teamcity.assetz.capital/app/rest/builds/buildType(id:ProgressionFramework_Build)/statusIcon)](http://teamcity.assetz.capital/viewType.html?buildTypeId=ProgressionFramework_Build&guest=1)  |
+| Deploy staging  | [![TeamCity latest build status](http://teamcity.assetz.capital/app/rest/builds/buildType(id:ProgressionFramework_DeployDev)/statusIcon)](http://teamcity.assetz.capital/viewType.html?buildTypeId=ProgressionFramework_DeployDev&guest=1)  |
+| Deploy live  | [![TeamCity latest build status](http://teamcity.assetz.capital/app/rest/builds/buildType(id:ProgressionFramework_DeployProd)/statusIcon)](http://teamcity.assetz.capital/viewType.html?buildTypeId=ProgressionFramework_DeployProd&guest=1)  |
 
 ## 🤯 Where am I
 
