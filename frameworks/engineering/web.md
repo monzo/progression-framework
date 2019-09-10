@@ -21,8 +21,6 @@ topics:
           - "Proactively communicates to their team what they are working on, why, how it's going and what help they need"
           - "Accepts feedback graciously"
           - "Gives feedback to peers when asked"
-          - "Can deliver their work to their team and others"
-          - "Proactively gives feedback to those they work with"
         exampleCriteria:
           - criteria: "Provides helpful and actionable feedback in code reviews in an empathetic manner"
             examples:
@@ -36,8 +34,6 @@ topics:
           - "Proactively gives timely actionable feedback to peers"
           - "Proactively seeks feedback from the people around them"
           - "Considers the opinions of others before defending their own"
-          - "Clearly communicates throughout implementation of solutions"
-          - "Can successfully get buy-in for their proposals"
       - level: 4
         criteria:
           - "Proactively gives feedback 'upwards' and to people they interact with who are not in their team"
@@ -45,24 +41,19 @@ topics:
           - "Helps people in non-technical roles understand technical constraints / trade-offs"
           - "Shares technical context and direction for less experienced engineers"
           - "Gives direct and constructive feedback to other engineers"
-          - "Communicates their area’s role within the larger mission of the company"
       - level: 5
         criteria:
           - "Helps other people develop themselves and regularly gives insightful, useful feedback to those around them"
           - "Talks to non-technical stakeholders on appropriate level of abstraction"
-          - "Communicates the long-term vision & mission for the company and their area"
       - level: 6
         criteria:
           - "Transparent about feedback they have received and what they are going to do differently"
-          - "An effective and inspiring communicator internally and externally"
   - name: "impact"
     title:
     content:
       - level: 1
         criteria:
           - "Delivers assigned tasks, working with a more senior team member, and able to take PR feedback to improve their work"
-          - "Independently works on small, low-impact, well-defined tasks"
-          - "Looks to optimise existing work (e.g. processes, procedures, products, etc)"
       - level: 2
         criteria:
           - "Delivers assigned tasks that meet expected criteria"
@@ -71,16 +62,12 @@ topics:
           - "Manages their own time effectively, prioritises their workload well, on time for meetings, aware when blocking others and unblocks"
           - "Helps the team, does what needs doing"
           - "Breaks down small/medium problems into iterative steps"
-          - "Delivers small, well-defined tasks/projects"
-          - "Delegated low-impact problems to solve"
       - level: 3
         criteria:
           - "Delivers large well-defined tasks and solves small scope not-well-defined problems"
           - "Empathises with stakeholders"
           - "Contributes to writing technical design proposals (Co-authors with more experienced Engineer)"
           - "Breaks down large problems into smaller iterative steps across multiple PRs"
-          - "Identifies problems to solve"
-          - "Takes ownership of the implementation of the solution"
       - level: 4
         criteria:
           - "Solves ambiguous problems"
@@ -89,7 +76,6 @@ topics:
           - "Makes pragmatic choices about taking on tech debt"
           - "Considers multiple different solutions for solving a problem"
           - "Breaks down projects into smaller iterative steps that each deliver value"
-          - "Can take a long-term vision and define building blocks to get there"
       - level: 5
         criteria:
           - "Solves the 'hard problem' in a project and sees it through to resolution"
@@ -100,12 +86,10 @@ topics:
           - "Leads writing large scope proposals"
           - "Breaks down large long-lasting projects into sensible discrete chunks that compound to achieve a large goal"
           - "Helps prioritise and balance short-term and long-term investments, focusing on high impact, high value work"
-          - "Understands the big picture and integrates company goals into their area"
       - level: 6
         criteria:
           - "Accountable for delivery of large, mission critical engineering projects"
           - "Originates or finishes large, horizontal engineering efforts"
-          - "Is the accountable manager for high-impact projects"
   - name: "mastery"
     title: "🛠️ Mastery"
     content:
