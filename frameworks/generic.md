@@ -41,7 +41,7 @@ topics:
       - level: 1
         criteria:
           - "Independently works on small, low-impact, well-defined task"
-          - "Looks to optimise existing work (eg Processes, procedures, products, etc)"
+          - "Looks to optimise existing work (e.g. processes, procedures, products, etc)"
       - level: 2
         criteria:
           - "Delivers small, well-defined tasks/projects"
@@ -49,7 +49,7 @@ topics:
       - level: 3
         criteria:
           - "Identifies problems to solve"
-          - "Takes ownership of the implementation of the solution"
+          - "Takes ownership of implementing solutions"
       - level: 4
         criteria:
           - "Can take a long-term vision and define building blocks to get there"
@@ -97,7 +97,7 @@ topics:
           - "Starts to delegate tasks to peers"
           - "Collaborates within their team"
           - "Independently works and learns"
-          - "Do not need to be checked in on daily"
+          - "Does not need to be checked in on daily"
       - level: 3
         criteria:
           - "Collaborates across the organisation"
@@ -108,34 +108,34 @@ topics:
         criteria:
           - "Leads through influence"
           - "Natural teacher, they’re able to formally and informally teach those around them"
-          - "You unblock people within your area"
-          - "You’re recognised for your impact on team culture and people want to work with you"
+          - "Can unblock people within your area"
+          - "Are recognised for your impact on team culture and people want to work with them"
       - level: 5
         criteria:
-          - "You coach others to find the best solution"
-          - "You inspire your team and can attract top talent to the organisation"
-          - "You unblock people outside of your area"
+          - "Can coach others to find the best solution"
+          - "Inspires their team and can attract top talent to the organisation"
+          - "Unblocks people outside of your area"
       - level: 6
         criteria:
           - "Leader of business culture and strategy"
-          - "You own your area’s structure"
+          - "Owns their area’s structure"
           - "Strong leadership and coaching abilities"
   - name: "conduct"
     title: "👩‍💻 Conduct"
     content:
       - level: 1
         criteria:
-          - "Follows policies and procedures applicable to role"
-          - "Completes training"
-          - "Identifies risks related to own areas"
+          - "Follows policies and procedures applicable to the role"
+          - "Completes training on time"
+          - "Identifies risks related to their own areas"
       - level: 2
         criteria:
-          - "Applies and follows governance principles as they apply to role"
-          - "Communicates and escalates risks related to own projects and business area"
+          - "Applies and follows governance principles as they apply to their role"
+          - "Communicates and escalates risks related to their own projects and business area"
           - "Ensures colleagues actively analyse and address risks in their area"
       - level: 3
         criteria:
-          - "Expert risk and compliance knowledge as relevant to role"
+          - "Expert risk and compliance knowledge as relevant to their role"
           - "Takes ownership for training others in risk & compliance as relevant to their role"
           - "Promptly and effectively deals with unforeseen risks as they arise"
       - level: 4
