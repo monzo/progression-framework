@@ -15,9 +15,7 @@ topics:
           - "Provides regular status updates to their mentor/buddy"
           - "Points out syntactical improvements in code reviews"
           - "Writes PR descriptions that provide basic context for the change"
-          - "Seeks guidance from other engineers, rather than answers"
-          - "Actively communicates what they are working on"
-          - "Seeks out feedback"
+          - "Seeks guidance from other engineers rather than answers"
       - level: 2
         criteria:
           - "Proactively communicates to their team what they are working on, why, how it's going and what help they need"
@@ -63,8 +61,8 @@ topics:
       - level: 1
         criteria:
           - "Delivers assigned tasks, working with a more senior team member, and able to take PR feedback to improve their work"
-          - "Independently works on small, low-impact, well-defined task"
-          - "Looks to optimise existing work (e.g. Processes, procedures, products, etc)"
+          - "Independently works on small, low-impact, well-defined tasks"
+          - "Looks to optimise existing work (e.g. processes, procedures, products, etc)"
       - level: 2
         criteria:
           - "Delivers assigned tasks that meet expected criteria"
@@ -153,8 +151,8 @@ topics:
           - "Fixes bugs in asynchronous code"
           - "Debugs escalated production issues"
           - "Collaborates with colleagues to create prototypes and POCs, and evaluates them"
-          - "Differentiates between user needs and desires and prioritises accordingly"
-          - "Champions some technologies/components, and produces technical documentation to facilitate the learning of colleagues"
+          - "Differentiates between user needs, desires and prioritises accordingly"
+          - "Champions some technologies/components and produces technical documentation to facilitate the learning of colleagues"
           - "Understands the full lifecycle-of-a-loan process"
         exampleCriteria:
           - criteria: "Implements non-trivial components"
@@ -259,7 +257,7 @@ topics:
         criteria:
           - "Provides valuable input to technical design proposals from their team"
           - "A good boy scout - proactively improves modules, services, systems and codebases they encounter"
-          - "Contributes to the engineering hiring process (e.g. reviews technical exercises, does onsite pair programming tasks)"
+          - "Contributes to the engineering hiring process (e.g. reviews technical exercises, does on-site pair programming tasks)"
           - "Builds simple tools or iterates existing tools for the benefit of all engineers"
           - "Encourages others to follow clean code principles"
       - level: 4

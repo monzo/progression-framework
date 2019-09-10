@@ -53,7 +53,7 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Delivers assigned tasks, working with a more senior team member, and able to take PR feedback to improve their work"
+          - "Delivers assigned tasks working with a more senior team member and able to take PR feedback to improve their work"
       - level: 2
         criteria:
           - "Delivers assigned tasks that meet expected criteria"
@@ -119,7 +119,7 @@ topics:
           - "Produces technical designs that include a consideration of scalability"
           - "Debugs production issues"
           - "Considers metrics when building a new system"
-          - "Writes idiomatic Node.js code"
+          - "Writes highly readable Node.js code"
           - "Writes efficient and performant SQL queries to solve complex problems"
           - "Champions some technologies/components, and produces technical documentation to facilitate the learning of colleagues"
           - "Understands the full lifecycle-of-a-loan process"
@@ -137,7 +137,7 @@ topics:
       - level: 4
         criteria:
           - "Writes Node.js code and SQL that serves as a definitive example for new engineers"
-          - "Leads the refactoring (de-cruftification) of complex systems"
+          - "Leads the refactoring of complex systems and deconstructing of monoliths"
           - "Debugs complex production issues at speed"
           - "Identifies and fixes security vulnerabilities"
           - "Identifies and fixes performance bottlenecks in individual services"
@@ -226,7 +226,7 @@ topics:
         criteria:
           - "Provides valuable input to proposals from their team"
           - "A good boy scout - proactively improves modules, services, systems and codebases they encounter"
-          - "Contributes to the engineering hiring process (e.g. reviews technical exercises, does onsite pair programming tasks)"
+          - "Contributes to the engineering hiring process (e.g. reviews technical exercises, does on-site pair programming tasks)"
           - "Builds simple tools or iterates existing tools for the benefit of all engineers"
           - "Encourages others to follow clean code principles"
       - level: 4
@@ -266,7 +266,7 @@ It's meant to be helpful. It's not meant to be a rating system for humans, free 
 
 The framework covers all the things we’re looking for from engineers at Monzo. We’re interested in these five elements:
 
-- Mastery - Your Monzo knowledge and technical capability
+- Mastery - Your Assetz knowledge and technical capability
 - Impact - The size, scope and value of what you deliver
 - Influence - How you change the world around you for the better
 - Comms & Feedback - How you interact with others
@@ -278,7 +278,7 @@ Your manager will work with you on this. None of it will happen mysteriously beh
 
 ### Things to keep in mind
 
-- There are many different ways to progress and be valuable to Monzo as you grow, including deep technical knowledge and ability, technical leadership and people management. All are equally valuable paths in Monzo's engineering team.
+- There are many different ways to progress and be valuable to Assetz as you grow, including deep technical knowledge and ability, technical leadership and people management. All are equally valuable paths in Monzo's engineering team.
 - The framework represents a career’s worth of progression, people shouldn’t expect to fly up it in 18 months!
 - Engineering progression isn’t an exact science and there will always be some ambiguity.
 - This isn’t a checklist – it’s possible to progress up a level without showing all the behaviours in that level.

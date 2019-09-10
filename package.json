@@ -2,7 +2,7 @@
   "name": "@mondough/progression-framework",
   "private": true,
   "version": "1.0.0",
-  "description": "Monzo's progression framework site",
+  "description": "Assetz's progression framework site",
   "author": "Lucas Johnston <lucasjohnston@monzo.com>",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
@@ -69,7 +69,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monzo/progression-framework.git"
+    "url": "git@github.com:AssetzSMECapital/progression-framework.git"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0-0",
