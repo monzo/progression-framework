@@ -49,7 +49,7 @@ topics:
       - level: 3
         criteria:
           - "Identifies problems to solve"
-          - "Takes ownership of implementing solutions"
+          - "Takes ownership of the implementation of the solution"
       - level: 4
         criteria:
           - "Can take a long-term vision and define building blocks to get there"
