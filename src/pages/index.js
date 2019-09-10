@@ -54,7 +54,7 @@ export default class Index extends React.Component<Props> {
             <DescriptionText>
               To get involved, go to{' '}
               <a href="https://github.com/AssetzSMECapital/progression-framework">
-                <FontAwesomeIcon icon={faGithub} />{' '}
+                <FontAwesomeIcon size="1x" icon={faGithub} />{' '}
                 @AssetzSMECapital/progression-framework
               </a>
               .
@@ -62,7 +62,7 @@ export default class Index extends React.Component<Props> {
             <DescriptionText>
               You can also get involved with {' '}
               <a href="https://github.com/Monzo/progression-framework">
-                <FontAwesomeIcon icon={faGithub} />{' '}
+                <FontAwesomeIcon size="1x" icon={faGithub} />{' '}
                 @Monzo/progression-framework
               </a>
               , the repository that the Assetz progression framework was forked from.
