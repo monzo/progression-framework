@@ -561,6 +561,15 @@ export const CardContentList = styled.ul`
   width: 95%;
 `
 
+export const ListElementMain = styled.li`
+  font-size: 1.2em;
+  margin-left: 6px;
+
+  @media (max-width: ${BREAKPOINT_MOBILE}px) {
+    font-size: 1.0em;
+  }
+`
+
 export const CardTitle = styled.p`
   font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
