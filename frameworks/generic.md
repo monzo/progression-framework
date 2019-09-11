@@ -89,9 +89,9 @@ topics:
       - level: 1
         criteria:
           - "Works closely or in pairs with more senior members of the team when facing tasks for the first time"
-          - "Needs support and guidance from managers, mentors and leads"
-          - "Needs approval to ship projects of a certain impact"
-          - "They may need support on how to navigate the professional environment"
+          - "Seeks support and guidance from managers, mentors and leads"
+          - "Seeks approval to ship projects of a certain impact"
+          - "Seeks support on how to navigate the professional environment"
       - level: 2
         criteria:
           - "Starts to delegate tasks to peers"
@@ -145,13 +145,13 @@ topics:
           - "Responds to complex issues devising smart strategies for the mitigation of risk"
       - level: 5
         criteria:
-          - "Participates in risk management and mitigation at the highest industry level"
+          - "Participates in risk management and mitigation at management level"
           - "Leads by example and proves their area is managing risk and compliance within appetite"
           - "Gets involved in and identifies opportunities for colleagues to participate in advisory, strategic, industry bodies to learn and share best practice in their area of business"
       - level: 6
         criteria:
           - "Creates a strong risk culture throughout the organisation"
           - "Owns policies and can evidence their compliance"
-          - "Contributes to thought leadership on effective and creative risk management throughout the industry"
+          - "Contributes to thought leadership within their area of business throughout the industry"
           - "Proactively identifies holistic measures to robust risk management and implements them company-wide"
 ---
