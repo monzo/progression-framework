@@ -562,8 +562,12 @@ export const CardContentList = styled.ul`
 `
 
 export const ListElementMain = styled.li`
-  font-size: 24px;
+  font-size: 1.2em;
   margin-left: 6px;
+
+  @media (max-width: ${BREAKPOINT_MOBILE}px) {
+    font-size: 1.0em;
+  }
 `
 
 export const CardTitle = styled.p`
