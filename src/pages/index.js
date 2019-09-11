@@ -35,12 +35,12 @@ export default class Index extends React.Component<Props> {
             </DescriptionText>
             <DescriptionText>
               The aim of these frameworks are to:
-                <CardContentList>
-                  <ListElementMain>Help people understand how to progress in their work</ListElementMain>
-                  <ListElementMain>Help us evaluate and pay people fairly and consistently</ListElementMain>
-                  <ListElementMain>Help people understand the skills and behaviours we value</ListElementMain>
-                </CardContentList>
             </DescriptionText>
+            <CardContentList>
+              <ListElementMain>Help people understand how to progress in their work</ListElementMain>
+              <ListElementMain>Help us evaluate and pay people fairly and consistently</ListElementMain>
+              <ListElementMain>Help people understand the skills and behaviours we value</ListElementMain>
+            </CardContentList>
             <DescriptionText>
               We&apos;ll be adding more frameworks as we build them, and
               updating existing ones as we grow, so expect things to change

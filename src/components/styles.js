@@ -563,6 +563,7 @@ export const CardContentList = styled.ul`
 
 export const ListElementMain = styled.li`
   font-size: 24px;
+  margin-left: 6px;
 `
 
 export const CardTitle = styled.p`
