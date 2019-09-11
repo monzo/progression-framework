@@ -11,6 +11,8 @@ import {
   Description,
   DescriptionText,
   DescriptionTitleGroup,
+  ListElementMain,
+  CardContentList,
 } from '../components/styles'
 import '../css/main.min.css'
 
@@ -25,20 +27,19 @@ export default class Index extends React.Component<Props> {
         <DescriptionView>
           <DescriptionTitleGroup>
             <Subtitle>Welcome To</Subtitle>
-            <Title>Progression at Assetz 🎉</Title>
+            <Title>Engineering Progression at Assetz 🎖️</Title>
           </DescriptionTitleGroup>
           <Description>
             <DescriptionText>
-              This is where we keep the progression frameworks we use at Assetz.
+              This is where we keep the engineering progression frameworks we use at Assetz.
             </DescriptionText>
             <DescriptionText>
-              Progression frameworks are tools that help us evaluate and pay our
-              staff consistently, and help people understand how to progress in
-              their work.
-            </DescriptionText>
-            <DescriptionText>
-              We&apos;ve put them here for everyone at Assetz (and anyone in the
-              world!) to use.
+              The aim of these frameworks are to:
+                <CardContentList>
+                  <ListElementMain>Help people understand how to progress in their work</ListElementMain>
+                  <ListElementMain>Help us evaluate and pay people fairly and consistently</ListElementMain>
+                  <ListElementMain>Help people understand the skills and behaviours we value</ListElementMain>
+                </CardContentList>
             </DescriptionText>
             <DescriptionText>
               We&apos;ll be adding more frameworks as we build them, and
@@ -46,29 +47,11 @@ export default class Index extends React.Component<Props> {
               around here!
             </DescriptionText>
             <DescriptionText>
-              This site, along with all our progression frameworks, are open
-              source. That means you can contribute to the development of this
-              site or our progression frameworks, and use both as inspiration
-              for your own projects!
-            </DescriptionText>
-            <DescriptionText>
-              To get involved, go to{' '}
-              <a href="https://github.com/AssetzSMECapital/progression-framework">
-                <FontAwesomeIcon size="1x" icon={faGithub} />{' '}
-                @AssetzSMECapital/progression-framework
-              </a>
-              .
-            </DescriptionText>
-            <DescriptionText>
-              You can also get involved with {' '}
+              A big thanks to {' '}
               <a href="https://github.com/Monzo/progression-framework">
                 <FontAwesomeIcon size="1x" icon={faGithub} />{' '}
                 @Monzo/progression-framework
-              </a>
-              , the repository that the Assetz progression framework was forked from.
-            </DescriptionText>
-            <DescriptionText>
-              Take a look around and let us know what you think! 🚀
+              </a> for sharing the great work they have done and inspiring this site 👏
             </DescriptionText>
           </Description>
         </DescriptionView>

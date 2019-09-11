@@ -561,6 +561,10 @@ export const CardContentList = styled.ul`
   width: 95%;
 `
 
+export const ListElementMain = styled.li`
+  font-size: 24px;
+`
+
 export const CardTitle = styled.p`
   font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
