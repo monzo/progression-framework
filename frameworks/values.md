@@ -20,7 +20,7 @@ yaml: false
 - We discuss policies and agree standards as a team
 - We support decentralized architecture decision-making
 
-### 🔥 Purpose
+### 🚀 Purpose
 
 - We can achieve the incredible when we care about the outcome
 - We empathise with our users and colleagues to solve their problems
