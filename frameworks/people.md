@@ -38,6 +38,9 @@ topics:
         criteria:
           - "Leads and champions implementing the most significant organisation change activities. Uses insight about opportunities and risks to influence executive team decisions that affect the long-term reputation, health and growth of the organisation."
           - "Works tirelessly to keep all areas aligned. Builds culture of knowledge sharing and documenting."
+      - level: 7
+        criteria:
+         - "add criteria for level seven here"
   - name: "impact: ambiguity and impact of their work; thinking ahead"
     title:
     content:
@@ -83,6 +86,9 @@ topics:
          - "Understands the big picture and integrates company goals into their area, looking 12 months ahead."
          - "Assesses the changing social, strategic and business/economic environment to gain insights and identify organisational strategic requirements."
          - "Communicates the long-term vision and mission for the company and their discipline. Assesses and shapes organisational culture to meet current and future challenges."
+      - level: 7
+        criteria:
+         - "add criteria for level seven here"
   - name: "knowledge and thinking: breadth and depth of knowledge; thinking skills; self-development"
     title:
     content:
@@ -128,6 +134,9 @@ topics:
           - "Assesses and interprets complex data and feedback to gain insights about Monzo to anticipate the needs of the org in the future. Can identify shortfalls in the company's data and works with the data team to build new frameworks and datasets to enable new lines of work."
           - "Can easily context switch across disciplines within People Collective and pick up new concepts. Is a role model for self-development with ambitious personal development goals that they share with others."
           - "Is an intellectual leader. ExCo seek them out to challenge and improve their thinking."
+      - level: 7
+        criteria:
+         - "add criteria for level seven here"
   - name: "teamwork: teamwork skills; level of autonomy"
     title:
     content:
@@ -172,6 +181,9 @@ topics:
           - "Develops strong and trusted partnerships with our leadership team to challenge, guide and advise; holds executives to account for their behaviours and values."
           - "Unblocks people inside and outside their area by coaching others to come up with answers to problems."
           - "Nurtures and promotes employer brand. Individually attracts top talent to Monzo. May bring a network of talent to their discipline or collective."
+      - level: 7
+        criteria:
+         - "add criteria for level seven here"
   - name: "conduct & culture: level of risk & compliance knowledge and ownership; professional conduct"
     title:
     content:
@@ -208,4 +220,7 @@ topics:
           - "Is involved with risk management and mitigation at the highest industry level. Leads by example and proves their discipline is managing risk and compliance within appetite. Gets involved in and identifies opportunities for colleagues to participate in advisory, strategic, industry bodies to learn and share best practice in their area of business."
           - "Fosters ability for teams to enjoy the journey and work sustainably. Leads the way in achieving high performance at Monzo whilst balancing outside interests and personal life harmony."
           - "Empowers autonomous teams to suceed and is sought after to provide direction in multiple areas. Is able to consistently do this despite the skillsets in the teams they work with changing. Is likely to manage other managers in the People collective. Is a mentor to high potential Monzonauts around the company."
+      - level: 7
+        criteria:
+         - "add criteria for level seven here"
 ---
