@@ -40,7 +40,9 @@ topics:
           - "Works tirelessly to keep all areas aligned. Builds culture of knowledge sharing and documenting."
       - level: 7
         criteria:
-         - "add criteria for level seven here"
+         - "Proactively communicates major changes to the board, executive team and senior leaders so there are no surprises. Confidently delivers high-impact, inspiring communications to Monzo and beyond. Makes complex messages clear and easy to understand."
+         - "Shows vulnerability and is approachable as a leader. Creates a culture where people thrive on feedback. Gives feedback in the moment and accepts constructive feedback graciously. Leads by example on personal development using humility, foresight and EQ."
+         - "Builds capability of exec team to surface and resolve conflict."
   - name: "impact: ambiguity and impact of their work; thinking ahead"
     title:
     content:
@@ -88,7 +90,11 @@ topics:
          - "Communicates the long-term vision and mission for the company and their discipline. Assesses and shapes organisational culture to meet current and future challenges."
       - level: 7
         criteria:
-         - "add criteria for level seven here"
+         - "Is ultimately accountable for the highest-impact People initiatives. Owns KRIs for the People Collective. Holds SMF 18."
+         - "Helps guide leaders to make the right trade-offs between speed and risk without breaching risk appetites. Holds accountability for significant policies and can evidence compliance including SM/CR responsibilities."
+         - "Anticipates and mitigates People problems long before they occur and coaches leaders to do the same. Thinks multiple years ahead but inspires leaders to make things happen now."
+         - "Champions scalability for the collective to make sure all teams continue to grow in line with the company whilst remaining lean and flexible. Builds the capability of leaders to keep challenging themselves on how to use automation and tech-led solutions to fulfil the People mission."
+         - "Sets out inspiring vision and sense of purpose to enable leaders to set ambitious goals. Empower and challenge teams to surprise themselves by hitting them."
   - name: "knowledge and thinking: breadth and depth of knowledge; thinking skills; self-development"
     title:
     content:
@@ -136,7 +142,10 @@ topics:
           - "Is an intellectual leader. ExCo seek them out to challenge and improve their thinking."
       - level: 7
         criteria:
-         - "add criteria for level seven here"
+         - "World-class thought-leader across Monzo, the financial services industry and leading tech companies. Makes sure Monzo maintains a commitment to creating a world-class people experience, balancing initiatives set by the wider business with the impact on people. Coaches leaders on balancing People focus with need for positive business results."
+         - "Creates a culture where data drives good decision making. Has high expectations of leaders using data and encouraging their teams to upskill themselves to use and interpret data."
+         - "Contributes to thought leadership on effective and creative ways to run an excellent org from a People perspective."
+         - "Is a thought leader. Is sought out by other industry experts for their ideas, knowledge and expertise."
   - name: "teamwork: teamwork skills; level of autonomy"
     title:
     content:
@@ -183,7 +192,11 @@ topics:
           - "Nurtures and promotes employer brand. Individually attracts top talent to Monzo. May bring a network of talent to their discipline or collective."
       - level: 7
         criteria:
-         - "add criteria for level seven here"
+         - "Creates culture for leaders to builds capable and motivated teams. Coaches peers at Exco level and drives the expectation of Monzo being a high performance environment with an ethos of continuous learning and development."
+         - "Is the cultural ambassador for Monzo to the rest of the world."
+         - "Establishes a network of internal and external counterparts and executive communities of practice to keep ahead of emerging People and specialist trends, ideas and industry/sector insights, locally and internationally."
+         - "Creates a culture where everyone belongs and is included. Sets strategic vision for building a diverse company and holds senior leaders to account for valuing and promoting this."
+         - "Sees the holistic picture of skills required a year from now and nurtures talent internally. Makes strategic hires, cultivating relationships over many months to get people over to Monzo who didn’t realise they needed a new job. Cultivates and drives initatives to build employer brand at the highest level."
   - name: "conduct & culture: level of risk & compliance knowledge and ownership; professional conduct"
     title:
     content:
@@ -222,5 +235,7 @@ topics:
           - "Empowers autonomous teams to suceed and is sought after to provide direction in multiple areas. Is able to consistently do this despite the skillsets in the teams they work with changing. Is likely to manage other managers in the People collective. Is a mentor to high potential Monzonauts around the company."
       - level: 7
         criteria:
-         - "add criteria for level seven here"
+         - "Leads risk mitigation, governance and ethics strategies for the People Collective, in line with SMF 18 responsibilites. Creates a strong risk culture throughout the organisation. Owns policies and can prove we're complying with them. Spots ways to manage risk and implements them company wide."
+         - "Creates a culture of mutual respect where people can do the best work of their lives. Sets the strategy for continually developing our culture."
+         - "Is a world-class manager of leaders within the collective. Is a mentor to high potential Monzonauts and others across the industry. Coaches other execs to be better managers to senior leaders at Monzo."
 ---
