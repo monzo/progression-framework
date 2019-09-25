@@ -138,17 +138,9 @@ topics:
           - "Differentiates between user needs, desires and prioritises accordingly"
           - "Champions some technologies/components and produces technical documentation to facilitate the learning of colleagues"
           - "Understands the full lifecycle-of-a-loan process"
-        exampleCriteria:
-          - criteria: "Implements non-trivial components"
-            examples:
-              - "Uses modern CSS features like flex-box, grid, media-queries, selectors, etc"
-              - "Uses advanced component patterns higher-order components, render props, controlled components, compound components"
-          - criteria: "Writes effective asynchronous code"
-            examples:
-              - "Demonstrates solid understanding of the JavaScript runtime; reasons effectively about the runtime behaviour of asynchronous code; uses async/await, generators and Redux-Saga’s to implement asynchronous code"
-          - criteria: "Writes effective JavaScript by applying fundamental functional and reactive principles and techniques where appropriate and guides others in so doing"
-            examples:
-              - "Uses uses event streams, immutable data structures, pure functions, functional composition, memoization, etc."
+          - "Implements non-trivial components"
+          - "Writes effective asynchronous code"
+          - "Writes effective JavaScript by applying fundamental functional and reactive principles and techniques where appropriate and guides others in so doing"
       - level: 4
         criteria:
           - "Writes code that serves as a definitive example for new engineers"
@@ -209,10 +201,7 @@ topics:
           - "Helps the growth of engineers around them through coaching and mentoring"
           - "Helps their squad work together more effectively"
           - "Helps facilitate team/squad rituals"
-        exampleCriteria:
-          - criteria: "Makes improvements to modules/libraries/services and goes out of their way to help others learn from it"
-            examples:
-              - "I've used RxJava for the first time here, I'm going to do a talk about why I've done this, here's some great blog posts on it"
+          - "Makes improvements to modules/libraries/services and goes out of their way to help others learn from it"
       - level: 5
         criteria:
           - "Instils Assetz engineering principles across a whole squad of engineers"
