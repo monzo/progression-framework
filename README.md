@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.reevoo.com">
-    <img alt="Reevoo favicon" src="[src/images/favicon.png]" width="60" />
+    <img alt="Reevoo favicon" src=[src/images/favicon.png] width="60" />
   </a>
 </p>
 <h1 align="center">
