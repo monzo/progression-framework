@@ -1,0 +1,1 @@
+FROM gatsbyjs/gatsby:onbuild

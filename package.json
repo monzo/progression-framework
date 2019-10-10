@@ -14,7 +14,7 @@
     "css-loader": "^2.1.0",
     "eslint": "^5.12.0",
     "flow": "^0.2.3",
-    "gatsby": "^2.0.19",
+    "gatsby": "^2.15.34",
     "gatsby-plugin-flow": "^1.0.2",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-nprogress": "^2.0.7",
