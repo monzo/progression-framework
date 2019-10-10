@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://www.Reevoo.com">
-    <img alt="Reevoo favicon" src="https://d33wubrfki0l68.cloudfront.net/673084cc885831461ab2cdd1151ad577cda6a49a/92a4d/static/images/favicon.png" width="60" />
+  <a href="https://www.reevoo.com">
+    <img alt="Reevoo favicon" src="[src/images/favicon.png]" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -9,7 +9,7 @@
 
 🎉 Welcome to the Progression at Reevoo repository
 
-This is where all of Reevoo's progression frameworks live, as well as the site that powers `progression.Reevoo.com` 💪
+This is where all of Reevoo's progression frameworks live, as well as the site that powers `progression.reevoo.com` 💪 Our framework is based on the great work done by the team at Monzo.
 
 **Get stuck? There's a glossary at the bottom of this readme!**
 
@@ -23,7 +23,7 @@ We mainly use GitHub in Engineering, as it allows engineers to review each other
 
 We're using GitHub to store our progression frameworks for a few reasons:
 - It's public (or open source), meaning we can share this with the community and allow them to contribute!
-- Reevoonauts can "own" or manage a framework (or frameworks), meaning they get to control any changes or additions in that area
+- Reevolvers can "own" or manage a framework (or frameworks), meaning they get to control any changes or additions in that area
 - It means we can build a super fast site 🚀
 
 ## ❔ How does this work?
@@ -37,7 +37,7 @@ progression-framework/
     [a bunch of config files]
 ```
 
-`site` contains our website files, `frameworks` contains our progression framework files, and `CODEOWNERS` is the file that defines who owns or manages a framework, file or folder.
+`src` contains our website files, `frameworks` contains our progression framework files, and `CODEOWNERS` is the file that defines who owns or manages a framework, file or folder.
 All the other files are configuration, which you should totally ignore 👌
 
 **The `frameworks` folder is what you want to pay attention to!**
@@ -110,7 +110,7 @@ You can also add examples, by putting them in the `exampleCriteria` object, defi
 
 ---
 
-If you need any help and are a Reevoonaut, ping @lucas a message or put a message in #org-scaling. Otherwise, feel free to raise an issue here in GitHub.
+If you need any help and are a Reevolver, ping @lucas a message or put a message in #org-scaling. Otherwise, feel free to raise an issue here in GitHub.
 
 ## ✏️ How do I edit a framework?
 
