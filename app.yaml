@@ -1,0 +1,31 @@
+name: progression-framework
+
+image:
+  repository: quay.io/reevoo/progression-framework
+
+ingress:
+  host: progression.reevoo.com
+
+app:
+  replicas: 2
+  port: 80
+  livenessProbe:
+    initialDelaySeconds: 12
+    periodSeconds: 30
+    httpGet:
+      path: /index.html
+      port: http
+  readinessProbe:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+    httpGet:
+      path: /index.html
+      port: http
+  resources:
+    requests:
+      memory: 128Mi
+      cpu: 100m
+    limits:
+      memory: 256Mi
+      cpu: 100m
+
