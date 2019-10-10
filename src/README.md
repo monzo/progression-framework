@@ -1,13 +1,13 @@
 <p align="center">
-  <a href="https://www.monzo.com">
-    <img alt="Monzo favicon" src="https://d33wubrfki0l68.cloudfront.net/673084cc885831461ab2cdd1151ad577cda6a49a/92a4d/static/images/favicon.png" width="60" />
+  <a href="https://www.reevoo.com">
+    <img alt="Reevoo favicon" src=images/favicon.png width="60" />
   </a>
 </p>
 <h1 align="center">
-    Progression at Monzo
+    Progression at Reevoo
 </h1>
 
-This is a static site that displays the progression frameworks that Monzo use internally for our staff 🙌
+This is a static site that displays the progression frameworks that Reevoo use internally for our staff 🙌
 
 It's built in Gatsby, and deployed using Netlify.
 

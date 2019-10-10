@@ -35,7 +35,7 @@ You're totally proficient in multiple aspects of design, which allows you to eas
 
 ### Ownership
 
-You're involved in and own big (and not necessarily well defined) tasks and projects that will have a big impact. You're able to offer art direction into complex campaigns and problems creating unique visuals that people can remember and associate with Monzo.
+You're involved in and own big (and not necessarily well defined) tasks and projects that will have a big impact. You're able to offer art direction into complex campaigns and problems creating unique visuals that people can remember and associate with Reevoo.
 
 ### Collaboration
 

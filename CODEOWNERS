@@ -2,7 +2,7 @@
 # Each line is a file pattern followed by one or more owners.
 
 # These owners will be the default owners for everything in the repo.
-*       @monzo/org-scaling-team
+*       @Reevoo/org-scaling-team
 
 # These owners will be the default owners for everything in the frameworks folder.
 frameworks/*        @monzo/org-scaling-team
