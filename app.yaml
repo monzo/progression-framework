@@ -5,6 +5,7 @@ image:
 
 ingress:
   host: progression.reevoo.com
+  access: external
 
 app:
   replicas: 2
