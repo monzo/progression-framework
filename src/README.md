@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.monzo.com">
-    <img alt="Monzo favicon" src="https://d33wubrfki0l68.cloudfront.net/673084cc885831461ab2cdd1151ad577cda6a49a/92a4d/static/images/favicon.png" width="60" />
+    <img alt="Monzo favicon" src=images/favicon.png width="60" />
   </a>
 </p>
 <h1 align="center">
