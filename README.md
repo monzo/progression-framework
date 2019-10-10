@@ -9,7 +9,7 @@
 
 🎉 Welcome to the Progression at Reevoo repository
 
-This is where all of Reevoo's progression frameworks live, as well as the site that powers `progression.reevoo.com` 💪 Our framework is based on the great work done by the team at Monzo.
+This is where all of Reevoo's progression frameworks live, as well as the site that powers `progression.reevoo.com` 💪 Our framework is based on the great work done by the team at Reevoo.
 
 **Get stuck? There's a glossary at the bottom of this readme!**
 

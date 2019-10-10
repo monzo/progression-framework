@@ -90,7 +90,7 @@ topics:
           - "Develops and maintains solid foundation of market knowledge in their area, proactively identifies potential issues/risks."
       - level: 4
         criteria:
-          - "Conversant with overall Monzo architecture, and highly knowledgeable about specific elements and services that are relevant to their area of responsibility."
+          - "Conversant with overall Reevoo architecture, and highly knowledgeable about specific elements and services that are relevant to their area of responsibility."
           - "Develops and maintains an in-depth market knowledge in at least one area and is able to challenge experts. Identifies market opportunities or product gaps."
   - name: "execution"
     title: "🛠️ Execution"

@@ -24,7 +24,7 @@ topics:
           - "Able to articulate the role of the EAs internally and how this contributes to the company's success"
       - level: 5
         criteria:
-          - "Gives external talks on role of EAs at Monzo, and how this creates value and contributes to Monzo's overall success."
+          - "Gives external talks on role of EAs at Reevoo, and how this creates value and contributes to Reevoo's overall success."
   - name: "impact"
     title:
     content:
@@ -44,13 +44,13 @@ topics:
       - level: 5
         criteria:
           - "Key contributor to successfully achieving company goals relevant to your executive (where without *your* input, it's unlikely those goals would have been achieved)"
-          - "Owns projects that impact Monzo as a whole, leveraging stakeholders to deliver results."
+          - "Owns projects that impact Reevoo as a whole, leveraging stakeholders to deliver results."
   - name: "knowledge"
     title:
     content:
       - level: 1
         exampleCriteria:
-          - criteria: "Learning how to use all Monzo's internal tools"
+          - criteria: "Learning how to use all Reevoo's internal tools"
             examples:
               - "GSuite"
               - "Slack"
@@ -60,12 +60,12 @@ topics:
               - "JIRA"
       - level: 2
         criteria:
-          - "Working knowledge of all Monzo tools"
+          - "Working knowledge of all Reevoo tools"
           - "Can organise basic travel arrangements"
           - "Can work across timezones"
       - level: 3
         criteria:
-          - "Power user of all Monzo tools"
+          - "Power user of all Reevoo tools"
           - "Can create gmail inbox mgmt. system for exec"
           - "Able to seamlessly organise all diary & travel arrangements"
           - "Can review expenses"
@@ -77,7 +77,7 @@ topics:
           - "Able to proactively manage diaries to make sure execs time is optimised"
       - level: 5
         criteria:
-          - "Strong understanding of all executives responsibilities at Monzo, with ability to adapt to support any executive to high standard at short notice."
+          - "Strong understanding of all executives responsibilities at Reevoo, with ability to adapt to support any executive to high standard at short notice."
   - name: "teamwork"
     title:
     content:

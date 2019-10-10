@@ -22,7 +22,7 @@ topics:
       - level: 3
         criteria:
           - "Contextualises their decisions with their deepening knowledge of other areas of the business related to their work."
-          - "Has knowledge that means external sources want to hear from them, independent of Monzo's success."
+          - "Has knowledge that means external sources want to hear from them, independent of Reevoo's success."
           - "Drives the majority of their personal development and asks for feedback and input at the right time."
           - "Rarely needs extra knowledge from others."
       - level: 4

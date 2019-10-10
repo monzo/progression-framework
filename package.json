@@ -2,7 +2,7 @@
   "name": "@mondough/progression-framework",
   "private": true,
   "version": "1.0.0",
-  "description": "Monzo's progression framework site",
+  "description": "Reevoo's progression framework site",
   "author": "Lucas Johnston <lucasjohnston@monzo.com>",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",

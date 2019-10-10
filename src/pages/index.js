@@ -25,11 +25,11 @@ export default class Index extends React.Component<Props> {
         <DescriptionView>
           <DescriptionTitleGroup>
             <Subtitle>Welcome To</Subtitle>
-            <Title>Progression at Monzo 🎉</Title>
+            <Title>Progression at Reevoo 🎉</Title>
           </DescriptionTitleGroup>
           <Description>
             <DescriptionText>
-              This is where we keep the progression frameworks we use at Monzo.
+              This is where we keep the progression frameworks we use at Reevoo.
             </DescriptionText>
             <DescriptionText>
               Progression frameworks are tools that help us evaluate and pay our
@@ -37,7 +37,7 @@ export default class Index extends React.Component<Props> {
               their work.
             </DescriptionText>
             <DescriptionText>
-              We&apos;ve put them here for everyone at Monzo (and anyone in the
+              We&apos;ve put them here for everyone at Reevoo (and anyone in the
               world!) to use.
             </DescriptionText>
             <DescriptionText>
@@ -53,13 +53,13 @@ export default class Index extends React.Component<Props> {
             </DescriptionText>
             <DescriptionText>
               To get involved, go to{' '}
-              <a href="https://github.com/monzo/progression-framework">
+              <a href="https://github.com/Reevoo/progression-framework">
                 <FontAwesomeIcon icon={faGithub} />{' '}
                 @monzo/progression-framework.
               </a>
             </DescriptionText>
             <DescriptionText>
-              You can find out more about progression at Monzo and what it means
+              You can find out more about progression at Reevoo and what it means
               for us in this{' '}
               <a href="https://monzo.com/blog/2019/01/07/progression">
                 blog post.
