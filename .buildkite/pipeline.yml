@@ -2,7 +2,7 @@ steps:
 
   - label: ":docker: Build"
     command: |
-      make publish
+      gatsby build
     plugins:
       - docker#v2.0.0:
           image: "gatsbyjs/gatsby:onbuild"
