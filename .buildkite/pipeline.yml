@@ -3,6 +3,9 @@ steps:
   - label: ":docker: Build"
     command: |
       make publish
+    plugins:
+      - docker#v2.0.0:
+          image: "gatsbyjs/gatsby:onbuild"
 
   - block: ":rocket: Deploy to production! :dragon:"
     fields:
