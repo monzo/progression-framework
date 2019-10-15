@@ -1,10 +1,10 @@
 ---
-path: "/engineering/backend"
-title: "🛠️ Backend Engineering Framework"
-sidebarTitle: "🛠️ Backend"
+path: "/engineering/devOps"
+title: "♾️ DevOps Engineering Framework"
+sidebarTitle: "♾️ DevOps"
 sidebarGroup: "engineering"
 yaml: true
-levels: 6
+levels: 4
 homepage: true
 topics:
   - name: "communication"
@@ -21,32 +21,19 @@ topics:
           - "Proactively communicates to their team what they are working on, why, how it's going and what help they need"
           - "Accepts feedback graciously"
           - "Gives feedback to peers when asked"
-        exampleCriteria:
-          - criteria: "Provides helpful and actionable feedback in code reviews in an empathetic manner"
-            examples:
-              - "Take a look at the levelling up your code reviews talk for some ideas"
-          - criteria: "Writes PR descriptions that provide context and provide rationale for significant decisions"
-            examples:
-              - "I decided to X instead of Y here, I also considered Z but for these reasons I went with X"
+          - "Provides helpful and actionable feedback in code reviews in an empathetic manner"
+          - "Writes PR descriptions that provide context and provide rationale for significant decisions"
       - level: 3
-        criteria:
-          - "Transparent about mistakes they've made, early"
-          - "Proactively gives timely actionable feedback to peers"
-          - "Proactively seeks feedback from the people around them"
-          - "Considers the opinions of others before defending their own"
-      - level: 4
         criteria:
           - "Proactively gives feedback 'upwards' and to people they interact with who are not in their team"
           - "Transparent in making design and technical decisions"
           - "Helps people in non-technical roles understand technical constraints / trade-offs"
           - "Shares technical context and direction for less experienced engineers"
           - "Gives direct and constructive feedback to other engineers"
-      - level: 5
+      - level: 4
         criteria:
           - "Helps other people develop themselves and regularly gives insightful, useful feedback to those around them"
           - "Talks to non-technical stakeholders on appropriate level of abstraction"
-      - level: 6
-        criteria:
           - "Transparent about feedback they have received and what they are going to do differently"
   - name: "impact"
     title:
@@ -68,17 +55,14 @@ topics:
           - "Empathises with stakeholders"
           - "Contributes to writing proposals (Co-authors with more experienced Engineer)"
           - "Breaks down large problems into smaller iterative steps across multiple PRs"
-      - level: 4
-        criteria:
           - "Solves ambiguous problems"
           - "Leads writing small/medium scope technical designs"
           - "Thrown at fires and resolves / contributes heavily to resolving them"
           - "Makes pragmatic choices about taking on tech debt"
           - "Considers multiple different solutions for solving a problem"
           - "Breaks down projects into smaller iterative steps that each deliver value"
-      - level: 5
+      - level: 4
         criteria:
-          - "Solves the 'hard problem' in a project and sees it through to resolution"
           - "Solves larger ambiguous problems"
           - "Leads incident resolutions"
           - "Makes judgements about when to diverge from the immediate goal to achieve something else"
@@ -86,8 +70,6 @@ topics:
           - "Leads writing large scope proposals"
           - "Breaks down large long-lasting projects into sensible discrete chunks that compound to achieve a large goal"
           - "Helps prioritise and balance short-term and long-term investments, focusing on high impact, high value work"
-      - level: 6
-        criteria:
           - "Accountable for delivery of large, mission critical engineering projects"
           - "Originates or finishes large, horizontal engineering efforts"
   - name: "mastery"
@@ -95,92 +77,73 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Learns to write correct Node.js code, following guidance and training materials"
-          - "Learns to write basic SQL queries and understands the structure of the database"
-          - "Fixes simple bugs"
+          - "Aware of the purpose of each of our AWS services"
+          - "Learns to create and configure simple CI/CD jobs in TeamCity, following guidance and training materials"
+          - "Fixes simple issues with TeamCity builds"
+          - "Understands the purpose of each of our environments (dev, staging, mirror, prod) and can explain how changes get promoted between them"
+          - "Learns simple network security concepts"
+          - "Understands the benefits of docker and learns the basic commands and workflow of general docker use"
+        exampleCriteria:
+          - criteria: "Understands network infrastructure elements and how they connect together"
+            examples:
+              - "DMZ"
+              - "DNS"
+              - "Firewalls"
+              - "Load balancers"
+              - "Proxy servers"
+              - "Routers and switches"
+              - "Storage"
       - level: 2
         criteria:
-          - "Designs simple database tables"
-          - "Implements asynchronous messaging between services"
-          - "Deploys services to staging and production"
-          - "Deploys database changes to staging and production"
-          - "Fixes bugs involving a number of services and can investigate production issues"
-          - "Uses appropriate algorithms and data structures to solve problems"
-          - "Writes automated unit and acceptance tests"
-          - "Writes correct Node.js code following accepted best practices"
-          - "Able to write complex SQL statements following accepted best practices"
-          - "Can explain at a high level what each department does at Assetz and what business processes they support"
+          - "Can explain what each of the AWS services that we use does and understands how we have them configured"
+          - "Creates and configures simple jobs in TeamCity following accepted best practices"
+          - "Makes minor modifications to AWS services"
+          - "Assists more experienced engineers on the design and implementation of larger infrastructure changes"
+          - "Understands and can explain the TeamCity pipeline for each of our products"
+          - "Strong docker knowledge and understands how Assetz uses docker"
+          - "Understands the Assetz network infrastructure setup"
+          - "Applies network security knowledge to Assetz infrastructure with the help of others to make improvements"
       - level: 3
         criteria:
-          - "Uses appropriate design patterns"
-          - "Designs new schemas comprising multiple tables"
-          - "Co-ordinates complex deployments and database migrations"
-          - "Implements distributed systems consisting of multiple interacting services"
-          - "Produces technical designs that include a consideration of scalability"
-          - "Debugs production issues"
-          - "Considers metrics when building a new system"
-          - "Writes highly readable Node.js code"
-          - "Writes efficient and performant SQL queries to solve complex problems"
+          - "Follows appropriate dev-ops best practices"
           - "Champions some technologies/components, and produces technical documentation to facilitate the learning of colleagues"
-          - "Understands the full lifecycle-of-a-loan process"
+          - "Identifies obvious deficiencies in the processes and supports activities to improve them"
+          - "Proactively considers security implications of their work"
+          - "Understands the AWS services to a deeper level including ones that we do not use"
+          - "Debugs complex issues at speed"
+          - "Identifies and fixes security vulnerabilities"
+          - "Identifies and fixes performance issues with TeamCity builds and AWS services"
+          - "Implements solutions that are maintainable and scale reliably without intervention"
+          - "Explains all aspects of our use of the AWS platform to new engineers"
+          - "Explains all aspects of our CI/CD implementation to new engineers"
+          - "Understands the Assetz network infrastructure setup in detail and can explain it to others"
+          - "Applies network security knowledge to ensure Assetz infrastructure and services stay secure"
         exampleCriteria:
-          - criteria: "Mitigates race conditions and partial failure states in distributed systems"
+          - criteria: "Helps to maintain any docker images that Assetz uses"
             examples:
-              - "Uses locking where appropriate, writes code that is “self-healing” when dealing with distributed failure (e.g. data needs to be written in two or more services)"
-          - criteria: "Proactively considers security implications of their work"
-            examples:
-              - "Appropriately ties down internal access to resources they're working with (e.g. RPC blacklisting, BigQuery permissions)"
-              - "Evaluates security risks when contributing to proposals"
-              - "Highlights potential security issues when raising and reviewing pull requests - e.g. adding rate limiting in an API, or leaving a code comment to explain why we choose not to"
-              - "\"There's a risk here of X, Y but given Z, I think this is OK\""
-              - "Loops in Security when their squad is unsure about something by posting in #security-requests"
+              - "Bump node version"
+              - "Manage package versions"
+              - "Manage ECS contents and maintain container lists"
       - level: 4
         criteria:
-          - "Writes Node.js code and SQL that serves as a definitive example for new engineers"
-          - "Leads the refactoring of complex systems and deconstructing of monoliths"
-          - "Debugs complex production issues at speed"
-          - "Identifies and fixes security vulnerabilities"
-          - "Identifies and fixes performance bottlenecks in individual services"
-          - "Explains all aspects of the platform to new engineers"
-          - "Includes actionable dashboarding as part of a new system"
-          - "Implements services or libraries that require a deep level of domain knowledge"
-        exampleCriteria:
-          - criteria: "Makes contributions to library code or core services"
-            examples:
-              - "Bug fixes, small improvements; things that don’t result in a major change in the public API"
-          - criteria: "Builds systems that scale reliably without intervention"
-            examples:
-              - "Services can withstand a year’s worth of growth in load/user base without needing first aid"
-      - level: 5
-        criteria:
-          - "Builds systems that serve as definitive examples for new engineers"
-          - "Makes major contributions to library code or core services"
+          - "Implements solutions that serve as definitive examples for new engineers"
           - "Contributes to external technologies or libraries that we depend on"
-          - "Develops clear technical solutions from ambiguous requirements"
-          - "Uncovers and fixes tricky bugs that have previously evaded detection"
-          - "Implements security improvements that impact multiple services"
+          - "Uncovers and fixes tricky issues that have previously evaded detection"
           - "Implements performance improvements that impact multiple services"
-          - "Serves as a technical authority on a technology or an area of the codebase"
-          - "Reviews technical designs and pull requests for large complex projects"
+          - "Serves as a technical authority on a TeamCity usage or a / multiple AWS services"
           - "Creates major contributions to our documentation, and creates documents that provide guidelines and best practices to other engineers"
-          - "Works with technical and non-technical stakeholders to identify high-level requirements and turns them into discrete technical concerns"
-      - level: 6
-        criteria:
-          - "Makes major contributions to technologies and libraries that we depend on"
-          - "Makes improvements to the stability, performance or security of the entire platform"
-          - "Serves as a technical authority in the wider engineering community"
+          - "Facilitates technical decision making in complex and ambiguous situations"
+          - "Promotes architectural thinking and good engineering practices at scale"
+          - "Identifies and explores opportunities for service and business improvement"
+          - "Follows industry best practices to help ensure Assetz infrastructure is kept up to date with industry advancements and changing technologies where appropriate"
+          - "Looks beyond the immediate security concerns and owns our future infrastructure roadmap"
+          - "Suggests and implements improvements to the way that docker is used and is a point of knowledge for other engineers regarding docker"
   - name: "leadership"
     title: "👩‍💼 Leadership"
     content:
       - level: 3
         criteria:
           - "Onboards / mentors new engineers"
-        exampleCriteria:
-          - criteria: "Finds learning opportunities for others when reviewing their code and follows it up"
-            examples:
-              - "I think this code could be improved by doing X, let's pair on it and I'll talk through why X is good for this"
-      - level: 4
-        criteria:
           - "Contributes to maintaining the Assetz engineering culture in their team, helping new joiners"
           - "Gets buy-in on technical decision-making and proposed designs"
           - "Proactively involves other relevant engineers"
@@ -189,11 +152,8 @@ topics:
           - "Helps the growth of engineers around them through coaching and mentoring"
           - "Helps their squad work together more effectively"
           - "Helps facilitate team/squad rituals"
-        exampleCriteria:
-          - criteria: "Makes improvements to modules/libraries/services and goes out of their way to help others learn from it"
-            examples:
-              - "I've used RxJava for the first time here, I'm going to do a talk about why I've done this, here's some great blog posts on it"
-      - level: 5
+          - "Makes improvements to modules/libraries/services and goes out of their way to help others learn from it"
+      - level: 4
         criteria:
           - "Instills Assetz engineering principles across a whole squad of engineers"
           - "Works with relevant Engineering Managers to help other engineers perform and grow"
@@ -203,11 +163,6 @@ topics:
           - "Contributes to maintaining the Assetz culture in the wider company"
           - "Encourages and supports other engineers to achieve outstanding results"
           - "Bootstraps new teams"
-      - level: 6
-        criteria:
-          - "Helps groups of squads work together more effectively"
-          - "Starts things that they cannot finish by themselves"
-          - "Delegates to make better use of their time"
   - name: "influence"
     title: "✨ Influence"
     content:
@@ -217,14 +172,12 @@ topics:
       - level: 2
         criteria:
           - "Proactively raises issues they spot in retrospectives"
-      - level: 3
-        criteria:
           - "Provides valuable input to proposals from their team"
           - "A good boy scout - proactively improves modules, services, systems and codebases they encounter"
           - "Contributes to the engineering hiring process (e.g. reviews technical exercises, does on-site pair programming tasks)"
           - "Builds simple tools or iterates existing tools for the benefit of all engineers"
           - "Encourages others to follow clean code principles"
-      - level: 4
+      - level: 3
         criteria:
           - "Positively influences engineers in the wider org"
           - "Maintains documentation on things they know the most, makes it easy for future engineers to interact with systems/code"
@@ -233,24 +186,35 @@ topics:
           - "Drives changes to engineering practices with well-reasoned arguments and a 'strong opinion, weakly held' mentality"
           - "Shapes the direction of systems designs with less experienced engineers"
           - "Breaks down delivery and knowledge silos in their team"
-      - level: 5
+      - level: 4
         criteria:
           - "Represents Assetz Engineering at conferences/events"
           - "Given as reason for other engineers to join Assetz"
           - "Proactively shares knowledge internally"
           - "Acts as the 'sole proprietor', in the CEO mindset, their ego/agenda is not a factor in their thinking or decision making"
-      - level: 6
-        criteria:
-          - "Attracts other very senior hires"
-          - "Engineers around them get better and have a bigger impact, faster"
 ---
 
-Become a master of our internal APIs, the suite of micro-services that is our application layer, and our databases 🛠️
+Become a master of the automated build, test, release and deployment process of all of our products and services. ♾️
 
 ### Technologies
 
-- Node.js
-- PostgreSQL
+- AWS
+- Docker
+- TeamCity
+
+#### AWS Services we use
+
+| Service    | Description |
+|------------|-------------|
+| CloudWatch | AWS CloudWatch is a monitoring and observability service that provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health. |
+| EC2 (Elastic Compute Cloud) | AWS EC2 is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. |
+| ECS (Elastic Container Service) | AWS ECS is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS.  |
+| ElastiCache | AWS ElastiCache offers fully managed Redis and Memcached. Seamlessly deploy, run, and scale popular open source compatible in-memory data stores. |
+| Fargate | AWS Fargate is a compute engine for Amazon ECS that allows you to run containers without having to manage servers or clusters. With AWS Fargate, you no longer have to provision, configure, and scale clusters of virtual machines to run containers. |
+| RDS (Relational Database Service) | AWS RDS makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching and backups. |
+| S3 (Simple Storage Service) | AWS S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance. This means customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases, such as websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. |
+| VPC (Virtual Private Cloud) | AWS VPC lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways. |
+| WAF (Web Application Firewall) | AWS WAF helps protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources. AWS WAF gives you control over which traffic to allow or block to your web applications by defining customizable web security rules. |
 
 ### The aim of these frameworks are to
 
