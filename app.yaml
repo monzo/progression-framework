@@ -9,7 +9,8 @@ ingress:
 
 app:
   replicas: 2
-  port: 80
+  port: 9000
+  command: ["gatsby", "serve", "-H", "0.0.0.0"]
   livenessProbe:
     initialDelaySeconds: 12
     periodSeconds: 30

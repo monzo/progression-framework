@@ -1,0 +1,5 @@
+# node_modules will contain binaries specific to the OS and cannot be interchanged between mac and linux
+node_modules
+yarn.lock
+app.yaml
+Dockerfile*
