@@ -8,7 +8,7 @@ levels: 7
 homepage: false
 topics:
   - name: "communication: transparent communication; giving and receiving feedback"
-    title:
+    title: "communication: transparent communication; giving and receiving feedback"
     content:
       - level: 1
         criteria:
@@ -44,7 +44,7 @@ topics:
          - "Shows vulnerability and is approachable as a leader. Creates a culture where people thrive on feedback. Gives feedback in the moment and accepts constructive feedback graciously. Leads by example on personal development using humility, foresight and EQ."
          - "Builds capability of exec team to surface and resolve conflict."
   - name: "impact: ambiguity and impact of their work; thinking ahead"
-    title:
+    title: "impact: ambiguity and impact of their work; thinking ahead"
     content:
       - level: 1
         criteria:
@@ -96,7 +96,7 @@ topics:
          - "Champions scalability for the collective to make sure all teams continue to grow in line with the company whilst remaining lean and flexible. Builds the capability of leaders to keep challenging themselves on how to use automation and tech-led solutions to fulfil the People mission."
          - "Sets out inspiring vision and sense of purpose to enable leaders to set ambitious goals. Empower and challenge teams to surprise themselves by hitting them."
   - name: "knowledge and thinking: breadth and depth of knowledge; thinking skills; self-development"
-    title:
+    title: "knowledge and thinking: breadth and depth of knowledge; thinking skills; self-development"
     content:
       - level: 1
         criteria:
@@ -147,7 +147,7 @@ topics:
          - "Contributes to thought leadership on effective and creative ways to run an excellent org from a People perspective."
          - "Is a thought leader. Is sought out by other industry experts for their ideas, knowledge and expertise."
   - name: "teamwork: teamwork skills; level of autonomy"
-    title:
+    title: "teamwork: teamwork skills; level of autonomy"
     content:
       - level: 1
         criteria:
@@ -198,7 +198,7 @@ topics:
          - "Creates a culture where everyone belongs and is included. Sets strategic vision for building a diverse company and holds senior leaders to account for valuing and promoting this."
          - "Sees the holistic picture of skills required a year from now and nurtures talent internally. Makes strategic hires, cultivating relationships over many months to get people over to Monzo who didn’t realise they needed a new job. Cultivates and drives initatives to build employer brand at the highest level."
   - name: "conduct & culture: level of risk & compliance knowledge and ownership; professional conduct"
-    title:
+    title: "conduct & culture: level of risk & compliance knowledge and ownership; professional conduct"
     content:
       - level: 1
         criteria:
