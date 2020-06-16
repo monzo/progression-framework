@@ -1,6 +1,6 @@
 ---
 path: "/engineering/backend"
-title: "🛠️ Backend Engineering Framework"
+title: "🛠️ Backend Developer Framework"
 sidebarTitle: "🛠️ Backend"
 sidebarGroup: "engineering"
 yaml: true
@@ -257,37 +257,36 @@ topics:
           - "Makes improvements to the stability, performance or security of the entire platform"
           - "Serves as a technical authority in the wider engineering community"
 ---
-### About our engineering progression frameworks
-The engineering progression framework is a tool that helps engineers and managers:
-- make development and career plans
-- talk about what we’re looking for from engineers in a consistent way
-- set a fair level of compensation.
+### Sobre os nossos frameworks de progressão de engenharia
+O framework de progressão de engenharia é uma ferramenta que auxilia desenvolvedores e gestores a:
+- fazer planos de desenvolvimento e carreira
+- conversar sobre o que procuramos nos desenvolvedores de maneira consistente
+- ter um valor justo de compensação
 
-The framework is a compass, not a GPS.
+Esse framework tem o intuito de diminuir a subjetividade e dar mais clareza nos processos de review.
 
-It's meant to be helpful. It's not meant to be a rating system for humans, free from edge cases.
+### Como funciona?
+O framework cobre tudo que estamos procurando em desenvolvedores na QCX.
+Estamos interessados nesses cinco aspectos:
+- Domínio - Seu conhecimento e capacidade técnica
+- Impacto - Tamanho, escopo e valor das entregas
+- Influência - Como você muda o ambiente ao seu redor para melhor
+- Comunicação e Feedback - Como você interage com os outros
+- Liderança - Como as pessoas ao seu redor se tornam melhores e com mais impacto
 
-### How does it work?
-The framework covers all the things we’re looking for from engineers at Monzo. We’re interested in these five elements:
-- Mastery - Your Monzo knowledge and technical capability
-- Impact - The size, scope and value of what you deliver
-- Influence - How you change the world around you for the better
-- Comms & Feedback - How you interact with others
-- Leadership - How people around you become better and more impactful
+Ordenamos eles em seis níveis, e tentamos dar exemplos específicos de comportamentos esperados. Quanto mais comportamentos você demonstrar, mais você avança.
 
-We sort them into six levels, and we try to give specific examples of behaviours we expect for each. Each of those levels has a fairly wide salary range associated with it, and within each level you can progress in sub-levels, labelled A–E. So even if you’re at level 3 for a couple of years, you’ll still be able to see that you’re moving forward. Basically, the more behaviours you show from your level, the more you’ll progress.
+<!-- We sort them into six levels, and we try to give specific examples of behaviours we expect for each. Each of those levels has a fairly wide salary range associated with it, and within each level you can progress in sub-levels, labelled A–E. So even if you’re at level 3 for a couple of years, you’ll still be able to see that you’re moving forward. Basically, the more behaviours you show from your level, the more you’ll progress. -->
 
-Your manager will work with you on this. None of it will happen mysteriously behind closed doors. You’ll agree what level of progression you’re going for and what you need to improve on with your manager. It should be clear how you’re doing relative to that at all times.
+Seu gestor vai trabalhar com você nisso. Nada vai acontecer por baixo dos panos. Você vai concordar com o nível de progressão a ser buscado e no que você precisa melhorar. Deve ser claro como você está indo a todo momento.
 
 ### Things to keep in mind
-- There are many different ways to progress and be valuable to Monzo as you grow, including deep technical knowledge and ability, technical leadership and people management. All are equally valuable paths in Monzo's engineering team.
-- The framework represents a career’s worth of progression, people shouldn’t expect to fly up it in 18 months!
-- Engineering progression isn’t an exact science and there will always be some ambiguity.
-- This isn’t a checklist – it’s possible to progress up a level without showing all the behaviours in that level.
-- There will be levels on top (eg ‘Inventor of Android’ or ‘Author of Go’), but we won’t add them until we need them.
-- You can find some more information in these links. If that doesn't answer most of your questions, please ask your manager.
+- Tem diversas maneiras de progredir e se valorizar dentro da QCX, incluindo habilidade e conhecimento técnico, liderança técnica e gestão de pessoas.
+- O framework representa uma carreira de desenvolvimento, não espere subir todos os níveis em 18 meses.
+- A progressão não é uma ciência exata, sempre vai haver alguma ambiguidade.
+- Não é um checklist, é possível progredir sem ter todos os requisitos.
 
-### Give us your feedback!
-This is only the first version of our framework and we really want your feedback.
+### Queremos feedbacks!
+É a primeira versão do framework e queremos a sua opinião.
 
-We're particularly keen to add as many examples to the behaviours as possible, to further clarify them.
+A adição de exemplos nos comportamentos ajuda muito a expressar melhor a intenção. A colaboração também é muito bem vinda.
