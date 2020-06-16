@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Monzo Progression',
+    title: 'QCX Progression',
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -34,7 +34,7 @@ module.exports = {
         background_color: '#14233c',
         theme_color: '#14233c',
         display: 'minimal-ui',
-        icon: 'src/images/favicon.png',
+        icon: 'src/images/qc.svg',
       },
     }
   ],

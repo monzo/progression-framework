@@ -2,7 +2,7 @@
 import * as React from 'react'
 import { Location } from '@reach/router'
 import { Helmet } from 'react-helmet'
-import favicon from '../images/favicon.png'
+import favicon from '../images/qc.svg'
 import menuIcon from '../images/menu_icon.svg'
 import closeIcon from '../images/close_icon.svg'
 import SidebarBuilder from './sidebarBuilder'
