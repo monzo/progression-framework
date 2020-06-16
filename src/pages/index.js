@@ -37,11 +37,11 @@ export default class Index extends React.Component<Props> {
               progredir na carreira.
             </DescriptionText>
             <DescriptionText>
-              Esse ferramenta de exibição de frameworks é uma criação da {' '}
+              Esse framework de progressão é uma criação da {' '}
               <a href="https://github.com/monzo/progression-framework">
                 <FontAwesomeIcon icon={faGithub} />{' '}
-                @monzo/progression-framework.
-              </a>
+                monzo
+              </a>, adaptada a nossa realidade.
             </DescriptionText>
           </Description>
         </DescriptionView>

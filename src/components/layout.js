@@ -39,7 +39,7 @@ const ToolbarRenderer = ({ sidebarClickHandler, isSidebarVisible }: Object) =>
     <Toolbar className={isSidebarVisible ? 'visible' : null}>
       <MenuIcon onClick={sidebarClickHandler} src={menuIcon} />
       <ToolbarPushWrapper>
-        <ToolbarIcon src={favicon} alt="Monzo" />
+        <ToolbarIcon src={favicon} alt="QCX" />
       </ToolbarPushWrapper>
     </Toolbar>
   )
@@ -103,7 +103,7 @@ class Layout extends React.Component<Props, State> {
     return (
       <Contain>
         <Helmet>
-          <title>Progression at Monzo</title>
+          <title>Carreira na QCX</title>
         </Helmet>
         <SidebarRenderer
           data={data}
