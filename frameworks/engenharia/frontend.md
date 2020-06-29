@@ -71,7 +71,7 @@ topics:
           - "Resolve problemas ambiguos"
           - "Lidera a elaboração de proposta de escopo pequeno e médio"
           - "Atua como bombeiro quando necessário, resolvendo ou contribuindo para a solução"
-          - "Faz escolhar pragméticas de quando assumir débito técnico"
+          - "Faz escolhar pragmáticas de quando assumir débito técnico"
           - "Considera soluções diferentes para resolver um problema"
           - "Quebra projetos em passos menores para entregar valor em cada passo"
       - level: 5
