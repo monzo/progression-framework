@@ -167,32 +167,37 @@ topics:
     content:
       - level: 1
         criteria:
+          - "Possui conhecimento básico de programação"
+          - "Possui conhecimento básico de Git"
           - "Desenvolve de acordo com orientações e materiais de treinamento"
-          - "Conserta bugs simples"
       - level: 2
         criteria:
-          - "Modela tabelas simples no banco de dados"
-          - "Implementa integrações entre serviços"
-          - "Faz o deploy em staging"
-          - "Conserta bugs médios e consegue investigar erros em produção"
-          - "Usa algoritmos e estruturas apropriadas para resolver os problemas"
-          - "Escreve código de acordo com as boas práticas"
-          - "Escreve testes unitários"
-        exampleCriteria:
-          - criteria: "Implementa APIs simples"
-            examples:
-              - "CRUDs"
-              - "Permissões simples"
+          - "Possui experiência básica com as IDE’s Xcode e/ou Android Studio"
+          - "Possui domínio básico de linguagens de programação Kotlin e/ou Swift"
+          - "Possui conhecimento básico de consumo de API’s REST"
+          - "Conhece sobre implementação de layouts simples"
+          - "Monitora e aperfeiçoa a integração com plataformas de métricas como Firebase, Rollbar"
+          - "Possui conhecimento básico sobre geração de versões para testes internos"
+          - "Compreende e replica padrões de código e boas práticas adotados no projeto"
+          - "Conhece sobre persistência de dados simples no dispositivo (ex.: Shared Preferences, User Defaults)"
+          - "Possui conhecimento sólido sobre clico de vida de uma Activity/View Controller"
+          - "Implementa de bibliotecas externas"
+          - "Compreende a configuração do ambiente de desenvolvimento"
       - level: 3
         criteria:
-          - "Usa os 'design patterns' apropriados"
-          - "Modela novas funcionalidades com múltiplas tabelas"
-          - "Implementa fluxos assíncronos"
-          - "Coordena deploys complexos e migrações de banco"
-          - "Implementa serviços distribuídos"
-          - "Desenha arquiteturas considerando escalabilidade"
-          - "Debuga problemas em produção"
-          - "Considera monitoramento na construção ou manutenção de um sistema"
+          - "Domina de versão e Git Flow"
+          - "Domina as IDE’s Xcode e/ou Android Studio"
+          - "Possui domínio intermediário de linguagens de programação Kotlin e/ou Swift"
+          - "Domina modelos de arquitetura usados nos projeto baseado em casos já existentes"
+          - "Possui conhecimento intermediário de consumo de API’s REST, além de identificar e sugerir melhorias de comunicação e contrato com o backend"
+          - "Possui conhecimento sobre implementação de layouts customizados mais complexos"
+          - "Acompanha o mercado de tecnologia, trazendo conhecimento de novas ferramentas e sistemas"
+          - "Domina o processo de geração de versão para teste interno"
+          - "Compreende e sugere novos padrões de código e boas práticas de programação"
+          - "Domina o processo de persistência de dados simples no dispositivo (ex.: Shared Preferences, User Defaults)"
+          - "Possui conhecimento sobre persistência de dados complexos no dispositivo"
+          - "Avalia a necessidade de uso de bibliotecas externas"
+          - "Domina a configuração do ambiente de desenvolvimento, auxiliando outros desenvolvedores nesse processo"
         exampleCriteria:
       - level: 4
         criteria:
@@ -202,7 +207,12 @@ topics:
           - "Identifica e resolve vulnerabilidades"
           - "Identifica e resolve problemas de performance"
           - "Explica todos os aspectos da plataforma para novos desenvolvedores"
-          - "Inclui dashboards acionáveis como parte de uma nova funcionalidade"
+          - "Possui domínio avançado de linguagens de programação Kotlin e/ou Swift"
+          - "Identifica problemas e sugere mudanças de arquitetura e/ou modelos de arquitetura que atendam melhor ao projeto"
+          - "Possui conhecimento avançado de consumo de API’s REST"
+          - "Busca novas soluções para acompanhamento de métricas e performance"
+          - "Domina o processo de release completo"
+          - "Possui domínio sobre persistência de dados complexos no dispositivo"
       - level: 5
         criteria:
           - "Desenvolve sistemas para servir de exemplo para novos desenvolvedores"
