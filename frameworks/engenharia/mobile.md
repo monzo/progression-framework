@@ -21,17 +21,24 @@ topics:
           - "Comunica de forma proativa sobre o andamento das tarefas, e se precisa de ajuda"
           - "Recebe feedbacks graciosamente"
           - "Fornece feedback aos pares quando requisitado"
-          - "Fornece feedbacks úteis e acionáveis em code reviews de maneira empática"
         exampleCriteria:
+          - criteria: "Fornece feedbacks úteis e acionáveis em code reviews de maneira empática"
+            examples:
+              - "Dá uma olhada nesse artigo X, ele aborda esse tipo de arquitetura que você poderia ter utilizado aqui"
+              - "Esse estrutura não ficou muita clara, você pode dividir esse contexto em X e Y"
           - criteria: "Escreve descrições de PR que fornecem contexto e raciocínio para decisões significantes"
             examples:
               - "Escolhi seguir com X em vez de Y, também considerei Z, mas por essas razões fui com X"
       - level: 3
         criteria:
           - "Transparente sobre os erros cometidos, sem demora"
-          - "Proativamente fornece feedbacks acionáveis aos pares"
           - "Proativamente busca feedback das pessoas próximas"
           - "Considera a opinião alheia, antes de impor a própria"
+        exampleCriteria:
+          - criteria: "Proativamente fornece feedbacks acionáveis aos pares"
+            examples:
+              - "Fulano, to vendo que você tá com certa dificuldade em escrever os testes, vamos fazer um pair?"
+              - "Ciclano, algumas das abstrações não estão ficando muito claras, acho que você pode usar X pra te ajudar a pensar nisso"
       - level: 4
         criteria:
           - "Proativamente dá feedbacks 'para cima' e para pessoas que não são da equipe"
@@ -59,8 +66,11 @@ topics:
           - "Trabalha para o time, foca em tarefas que contribuem para as metas"
           - "Tenta se desbloquear antes de pedir ajuda"
           - "Gerencia seu próprio tempo de forma eficiente, prioriza sua carga de trabalho, é pontual para reuniões e ciente de quando está bloqueando outras pessoas e se preocupa em desbloquear"
-          - "Ajuda o time, faz o que precisa ser feito"
           - "Quebra problemas médios em passos menores"
+          exampleCriteria:
+            - criteria: "Ajuda o time, faz o que precisa ser feito"
+              examples:
+                - "Faz ajustes fora da especialidade ou escopo quando necessário, como tarefas de frontend ou de outros squads"
       - level: 3
         criteria:
           - "Entrega tarefas grandes e bem definidas e resolve pequenos problemas não tão definidos"
@@ -157,7 +167,10 @@ topics:
           - "Representa a QCX em conferencias e eventos"
           - "Razão para outros desenvolvedores se juntarem a equipe"
           - "Proativamente compartilha conhecimento internamente"
-          - "Tem mentalidade de dono, não tem ego nas suas decisões"
+        exampleCriteria:
+          - criteria: "Tem mentalidade de dono, não tem ego nas suas decisões"
+            examples:
+              - "Tomar o código e a aplicação como sua, se ver alguma coisa atrapalhando os usuários ou colaboradores atua para melhorar ou levanta a mão se não tiver condições ou tempo de resolver."
       - level: 6
         criteria:
           - "Atrai outros desenvolvedores do mesmo nível"
@@ -219,7 +232,7 @@ topics:
           - "Contribui significativamente em bibliotecas ou serviços críticos"
           - "Contribui para tecnologias externas ou bibliotecas dependentes"
           - "Desenvolve soluções claras mesmo com requisitos ambíguos"
-          - "Descobre a conserta bugs que não evadiram detecção"
+          - "Descobre a conserta bugs que evadiram detecção"
           - "Implementa melhorias de seguranças em larga escala"
           - "Implementa melhorias de performance de larga escala"
           - "Demonstra um grande conhecimento em uma área específica"
