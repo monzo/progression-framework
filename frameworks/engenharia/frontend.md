@@ -123,7 +123,7 @@ topics:
       - level: 6
         criteria:
           - "Ajuda squads a coordenarem entre si"
-          - "Começa projetos que não podem terminar sozinhos"
+          - "Começa projetos que não pode terminar sozinho"
           - "Delega para utilizar melhor o tempo"
   - name: "influência"
     title: "✨ Influência"
