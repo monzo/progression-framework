@@ -20,7 +20,7 @@ topics:
         criteria:
           - "Comunica de forma proativa sobre o andamento das tarefas, e se precisa de ajuda"
           - "Recebe feedbacks graciosamente"
-          - "Fornece feedback ao pares quando requisitado"
+          - "Fornece feedback aos pares quando requisitado"
           - "Fornece feedbacks úteis e acionáveis em code reviews de maneira empática"
         exampleCriteria:
           - criteria: "Escreve descrições de PR que fornecem contexto e raciocínio para decisões significantes"
@@ -68,10 +68,10 @@ topics:
           - "Quebra problemas grandes em passos menores em vários PRs"
       - level: 4
         criteria:
-          - "Resolve problemas ambiguos"
-          - "Lidera a elaboração de proposta de escopo pequeno e médio"
+          - "Resolve problemas ambíguos"
+          - "Lidera a elaboração de propostas de escopo pequeno e médio"
           - "Atua como bombeiro quando necessário, resolvendo ou contribuindo para a solução"
-          - "Faz escolhar pragmáticas de quando assumir débito técnico"
+          - "Faz escolhas pragmáticas de quando assumir débito técnico"
           - "Considera soluções diferentes para resolver um problema"
           - "Quebra projetos em passos menores para entregar valor em cada passo"
       - level: 5
@@ -117,7 +117,7 @@ topics:
           - "Trabalha em conjunto com os gestores para ajudar outros desenvolvedores a performar e evoluir"
           - "Cultiva a colaboração efetiva em squads multidisciplinares"
           - "Delega decisões técnicas de baixo risco e alta reversibilidade"
-          - "É dono das decisões técnicas alto risco e baixo reversibilidade"
+          - "É dono das decisões técnicas de alto risco e baixa reversibilidade"
           - "Contribui para manter a cultura na empresa toda"
           - "Ajuda no onboarding de novos squads"
       - level: 6
@@ -136,7 +136,7 @@ topics:
           - "Proativamente levanta problemas de processos"
       - level: 3
         criteria:
-          - "Opina sobre proposta do chapter"
+          - "Opina sobre propostas do chapter"
           - "Contribui no processo seletivo, participando de entrevistas e do  review técnico"
           - "Desenvolve ferramentas simples ou melhora ferramentas existentes para beneficiar todos os desenvolvedores"
         exampleCriteria:
@@ -160,7 +160,7 @@ topics:
           - "Tem mentalidade de dono, não tem ego nas suas decisões"
       - level: 6
         criteria:
-          - "Atrái outros desenvolvedores do mesmo nível"
+          - "Atrai outros desenvolvedores do mesmo nível"
           - "Desenvolvedores ao redor tem um impacto maior em menos tempo, potencializa a equipe"
   - name: "domínio"
     title: "🛠️ Domínio"
