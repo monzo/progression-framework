@@ -123,7 +123,7 @@ topics:
       - level: 6
         criteria:
           - "Ajuda squads a coordenarem entre si"
-          - "Começa projetos que não pode terminar sozinhos"
+          - "Começa projetos que não pode terminar sozinho"
           - "Delega para utilizar melhor o tempo"
   - name: "influência"
     title: "✨ Influência"
@@ -142,7 +142,7 @@ topics:
         exampleCriteria:
           - criteria: "Proativamente melhora aplicações e bibliotecas"
             examples:
-              - "Isso não faz sentido, vou melhorar essa API publica"
+              - "Isso não faz sentido, vou melhorar essa util ou lib"
       - level: 4
         criteria:
           - "Influencia outros desenvolvedores de maneira positiva"
@@ -171,28 +171,18 @@ topics:
           - "Conserta bugs simples"
       - level: 2
         criteria:
-          - "Modela tabelas simples no banco de dados"
-          - "Implementa integrações entre serviços"
+          - "Implementa integrações simples entre front e back"
           - "Faz o deploy em staging"
           - "Conserta bugs médios e consegue investigar erros em produção"
-          - "Usa algoritmos e estruturas apropriadas para resolver os problemas"
+          - "Implementa um bom design responsivo"
           - "Escreve código de acordo com as boas práticas"
-          - "Escreve testes unitários"
-        exampleCriteria:
-          - criteria: "Implementa APIs simples"
-            examples:
-              - "CRUDs"
-              - "Permissões simples"
       - level: 3
         criteria:
           - "Usa os 'design patterns' apropriados"
-          - "Modela novas funcionalidades com múltiplas tabelas"
-          - "Implementa fluxos assíncronos"
-          - "Coordena deploys complexos e migrações de banco"
-          - "Implementa serviços distribuídos"
-          - "Desenha arquiteturas considerando escalabilidade"
+          - "Modela novas funcionalidades ou utilidades pensando em reutilização"
+          - "Implementa funcionalidades que exigem interatividade e integração com o back"
           - "Debuga problemas em produção"
-          - "Considera monitoramento na construção ou manutenção de um sistema"
+          - "Tem proatividade para resolver um problema geral mesmo que não faça parte do seu contexto"
         exampleCriteria:
       - level: 4
         criteria:
@@ -202,7 +192,6 @@ topics:
           - "Identifica e resolve vulnerabilidades"
           - "Identifica e resolve problemas de performance"
           - "Explica todos os aspectos da plataforma para novos desenvolvedores"
-          - "Inclui dashboards acionáveis como parte de uma nova funcionalidade"
       - level: 5
         criteria:
           - "Desenvolve sistemas para servir de exemplo para novos desenvolvedores"
