@@ -7,7 +7,7 @@ ADD package.json /app/package.json
 ADD yarn.lock /app/yarn.lock
 ADD baton.npmrc /app/.npmrc
 
-RUN yarn
+RUN yarn install --production
 RUN rm /app/.npmrc
 
 ADD . /app
