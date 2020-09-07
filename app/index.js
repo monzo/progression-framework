@@ -1,5 +1,6 @@
 const {
   ms,
+  express,
   metrics,
   expressLogger,
   status,
@@ -7,7 +8,6 @@ const {
   compression,
 } = require('@qutics/ms')
 const path = require('path')
-const express = require('express')
 
 const app = ms()
 
