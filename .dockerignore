@@ -1,0 +1,11 @@
+.git/
+.baton/
+.DS_Store
+config/local*
+!config/*.tmpl
+node_modules
+.vscode
+frameworks
+src
+.cache
+stubs

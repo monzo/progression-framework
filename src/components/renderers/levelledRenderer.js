@@ -8,6 +8,7 @@ import {
   Card,
   CardContentList,
   CardTitle,
+  CardCategory,
   CardTitleGroup,
   CenteredElement,
   FrameworkCard,
@@ -84,10 +85,11 @@ class ExampleCriteriaComponent extends React.Component<
 export default class LevelledRenderer extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props)
-    const genericDataTitles = props.genericData.topics.map(obj => obj.title)
-    const pageDataTitles = props.pageData.topics.map(obj => obj.title)
-    const genericDataNames = props.genericData.topics.map(obj => obj.name)
-    const pageDataNames = props.pageData.topics.map(obj => obj.name)
+    const { genericData, pageData, html } = props
+    const genericDataTitles = genericData.topics.map(obj => obj.title)
+    const pageDataTitles = pageData.topics.map(obj => obj.title)
+    const genericDataNames = genericData.topics.map(obj => obj.name)
+    const pageDataNames = pageData.topics.map(obj => obj.name)
 
     // isGeneric checks to see if the variable names and the "Title" is present on both the generic
     // and page date we receive. This should only flag the generic framework, unless someone redeclares the
@@ -102,7 +104,7 @@ export default class LevelledRenderer extends React.Component<Props, State> {
     const inheritsGeneric = containingNames && !matchingTitles
 
     this.state = {
-      level: null,
+      level: pageData.homepage === true && html !== '' ? null : 1,
       isGeneric,
       inheritsGeneric,
     }
@@ -166,18 +168,18 @@ export default class LevelledRenderer extends React.Component<Props, State> {
   }
 
   createTopic = (topic: Object) => {
+    const topicContent = topic.content || []
     const { genericData } = this.props
     const { level, isGeneric } = this.state
-    const genericTopic = genericData.topics.filter(
-      obj => obj.name === topic.name,
-    )
+    const genericTopic = genericData.topics.find(obj => obj.name === topic.name)
 
-    const title =
-      genericTopic != null && !R.isEmpty(genericTopic)
-        ? genericTopic.map(obj => obj.title)[0]
-        : topic.title
+    const category = genericTopic
+      ? genericData.categories.find(cat => cat.name === genericTopic.category)
+      : genericData.categories.find(cat => cat.name === topic.category)
 
-    const frameworkCriteria = topic.content
+    const title = genericTopic ? genericTopic.title : topic.title
+
+    const frameworkCriteria = topicContent
       .filter(objContent => objContent.level === level)
       .map(objContent =>
         objContent.criteria != null
@@ -187,7 +189,7 @@ export default class LevelledRenderer extends React.Component<Props, State> {
           : null,
       )
 
-    const exampleCriteria = topic.content
+    const exampleCriteria = topicContent
       .filter(objContent => objContent.level === level)
       .map(objContent =>
         objContent.exampleCriteria != null
@@ -200,26 +202,44 @@ export default class LevelledRenderer extends React.Component<Props, State> {
           : null,
       )
 
-    const genericCriteria =
-      genericTopic != null && !R.isEmpty(genericTopic)
-        ? genericTopic.map(obj =>
-            obj.content
-              .filter(objContent => objContent.level === level)
-              .map(objContent =>
-                objContent.criteria.map((val, i) => (
-                  <li key={i + '-' + Math.random()}>{val}</li>
-                )),
-              ),
+    const genericCriteria = genericTopic
+      ? genericTopic.content
+          .filter(objContent => objContent.level === level)
+          .map(objContent =>
+            (objContent.criteria || []).map((val, i) => (
+              <li key={i + '-' + Math.random()}>{val}</li>
+            )),
           )
-        : null
+      : null
+
+    const genericExampleCriteria = genericTopic
+      ? genericTopic.content
+          .filter(objContent => objContent.level === level)
+          .map(objContent =>
+            objContent.exampleCriteria != null
+              ? objContent.exampleCriteria.map((val, i) => (
+                  <ExampleCriteriaComponent
+                    content={val}
+                    key={i + '-' + Math.random()}
+                  />
+                ))
+              : null,
+          )
+      : null
 
     if (
       (genericCriteria != null && !R.isEmpty(genericCriteria)) ||
       (exampleCriteria != null && !R.isEmpty(exampleCriteria)) ||
-      (frameworkCriteria != null && !R.isEmpty(frameworkCriteria))
+      (frameworkCriteria != null && !R.isEmpty(frameworkCriteria)) ||
+      (genericExampleCriteria != null && !R.isEmpty(genericExampleCriteria))
     ) {
       return (
         <FrameworkCard key={topic.name}>
+          {category && (
+            <CardCategory bgColor={category.color}>
+              {category.title}
+            </CardCategory>
+          )}
           <CardTitleGroup>
             <CardTitle>{title}</CardTitle>
           </CardTitleGroup>
@@ -236,6 +256,12 @@ export default class LevelledRenderer extends React.Component<Props, State> {
             !R.isEmpty(genericCriteria) &&
             genericCriteria != null
               ? genericCriteria
+              : null}
+
+            {!isGeneric &&
+            genericExampleCriteria != null &&
+            !R.isEmpty(genericExampleCriteria)
+              ? genericExampleCriteria
               : null}
           </CardContentList>
         </FrameworkCard>

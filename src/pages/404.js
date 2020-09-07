@@ -69,7 +69,7 @@ export const pageQuery = graphql`
           frontmatter {
             path
             sidebarTitle
-            sidebarGroup
+            # sidebarGroup
           }
         }
       }

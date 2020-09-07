@@ -320,7 +320,6 @@ export const ToolbarIcon = styled.img`
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     max-height: 26.25px;
-    max-width: 30px;
   }
 `
 
@@ -442,13 +441,11 @@ export const SidebarScroll = styled.div`
 export const SidebarIcon = styled.img`
   width: auto;
   height: auto;
-  max-height: 54.6px;
-  max-width: 63px;
+  max-height: 45px;
   min-width: 39px;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     max-height: 39px;
-    max-width: 45px;
     min-width: 39px;
   }
 `
@@ -565,8 +562,34 @@ export const CardTitle = styled.p`
   font-size: 1.4rem;
 `
 
+export const CardCategory = styled.div`
+  text-transform: uppercase;
+  width: 100%;
+  display: flex;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+
+  ${props =>
+    props.bgColor &&
+    css`
+      background: ${props.bgColor};
+    `}
+`
+
 export const CardTitleGroup = styled.div`
   margin-top: 0.2em;
+
+  ${CardCategory} + & {
+    margin-top: 32px;
+  }
 `
 
 // Text framework view

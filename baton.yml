@@ -1,0 +1,25 @@
+project:
+  modifiers:
+    - npmrc
+  metadata:
+    production:
+      project: qubit-apps-eu-prod
+    staging:
+      project: qubit-apps-eu-stg
+
+kubernetes:
+  cluster: europe-west1
+  project: '{{ project }}'
+  cpus: 0.01
+  mem: 128
+  instances: 2
+  ports:
+    - name: http
+      containerPort: 8080
+  livenessProbe:
+    httpGet:
+      path: /status
+      port: http
+  labels:
+    dnsName: 'progression.qutics.com'
+    externalAccess: 'auth'

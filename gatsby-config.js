@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/frameworks`,
-        name: "frameworks",
+        name: 'frameworks',
       },
     },
     `gatsby-transformer-remark`,
@@ -36,6 +36,6 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/images/favicon.png',
       },
-    }
+    },
   ],
 }

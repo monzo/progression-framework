@@ -50,7 +50,7 @@ export const pageQuery = graphql`
           frontmatter {
             path
             sidebarTitle
-            sidebarGroup
+            # sidebarGroup
           }
         }
       }
@@ -61,13 +61,19 @@ export const pageQuery = graphql`
         path
         title
         sidebarTitle
-        sidebarGroup
+        # sidebarGroup
         yaml
         levels
         homepage
+        categories @include(if: $isYaml) {
+          name
+          title
+          color
+        }
         topics @include(if: $isYaml) {
           name
           title
+          category
           content {
             level
             criteria
@@ -85,16 +91,26 @@ export const pageQuery = graphql`
         path
         title
         sidebarTitle
-        sidebarGroup
+        # sidebarGroup
         yaml
         levels
         homepage
+        categories @include(if: $isYaml) {
+          name
+          title
+          color
+        }
         topics @include(if: $isYaml) {
           name
           title
+          category
           content {
             level
             criteria
+            exampleCriteria {
+              criteria
+              examples
+            }
           }
         }
       }
