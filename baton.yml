@@ -4,8 +4,10 @@ project:
   metadata:
     production:
       project: qubit-apps-eu-prod
+      url: 'progression.qutics.com'
     staging:
       project: qubit-apps-eu-stg
+      url: 'progression-staging.qutics.com'
 
 kubernetes:
   cluster: europe-west1
@@ -21,5 +23,5 @@ kubernetes:
       path: /status
       port: http
   labels:
-    dnsName: 'progression.qutics.com'
+    dnsName: '{{ url }}'
     externalAccess: 'auth'

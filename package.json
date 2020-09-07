@@ -1,5 +1,5 @@
 {
-  "name": "@qutics/progression-framework",
+  "name": "progression-framework",
   "main": "./app/index.js",
   "private": true,
   "version": "1.0.0",
