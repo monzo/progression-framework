@@ -11,7 +11,7 @@ type Props = {
 }
 
 class View extends React.Component<Props> {
-  render() {
+  render () {
     const { pageData, genericData, allMarkdownRemark } = this.props.data
     const { frontmatter: pageFrontmatter, html } = pageData
     const { frontmatter: genericFrontmatter } = genericData
@@ -36,7 +36,7 @@ class View extends React.Component<Props> {
   }
 }
 
-export default function FrameworkView({ data }: Object) {
+export default function FrameworkView ({ data }: Object) {
   return <View data={data} />
 }
 
@@ -85,7 +85,9 @@ export const pageQuery = graphql`
         }
       }
     }
-    genericData: markdownRemark(frontmatter: { path: { eq: "/generic" } }) {
+    genericData: markdownRemark(
+      frontmatter: { path: { eq: "/engineering/base" } }
+    ) {
       html
       frontmatter {
         path

@@ -30,11 +30,11 @@ type SidebarProps = {
 }
 
 class SidebarSection extends React.Component<SectionProps> {
-  toggleHidden() {
+  toggleHidden () {
     this.props.handleToggle(this.props.name)
   }
 
-  render() {
+  render () {
     const { children, name, openedTopics } = this.props
     const isHidden = !openedTopics.includes(name)
 
@@ -53,7 +53,7 @@ class SidebarSection extends React.Component<SectionProps> {
 }
 
 class SidebarBuilder extends React.Component<SidebarProps, SidebarState> {
-  constructor(props: SidebarProps) {
+  constructor (props: SidebarProps) {
     super(props)
     if (
       props.location.state &&
@@ -86,7 +86,7 @@ class SidebarBuilder extends React.Component<SidebarProps, SidebarState> {
     }
   }
 
-  render() {
+  render () {
     const { openedTopics } = this.state
     const { data } = this.props
     const { allMarkdownRemark } = data
@@ -114,10 +114,6 @@ class SidebarBuilder extends React.Component<SidebarProps, SidebarState> {
               .replace(sidebarEmoji, ' ')
               .trim()
 
-            if (content.sidebarTitle === '📄 Generic') {
-              return <React.Fragment key={Math.random()} />
-            }
-
             return (
               <ListElement key={edge.node.id}>
                 <StyledLink to={content.path} state={{ openedTopics }}>
@@ -137,8 +133,8 @@ class SidebarBuilder extends React.Component<SidebarProps, SidebarState> {
         <SidebarPaddingSection borderedBottom border>
           <ListElement key={Math.random()}>
             <DefaultStyledLink
-              activeClassName="active"
-              to="/"
+              activeClassName='active'
+              to='/'
               state={{ openedTopics }}
             >
               <EmojiListItem>🏠</EmojiListItem>
@@ -146,9 +142,9 @@ class SidebarBuilder extends React.Component<SidebarProps, SidebarState> {
             </DefaultStyledLink>
           </ListElement>
           <ListElement key={Math.random()}>
-            <StyledLink to="/generic" state={{ openedTopics }}>
-              <EmojiListItem>📄</EmojiListItem>
-              Generic
+            <StyledLink to='/how-to' state={{ openedTopics }}>
+              <EmojiListItem>❓</EmojiListItem>
+              How it works
             </StyledLink>
           </ListElement>
         </SidebarPaddingSection>

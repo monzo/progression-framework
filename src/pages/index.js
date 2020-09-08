@@ -11,6 +11,7 @@ import {
   Description,
   DescriptionText,
   DescriptionTitleGroup,
+  ListElement,
 } from '../components/styles'
 import '../css/main.min.css'
 
@@ -19,7 +20,7 @@ type Props = {
 }
 
 export default class Index extends React.Component<Props> {
-  render() {
+  render () {
     return (
       <Layout data={this.props.data}>
         <DescriptionView>
@@ -29,38 +30,94 @@ export default class Index extends React.Component<Props> {
           </DescriptionTitleGroup>
           <Description>
             <DescriptionText>
-              This is where we keep the progression framework that we use at
-              Qubit, currently only in Engineering.
+              This is where we keep the progression framework that we use in
+              Qubit Engineering.
             </DescriptionText>
             <DescriptionText>
               Progression frameworks are tools that help us evaluate and pay our
-              staff consistently, and help people understand how to progress in
-              their work.
+              staff consistently and fairly, and help everyone understand how to
+              progress. We&apos;ve put ours here for everyone at Qubit to use.
             </DescriptionText>
             <DescriptionText>
-              We&apos;ve put them here for everyone at Qubit to use.
+              This is very much a work in progress. We are opening it up early
+              so we can create a framework that is By Qubytes, For Qubytes,
+              rather than just pulling something off the shelf.
             </DescriptionText>
             <DescriptionText>
-              We&apos;ll be adding more frameworks as we build them, and
-              updating existing ones as we grow, so expect things to change
-              around here!
-            </DescriptionText>
-            <DescriptionText>
-              This site, along with all our progression frameworks, are open
-              source. That means you can contribute to the development of this
-              site or our progression frameworks, and use both as inspiration
-              for your own projects!
+              This site, along with the framework contents, is open source. That
+              means you can contribute to the development it by submitting and
+              reviewing changes to both the code and content!
             </DescriptionText>
             <DescriptionText>
               To get involved, go to{' '}
-              <a href="https://github.com/qubitdigital/progression-framework">
+              <a href='https://github.com/qubitdigital/progression-framework'>
                 <FontAwesomeIcon icon={faGithub} />{' '}
                 qubitdigital/progression-framework.
-              </a>
+              </a>{' '}
+              We recommend watching the repo for changes so you can give
+              feedback directly as we evolve the framework! 🚀
             </DescriptionText>
-            <DescriptionText>
-              Take a look around and let us know what you think! 🚀
-            </DescriptionText>
+          </Description>
+          <DescriptionTitleGroup>
+            <Subtitle>Done</Subtitle>
+          </DescriptionTitleGroup>
+          <Description>
+            <ul>
+              <ListElement>
+                ✅ First cut of the criteria for a lead/principal engineer who
+                has maxed out the framework
+              </ListElement>
+              <ListElement>
+                ✅ First attempt at role-specific domain expertise for the above
+                lead/principal
+              </ListElement>
+              <ListElement>
+                ✅ Set up a microsite to visualise the framework nicely
+              </ListElement>
+            </ul>
+          </Description>
+          <DescriptionTitleGroup>
+            <Subtitle>Todo</Subtitle>
+          </DescriptionTitleGroup>
+          <Description>
+            <ul>
+              <ListElement>
+                ⬜ Make it possible to visualise a single topic through each
+                level
+              </ListElement>
+              <ListElement>
+                ⬜ Decide how many levels we need/want at Qubit
+              </ListElement>
+              <ListElement>
+                ⬜ Decide whether we want numeric levels, job titles, or both
+              </ListElement>
+              <ListElement>
+                ⬜ Build out criteria for each of the remaining levels, bottom
+                up
+              </ListElement>
+              <ListElement>
+                ⬜ Develop a process for people to evaluate their current
+                performance against the framework
+              </ListElement>
+              <ListElement>
+                ⬜ Develop a process for setting goals against the framework
+              </ListElement>
+              <ListElement>
+                ⬜ Develop a process for progressing through levels, including
+                how pay rises might work
+              </ListElement>
+              <ListElement>
+                ⬜ Implement framework for the discipline of Infrastructure
+                Engineering
+              </ListElement>
+              <ListElement>
+                ⬜ Implement framework for the discipline of Client Engineering
+              </ListElement>
+              <ListElement>
+                ⬜ Implement framework for the discipline of Support Engineering
+              </ListElement>
+              <ListElement>⬜ Introduce salary banding</ListElement>
+            </ul>
           </Description>
         </DescriptionView>
       </Layout>

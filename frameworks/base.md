@@ -1,11 +1,11 @@
 ---
-path: '/generic'
-title: '📄 Generic Framework'
-sidebarTitle: '📄 Generic'
+path: '/engineering/base'
+title: '🧱 Base Framework'
+sidebarTitle: '🧱 Base'
 sidebarGroup:
 yaml: true
 levels: 1
-homepage: false
+homepage: true
 categories:
   - name: specialist
     title: 'Specialist'
@@ -219,3 +219,13 @@ topics:
           - Protects the business from unexpected and unacknowledged expenditure
           - Understands the infrastructure running cost of their team
 ---
+
+### What is this?
+
+The Base Framework contains core criteria that are common across multiple engineering disciplines. This allows us to define the core competencies and capabilities that we believe all Qubit engineers should have, regardless of them being a Data Scientist or a Platform Engineer. There are numerous benefits to this:
+
+- Cross-functional teams work more efficiently together, and it is easier to form those teams
+- As engineers become more senior, they can start blending between disciplines, making them more versatile
+- We ensure we are evaluating performance fairly across discipline, and that the levels of each discipline are comparable
+
+The discipline-specific frameworks are able to inherit all or some of the topics in the base framework. They can then add additional criteria that is specific to their discipline (although the majority of this is captured in the 'Domain Expertise' topic).
