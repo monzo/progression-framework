@@ -2,7 +2,7 @@
 path: "/engineering/data"
 title: "📊 Data Engineering Framework"
 sidebarTitle: "📊 Data"
-sidebarGroup: "engineering"
+sidebarGroup: "Technology"
 yaml: true
 levels: 6
 homepage: true
