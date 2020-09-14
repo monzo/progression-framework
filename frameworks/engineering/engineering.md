@@ -158,20 +158,21 @@ topics:
           - "Leads by example to proactively foster an inclusive, diverse, and positive engineering culture across the business"
 ---
 ### About our engineering progression framework
-Our Engineering progression framework is a perpetual work-in-progress, and will never be "done". We've continued iterating on our progression framework since it was originally launched in 2018, and we're continuously learning and adapting it to suit the development needs of our engineers. This latest version sees us move away from multiple frameworks split across engineering disciplines. We decided instead to focus on the practice of engineering itself, and as such it should not matter which programming language you choose to use.
+Our Engineering progression framework is a perpetual work-in-progress, and will never be "done". We've continued iterating on our progression framework since it was originally launched in 2017, and we're continuously learning and adapting it to suit the development needs of our engineers. This latest version sees us move away from multiple frameworks split across engineering disciplines. We decided instead to focus on the practice of engineering itself, and as such, it should not matter which programming language you choose to use.
 
-The purpose of the framework is to guide conversations around performance and progression between managers and engineers at Monzo. This articulates the expectations of each broad level, the level of impact we expect engineers to bring to business problems, and the manner in which engineers should be conducting their work. This document is not designed to be useful as a standalone tool. *This is a compass, not a GPS.*
+The purpose of the framework is to guide conversations around performance and progression between managers and engineers at Monzo. It articulates the expectations of each broad level, the level of impact we expect engineers to bring to business problems, and the manner in which engineers should be conducting their work. This document is not designed to be useful as a standalone tool. *This is a compass, not a GPS.*
 
 The framework shouldn't be used as a checkbox exercise, and it doesn't intend to codify every possible situation. Instead it lays out expectations in broad strokes that encourages conversations between engineers and their manager.
 
 
 ### Guiding pillars for engineering progression
+When iterating on our progression framework, we've tried to keep the below guiding pillars in mind:
 - We focus on the impact an individual engineer has on driving Monzo forwards, rather than specific behaviours.
 - Scope is an additional measure for different levels of seniority. As Monzo grows, so should the size or reach of the problems we encounter as engineers.
 - This framework shouldn't be seen as an exhaustive list of everything an engineer does or can do, but instead articulate the important distinctions between levels.
 - Behaviours should be broad enough to factor in the numerous different ways an engineer can contribute effectively. As an example: we should not list specific tasks such as “writes complex RPC handlers” but instead articulate the standards of technical contribution we should expect from engineers of different levels. As a result, our framework will need more interpretation, and is likely to be ineffective when used independently without your manager. We do not wish to create an exercise that can be “checkboxed” to completion.
 
-Levels are cumulative. Particularly within the technical skill and behaviours categories, we expect engineers to be demonstrating the contents of previous levels in addition to their own level. As an example: We expect level 3 engineers to also be proactively testing their work, despite this being a level 2 behaviour.
+Levels in the framework are cumulative. Particularly within the technical skill and behaviours categories, we expect engineers to be demonstrating the contents of previous levels in addition to their own level. As an example: We expect level 3 engineers to also be proactively testing their work, despite this being a level 2 behaviour.
 
 
 ### Impact
@@ -201,5 +202,3 @@ Behaviours are a collection of expectations and development areas for engineers,
 In the previous iteration of our framework these were further broken down into influence, communication and leadership, however in this iteration we’re bringing them together.
 
 Through your behaviour you set an example to those around you. By modelling great behaviours you lead by example, and by being self-aware you know when you are setting a great example. Your behaviours show that you’re growing good habits, and cultivating qualities that make an excellent engineer, rather than unintentionally doing the “right thing” by luck.
-
-
