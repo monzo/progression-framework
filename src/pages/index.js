@@ -82,6 +82,10 @@ export default class Index extends React.Component<Props> {
           <Description>
             <ul>
               <ListElement>
+                ⬜ Pare down + refine our lead/principal framework (make all
+                points more concise, get rid of repetition)
+              </ListElement>
+              <ListElement>
                 ⬜ Make it possible to visualise a single topic through each
                 level
               </ListElement>
