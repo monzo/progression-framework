@@ -10,14 +10,14 @@ import {
   DescriptionText,
   DescriptionTitleGroup,
 } from '../components/styles'
-import '../css/main.min.css'
+import '../css/main.css'
 
 type Props = {
   data: Object,
 }
 
 export default class HowTo extends React.Component<Props> {
-  render () {
+  render() {
     return (
       <Layout data={this.props.data}>
         <DescriptionView>

@@ -4,7 +4,7 @@ title: '📊 Data Science Framework'
 sidebarTitle: '📊 Data Science'
 sidebarGroup:
 yaml: true
-levels: 1
+levels: 5
 homepage: false
 topics:
   - name: analytical
@@ -18,7 +18,7 @@ topics:
   - name: domain-expertise
     title:
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Broad knowledge of scientific method, statistics (including Bayesian and frequentist methodologies), machine learning (supervised and unsupervised), deep learning (feedforward, sequence and convolutional), time series analysis, MCMC
           - Deep knowledge of two or more of the above

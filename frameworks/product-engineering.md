@@ -4,7 +4,7 @@ title: '🌐 Product Engineering Framework'
 sidebarTitle: '🌐 Product Eng'
 sidebarGroup:
 yaml: true
-levels: 1
+levels: 5
 homepage: false
 topics:
   - name: analytical
@@ -17,7 +17,7 @@ topics:
     title:
   - name: domain-expertise
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Is considered an expert in JavaScript, with a deep understanding of the event loop, promises and async/await
           - Is highly proficient in at least one of NodeJS or Golang, and capable in the other

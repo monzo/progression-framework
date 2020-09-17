@@ -4,7 +4,7 @@ title: '🧱 Base Framework'
 sidebarTitle: '🧱 Base'
 sidebarGroup:
 yaml: true
-levels: 1
+levels: 5
 homepage: true
 categories:
   - name: specialist
@@ -21,7 +21,7 @@ topics:
     title: '🔍 Analytical Excellence'
     category: specialist
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Help Turn business requirements into technical designs.
           - Reduces ambiguity by working with stakeholders to clearly identify the needs & constraints.
@@ -35,7 +35,7 @@ topics:
     title: '📐 Architecture & Design'
     category: specialist
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Designs to a specification and doesn't over engineer (able to Differentiate between High Grade and High Quality).
           - Demonstrate creativity in proposing solution options, able to consider novel ideas, whilst also evaluating pre-existing proven methods.
@@ -49,7 +49,7 @@ topics:
     title: '📖 Development & Engineering Practices'
     category: specialist
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Promote the use of modern software engineering practices including TDD, BDD / ATDD, CI, Pair Programming, test automation, etc. where useful to improve software quality, team flexibiity & resilience
           - Knows and can articulate the benefits and trade-offs.  Must understand the underlying principles and not just the practice (e.g. reduces the feedback cycle time, increases visibility etc.)
@@ -64,7 +64,7 @@ topics:
     title: '📈 Quality and Support'
     category: specialist
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Ensures that there are adequate and unambiguous requirements in place (e.g. SLAs, SLOs, Code Quality, etc.)
           - Manage incidents and incident response.
@@ -86,7 +86,7 @@ topics:
     title: '🧠 Domain Expertise'
     category: specialist
     content:
-      - level: 1
+      - level: 5
         exampleCriteria:
           - criteria: 'Possess extensive knowledge of the following, and be able to assist in establishing standards across the project teams:'
             examples:
@@ -114,7 +114,7 @@ topics:
     title: '🗣️ Leadership & Influencing'
     category: behavioural
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Define, promote and gain agreement for coding conventions, test approaches, deployment strategies and development guidelines, etc; set an example for the team by following agreed standards.
           - Researches and learns how to effectively apply new technologies to help inform the above
@@ -127,7 +127,7 @@ topics:
     title: '💥 Direction & Impact'
     category: behavioural
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Sets an example of working at a sustainable pace.
           - In a self managing team, be able to support and use unobtrusive supervision to allow team members to successfully take on challenges and grow.
@@ -138,7 +138,7 @@ topics:
     title: '💬 Communication'
     category: behavioural
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Experience of coaching, mentoring and leading a development team.
           - Strong inter-personal, team-working and communication skills.
@@ -150,7 +150,7 @@ topics:
     title: '🔢 Making Decisions'
     category: behavioural
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Use evidence to inform logical and systematic decision making.
           - Forms and tests hypothesis with an awareness of cognitive biases.
@@ -161,7 +161,7 @@ topics:
     title: '🧑‍🤝‍🧑 Relationship Management'
     category: behavioural
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Proactively fosters collaboration between teams and across all levels of the business, as well as in their own team.
           - Communicates effectively with stakeholders to identify needs and evaluate alternative technical solutions and strategies to increase business satisfaction and strengthen stakeholder relationships.
@@ -172,7 +172,7 @@ topics:
     title: '🗓️ Strategy & Planning (Self)'
     category: management
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Effectively manages competing priorities effectively
           - 'Takes part in continuous education; A great engineer stays on top of developments in the industry. Changes in technology happen rapidly and the most successful engineers keep abreast of new research and ideas.'
@@ -181,7 +181,7 @@ topics:
     title: '🗓️ Strategy & Planning (Others)'
     category: management
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Able to co-ordinate others and communcate decisions & direction when required in tactical or critical situations.
           - Ensures continued alignment to objectives when in group situations.
@@ -190,7 +190,7 @@ topics:
     title: '📬 Delivery Excellence'
     category: management
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Take responsibility for the quality and suitability of the team's deliverable.
           - Puts users first
@@ -202,7 +202,7 @@ topics:
     title: '🕴️ People & Resource Management'
     category: management
     content:
-      - level: 1
+      - level: 5
         criteria:
           - Line manage other engineers including performance management, development and career plans to use ones experience and expertise in assisting less experienced engineers to grow.
           - Able to support and facilitate the recruitment of technical team members.
@@ -212,7 +212,7 @@ topics:
     title: '💰 Financial Management'
     category: management
     content:
-      - level: 1
+      - level: 5
         criteria:
           - 'Is cost concious:'
           - Can explain the cost impact of decisions

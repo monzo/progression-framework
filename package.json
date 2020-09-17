@@ -6,6 +6,7 @@
   "description": "Qubit's progression framework site",
   "author": "Lucas Johnston <lucasjohnston@monzo.com>",
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@qutics/ms": "^4.9.0"
   },
   "keywords": [
@@ -22,15 +23,27 @@
   },
   "devDependencies": {
     "@babel/polyfill": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
     "@fortawesome/free-brands-svg-icons": "^5.6.3",
     "@fortawesome/react-fontawesome": "^0.1.3",
     "@reach/router": "^1.2.1",
+    "babel-eslint": "^10.0.1",
     "babel-plugin-styled-components": "^1.10.0",
     "css-loader": "^2.1.0",
+    "dsv-loader": "^2.0.0",
     "eslint": "^5.12.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-flowtype-errors": "^3.6.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
     "flow": "^0.2.3",
+    "flow-bin": "^0.86.0",
     "gatsby": "^2.0.19",
+    "gatsby-plugin-eslint": "^2.0.1",
     "gatsby-plugin-flow": "^1.0.2",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-nprogress": "^2.0.7",
@@ -45,7 +58,9 @@
     "gatsby-transformer-yaml": "^2.1.6",
     "js-yaml-loader": "^1.0.1",
     "lottie-web": "^5.4.3",
+    "prettier": "^1.14.2",
     "ramda": "^0.26.1",
+    "raw-loader": "^0.5.1",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-ga": "^2.5.7",
@@ -53,25 +68,11 @@
     "react-lottie": "^1.2.3",
     "react-masonry-css": "^1.0.12",
     "style-loader": "^0.23.1",
-    "styled-components": "^4.1.3",
-    "@babel/preset-flow": "^7.0.0",
-    "babel-eslint": "^10.0.1",
-    "dsv-loader": "^2.0.0",
-    "eslint-loader": "^2.1.1",
-    "eslint-plugin-flowtype": "^3.2.0",
-    "eslint-plugin-flowtype-errors": "^3.6.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.11.1",
-    "flow-bin": "^0.86.0",
-    "gatsby-plugin-eslint": "^2.0.1",
-    "prettier": "^1.14.2",
-    "raw-loader": "^0.5.1"
+    "styled-components": "^4.1.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monzo/progression-framework.git"
+    "url": "git+https://github.com/qubitdigital/progression-framework.git"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0-0",

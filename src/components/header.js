@@ -1,6 +1,8 @@
 // @flow
 import * as React from 'react'
 import styled from 'styled-components'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faList } from '@fortawesome/free-solid-svg-icons'
 import {
   LevelsTextWrapper,
   LevelsContainer,
@@ -29,13 +31,21 @@ type Props = {
  */
 const Spread = styled.div`
   display: inline-flex;
-  width: ${props => 20 * props.levels}%;
-  margin-left: ${props => 100 - 20 * props.levels}%;
+  width: ${props => 20 * (props.levels + 1)}%;
+  margin-left: ${props => 100 - 20 * (props.levels + 1)}%;
   justify-content: space-between;
 `
 
 const renderLevels = ({ onClickHandler, pageData, activeLevel }: Props) => {
-  const toRender = []
+  const toRender = [
+    <LevelsText
+      onClick={onClickHandler(Infinity)}
+      key={'button-all'}
+      active={activeLevel === Infinity}
+    >
+      <FontAwesomeIcon icon={faList} />
+    </LevelsText>,
+  ]
 
   for (let i = 1; i <= pageData.levels; i++) {
     if (activeLevel != null && i === activeLevel) {

@@ -13,14 +13,14 @@ import {
   DescriptionTitleGroup,
   ListElement,
 } from '../components/styles'
-import '../css/main.min.css'
+import '../css/main.css'
 
 type Props = {
   data: Object,
 }
 
 export default class Index extends React.Component<Props> {
-  render () {
+  render() {
     return (
       <Layout data={this.props.data}>
         <DescriptionView>
@@ -50,7 +50,7 @@ export default class Index extends React.Component<Props> {
             </DescriptionText>
             <DescriptionText>
               To get involved, go to{' '}
-              <a href='https://github.com/qubitdigital/progression-framework'>
+              <a href="https://github.com/qubitdigital/progression-framework">
                 <FontAwesomeIcon icon={faGithub} />{' '}
                 qubitdigital/progression-framework.
               </a>{' '}

@@ -1,19 +1,22 @@
 html {
-    overflow-y: auto;
+  overflow-y: auto;
 }
-body, #___gatsby, #___gatsby > * {
-    height: 100%;
-    overflow-x: hidden;
+body,
+#___gatsby,
+#___gatsby > * {
+  height: 100%;
+  overflow-x: hidden;
 }
 .framework-columns {
-    padding-left: 30px; /* gutter size */
-    margin-top: 0;
-    background-clip: padding-box;
+  padding-left: 30px; /* gutter size */
+  margin-top: 0;
+  background-clip: padding-box;
 }
 .framework-view {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: -30px; /* gutter size offset */
-    width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+  padding: 1em 3em;
 }

@@ -88,25 +88,23 @@ export const DefaultStyledLink = styled(Link)`
   font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 500;
-  font-size: 1.3em;
-  color: ${MIDNIGHT_SKY} !important;
+  font-size: 1.1em;
+  color: #dadada !important;
   width: 100%;
   height: 100%;
   opacity: 1;
   background: inherit;
   padding: 0.5em 0 0.25em 0.5em;
-  margin: 0.5em 0 -0.5em -0.5em;
 
   &:hover {
     opacity: 0.7;
-    color: ${LAGOON_BLUE};
   }
   &:focus {
     outline: none;
   }
   &.active {
     border-radius: 10px;
-    background: #eeefee;
+    background: rgba(255, 255, 255, 0.2);
   }
 `
 
@@ -115,25 +113,23 @@ export const StyledLink = styled(PartialNavLink)`
   font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 500;
-  font-size: 1.3em;
-  color: ${MIDNIGHT_SKY} !important;
+  font-size: 1.1em;
+  color: #dadada !important;
   width: 100%;
   height: 100%;
   opacity: 1;
   background: inherit;
   padding: 0.5em 0 0.25em 0.5em;
-  margin: 0.5em 0 -0.5em -0.5em;
 
   &:hover {
     opacity: 0.7;
-    color: ${LAGOON_BLUE};
   }
   &:focus {
     outline: none;
   }
   &.active {
     border-radius: 10px;
-    background: #eeefee;
+    background: rgba(255, 255, 255, 0.2);
   }
 `
 
@@ -142,30 +138,36 @@ export const StyledLink = styled(PartialNavLink)`
 export const PrimaryView = styled.div`
   height: 100%;
   position: relative;
-  padding: 3em 5em;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: column;
 
-  @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
-    padding: 2em 2.5em;
-  }
+  ${props =>
+    !props.noPadding &&
+    css`
+      padding: 3em 5em;
 
-  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
-    padding: 5% 1em 2em 1em;
-  }
+      @media (min-width: ${BREAKPOINT_MOBILE}px) and (max-width: ${BREAKPOINT_TABLET}px) {
+        padding: 2em 2.5em;
+      }
+
+      @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
+        padding: 5% 1em 2em 1em;
+      }
+    `}
 `
 
 export const ScrollbarHeader = styled.div`
   display: flex;
-  width: 80%;
   margin-top: 3em;
-  margin-left: 3.5rem;
   margin-bottom: 15px;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     margin-left: 10%;
     margin-bottom: 10px;
+    margin-right: 10%;
   }
 `
 
@@ -200,7 +202,8 @@ export const Wrapper = styled.div`
   margin-top: 0;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  min-width: 0;
+  flex: 1;
   height: 100% !important;
   
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
@@ -303,7 +306,7 @@ export const Toolbar = styled.div`
     visibility: inherit;
     height: 4.5em;
     width: 100%;
-    background: #f7f7f7;
+    background: rgb(23, 0, 46);
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
   }
 `
@@ -317,6 +320,7 @@ export const ToolbarPushWrapper = styled(FlexboxPush)`
 export const ToolbarIcon = styled.img`
   width: auto;
   height: auto;
+  filter: invert(1);
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     max-height: 26.25px;
@@ -339,14 +343,13 @@ export const Sidebar = styled.div`
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  background-color: #f7f7f7;
+  background-color: rgb(23, 0, 46);
   color: black;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   height: 100%;
-  width: 19%;
-  min-width: 320px;
+  width: 250px;
   h4 {
     padding-top: 0;
     font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
@@ -375,8 +378,8 @@ export const EmojiListItem = styled.span`
 
 export const SidebarList = styled.ul`
   flex: 1 0 auto;
+  flex-direction: column;
   margin-top: 0.5em;
-  margin-left: 2rem;
   padding-left: 0;
   list-style-type: none;
 
@@ -384,7 +387,6 @@ export const SidebarList = styled.ul`
     props.main &&
     css`
       width: 70%;
-      margin-left: 3.5rem;
       margin-top: 2em;
       margin-bottom: 3em;
       @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
@@ -436,6 +438,13 @@ export const SidebarReset = styled.div`
 export const SidebarScroll = styled.div`
   position: relative;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
+    display: block;
+  }
 `
 
 export const SidebarIcon = styled.img`
@@ -443,6 +452,7 @@ export const SidebarIcon = styled.img`
   height: auto;
   max-height: 45px;
   min-width: 39px;
+  filter: invert(1);
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     max-height: 39px;
@@ -458,6 +468,10 @@ export const CloseIcon = styled.img`
     height: 23px;
     margin-top: 8px;
   }
+`
+
+export const Homepage = styled.div`
+  padding: 2em 3em;
 `
 
 // Description view
@@ -523,7 +537,7 @@ export const ExamplesText = styled.p`
 export const FrameworkHeader = styled.div`
   display: flex;
   justify-content: space-between;
-  padding-bottom: 1em;
+  padding: 2em 3em 1em 3em;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     display: block;
@@ -545,6 +559,48 @@ export const FrameworkCard = styled(Card)`
   position: relative;
   margin-top: 0;
   margin-bottom: 1em;
+
+  ${props =>
+    props.minimal &&
+    css`
+      width: 500px;
+      flex-shrink: 0;
+      margin-bottom: 0;
+    `}
+`
+
+export const TopicRow = styled.div`
+  display: flex;
+  padding: 2em 3em;
+  margin-top: 0;
+  width: 100%;
+
+  & > * {
+    margin-left: 32px;
+  }
+
+  &:nth-child(even) {
+    background: #efefef;
+  }
+`
+
+export const TopicRows = styled.div`
+  overflow: auto;
+  display: flex;
+  margin-top: 0;
+
+  @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
+    flex-shrink: 0;
+  }
+`
+
+export const TopicRowHeader = styled(Card)`
+  align-self: center;
+  margin-left: -20px;
+  width: 200px;
+  flex-shrink: 0;
+  text-align: center;
+  padding-top: 55px;
 `
 
 export const CardContentList = styled.ul`
@@ -582,6 +638,25 @@ export const CardCategory = styled.div`
     css`
       background: ${props.bgColor};
     `}
+`
+
+export const NoSkills = styled.h3`
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  margin: 2em auto;
+  max-width: 350px;
+  text-align: center;
+  opacity: 0.5;
+`
+
+export const CardLevel = styled.div`
+  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  opacity: 0.5;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
 `
 
 export const CardTitleGroup = styled.div`

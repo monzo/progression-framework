@@ -1,11 +1,6 @@
-// Similar to our web-projects eslint config file at https://github.com/monzo/web-projects/eslintConfig.js
-
 {
   "parser": "babel-eslint",
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "plugins": ["prettier", "flowtype", "flowtype-errors"],
   "rules": {
     "strict": 0,

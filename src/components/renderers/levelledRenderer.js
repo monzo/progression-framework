@@ -1,24 +1,25 @@
 // @flow
 import * as React from 'react'
-import * as R from 'ramda'
 import Masonry from 'react-masonry-css'
-import { contains, match } from '../../utils/arrayUtils'
+import { match } from '../../utils/arrayUtils'
 import Header from '../header'
 import {
   Card,
-  CardContentList,
-  CardTitle,
-  CardCategory,
-  CardTitleGroup,
   CenteredElement,
-  FrameworkCard,
   PrimaryView,
   Subtitle,
-  ExamplesText,
   BREAKPOINT_TABLET,
   BREAKPOINT_DESKTOP,
   MarkdownContent,
+  TopicRow,
+  CardTitle,
+  CardCategory,
+  TopicRowHeader,
+  TopicRows,
+  Homepage,
 } from '../styles'
+import { default as TopicCard } from './topicCard'
+import { getTitle, getCategory } from './helpers'
 
 type Props = {
   pageData: Object,
@@ -29,57 +30,12 @@ type Props = {
 type State = {
   level: ?number,
   isGeneric: boolean,
-  inheritsGeneric: boolean,
-}
-
-type CriteriaProps = {
-  content: Object,
-}
-
-type CriteriaState = {
-  isHidden: boolean,
 }
 
 const masonryBreakpoints = {
   default: 3,
   [BREAKPOINT_DESKTOP]: 2,
   [BREAKPOINT_TABLET]: 1,
-}
-
-class ExampleCriteriaComponent extends React.Component<
-  CriteriaProps,
-  CriteriaState,
-> {
-  state = { isHidden: true }
-
-  toggleView = (event: SyntheticUIEvent<>) => {
-    event != null ? event.preventDefault() : null
-    this.setState({
-      isHidden: !this.state.isHidden,
-    })
-  }
-
-  generateExamples = (content: Object) => {
-    let criteria = content.examples.map((val, i) => (
-      <li key={i + '-' + Math.random()}>{val}</li>
-    ))
-
-    return <ul>{criteria}</ul>
-  }
-
-  render() {
-    const { content } = this.props
-    const { isHidden } = this.state
-
-    return (
-      <li>
-        <ExamplesText onClick={this.toggleView}>
-          {content.criteria}
-        </ExamplesText>
-        {!isHidden ? this.generateExamples(content) : null}
-      </li>
-    )
-  }
 }
 
 export default class LevelledRenderer extends React.Component<Props, State> {
@@ -98,15 +54,9 @@ export default class LevelledRenderer extends React.Component<Props, State> {
     const matchingTitles = match(genericDataTitles, pageDataTitles)
     const isGeneric = matchingNames && matchingTitles
 
-    // inheritsGeneric checks to see if some of the page data and generic framework variable
-    // names are shared which is how our inheritance works), but the titles do not exactly match
-    const containingNames = contains(genericDataNames, pageDataNames)
-    const inheritsGeneric = containingNames && !matchingTitles
-
     this.state = {
-      level: pageData.homepage === true && html !== '' ? null : 1,
+      level: pageData.homepage === true && html !== '' ? null : 5,
       isGeneric,
-      inheritsGeneric,
     }
   }
 
@@ -135,9 +85,11 @@ export default class LevelledRenderer extends React.Component<Props, State> {
 
     if (pageData.homepage === true && html !== '') {
       return (
-        <Card>
-          <MarkdownContent dangerouslySetInnerHTML={{ __html: html }} />
-        </Card>
+        <Homepage>
+          <Card>
+            <MarkdownContent dangerouslySetInnerHTML={{ __html: html }} />
+          </Card>
+        </Homepage>
       )
     } else {
       return (
@@ -153,8 +105,42 @@ export default class LevelledRenderer extends React.Component<Props, State> {
   }
 
   renderFramework() {
-    const { pageData } = this.props
-    let content = pageData.topics.map(topic => this.createTopic(topic))
+    const { pageData, genericData } = this.props
+    const { level, isGeneric } = this.state
+
+    if (level === Infinity) {
+      return (
+        <TopicRows>
+          <div>
+            {pageData.topics.map(topic => {
+              const category = getCategory({ genericData, topic })
+              const title = getTitle({ genericData, topic })
+
+              return (
+                <TopicRow key={topic.name}>
+                  <TopicRowHeader>
+                    <CardCategory bgColor={category.color}>
+                      {category.title}
+                    </CardCategory>
+                    <CardTitle>{title}</CardTitle>
+                  </TopicRowHeader>
+                  {Array.from(Array(pageData.levels)).map((_, i) => (
+                    <TopicCard
+                      key={i}
+                      topic={topic}
+                      genericData={genericData}
+                      level={i + 1}
+                      isGeneric={isGeneric}
+                      minimal
+                    />
+                  ))}
+                </TopicRow>
+              )
+            })}
+          </div>
+        </TopicRows>
+      )
+    }
 
     return (
       <Masonry
@@ -162,118 +148,24 @@ export default class LevelledRenderer extends React.Component<Props, State> {
         columnClassName="framework-columns"
         className="framework-view"
       >
-        {content}
+        {pageData.topics.map(topic => (
+          <TopicCard
+            key={topic.name}
+            topic={topic}
+            genericData={genericData}
+            level={level}
+            isGeneric={isGeneric}
+          />
+        ))}
       </Masonry>
     )
-  }
-
-  createTopic = (topic: Object) => {
-    const topicContent = topic.content || []
-    const { genericData } = this.props
-    const { level, isGeneric } = this.state
-    const genericTopic = genericData.topics.find(obj => obj.name === topic.name)
-
-    const category = genericTopic
-      ? genericData.categories.find(cat => cat.name === genericTopic.category)
-      : genericData.categories.find(cat => cat.name === topic.category)
-
-    const title = genericTopic ? genericTopic.title : topic.title
-
-    const frameworkCriteria = topicContent
-      .filter(objContent => objContent.level === level)
-      .map(objContent =>
-        objContent.criteria != null
-          ? objContent.criteria.map((val, i) => (
-              <li key={i + '-' + Math.random()}>{val}</li>
-            ))
-          : null,
-      )
-
-    const exampleCriteria = topicContent
-      .filter(objContent => objContent.level === level)
-      .map(objContent =>
-        objContent.exampleCriteria != null
-          ? objContent.exampleCriteria.map((val, i) => (
-              <ExampleCriteriaComponent
-                content={val}
-                key={i + '-' + Math.random()}
-              />
-            ))
-          : null,
-      )
-
-    const genericCriteria = genericTopic
-      ? genericTopic.content
-          .filter(objContent => objContent.level === level)
-          .map(objContent =>
-            (objContent.criteria || []).map((val, i) => (
-              <li key={i + '-' + Math.random()}>{val}</li>
-            )),
-          )
-      : null
-
-    const genericExampleCriteria = genericTopic
-      ? genericTopic.content
-          .filter(objContent => objContent.level === level)
-          .map(objContent =>
-            objContent.exampleCriteria != null
-              ? objContent.exampleCriteria.map((val, i) => (
-                  <ExampleCriteriaComponent
-                    content={val}
-                    key={i + '-' + Math.random()}
-                  />
-                ))
-              : null,
-          )
-      : null
-
-    if (
-      (genericCriteria != null && !R.isEmpty(genericCriteria)) ||
-      (exampleCriteria != null && !R.isEmpty(exampleCriteria)) ||
-      (frameworkCriteria != null && !R.isEmpty(frameworkCriteria)) ||
-      (genericExampleCriteria != null && !R.isEmpty(genericExampleCriteria))
-    ) {
-      return (
-        <FrameworkCard key={topic.name}>
-          {category && (
-            <CardCategory bgColor={category.color}>
-              {category.title}
-            </CardCategory>
-          )}
-          <CardTitleGroup>
-            <CardTitle>{title}</CardTitle>
-          </CardTitleGroup>
-          <CardContentList>
-            {frameworkCriteria != null && !R.isEmpty(frameworkCriteria)
-              ? frameworkCriteria
-              : null}
-
-            {exampleCriteria != null && !R.isEmpty(exampleCriteria)
-              ? exampleCriteria
-              : null}
-
-            {!isGeneric &&
-            !R.isEmpty(genericCriteria) &&
-            genericCriteria != null
-              ? genericCriteria
-              : null}
-
-            {!isGeneric &&
-            genericExampleCriteria != null &&
-            !R.isEmpty(genericExampleCriteria)
-              ? genericExampleCriteria
-              : null}
-          </CardContentList>
-        </FrameworkCard>
-      )
-    }
   }
 
   render() {
     const { level } = this.state
 
     return (
-      <PrimaryView>
+      <PrimaryView noPadding>
         {this.renderPageHeader()}
         {level != null ? this.renderFramework() : this.renderEmptyState()}
       </PrimaryView>

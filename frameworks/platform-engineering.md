@@ -4,7 +4,7 @@ title: '🛠️ Platform Engineering Framework'
 sidebarTitle: '🛠️ Platform Eng'
 sidebarGroup:
 yaml: true
-levels: 1
+levels: 5
 homepage: false
 topics:
   - name: analytical
@@ -18,7 +18,7 @@ topics:
   - name: domain-expertise
     title:
     content:
-      - level: 1
+      - level: 5
         criteria:
           - 'Highly proficient in at least two of: Java, GoLang, Python'
           - Design patterns, common pitfalls
