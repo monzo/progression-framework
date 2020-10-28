@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "Monzo's progression framework site",
   "author": "Lucas Johnston <lucasjohnston@monzo.com>",
+  "engines": {
+    "node": "^14.15.0",
+    "yarn": "^1.22.1"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
@@ -14,7 +18,7 @@
     "css-loader": "^2.1.0",
     "eslint": "^5.12.0",
     "flow": "^0.2.3",
-    "gatsby": "^2.0.19",
+    "gatsby": "^2.24.90",
     "gatsby-plugin-flow": "^1.0.2",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-nprogress": "^2.0.7",
