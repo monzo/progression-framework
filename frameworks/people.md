@@ -1,5 +1,5 @@
 ---
-path: "/frameworks/people"
+path: "/people"
 title: "🙂 People"
 sidebarTitle: "🙂 People"
 sidebarGroup:
