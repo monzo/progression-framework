@@ -8,6 +8,7 @@ import {
   Card,
   CardContentList,
   CardTitle,
+  CardSubtitle,
   CardTitleGroup,
   CenteredElement,
   FrameworkCard,
@@ -222,6 +223,7 @@ export default class LevelledRenderer extends React.Component<Props, State> {
         <FrameworkCard key={topic.name}>
           <CardTitleGroup>
             <CardTitle>{title}</CardTitle>
+            <CardSubtitle>{topic.subtitle}</CardSubtitle>
           </CardTitleGroup>
           <CardContentList>
             {frameworkCriteria != null && !R.isEmpty(frameworkCriteria)

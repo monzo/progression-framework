@@ -1,5 +1,5 @@
 ---
-path: "/frameworks/people"
+path: "/people"
 title: "🙂 People"
 sidebarTitle: "🙂 People"
 sidebarGroup:
@@ -7,8 +7,9 @@ yaml: true
 levels: 7
 homepage: false
 topics:
-  - name: "communication: transparent communication; giving and receiving feedback"
+  - name: "communication"
     title:
+    subtitle: "Transparent communication; giving and receiving feedback"
     content:
       - level: 1
         criteria:
@@ -43,8 +44,9 @@ topics:
          - "Proactively communicates major changes to the board, executive team and senior leaders so there are no surprises. Confidently delivers high-impact, inspiring communications to Monzo and beyond. Makes complex messages clear and easy to understand."
          - "Shows vulnerability and is approachable as a leader. Creates a culture where people thrive on feedback. Gives feedback in the moment and accepts constructive feedback graciously. Leads by example on personal development using humility, foresight and EQ."
          - "Builds capability of exec team to surface and resolve conflict."
-  - name: "impact: ambiguity and impact of their work; thinking ahead"
+  - name: "impact"
     title:
+    subtitle: "Ambiguity and impact of their work; thinking ahead"
     content:
       - level: 1
         criteria:
@@ -95,8 +97,9 @@ topics:
          - "Anticipates and mitigates People problems long before they occur and coaches leaders to do the same. Thinks multiple years ahead but inspires leaders to make things happen now."
          - "Champions scalability for the collective to make sure all teams continue to grow in line with the company whilst remaining lean and flexible. Builds the capability of leaders to keep challenging themselves on how to use automation and tech-led solutions to fulfil the People mission."
          - "Sets out inspiring vision and sense of purpose to enable leaders to set ambitious goals. Empower and challenge teams to surprise themselves by hitting them."
-  - name: "knowledge and thinking: breadth and depth of knowledge; thinking skills; self-development"
-    title:
+  - name: "knowledge-and-thinking"
+    title: "🧠 Knowledge & Thinking"
+    subtitle: "Breadth and depth of knowledge; thinking skills; self-development"
     content:
       - level: 1
         criteria:
@@ -146,8 +149,8 @@ topics:
          - "Creates a culture where data drives good decision making. Has high expectations of leaders using data and encouraging their teams to upskill themselves to use and interpret data."
          - "Contributes to thought leadership on effective and creative ways to run an excellent org from a People perspective."
          - "Is a thought leader. Is sought out by other industry experts for their ideas, knowledge and expertise."
-  - name: "teamwork: teamwork skills; level of autonomy"
-    title:
+  - name: "teamwork-and-autonomy"
+    title: "🤝 Teamwork & Autonomy"
     content:
       - level: 1
         criteria:
@@ -197,8 +200,9 @@ topics:
          - "Establishes a network of internal and external counterparts and executive communities of practice to keep ahead of emerging People and specialist trends, ideas and industry/sector insights, locally and internationally."
          - "Creates a culture where everyone belongs and is included. Sets strategic vision for building a diverse company and holds senior leaders to account for valuing and promoting this."
          - "Sees the holistic picture of skills required a year from now and nurtures talent internally. Makes strategic hires, cultivating relationships over many months to get people over to Monzo who didn’t realise they needed a new job. Cultivates and drives initatives to build employer brand at the highest level."
-  - name: "conduct & culture: level of risk & compliance knowledge and ownership; professional conduct"
-    title:
+  - name: "conduct-and-culture"
+    title: "👩‍💻 Conduct & Culture"
+    subtitle: "Level of risk & compliance knowledge and ownership; professional conduct"
     content:
       - level: 1
         criteria:

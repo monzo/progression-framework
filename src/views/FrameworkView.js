@@ -68,6 +68,7 @@ export const pageQuery = graphql`
         topics @include(if: $isYaml) {
           name
           title
+          subtitle
           content {
             level
             criteria
@@ -92,6 +93,7 @@ export const pageQuery = graphql`
         topics @include(if: $isYaml) {
           name
           title
+          subtitle
           content {
             level
             criteria
