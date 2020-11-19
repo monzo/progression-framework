@@ -96,7 +96,7 @@ topics:
       - level: 1
         criteria:
           - "Learns to write correct HTML, CSS and JavaScript following guidance and training materials"
-          - "Learns to write correct PHP following guidance and training materials"
+          - "Learns to write correct Node.js following guidance and training materials"
           - "Uses Chrome and other developer tools effectively to increase productivity during development and debugging"
           - "Implements simple web components"
           - "Fixes simple bugs"
@@ -119,7 +119,7 @@ topics:
           - "Writes basic SQL queries to deliver new features and debug issues"
           - "Applies clean code principles to deliver readable and maintainable software"
           - "Works with users to improve new and existing simple features iteratively"
-          - "Writes correct PHP code following accepted best practices"
+          - "Writes correct Node.js code following accepted best practices"
           - "Can explain at a high level what each department does at Assetz and what business processes they support"
         exampleCriteria:
           - criteria: "Applies fundamental UX principles to common problems such as forms design"
@@ -261,7 +261,8 @@ Create intuitive web interfaces that our users and colleagues see, touch and exp
 - HTML
 - CSS
 - JavaScript
-- PHP
+- Node.js
+- TypeScript
 
 ### The aim of these frameworks are to
 

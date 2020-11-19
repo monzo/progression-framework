@@ -66,7 +66,7 @@ topics:
         criteria:
           - "Delivers large well-defined tasks and solves small scope not-well-defined problems"
           - "Empathises with stakeholders"
-          - "Contributes to writing proposals (Co-authors with more experienced Engineer)"
+          - "Contributes to writing technical design proposals (Co-authors with more experienced Engineer)"
           - "Breaks down large problems into smaller iterative steps across multiple PRs"
       - level: 4
         criteria:
@@ -98,6 +98,10 @@ topics:
           - "Learns to write correct Node.js code, following guidance and training materials"
           - "Learns to write basic SQL queries and understands the structure of the database"
           - "Fixes simple bugs"
+        exampleCriteria:
+          - criteria: "Uses git to manage the development workflow effectively"
+            examples:
+              - "Checkout, Push, Pull, Branch, Diff, Merge, Stash, Rebase, etc."
       - level: 2
         criteria:
           - "Designs simple database tables"
@@ -108,6 +112,7 @@ topics:
           - "Uses appropriate algorithms and data structures to solve problems"
           - "Writes automated unit and acceptance tests"
           - "Writes correct Node.js code following accepted best practices"
+          - "Writes TypeScript types to statically type-check the code at compile-time"
           - "Able to write complex SQL statements following accepted best practices"
           - "Can explain at a high level what each department does at Assetz and what business processes they support"
       - level: 3
@@ -221,7 +226,7 @@ topics:
         criteria:
           - "Provides valuable input to proposals from their team"
           - "A good boy scout - proactively improves modules, services, systems and codebases they encounter"
-          - "Contributes to the engineering hiring process (e.g. reviews technical exercises, does on-site pair programming tasks)"
+          - "Contributes to the engineering hiring process (e.g. reviews technical exercises, does pair programming tasks)"
           - "Builds simple tools or iterates existing tools for the benefit of all engineers"
           - "Encourages others to follow clean code principles"
       - level: 4
@@ -250,6 +255,7 @@ Become a master of our internal APIs, the suite of micro-services that is our ap
 ### Technologies
 
 - Node.js
+- TypeScript
 - PostgreSQL
 
 ### The aim of these frameworks are to
