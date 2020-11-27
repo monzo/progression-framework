@@ -28,3 +28,6 @@
 [build]
   command = "gatsby build"
   publish = "public/"
+
+[build.environment]
+  YARN_VERSION="1.22.1"

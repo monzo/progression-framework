@@ -17,6 +17,7 @@ topics:
           - "Fixes simple issues with TeamCity builds"
           - "Understands the purpose of each of our environments (dev, staging, mirror, prod) and can explain how changes get promoted between them"
           - "Learns simple network security concepts"
+          - "Creates and updates graphs in Grafana when the data is already accessible by Grafana when guided on what to show"
           - "Understands the benefits of docker and learns the basic commands and workflow of general docker use"
         exampleCriteria:
           - criteria: "Understands network infrastructure elements and how they connect together"
@@ -38,6 +39,7 @@ topics:
           - "Strong docker knowledge and understands how Assetz uses docker"
           - "Understands the Assetz network infrastructure setup"
           - "Applies network security knowledge to Assetz infrastructure with the help of others to make improvements"
+          - "Adds and updates alerts in Grafana"
       - level: 3
         criteria:
           - "Follows appropriate dev-ops best practices"
@@ -53,6 +55,7 @@ topics:
           - "Explains all aspects of our CI/CD implementation to new engineers"
           - "Understands the Assetz network infrastructure setup in detail and can explain it to others"
           - "Applies network security knowledge to ensure Assetz infrastructure and services stay secure"
+          - "Adds new tables and views as sources for new graphs in Grafana"
         exampleCriteria:
           - criteria: "Helps to maintain any docker images that Assetz uses"
             examples:
@@ -73,20 +76,25 @@ topics:
           - "Follows industry best practices to help ensure Assetz infrastructure is kept up to date with industry advancements and changing technologies where appropriate"
           - "Looks beyond the immediate security concerns and owns our future infrastructure roadmap"
           - "Suggests and implements improvements to the way that docker is used and is a point of knowledge for other engineers regarding docker"
+          - "Leads or contributes significantly to what and how services are monitored and alerted"
 ---
 
-Become a master of the automated build, test, release and deployment process of all of our products and services. ♾️
+Become a master of the automated build, test, release, deployment and monitoring process of all of our products and services. ♾️
 
 ### Technologies
 
-- AWS
+- AWS (services listed below)
 - Docker
+- Grafana
+- Influx
 - TeamCity
 
 #### AWS Services we use
 
 | Service    | Description |
 |------------|-------------|
+| CDK (Cloud Development Kit) | The AWS Cloud Development Kit (AWS CDK) is an open source software development framework to define your cloud application resources using familiar programming languages. |
+| CFN (CloudFormation) | AWS CloudFormation gives you an easy way to model a collection of related AWS and third-party resources, provision them quickly and consistently, and manage them throughout their lifecycles, by treating infrastructure as code. |
 | CloudWatch | AWS CloudWatch is a monitoring and observability service that provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health. |
 | EC2 (Elastic Compute Cloud) | AWS EC2 is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. |
 | ECS (Elastic Container Service) | AWS ECS is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS.  |
@@ -117,7 +125,7 @@ The framework covers all the things we’re looking for from engineers at Assetz
 - Comms & Feedback - How you interact with others
 - Leadership - How people around you become better and more impactful
 
-We sort them into six levels, and we try to give specific examples of behaviours we expect for each. Each of those levels has a fairly wide salary range associated with it, and within each level you can progress in sub-levels, labelled A–D. So even if you’re at level 3 for a couple of years, you’ll still be able to see that you’re moving forward. Basically, the more behaviours you show from your level, the more you’ll progress.
+We sort them into four levels, and we try to give specific examples of behaviours we expect for each. Each of those levels has a fairly wide salary range associated with it, and within each level you can progress in sub-levels, labelled A–D. So even if you’re at level 3 for a couple of years, you’ll still be able to see that you’re moving forward. Basically, the more behaviours you show from your level, the more you’ll progress.
 
 Your manager will work with you on this. None of it will happen mysteriously behind closed doors. You’ll agree what level of progression you’re going for and what you need to improve on with your manager. It should be clear how you’re doing relative to that at all times.
 
