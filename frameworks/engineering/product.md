@@ -2,7 +2,7 @@
 path: "/engineering/product"
 title: "🚀 Product Framework"
 sidebarTitle: "🚀 Product"
-sidebarGroup:
+sidebarGroup: "engineering"
 yaml: true
 levels: 4
 homepage: false
