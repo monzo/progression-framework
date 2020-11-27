@@ -31,15 +31,22 @@ export default class Index extends React.Component<Props> {
           </DescriptionTitleGroup>
           <Description>
             <DescriptionText>
-              This is where we keep the engineering progression frameworks we use at Assetz.
+              This is where we keep the engineering progression frameworks we
+              use at Assetz.
             </DescriptionText>
             <DescriptionText>
               The aim of these frameworks are to:
             </DescriptionText>
             <CardContentList>
-              <ListElementMain>Help people understand how to progress in their work</ListElementMain>
-              <ListElementMain>Help us evaluate and pay people fairly and consistently</ListElementMain>
-              <ListElementMain>Help people understand the skills and behaviours we value</ListElementMain>
+              <ListElementMain>
+                Help people understand how to progress in their work
+              </ListElementMain>
+              <ListElementMain>
+                Help us evaluate and pay people fairly and consistently
+              </ListElementMain>
+              <ListElementMain>
+                Help people understand the skills and behaviours we value
+              </ListElementMain>
             </CardContentList>
             <DescriptionText>
               We&apos;ll be adding more frameworks as we build them, and
@@ -47,11 +54,13 @@ export default class Index extends React.Component<Props> {
               around here!
             </DescriptionText>
             <DescriptionText>
-              A big thanks to {' '}
+              A big thanks to{' '}
               <a href="https://github.com/Monzo/progression-framework">
                 <FontAwesomeIcon size="1x" icon={faGithub} />{' '}
                 @Monzo/progression-framework
-              </a> for sharing the great work they have done and inspiring this site 👏
+              </a>{' '}
+              for sharing the great work they have done and inspiring this site
+              👏
             </DescriptionText>
           </Description>
         </DescriptionView>

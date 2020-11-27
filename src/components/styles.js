@@ -357,8 +357,8 @@ export const Sidebar = styled.div`
   min-width: 320px;
   h4 {
     padding-top: 0;
-    font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
-      'Arial', sans-serif;
+    font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue',
+      'Helvetica', 'Arial', sans-serif;
     font-size: 1.3em;
   }
 
@@ -566,7 +566,7 @@ export const ListElementMain = styled.li`
   margin-left: 6px;
 
   @media (max-width: ${BREAKPOINT_MOBILE}px) {
-    font-size: 1.0em;
+    font-size: 1em;
   }
 `
 
@@ -587,8 +587,8 @@ export const CardTitleGroup = styled.div`
 
 export const MarkdownContent = styled.div`
   * {
-    font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
-      'Arial', sans-serif !important;
+    font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue',
+      'Helvetica', 'Arial', sans-serif !important;
   }
   h2 {
     margin-top: 0.2em;
