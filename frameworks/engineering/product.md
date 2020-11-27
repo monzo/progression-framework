@@ -1,5 +1,5 @@
 ---
-path: "/product"
+path: "/engineering/product"
 title: "🚀 Product Framework"
 sidebarTitle: "🚀 Product"
 sidebarGroup:
