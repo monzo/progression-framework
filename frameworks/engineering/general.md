@@ -1,8 +1,8 @@
 ---
-path: "/core"
-title: "📔 Core Competencies Framework"
-sidebarTitle: "📔 Core"
-sidebarGroup:
+path: "/engineering/general"
+title: "🤖 General Engineering Skills Framework"
+sidebarTitle: "🤖 General"
+sidebarGroup: "engineering"
 yaml: true
 levels: 6
 homepage: true
@@ -12,74 +12,41 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Provides regular status updates to their mentor/buddy"
-          - "Points out potential process improvements"
-          - "When raising tickets or bugs leaves a comprehensive description"
-          - "Seeks guidance from other colleagues rather than answers"
+          - "Points out syntactical improvements in code reviews"
+          - "Writes PR descriptions that provide basic context for the change"
       - level: 2
         criteria:
-          - "Proactively communicates to their team what they are working on, why, how it's going and what help they need"
-          - "Accepts feedback graciously"
-          - "Gives feedback to peers when asked"
-      - level: 3
-        criteria:
-          - "Transparent about mistakes they've made, early"
-          - "Proactively gives timely actionable feedback to peers"
-          - "Proactively seeks feedback from the people around them"
-          - "Considers the opinions of others before defending their own"
+        exampleCriteria:
+          - criteria: "Provides helpful and actionable feedback in code reviews in an empathetic manner"
+            examples:
+              - "Take a look at the levelling up your code reviews talk for some ideas"
+          - criteria: "Writes PR descriptions that provide context and provide rationale for significant decisions"
+            examples:
+              - "I decided to X instead of Y here, I also considered Z but for these reasons I went with X"
       - level: 4
         criteria:
-          - "Proactively gives feedback 'upwards' and to people they interact with who are not in their team"
-          - "Transparent in their decision making"
-          - "Helps colleagues external to the team understand deeper knowledge known within the team"
-          - "Gives direct and constructive feedback to others"
+          - "Helps people in non-technical roles understand technical constraints / trade-offs"
+          - "Shares technical context and direction for less experienced engineers"
       - level: 5
         criteria:
-          - "Helps other people develop themselves and regularly gives insightful, useful feedback to those around them"
-          - "Talks to less knowledgeable stakeholders on appropriate level of abstraction"
-      - level: 6
-        criteria:
-          - "Transparent about feedback they have received and what they are going to do differently"
+          - "Talks to non-technical stakeholders on appropriate level of abstraction"
   - name: "impact"
     title: "💥 Impact"
     content:
       - level: 1
         criteria:
-          - "Delivers assigned tasks, working with a more senior team member"
-          - "Able to take feedback to improve their work"
-      - level: 2
-        criteria:
-          - "Delivers assigned tasks that meet expected criteria"
-          - "Works for the team, focuses on tasks that contribute to team goals"
-          - "Tries to unblock themselves first before seeking help"
-          - "Manages their own time effectively, prioritises their workload well, on time for meetings, aware when blocking others and unblocks"
-          - "Helps the team, does what needs doing"
-          - "Breaks down small/medium problems into iterative steps"
+          - "Able to take PR feedback to improve their work"
       - level: 3
         criteria:
-          - "Delivers large well-defined tasks and solves small scope not-well-defined problems"
-          - "Empathises with stakeholders"
-          - "Breaks down large problems into smaller iterative steps"
+          - "Contributes to writing technical design proposals (Co-authors with more experienced Engineer)"
+          - "Breaks down large changes across multiple smaller PRs where appropriate"
       - level: 4
         criteria:
-          - "Solves ambiguous problems"
-          - "Thrown at fires and resolves / contributes heavily to resolving them"
-          - "Makes pragmatic choices about improving existing processes"
-          - "Considers multiple different solutions for solving a problem"
-          - "Breaks down projects into smaller iterative steps that each deliver value"
+          - "Leads writing small/medium scope technical designs"
+          - "Makes pragmatic choices about taking on tech debt"
       - level: 5
         criteria:
-          - "Solves the 'hard problem' in a project and sees it through to resolution"
-          - "Solves larger ambiguous problems"
-          - "Leads incident resolutions"
-          - "Makes judgements about when to diverge from the immediate goal to achieve something else"
-          - "Leads writing large scope proposals"
-          - "Breaks down large long-lasting projects into sensible discrete chunks that compound to achieve a large goal"
-          - "Helps prioritise and balance short-term and long-term investments, focusing on high impact, high value work"
-      - level: 6
-        criteria:
-          - "Accountable for delivery of large, mission critical projects"
-          - "Originates and/or finishes large, horizontal efforts"
+          - "Leading large scale technical infrastructure projects"
   - name: "leadership"
     title: "👩‍💼 Leadership"
     content:
@@ -153,4 +120,4 @@ topics:
           - "Engineers around them get better and have a bigger impact, faster"
 ---
 
-Become a not totally incompetent human (some of the time)
+Become an engineering god (needed for any and all engineering frameworks) 🤖
