@@ -1,8 +1,8 @@
 ---
-path: "/engineering/web"
-title: "🌐 Web Engineering Framework"
-sidebarTitle: "🌐 Web"
-sidebarGroup: "engineering"
+path: "/specialism/productEngineer"
+title: "🌐 Product Engineer Engineering Framework"
+sidebarTitle: "🌐 Product Engineer"
+sidebarGroup: "Engineering Specialism"
 yaml: true
 levels: 6
 homepage: true

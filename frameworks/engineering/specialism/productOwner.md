@@ -1,8 +1,8 @@
 ---
-path: "/engineering/product"
-title: "🚀 Product Framework"
-sidebarTitle: "🚀 Product"
-sidebarGroup: "engineering"
+path: "/specialism/productOwner"
+title: "🚀 Product Owner Framework"
+sidebarTitle: "🚀 Product Owner"
+sidebarGroup: "Engineering Specialism"
 yaml: true
 levels: 4
 homepage: false

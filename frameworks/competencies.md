@@ -1,7 +1,7 @@
 ---
-path: "/core"
-title: "📔 Core Competencies Framework"
-sidebarTitle: "📔 Core"
+path: "/competencies"
+title: "📔 Competencies Framework"
+sidebarTitle: "📔 Competencies"
 sidebarGroup:
 yaml: true
 levels: 6
@@ -85,6 +85,7 @@ topics:
     content:
       - level: 3
         criteria:
+          - "Builds effective relationships inside and outside of the team to promote trust and good working relationships"
           - "Onboards / mentors new colleagues"
         exampleCriteria:
           - criteria: "Finds learning opportunities for others when reviewing their work and follows it up"

@@ -1,8 +1,8 @@
 ---
-path: "/engineering/devOps"
+path: "/traits/devOps"
 title: "♾️ DevOps Engineering Framework"
 sidebarTitle: "♾️ DevOps"
-sidebarGroup: "engineering"
+sidebarGroup: "Engineering Traits"
 yaml: true
 levels: 4
 homepage: true
