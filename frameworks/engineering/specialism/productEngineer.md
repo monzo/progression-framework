@@ -1,6 +1,6 @@
 ---
 path: "/specialism/productEngineer"
-title: "🌐 Product Engineer Engineering Framework"
+title: "🌐 Product Engineer Framework"
 sidebarTitle: "🌐 Product Engineer"
 sidebarGroup: "Engineering Specialism"
 yaml: true
@@ -165,15 +165,15 @@ topics:
           - "Represents Assetz Engineering at conferences/events"
 ---
 
-Create intuitive web interfaces that our users and colleagues see, touch and experience ✨
+Create intuitive web interfaces and APIs that our users and colleagues see, touch and experience ✨
 
 ### Technologies
 
-- HTML
-- CSS
+- HTML / CSS
 - JavaScript
 - Node.js
 - TypeScript
+- PostgreSQL
 
 ### The aim of these frameworks are to
 

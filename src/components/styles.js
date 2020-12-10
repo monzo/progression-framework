@@ -384,15 +384,15 @@ export const EmojiListItem = styled.span`
 export const SidebarList = styled.ul`
   flex: 1 0 auto;
   margin-top: 0.5em;
-  margin-left: 2rem;
+  margin-left: 1rem;
   padding-left: 0;
   list-style-type: none;
 
   ${props =>
     props.main &&
     css`
-      width: 70%;
-      margin-left: 3.5rem;
+      width: 80%;
+      margin-left: 10%;
       margin-top: 2em;
       margin-bottom: 3em;
       @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
