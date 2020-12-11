@@ -2,10 +2,7 @@
 
 {
   "parser": "babel-eslint",
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "plugins": ["prettier", "flowtype", "flowtype-errors"],
   "rules": {
     "strict": 0,
@@ -37,5 +34,10 @@
   "env": {
     "es6": true,
     "browser": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
