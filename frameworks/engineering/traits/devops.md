@@ -1,8 +1,8 @@
 ---
-path: "/traits/devOps"
+path: "/zBadge/devOps"
 title: "♾️ DevOps Engineering Framework"
 sidebarTitle: "♾️ DevOps"
-sidebarGroup: "Engineering Traits"
+sidebarGroup: "Engineering Badges"
 yaml: true
 levels: 4
 homepage: true

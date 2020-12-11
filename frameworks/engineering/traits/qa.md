@@ -1,8 +1,8 @@
 ---
-path: "/traits/qualityAnalyst"
+path: "/zBadge/qualityAnalyst"
 title: "🕵🏽‍♂️ Quality Analyst Framework"
 sidebarTitle: "🕵🏽‍♂️ Quality Analyst"
-sidebarGroup: "Engineering Traits"
+sidebarGroup: "Engineering Badges"
 yaml: true
 levels: 4
 homepage: true
