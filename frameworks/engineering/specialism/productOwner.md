@@ -39,14 +39,20 @@ topics:
       - level: 1
         criteria:
           - "Always starts with user needs and acts as the voice of the user within their team."
-          - "Able to translate needs into user stories/jobs to be done. Ensures that anything shipped meets users needs. Understands the fidelity needed for different stages of rollout."
+          - "Able to translate needs into user stories/jobs to be done."
+          - "Ensures that anything shipped meets users needs."
+          - "Understands the fidelity needed for different stages of rollout."
       - level: 2
         criteria:
-          - "Can identify who users are and what their needs are, based on evidence. Regularly engages with users and can carry out usability testing unassisted."
-          - "Creates shared context and understanding of user needs in their team. Helps their team to identify and solve user problems, instead of jumping to features. Ensures that solutions to problems are delightful and high quality."
+          - "Can identify who users are and what their needs are, based on evidence."
+          - "Regularly engages with users and can carry out usability testing unassisted."
+          - "Creates shared context and understanding of user needs in their team.
+          - "Helps their team to identify and solve user problems, instead of jumping to features."
+          - "Ensures that solutions to problems are delightful and high quality."
       - level: 3
         criteria:
-          - "In depth knowledge of current and potential users. Manages trade-offs between user needs."
+          - "In depth knowledge of current and potential users."
+          - "Manages trade-offs between user needs."
           - "Ensures their area of the product delights their intended audiences and forms a coherent experience with other features."
           - "Champions users and a user-centred approach with stakeholders."
       - level: 4
@@ -78,7 +84,6 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Understands and appreciates the appropriate use of HTML, CSS, JS and native code."
           - "Demonstrates appetite and aptitude to learn about the context the product operates in."
       - level: 2
         criteria:
@@ -138,7 +143,7 @@ topics:
       - level: 1
         criteria:
           - "Seeks out the information they need to solve a problem."
-          - "Keeps IPST stakeholders updated on progress and ensures they have what they need."
+          - "Keeps relevant stakeholders updated on progress and ensures they have what they need."
           - "Able to clearly articulate what we’re working on and why."
       - level: 2
         criteria:
