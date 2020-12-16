@@ -160,7 +160,7 @@ topics:
           - "Able to simply explain complex concepts and deliver difficult messages clearly."
 ---
 
-TODO: Become a master of our internal APIs, the suite of micro-services that is our application layer, and our databases 🛠️
+Become a user-centric, data driven servant leader with outstanding communication skills who maximises the business value add to Assetz 🚀
 
 ### The aim of these frameworks are to
 
@@ -174,21 +174,15 @@ It's meant to be helpful. It's not meant to be a rating system for humans, free 
 
 ### How does it work?
 
-TODO: The framework covers all the things we’re looking for from product owners at Assetz. We’re interested in these seven elements:
+The framework covers all the things we’re looking for from product owners at Assetz. We’re interested in these seven elements:
 
-- Problem solving
-- User-centricity
-- Data skills
-- Domain knowledge
-- Execution
-- Works through others
-- Communication and feedback
-
-- Mastery - Your Assetz knowledge and technical capability
-- Impact - The size, scope and value of what you deliver
-- Influence - How you change the world around you for the better
-- Comms & Feedback - How you interact with others
-- Leadership - How people around you become better and more impactful
+- Problem solving - Finding solutions to difficult and complex issues
+- User-centricity - Being user focused and putting them first
+- Data skills - Analysing data and making informed decisions
+- Domain knowledge - Having a deep understanding of your specialised area
+- Execution - Ability to deliver value
+- Works through others - Assess what needs to be done and delegate appropriately
+- Communication & Feedback - How you interact with others
 
 We sort them into four levels, and we try to give specific examples of behaviours we expect for each. Each of those levels has a fairly wide salary range associated with it, and within each level you can progress in sub-levels, labelled A–D. So even if you’re at level 3 for a couple of years, you’ll still be able to see that you’re moving forward. Basically, the more behaviours you show from your level, the more you’ll progress.
 
