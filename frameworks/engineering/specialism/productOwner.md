@@ -46,7 +46,7 @@ topics:
         criteria:
           - "Can identify who users are and what their needs are, based on evidence."
           - "Regularly engages with users and can carry out usability testing unassisted."
-          - "Creates shared context and understanding of user needs in their team.
+          - "Creates shared context and understanding of user needs in their team."
           - "Helps their team to identify and solve user problems, instead of jumping to features."
           - "Ensures that solutions to problems are delightful and high quality."
       - level: 3
