@@ -85,10 +85,12 @@ topics:
       - level: 1
         criteria:
           - "Demonstrates appetite and aptitude to learn about the context the product operates in."
+          - "Can explain at a high level what each department does at Assetz and what business processes they support"
       - level: 2
         criteria:
           - "Understands core principles of web technologies, including HTTP(S)-based interactions between front-end clients and back-end servers/microservices and APIs."
           - "Understands the need to consider, and takes, expert advice. Applies the concepts correctly and demonstrates a strong interest in their area."
+          - "Can explain in detail what each department does at Assetz and what business processes they support"
       - level: 3
         criteria:
           - "Understands how code is tested, deployed and version-controlled for backend microservices, native apps and web interfaces."
