@@ -54,8 +54,8 @@ topics:
           - criteria: "Evangelises new processes and techniques in and outside of the client group"
             examples:
               - "The way we do this doesn't make sense, I'm going to do something about it and explain it to the wider team in a lunch session"
-  - name: "mastery"
-    title: "🛠️ Mastery"
+  - name: "expertise"
+    title: "🛠️ Expertise"
     content:
       - level: 1
         criteria:
@@ -112,7 +112,7 @@ It's meant to be helpful. It's not meant to be a rating system for humans, free 
 
 The framework covers all the things we’re looking for from engineers at Zone. We’re interested in these five elements:
 
-- Mastery - Your Zone knowledge and technical capability
+- Expertise - Your Zone knowledge and technical capability
 - Impact - The size, scope and value of what you deliver
 - Influence - How you change the world around you for the better
 - Comms & Feedback - How you interact with others

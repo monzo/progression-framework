@@ -125,8 +125,8 @@ topics:
       - level: 4
         criteria:
           - "Suggests and implements improvements to the way that docker is used and is a point of knowledge for other engineers regarding docker"
-  - name: "mastery"
-    title: "🛠️ Mastery"
+  - name: "expertise"
+    title: "🛠️ Expertise"
     content:
       - level: 3
         criteria:
@@ -181,7 +181,7 @@ It's meant to be helpful. It's not meant to be a rating system for humans, free 
 
 The framework covers all the things we’re looking for from engineers at Assetz. We’re interested in these five elements:
 
-- Mastery - Your Assetz knowledge and technical capability
+- Expertise - Your Assetz knowledge and technical capability
 - Impact - The size, scope and value of what you deliver
 - Influence - How you change the world around you for the better
 - Comms & Feedback - How you interact with others

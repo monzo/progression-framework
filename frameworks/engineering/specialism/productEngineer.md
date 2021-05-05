@@ -47,8 +47,8 @@ topics:
       - level: 5
         criteria:
           - "Leading large scale technical infrastructure projects"
-  - name: "mastery"
-    title: "🛠️ Mastery"
+  - name: "expertise"
+    title: "🛠️ Expertise"
     content:
       - level: 1
         criteria:
@@ -189,7 +189,7 @@ It's meant to be helpful. It's not meant to be a rating system for humans, free 
 
 The framework covers all the things we’re looking for from engineers at Assetz. We’re interested in these five elements:
 
-- Mastery - Your Assetz knowledge and technical capability
+- Expertise - Your Assetz knowledge and technical capability
 - Impact - The size, scope and value of what you deliver
 - Influence - How you change the world around you for the better
 - Comms & Feedback - How you interact with others

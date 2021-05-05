@@ -155,7 +155,7 @@ The competency levels cover your soft skills, and these are broken down into 4 m
 - Impact
 - Leadership
 
-Whatever your level of mastery within your Specialism, you’ll only be able to progress if you’re also achieving the same Competency level, e.g. if you’re technically ready to progress onto Engineer level 3, you’ll also need to be nailing your influence in retros and feeding back to your peers.
+Whatever your level of expertise within your Specialism, you’ll only be able to progress if you’re also achieving the same Competency level, e.g. if you’re technically ready to progress onto Engineer level 3, you’ll also need to be nailing your influence in retros and feeding back to your peers.
 
 Competency levels span across all Specialisms - technical and non-technical - and really give you an idea of the behaviours we expect from our teammates and the culture we operate in.
 
