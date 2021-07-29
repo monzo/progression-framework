@@ -36,7 +36,6 @@
     "ramda": "^0.26.1",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-ga": "^2.5.7",
     "react-helmet": "^5.2.0",
     "react-lottie": "^1.2.3",
     "react-masonry-css": "^1.0.12",
