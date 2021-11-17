@@ -308,15 +308,15 @@ topics:
               - 'Facilitate the conversation of appropriateness of a new technical tool suggested by another engineer and help with adoption where required'
 ---
 
-The competency levels cover your soft skills, and these are broken down into 4 main areas:
+This framework is broken down into 6 main areas:
 
-- Communication
-- Influence
-- Impact
-- Leadership
+- 💬 Transparency
+- ✅ Quality
+- 📊 Data-driven
+- 👪 Respect for team
+- ♻️ Continuous Improvement
+- 🚀 Engineering Excellence
 
-Whatever your level of expertise within your Specialism, you’ll only be able to progress if you’re also achieving the same Competency level, e.g. if you’re technically ready to progress onto Engineer level 3, you’ll also need to be nailing your influence in retros and feeding back to your peers.
+To achieve the next progression band, you need to be regularly demonstrating 80% of the behaviours of that band and 100% of previous bands.​
 
-Competency levels span across all Specialisms - technical and non-technical - and really give you an idea of the behaviours we expect from our teammates and the culture we operate in.
-
-These skills can’t be learnt from a book, but come from confidence and comfort within your team and show that you’re here every day to help your team thrive.
+To progress within your band complete the final 20% of your current progression band, and work towards the 80% of your next progression band.
