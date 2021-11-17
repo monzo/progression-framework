@@ -58,7 +58,7 @@ topics:
               - 'Runs demos about systems to the wider department'
               - 'Contributes to discussions about domains not owned by their team'
   - name: 'quality'
-    title: '💬 Quality'
+    title: '✅ Quality'
     content:
       - level: 1
         criteria:
@@ -102,7 +102,7 @@ topics:
               - 'Proactively captures feedback and acts on it appropriately'
               - 'Drives product / dependency improvement with a focus on the upcoming roadmap '
   - name: 'Data-driven'
-    title: '💬 Data-driven'
+    title: '📊 Data-driven'
     content:
       - level: 1
         exampleCriteria:
@@ -141,7 +141,7 @@ topics:
               - 'Evidence that a regular manual process takes x amount of time and that we would get the time back from automating it within a month'
               - 'Evidence that our integration with a third party is causing an issue that requires reintegration or replacement of that service'
   - name: 'respectForTeam'
-    title: '💬 Respect for team'
+    title: '👪 Respect for team'
     content:
       - level: 1
         criteria:
@@ -189,7 +189,7 @@ topics:
             examples:
               - 'Implement a new feature that spans multiple domains'
   - name: 'continuousImprovement'
-    title: '💬 Continuous Improvement'
+    title: '♻️ Continuous Improvement'
     content:
       - level: 1
         criteria:
@@ -245,7 +245,7 @@ topics:
             examples:
               - 'Suggest an improvement to the customer experience and drive it through to completion'
   - name: 'engineeringExcellence'
-    title: '💬 Engineering Excellence'
+    title: '🚀 Engineering Excellence'
     content:
       - level: 1
         criteria:
