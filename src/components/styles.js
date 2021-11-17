@@ -14,13 +14,13 @@ export const LAGOON_BLUE = '#145d8e'
 export const GREY_BLUE = '#707b8c'
 export const WHITE = '#ffffff'
 export const PURPLE = '#33276B'
+export const FONT_FAMILY = `'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif`
 
 // Styles
 // Error page
-
 export const ErrorPageHeader = styled.h1`
   font-weight: 300;
-  font-family: 'SFMono-Regular', Consolas, monaco, monospace;
+  font-family: ${FONT_FAMILY};
   font-size: 10rem;
   opacity: 0.4;
 `
@@ -43,8 +43,7 @@ export const Card = styled.div`
 `
 
 export const Title = styled.h1`
-  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
+  font-family: ${FONT_FAMILY};
   font-weight: 600;
   color: ${PURPLE};
   margin-top: 0;
@@ -70,8 +69,7 @@ export const Title = styled.h1`
 `
 
 export const Subtitle = styled.h3`
-  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
+  font-family: ${FONT_FAMILY};
   font-weight: 600;
   color: ${GREY_BLUE};
 
@@ -92,8 +90,7 @@ export const Subtitle = styled.h3`
 
 export const DefaultStyledLink = styled(Link)`
   cursor: pointer;
-  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
+  font-family: ${FONT_FAMILY};
   font-weight: 500;
   font-size: 1.3em;
   color: ${WHITE} !important;
@@ -119,8 +116,7 @@ export const DefaultStyledLink = styled(Link)`
 
 export const StyledLink = styled(PartialNavLink)`
   cursor: pointer;
-  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
+  font-family: ${FONT_FAMILY};
   font-weight: 500;
   font-size: 1.3em;
   color: ${WHITE} !important;
@@ -283,8 +279,7 @@ export const LevelsTextWrapper = styled.div`
 export const LevelsText = styled.h2`
   cursor: pointer;
   margin-top: 0;
-  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
+  font-family: ${FONT_FAMILY};
   opacity: 0.25;
 
   &:hover {
@@ -571,8 +566,7 @@ export const ListElementMain = styled.li`
 `
 
 export const CardTitle = styled.p`
-  font-family: 'SFMono-Regular', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
+  font-family: ${FONT_FAMILY};
   font-weight: 600;
   color: ${PURPLE};
   margin-top: 0;
