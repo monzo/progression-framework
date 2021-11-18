@@ -317,6 +317,8 @@ This framework is broken down into 6 main areas:
 - ♻️ Continuous Improvement
 - 🚀 Engineering Excellence
 
-To achieve the next progression band, you need to be regularly demonstrating 80% of the behaviours of that band and 100% of previous bands.​
+To achieve the next progression band you need to regularly demonstrate:
 
-To progress within your band complete the final 20% of your current progression band, and work towards the 80% of your next progression band.
+- 80% of the behaviours of that band
+- 100% of the Role Specific Excellence of that band
+- And continue to exhibit the behaviours of the previous bands
