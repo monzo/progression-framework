@@ -27,19 +27,15 @@ export default class Index extends React.Component<Props> {
         <DescriptionView>
           <DescriptionTitleGroup>
             <Subtitle>Welcome To</Subtitle>
-            <Title>Engineering Progression at Assetz 🎖️</Title>
+            <Title>Engineering Progression at Assetz V2.0 🎖️</Title>
           </DescriptionTitleGroup>
           <Description>
-            <DescriptionText>
-              This is where we keep the engineering progression frameworks we
-              use at Assetz.
-            </DescriptionText>
             <DescriptionText>
               The aim of these frameworks are to:
             </DescriptionText>
             <CardContentList>
               <ListElementMain>
-                Help people understand how to progress in their work
+                Help people understand how to progress in their roles
               </ListElementMain>
               <ListElementMain>
                 Help us evaluate and pay people fairly and consistently
