@@ -31,17 +31,17 @@ export default class Index extends React.Component<Props> {
           </DescriptionTitleGroup>
           <Description>
             <DescriptionText>
-              The aim of these frameworks are to:
+              The aim of these frameworks:
             </DescriptionText>
             <CardContentList>
               <ListElementMain>
-                Help people understand how to progress in their roles
+                To help people understand how to progress in their roles
               </ListElementMain>
               <ListElementMain>
-                Help us evaluate and pay people fairly and consistently
+                To help us evaluate and pay people fairly and consistently
               </ListElementMain>
               <ListElementMain>
-                Help people understand the skills and behaviours we value
+                To help people understand the skills and behaviours we value
               </ListElementMain>
             </CardContentList>
             <DescriptionText>
