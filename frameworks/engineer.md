@@ -308,17 +308,24 @@ topics:
               - 'Facilitate the conversation of appropriateness of a new technical tool suggested by another engineer and help with adoption where required'
 ---
 
-This framework is broken down into 6 main areas:
+This framework is broken down into 6 main areas.
+
+**Principles:**
+
+You will need 80% of these to progress to the next band:
 
 - 💬 Transparency
 - ✅ Quality
 - 📊 Data-driven
 - 👪 Respect for team
 - ♻️ Continuous Improvement
+
+**Role-specific excellence:**
+
+You will need 100% of these to progress to the next band:
+
 - 🚀 Engineering Excellence
 
-To achieve the next progression band you need to regularly demonstrate:
+As well as this, you will need to continue to exhibit the behaviours of the previous bands
 
-- 80% of the behaviours of that band
-- 100% of the Role Specific Excellence of that band
-- And continue to exhibit the behaviours of the previous bands
+For example: to progress to a Senior Software Engineer you need to exhibit at least 80% of the level 3 principles and 100% of the level 3 engineering excellence.
