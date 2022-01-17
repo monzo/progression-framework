@@ -6,6 +6,7 @@ import favicon from '../images/favicon.png'
 import menuIcon from '../images/menu_icon.svg'
 import closeIcon from '../images/close_icon.svg'
 import SidebarBuilder from './sidebarBuilder'
+import '../css/monzo-framework.min.css'
 import {
   Contain,
   Wrapper,
