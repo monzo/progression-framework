@@ -565,6 +565,16 @@ export const CardTitle = styled.p`
   font-size: 1.4rem;
 `
 
+export const CardSubtitle = styled.p`
+  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  font-weight: 600;
+  color: ${MIDNIGHT_SKY};
+  margin-top: 0;
+  font-size: 1rem;
+  opacity: 0.5;
+`
+
 export const CardTitleGroup = styled.div`
   margin-top: 0.2em;
 `
