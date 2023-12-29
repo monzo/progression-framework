@@ -73,7 +73,7 @@ const SidebarRenderer = ({
   ) : null
 
 class Layout extends React.Component<Props, State> {
-  state = { isSidebarVisible: false }
+  state = { isSidebarVisible: window.innerWidth > BREAKPOINT_MOBILE }
 
   componentDidMount() {
     this.updateSidebarOnResize()
